@@ -1,0 +1,82 @@
+{
+  "id": "de-s",
+  "name": "Southern Germany (Bavaria · Baden-Württemberg)",
+  "aliases": ["Süddeutschland", "Bavaria"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "de",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/germany/",
+    "https://majesticgermany.com/2025/03/17/typical-architecture-and-half-timbered-houses-in-germany/",
+    "https://amginspired.com/destinations/europe/west-central-europe/germany/bavaria/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇩🇪",
+    "capital": "Munich"
+  },
+
+  "language": {
+    "official_languages": ["German"],
+    "script": "Latin",
+    "sample_text": "ACHTUNG — BAUSTELLE",
+    "script_notes": "Standard German as national; Bavarian dialect appears informally. Blue-and-white Bavarian rhombus flag/livery visible on official signage and buildings in Bavaria specifically.",
+    "false_friends": ["Austria (near-identical Alpine architecture and dialect)", "Switzerland"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; more common on Alpine mountain roads.",
+    "line_paint": "As national.",
+    "curb_style": "As national.",
+    "km_marker_style": "As national."
+  },
+
+  "architecture": {
+    "roof_style": "Steep-pitched roofs designed to shed Alpine snow; wide overhanging eaves on chalet-style buildings in the far south.",
+    "roof_material": "Terracotta tile widespread; wood shingle on traditional Alpine buildings.",
+    "wall_construction": "Half-timbered (Fachwerk) houses common in old towns (Baden-Württemberg, Franconia), often with decorative painted façades (Lüftlmalerei) especially in Bavaria; Alpine chalet-style timber construction in the far south near the Austrian border.",
+    "wall_color_palette": "Warm pastel and white-painted half-timbered façades with dark wood beams; vividly painted Lüftlmalerei murals on Bavarian house fronts.",
+    "distinctive_building_types": "Onion-domed Baroque churches, a strong Bavaria/Austria-region tell; half-timbered Franconian and Black Forest old towns; Alpine chalets in Oberammergau/Berchtesgaden; Neuschwanstein-style fairy-tale castles."
+  },
+
+  "nature": {
+    "vegetation": "Dense coniferous forest in the Black Forest and Bavarian Forest; farmland and orchards in the rolling foothills; alpine meadow at higher elevation.",
+    "terrain": "Rolling hills and forest rising sharply into the Alps along the southern border with Austria — the only part of Germany with true high-mountain scenery (Zugspitze, Germany's highest peak); the Danube River flows through.",
+    "climate_signature": "Snow-capped Alpine peaks visible on the southern horizon in many shots — a strong south-Germany-only tell; otherwise temperate and green."
+  },
+
+  "vehicles": {
+    "common_brands": ["BMW", "Mercedes-Benz", "Audi", "Porsche"],
+    "plate_color": "As national — single-letter code for Munich (M).",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Heavier concentration of premium German brands (BMW is Bavarian, Mercedes/Porsche headquartered in Baden-Württemberg's Stuttgart) than the national average."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 4, very dense around Munich and Stuttgart.",
+    "blur_style": "Standard Google blurring as national.",
+    "coverage_notes": "Dense urban and Alpine road coverage."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Austria",
+      "shared_traits": "Near-identical Alpine architecture, onion-domed churches, half-timbered houses, shared dialect roots",
+      "tiebreaker": "German plates carry a district-letter code distinct from Austrian district codes; this remains one of the genuinely hardest GeoGuessr pairs and often comes down to plate detail or road-sign fonts rather than architecture alone."
+    },
+    {
+      "country": "Northern Germany",
+      "shared_traits": "Same country, same script, plate and bollard style",
+      "tiebreaker": "The south has Alpine peaks, onion-domed churches and Lüftlmalerei-painted half-timbered houses; the north is flat with brick Gothic architecture and a low coastal horizon."
+    },
+    {
+      "country": "Switzerland",
+      "shared_traits": "Shared Alpine terrain and chalet-style architecture near the border",
+      "tiebreaker": "Swiss plates are white with a black canton code, no blue EU strip; German plates carry the blue 'D' EU strip."
+    }
+  ]
+}

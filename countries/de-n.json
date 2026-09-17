@@ -1,0 +1,82 @@
+{
+  "id": "de-n",
+  "name": "Northern Germany (North German Plain · Hamburg · Berlin)",
+  "aliases": ["Norddeutschland"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "de",
+  "sources": [
+    "https://www.eurob.org/home-page2/?lang=en",
+    "https://en.wikipedia.org/wiki/North_German_Plain",
+    "https://en.wikipedia.org/wiki/Northern_Germany"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇩🇪",
+    "capital": "Berlin / Hamburg"
+  },
+
+  "language": {
+    "official_languages": ["German"],
+    "script": "Latin",
+    "sample_text": "ACHTUNG — BAUSTELLE",
+    "script_notes": "Standard German as national; Low German (Plattdeutsch) dialect and some Frisian appear on informal/cultural signage near the North Sea coast.",
+    "false_friends": ["Netherlands (flat coastal terrain)", "Denmark", "Poland (Baltic brick-Gothic towns)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national; thatched roofs and low stone/rock walls appear in North Frisian and Baltic coastal resort towns.",
+    "km_marker_style": "As national."
+  },
+
+  "architecture": {
+    "roof_style": "Steep gabled roofs on brick Gothic townhouses and churches; thatched roofs on the North Frisian Islands and Baltic coast.",
+    "roof_material": "Red, sometimes yellow, green or black-glazed brick and tile; thatch on traditional coastal houses.",
+    "wall_construction": "Red brick Gothic (Backsteingotik) construction is the region's defining architectural signature — tall brick churches, gabled merchant townhouses (especially in Hanseatic League cities like Lübeck, Hamburg, Rostock, Stralsund).",
+    "wall_color_palette": "Deep red/brown brick dominates; whitewashed thatched cottages on the coast and islands.",
+    "distinctive_building_types": "Brick Gothic churches and gabled Hanseatic merchant houses; Hamburg's warehouse district (Speicherstadt); thatched-roof coastal cottages; Berlin's mix of Prussian formal architecture and modern rebuilding."
+  },
+
+  "nature": {
+    "vegetation": "Flat farmland, heath and marsh across the North German Plain; coastal dunes and salt marsh along the North Sea/Baltic coasts; scattered woodland.",
+    "terrain": "Very flat and low-lying — the North German Plain, geest and heath inland, marshland along the coast; the North Sea and Baltic Sea coastlines with offshore islands (North Frisian Islands, Rügen).",
+    "climate_signature": "Flat, open, often windy and overcast — a noticeably lower, flatter horizon than the south's Alpine backdrop."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "BMW", "Mercedes-Benz", "Audi"],
+    "plate_color": "As national — single-letter city codes for the largest cities (B = Berlin, HH = Hamburg).",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 4, very dense in Berlin/Hamburg.",
+    "blur_style": "Standard Google blurring; notably more opted-out/blurred building façades in some residential areas, a broader German quirk.",
+    "coverage_notes": "Dense urban coverage; good rural coverage across the flat plain."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Netherlands",
+      "shared_traits": "Flat low-lying terrain, similar orderly infrastructure, coastal marsh and dune landscape",
+      "tiebreaker": "German plates/vocabulary differ from Dutch yellow-plate signage; North German brick Gothic architecture (Lübeck/Hamburg style) is heavier and taller than typical Dutch townscapes."
+    },
+    {
+      "country": "Southern Germany",
+      "shared_traits": "Same country, same script, plate and bollard style",
+      "tiebreaker": "The north is flat with brick Gothic architecture and a low coastal horizon; the south is mountainous with half-timbered/Alpine chalet architecture and onion-domed churches."
+    },
+    {
+      "country": "Poland (Baltic coast)",
+      "shared_traits": "Similar brick Gothic Hanseatic architecture in shared former Hanseatic League towns along the Baltic",
+      "tiebreaker": "German plates and vocabulary vs. Polish plates and Polish-language signage; the built brick style is closely related but signage settles it immediately."
+    }
+  ]
+}

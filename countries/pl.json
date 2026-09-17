@@ -1,0 +1,82 @@
+{
+  "id": "pl",
+  "name": "Poland",
+  "aliases": ["Republic of Poland", "Polska"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/poland/",
+    "https://geometas.com/metas/detail/113c991c-69fd-436a-b174-1ba9d6e9daf9/",
+    "https://geoguessr.ai/blog/poland-geoguessr-guide",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Poland"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇵🇱",
+    "capital": "Warsaw"
+  },
+
+  "language": {
+    "official_languages": ["Polish"],
+    "script": "Latin",
+    "sample_text": "UWAGA — ROBOTY DROGOWE",
+    "script_notes": "Latin alphabet with distinctive Polish diacritics — ł, ż, ż, ę, ą, ś, ć — not found in Czech/Slovak. Street suffixes: Ulica, Plac, Aleja, Rondo, Droga.",
+    "false_friends": ["Czech Republic", "Slovakia", "Lithuania/Baltics", "Germany (Silesia border)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White posts with a red vertical stripe on one side only — a distinctive, near-unique Poland tell.",
+    "bollard_shape": "Slim rounded post with the single-side red stripe.",
+    "guardrail_type": "Standard steel W-beam.",
+    "line_paint": "White outside/white inside lines; double solid center lines common on many roads.",
+    "curb_style": "Painted kerbs in towns; birch trees frequently line rural roads on both sides.",
+    "km_marker_style": "Poland's triangular warning signs are the only ones in the world with a thin red outline and yellow fill. Concrete 'holey' utility poles are common, but Poland's holes stop about half a metre above the ground rather than running all the way down as in Hungary/Romania; poles are sometimes doubled or joined in an A-frame."
+  },
+
+  "architecture": {
+    "roof_style": "Simple pitched roofs on detached single-family homes nationwide; red/orange, black or brown roofing common.",
+    "roof_material": "Clay/concrete tile common in towns; corrugated sheet metal roofing common on rural houses, similar to the Baltic states.",
+    "wall_construction": "Plain stone/masonry walls finished in light or pastel-coloured stucco is the default residential look; Soviet-era panel apartment blocks (blokowisko) common in cities; Gothic brick churches and town halls in historic centers (Kraków, Gdańsk, Toruń).",
+    "wall_color_palette": "Pastel stucco (cream, pale yellow, pale blue) on houses; red brick Gothic in historic town centers; grey concrete panel blocks in Soviet-era housing estates.",
+    "distinctive_building_types": "Gothic red-brick churches and town halls (Kraków, Toruń, Gdańsk's Hanseatic-influenced old town); Soviet-era panel apartment blocks; detached pastel-stucco single-family houses in rural/suburban areas; wooden village houses further east."
+  },
+
+  "nature": {
+    "vegetation": "Vast flat wheat, rye and potato fields dominate central Poland ('the breadbasket'), often stretching to the horizon; birch trees commonly line rural roads; dense forest in the north and southeast.",
+    "terrain": "Overwhelmingly flat to gently rolling across the North European Plain; the Sudetes and Carpathian (Tatra) mountains rise only along the southern border.",
+    "climate_signature": "Temperate continental; grassy fields on both sides of rural roads with a row of trees is a very common recurring shot."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Škoda", "Opel", "Toyota"],
+    "plate_color": "White plate, black text, blue EU strip on the left with 'PL'.",
+    "plate_format": "X1 2345 or X1 234J-style groupings (province letter code, then a mix of letters/digits).",
+    "distinctive_vehicles": "Standard mixed European fleet; older Polish Street View coverage is notable for a Google car with a visible black roof rack — a well-known dating/meta clue."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of Gen 3 and Gen 4; older coverage (identifiable partly by the visible black roof rack on the car) still common in rural areas.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage in cities and along main roads; some rural gaps and older imagery further from major routes."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Czech Republic",
+      "shared_traits": "Central European architecture, Slavic language family, similar road furniture styles",
+      "tiebreaker": "Polish diacritics (ł, ż, ą, ę) differ from Czech's ř/ě/ů; Poland's single-side-red-stripe bollard and uniquely red-outlined yellow warning triangles are absent in Czechia; Polish holey poles stop partway down rather than running to the ground."
+    },
+    {
+      "country": "Hungary/Romania",
+      "shared_traits": "Concrete 'holey' utility poles appear in all three countries",
+      "tiebreaker": "Poland's pole holes stop about half a metre above ground level; Hungary's and Romania's holes run all the way down to the base — a reliable distinguishing detail once you know to look for it."
+    },
+    {
+      "country": "Lithuania/Baltics",
+      "shared_traits": "Similar corrugated-metal-roofed rural houses, flat agricultural terrain, similar climate",
+      "tiebreaker": "Polish language and diacritics differ sharply from Lithuanian/Latvian/Estonian; Poland's red-striped bollard and red-outlined warning triangle are absent in the Baltic states."
+    }
+  ]
+}

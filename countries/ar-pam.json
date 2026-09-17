@@ -1,0 +1,77 @@
+{
+  "id": "ar-pam",
+  "name": "Pampas & Buenos Aires",
+  "aliases": ["Humid Pampas", "Región Pampeana"],
+  "continent": "South America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "ar",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Humid_Pampas",
+    "https://www.artisansofleisure.com/luxury-travel-blog/2020/12/pampas-estancia-gauchos-in-argentina/",
+    "https://topostreets.com/the-pampas-of-argentina-cowboy-culture-and-fertile-fields/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇦🇷",
+    "capital": "Buenos Aires"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Rioplatense Spanish as national — Buenos Aires is its cultural home.",
+    "false_friends": ["Uruguay (same Río de la Plata region and grassland)", "US Midwest (flat farmland, superficially)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "Dense formal European-style street layout and kerbs in central Buenos Aires; open, minimal shoulders on rural Pampas roads.",
+    "km_marker_style": "As national; long straight rural roads across flat farmland outside the city."
+  },
+
+  "architecture": {
+    "roof_style": "Ornate mansard and pitched roofs on Buenos Aires' Parisian-style apartment buildings; low-pitch tile/metal roofs on rural estancia ranch buildings.",
+    "roof_material": "Slate/tile in central Buenos Aires' European-style buildings; corrugated metal on rural ranch structures.",
+    "wall_construction": "Grand French/Italian/Spanish-influenced stone and stucco apartment buildings line Buenos Aires' boulevards; colourful corrugated-metal houses in La Boca; thick-walled adobe estancia ranch buildings out on the Pampas.",
+    "wall_color_palette": "Elegant cream/grey European stone tones in central Buenos Aires; brightly painted corrugated houses in La Boca; earthy tones on rural estancias.",
+    "distinctive_building_types": "Parisian-style apartment blocks and grand boulevards (Avenida 9 de Julio); colourful La Boca houses; rustic estancia ranch buildings surrounded by flat grassland; grain silos and cattle fencing across the open Pampas."
+  },
+
+  "nature": {
+    "vegetation": "Vast, flat, fertile grassland — the Pampas — used for cattle grazing and crop farming (soy, wheat, corn); very few trees except windbreaks and those planted near estancias.",
+    "terrain": "Extremely flat plains extending from Buenos Aires south to Bahía Blanca and west across the country's agricultural heartland — one of the flattest, most uniform landscapes in the country.",
+    "climate_signature": "Humid temperate climate — green fields, open horizon-to-horizon farmland, a much gentler climate than Patagonia's wind-blasted steppe or the northwest's high desert."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Ford", "Chevrolet", "Fiat"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national; heaviest concentration of the country's vehicle fleet given Buenos Aires' population."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Gen 3 with the distinctive black Google car; some Gen 4 in central Buenos Aires.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "The densest, most complete coverage in the country, concentrated in and around Buenos Aires and the agricultural Pampas road network."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Uruguay",
+      "shared_traits": "Same Río de la Plata cultural region, nearly identical flat grassland terrain, shared Rioplatense Spanish",
+      "tiebreaker": "Uruguay's plates and bollards trend whiter overall without Argentina's darker plate center; Uruguay's Google car front is more consistently pale/ghostly than Argentina's black car."
+    },
+    {
+      "country": "Patagonia/Andean Northwest (Argentina)",
+      "shared_traits": "Same country, same script and plate style",
+      "tiebreaker": "The Pampas is flat green farmland with a mild humid climate; Patagonia is dry windswept steppe, and the northwest is high-altitude colourful desert — both look nothing like the Pampas."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ar-pat",
+  "name": "Patagonia (Argentina)",
+  "aliases": ["Argentine Patagonia"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "parent": "ar",
+  "sources": [
+    "https://lacgeo.com/argentine-patagonia",
+    "https://en.wikipedia.org/wiki/Patagonian_Desert",
+    "https://rewildsafaris.com/south-america/patagonia/patagonian-steppes/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇦🇷",
+    "capital": "Ushuaia / Bariloche"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Rioplatense Spanish as national; Welsh-descended place names appear in parts of Chubut Province (a 19th-century Welsh settlement legacy).",
+    "false_friends": ["Chilean Patagonia (same mountains/steppe, opposite side of the Andes)", "Mongolia (visually, vast empty steppe)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "Minimal to absent on remote rural roads; present on mountain routes near the Andes.",
+    "line_paint": "As national, though many roads are unpaved gravel (ripio) in remote stretches.",
+    "curb_style": "Essentially absent outside small towns; wide open unpaved shoulders.",
+    "km_marker_style": "As national; long, straight, empty roads with sparse signage are the norm."
+  },
+
+  "architecture": {
+    "roof_style": "Steep-pitched roofs in the Andean lake district (Bariloche) reflecting Alpine/German-Swiss immigrant influence; simple low buildings in the steppe interior.",
+    "roof_material": "Wood shingle and metal roofing in the mountain towns; corrugated metal on remote ranch (estancia) buildings.",
+    "wall_construction": "Alpine chalet-style timber architecture around Bariloche and the Lake District (San Carlos de Bariloche was heavily shaped by German/Swiss/Austrian immigrants); simple isolated sheep estancias scattered across the open steppe elsewhere.",
+    "wall_color_palette": "Warm wood tones in the Alpine-influenced lake district; muted, weathered tones on remote steppe buildings.",
+    "distinctive_building_types": "Alpine chalet-style architecture in Bariloche; isolated sheep estancias; glacier and mountain-lodge infrastructure near El Calafate/El Chaltén; almost no dense urban development outside a handful of towns."
+  },
+
+  "nature": {
+    "vegetation": "Dry steppe dominated by low grasses, shrubs and cushion plants, with very few trees — huge, empty, windswept landscapes; temperate forest and glaciers appear close to the Andes in the west (Los Glaciares, Nahuel Huapi).",
+    "terrain": "Vast, sparsely populated plateau stretching from about 37°S to the Drake Passage, framed by the Andes to the west with glaciers and jagged peaks (Fitz Roy, Perito Moreno Glacier); flatter steppe further east toward the Atlantic.",
+    "climate_signature": "Famously strong, near-constant wind; cold, dry, and sparse — one of the most visually empty landscapes in South America. Guanacos (wild llama relatives) are commonly visible grazing in herds."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Ford", "Chevrolet", "Toyota"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "4WD pickups more common given rough/unpaved rural roads (ripio gravel roads widespread)."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Almost entirely Gen 3 with the black Google car — Argentina's Gen 4 coverage stops north of Comodoro Rivadavia, meaning nearly all of Patagonia is older Gen 3 imagery, a useful tell in itself.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Sparse — coverage concentrated on the few main highways (Ruta 40) and towns, with vast uncovered stretches in between."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Chilean Patagonia",
+      "shared_traits": "Shared Andes mountains, glaciers and windswept steppe straddling the same border region",
+      "tiebreaker": "Chile's Patagonia sits on the wetter Pacific side with denser forest and a white-rear Google car look; Argentine Patagonia is drier steppe to the east of the Andes with the black Gen 3 car and Ruta 40's long straight gravel stretches."
+    },
+    {
+      "country": "Pampas/Andean Northwest (Argentina)",
+      "shared_traits": "Same country, same script and plate style",
+      "tiebreaker": "Patagonia is dry windswept empty steppe with guanacos and glaciers; the Pampas is flat green farmland, and the northwest is colourful high-altitude desert — visually distinct from both."
+    }
+  ]
+}

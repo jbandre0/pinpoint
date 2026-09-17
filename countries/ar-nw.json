@@ -1,0 +1,82 @@
+{
+  "id": "ar-nw",
+  "name": "Andean Northwest (Salta · Jujuy)",
+  "aliases": ["Noroeste Argentino", "NOA"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "parent": "ar",
+  "sources": [
+    "https://solsalute.com/blog/jujuy-salta-a-9-day-road-trip-across-northwest-argentina/",
+    "https://www.terra-altiplano.com/en/blog/travel-inspiration/travel-argentina-jujuy",
+    "https://monkeystale.ca/2026/03/11/purmamarca-and-the-mountain-of-seven-colours/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇦🇷",
+    "capital": "Salta"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Rioplatense Spanish as national, but with a strong ongoing Andean/Indigenous (Quechua/Aymara-influenced) cultural presence reflected in place names and local vocabulary.",
+    "false_friends": ["Bolivia (shares the same Andean altiplano/puna landscape just across the border)", "Southern Peru"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "Present on winding mountain routes; often absent on high-altitude unpaved roads.",
+    "line_paint": "As national, though many roads are unpaved at higher altitude.",
+    "curb_style": "Cobbled streets in colonial Andean villages (Purmamarca, Humahuaca).",
+    "km_marker_style": "As national; roads climbing dramatic switchbacks are common given the terrain."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs on traditional adobe houses, suited to the arid climate.",
+    "roof_material": "Flat adobe/mud roofing traditional; some corrugated metal in larger towns.",
+    "wall_construction": "Flat-roofed adobe construction — thick mud-brick walls that blend into the landscape — is the defining regional architectural signature; colonial Spanish churches and cobbled streets in towns like Salta city.",
+    "wall_color_palette": "Earthy adobe tones matching the surrounding desert and colourful mountain strata; whitewashed colonial church facades in town centers.",
+    "distinctive_building_types": "Flat-roofed adobe village houses (Purmamarca, Humahuaca); colonial Spanish churches; salt-flat and altiplano infrastructure; llama/alpaca corrals."
+  },
+
+  "nature": {
+    "vegetation": "Sparse high-altitude puna desert vegetation — hardy shrubs, cacti, tough grasses; almost no trees at the highest elevations.",
+    "terrain": "Dramatic multicoloured mountain strata (the Quebrada de Humahuaca's 'Hill of Seven Colours'), high-altitude salt flats (salinas), and the Andean altiplano/puna plateau bordering Bolivia and Chile.",
+    "climate_signature": "High-altitude arid desert — intense sun, dramatic colour in the exposed rock strata, thin cold air; visually the most vividly colourful landscape in Argentina."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Ford", "Chevrolet", "Toyota"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "4WD vehicles more common given high-altitude unpaved mountain roads; llamas/alpacas frequently visible alongside roads rather than motor vehicles in the most remote areas."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of Gen 3 and Gen 4 near Salta city; increasingly sparse and older at higher altitude.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Coverage concentrated on the main tourist routes (Salta–Purmamarca–Humahuaca); genuine gaps at the highest, most remote altiplano elevations."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Bolivia",
+      "shared_traits": "Shares the same Andean altiplano/puna landscape, similar adobe architecture and Indigenous cultural presence right across the border",
+      "tiebreaker": "Argentine plates and Rioplatense Spanish phrasing differ from Bolivian plates and Bolivia's stronger day-to-day Quechua/Aymara bilingual signage; Argentina's national road furniture (chevron markers, Mercosur-style plates) is absent in Bolivia."
+    },
+    {
+      "country": "Southern Peru",
+      "shared_traits": "Similar high-altitude Andean terrain, adobe architecture and llama/alpaca herding culture",
+      "tiebreaker": "Peru's plates, signage and road furniture differ entirely from Argentina's; Peru also sits much further north with different vegetation zones despite superficial altiplano similarity."
+    },
+    {
+      "country": "Pampas/Patagonia (Argentina)",
+      "shared_traits": "Same country, same script and plate style",
+      "tiebreaker": "The northwest is colourful high-altitude desert with adobe villages; the Pampas is flat green farmland, and Patagonia is dry windswept steppe — visually distinct from both."
+    }
+  ]
+}

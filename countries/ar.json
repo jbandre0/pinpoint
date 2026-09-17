@@ -1,0 +1,82 @@
+{
+  "id": "ar",
+  "name": "Argentina",
+  "aliases": ["Argentine Republic", "República Argentina"],
+  "continent": "South America",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/argentina/",
+    "https://geopinning.space/en/rule/cs_america/argentina/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Argentina",
+    "https://lacgeo.com/argentine-patagonia"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇦🇷",
+    "capital": "Buenos Aires"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Rioplatense Spanish (distinctive 'vos' usage and sh/zh pronunciation of 'll'/'y', not visible in text but reflected in signage phrasing). Street suffixes: Calle, Avenida, Pasaje, Camino, Boulevard, Ramble.",
+    "false_friends": ["Uruguay", "Chile", "Paraguay"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Distinctive chevron-marked bollards and kilometer-marker posts along highways.",
+    "bollard_shape": "Varies; chevron road-curve markers are a strong general Argentina tell.",
+    "guardrail_type": "Standard steel W-beam on major routes; often minimal or absent on rural roads.",
+    "line_paint": "White outside/white inside is common, with white outside/yellow inside also seen.",
+    "curb_style": "Painted kerbs in cities; minimal shoulder definition on rural roads.",
+    "km_marker_style": "Chevron curve-warning signs and kilometer markers are distinctive nationally. YPF (the state oil company), Puma, Esso/Axion and Refinor are common fuel-station brands. Correo Argentino is the postal service brand."
+  },
+
+  "architecture": {
+    "roof_style": "Low-pitch tile or metal roofs on estancia-style ranch buildings in the Pampas; flat adobe roofs in the Andean northwest; European-influenced architecture in Buenos Aires.",
+    "roof_material": "Varies sharply by region — see regional profiles.",
+    "wall_construction": "Spanish colonial-influenced estancia (ranch) architecture with thick adobe walls and exposed wood beams in rural areas; ornate European (French/Italian/Spanish-influenced) architecture in Buenos Aires; flat-roofed adobe construction in the Andean northwest.",
+    "wall_color_palette": "Varies by region — see regional profiles.",
+    "distinctive_building_types": "Ornate Parisian-style apartment buildings and boulevards in central Buenos Aires; rustic estancia ranch buildings in the Pampas; colourful colonial adobe villages in the Andean northwest; nothing comparable in the vast empty Patagonian steppe."
+  },
+
+  "nature": {
+    "vegetation": "Extremely varied by latitude — flat fertile grassland (Pampas) around Buenos Aires, dry Patagonian steppe scrub in the south, and Andean puna desert with cacti/hardy shrubs in the northwest. See regional profiles.",
+    "terrain": "One of the most latitudinally diverse countries on Earth — vast flat plains in the center, the Andes running the full western border, Patagonian steppe and glaciers in the far south.",
+    "climate_signature": "Humid temperate around Buenos Aires/the Pampas; cold, dry and windswept in Patagonia; high-altitude arid in the Andean northwest."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Ford", "Chevrolet", "Fiat"],
+    "plate_color": "White plate with a blue top strip carrying the Argentine flag and 'ARGENTINA' text (Mercosur standard since 2016); older plates (pre-2016) were black background with white text.",
+    "plate_format": "AA 000 AA (Mercosur format); older format was ABC 123.",
+    "distinctive_vehicles": "Ford (long local manufacturing history — Falcon, Ranchero), Volkswagen (Gol/Gacel/Senda) and Fiat all have a long domestic-assembly history and are disproportionately common."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Argentina uses a distinctive black Google car (shared with only Peru and Uruguay in South America) on Gen 3 coverage; Gen 4 coverage is limited to the area north of Comodoro Rivadavia, meaning most of Patagonia is still Gen 3.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense around Buenos Aires and the Pampas; progressively sparser moving into Patagonia and the remote northwest."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Uruguay",
+      "shared_traits": "Same Rioplatense Spanish region, similar Pampas-style grassland near the shared border, similar Mercosur plates",
+      "tiebreaker": "Uruguay's plates and bollards trend almost entirely white without Argentina's darker plate center; Uruguay's roads commonly show triple-lined markings rarely seen in Argentina; the Google car's front is more consistently ghostly pale in Uruguay."
+    },
+    {
+      "country": "Chile",
+      "shared_traits": "Shared Andes mountain border, some overlapping Patagonian terrain in the far south",
+      "tiebreaker": "Chile is a narrow north-south strip dominated by the Pacific side of the Andes and often shows the white rear of the Google car; Argentina's terrain is broader and flatter to the east of the Andes, with its own black-car Gen 3 coverage."
+    },
+    {
+      "country": "Paraguay",
+      "shared_traits": "Shared Spanish language, some shared flat subtropical terrain in northern Argentina",
+      "tiebreaker": "Paraguay is bilingual with Guaraní appearing alongside Spanish on some signage, which doesn't occur in Argentina; plate and road-furniture details differ once compared directly."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "de",
+  "name": "Germany",
+  "aliases": ["Federal Republic of Germany", "Deutschland"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/germany/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Germany",
+    "https://geopinning.space/en/rule/europe/germany/",
+    "https://en.wikipedia.org/wiki/Geography_of_Germany"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇩🇪",
+    "capital": "Berlin"
+  },
+
+  "language": {
+    "official_languages": ["German"],
+    "script": "Latin",
+    "sample_text": "ACHTUNG — BAUSTELLE",
+    "script_notes": "Street signs commonly read 'Straße', 'Weg', 'Platz', 'Allee', 'Ring', 'Gasse' — distinct vocabulary from Dutch/Austrian/Swiss German neighbours.",
+    "false_friends": ["Austria", "Switzerland (German-speaking cantons)", "Netherlands", "Poland (Silesia border architecture)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White, flat-profiled posts — flatter in cross-section than France's rounded bollards.",
+    "bollard_shape": "Flat rectangular profile, distinct from the rounded posts common further west and south.",
+    "guardrail_type": "Standard steel W-beam, unremarkable.",
+    "line_paint": "White center/edge lines as the default; yellow lines temporarily mark construction zones (overriding the white lines underneath).",
+    "curb_style": "Neat painted kerbs in towns; well-maintained road surfaces and shoulders nationwide.",
+    "km_marker_style": "Standard German curve/chevron/roundabout/pedestrian sign designs. Aral, Esso, OMV, Total and Jet are common fuel-station brands. Deutsche Post's bright yellow branding appears frequently."
+  },
+
+  "architecture": {
+    "roof_style": "Steep-pitched roofs nationwide as a rule, adapted for snow further south; half-hipped roofs common in the north and center.",
+    "roof_material": "Terracotta/clay tile and slate widely used; red brick Gothic (Backstein) church and civic architecture concentrated in the north.",
+    "wall_construction": "Half-timbered (Fachwerk) houses common across central Germany's old towns; brick Gothic construction in the north; Alpine timber chalet-style construction in the far south (Bavaria). See regional profiles for the north/south split.",
+    "wall_color_palette": "Varies by region — see North/South profiles for specifics.",
+    "distinctive_building_types": "Half-timbered (Fachwerk) old-town houses; brick Gothic churches and gabled townhouses in the north; Alpine chalet-style architecture with painted façades (Lüftlmalerei) in the south; onion-dome churches in Bavaria."
+  },
+
+  "nature": {
+    "vegetation": "Beech and spruce forest widespread nationwide (the Black Forest, Bavarian Forest); flat marsh, heath and farmland across the North German Plain; vineyards along the Rhine/Mosel valleys.",
+    "terrain": "A flat northern plain rising into central uplands and forest, culminating in the Alps along the southern border with Austria; the Rhine, Elbe and Danube rivers cut through.",
+    "climate_signature": "Temperate, often overcast; snow-capped Alpine backdrop only in the far south; otherwise a fairly uniform green, well-ordered rural and forested look nationwide."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "BMW", "Mercedes-Benz", "Audi"],
+    "plate_color": "White plate, black text, blue EU strip on the left with a white 'D'.",
+    "plate_format": "1-3 letter city/district code, then 1-2 letters and 1-4 digits (e.g. 'B-MW 1234' for Berlin) — single-letter codes (B, M, K, F, L, S) mark the largest cities.",
+    "distinctive_vehicles": "Overwhelming dominance of German-brand cars (VW, BMW, Mercedes, Audi) — a strong general tell versus most of the rest of the world."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 4, very high quality and consistent across the country.",
+    "blur_style": "Standard Google blurring, though Germany historically had more addresses opt out of Street View — some streets show pixelated/blurred entire building façades as a result.",
+    "coverage_notes": "Dense and well-maintained coverage nationwide, including most rural roads."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Austria",
+      "shared_traits": "Same German language, similar Alpine architecture in southern Germany/Bavaria specifically, similar road signage conventions",
+      "tiebreaker": "German plates carry a city/district letter code system distinct from Austria's district codes; Bavaria's brighter Lüftlmalerei-painted façades and specific town styles differ subtly from Austrian equivalents, though this is a genuinely hard pair without other clues."
+    },
+    {
+      "country": "Switzerland",
+      "shared_traits": "German-speaking cantons share the language and some Alpine architecture near the southern German border",
+      "tiebreaker": "Swiss plates are white with a black canton code and no blue EU strip, unlike Germany's blue-strip 'D' plates; Switzerland is generally tidier with distinct road signage."
+    },
+    {
+      "country": "Netherlands",
+      "shared_traits": "Flat northern terrain, similarly orderly infrastructure and cycling culture near the shared border",
+      "tiebreaker": "German plates and vocabulary differ sharply from Dutch yellow-plate/Dutch-language signage; German 'Straße'/'Weg' vs. Dutch 'straat'/'weg' spelling and different plate colour scheme (Dutch plates are yellow)."
+    }
+  ]
+}
