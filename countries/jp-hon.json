@@ -1,0 +1,81 @@
+{
+  "id": "jp-hon",
+  "name": "Mainland Honshu (Tokyo · Kansai · Central Japan)",
+  "aliases": ["本州"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "jp",
+  "sources": [
+    "https://www.plonkit.net/japan",
+    "https://geometas.com/metas/countries/japan/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇯🇵",
+    "capital": "Tokyo"
+  },
+
+  "language": {
+    "official_languages": ["Japanese"],
+    "script": "Japanese (kanji + hiragana + katakana)",
+    "sample_text": "この先工事中 — 注意",
+    "script_notes": "Standard Japanese as national — this is the highest-density, highest-coverage part of the whole country, so most 'generic Japan' imagery is actually Honshu.",
+    "false_friends": ["Hokkaido (in winter)", "Kyushu"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White, national standard.",
+    "bollard_shape": "Slim posts, national standard.",
+    "guardrail_type": "Plain white guardrail is the default; regional colour accents appear near prefecture borders (this file covers the un-accented central majority).",
+    "line_paint": "White/yellow center lines as national.",
+    "curb_style": "Low concrete kerb with narrow drainage gutter — extremely common on residential streets in this densely built region.",
+    "km_marker_style": "Yellow-and-black striped poles nationwide; dense overhead wire clutter is especially pronounced here given how built-up the region is."
+  },
+
+  "architecture": {
+    "roof_style": "Grey ceramic-tiled pitched roofs on older houses; flat-roofed apartment blocks and narrow multi-story urban houses dominate Tokyo/Osaka/Nagoya.",
+    "roof_material": "Grey kawara ceramic tile classic; flat concrete/asphalt roofing on city apartment blocks.",
+    "wall_construction": "Extremely narrow multi-story houses packed onto tiny lots, especially in and around Tokyo and Osaka; traditional wooden machiya townhouses in old Kyoto/Kanazawa neighbourhoods.",
+    "wall_color_palette": "Muted grey/beige with dense overhead wiring; the traditional wooden brown of machiya houses in historic districts.",
+    "distinctive_building_types": "Dense multi-story urban housing, konbini on nearly every block, vending machines everywhere, train stations and level crossings, Shinto shrines and Buddhist temples, Kyoto's traditional machiya streets."
+  },
+
+  "nature": {
+    "vegetation": "Dense cedar/cypress-forested mountains surrounding flat, intensively built coastal plains; rice paddies fill any remaining open valley land.",
+    "terrain": "Central mountainous spine (the Japanese Alps) with population and roads squeezed into narrow coastal plains — Tokyo/Kanto plain and Kansai (Osaka/Kyoto/Kobe) plain are the two largest flat areas.",
+    "climate_signature": "Humid subtropical to humid continental; green most of the year, occasional snow inland/north side in winter."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Suzuki", "Daihatsu"],
+    "plate_color": "White/yellow/green as national.",
+    "plate_format": "Two-line format as national; top line shows a Honshu regional office name — e.g. 品川/練馬 (Tokyo wards), なにわ/大阪 (Osaka), 名古屋 (Nagoya).",
+    "distinctive_vehicles": "Kei cars everywhere given how narrow the streets are; heavy taxi and delivery-van presence in the big cities."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of Gen 3 and Gen 4, with the newest coverage concentrated in and around the largest cities.",
+    "blur_style": "Standard Japan low-mounted-camera blur as national.",
+    "coverage_notes": "The densest and most complete coverage in the whole country — this is the 'default' Japan look most players see."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Kyushu/Okinawa",
+      "shared_traits": "Same country, same script, same plate style, similar narrow-street urban housing",
+      "tiebreaker": "Honshu lacks Kyushu's green-banded guardrails and Yamaguchi's orange 'natsumikan' guardrails, and lacks Okinawa's red-tiled roofs and shisa statues; Honshu's terrain is generally more mountainous-and-squeezed than Kyushu's."
+    },
+    {
+      "country": "Hokkaido",
+      "shared_traits": "Same country, same script",
+      "tiebreaker": "Honshu's roads are narrower and its terrain more mountainous/built-up than Hokkaido's wide, snow-adapted roads and flat agricultural plains."
+    },
+    {
+      "country": "South Korea",
+      "shared_traits": "Dense East Asian city streets, similar overhead-wire clutter",
+      "tiebreaker": "Japan drives on the left with kanji/hiragana/katakana mixed script; Korea drives on the right with Hangul."
+    }
+  ]
+}

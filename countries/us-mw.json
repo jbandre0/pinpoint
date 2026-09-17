@@ -1,0 +1,77 @@
+{
+  "id": "us-mw",
+  "name": "Midwest US (Great Lakes · Great Plains)",
+  "aliases": ["Rust Belt", "Corn Belt", "Great Plains"],
+  "continent": "North America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "us",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Midwestern_United_States",
+    "https://en.wikipedia.org/wiki/Round_barn",
+    "https://www.plonkit.net/united-states"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇺🇸",
+    "capital": "Chicago"
+  },
+
+  "language": {
+    "official_languages": ["English"],
+    "script": "Latin",
+    "sample_text": "ROAD WORK AHEAD",
+    "script_notes": "English as national; German/Scandinavian-derived town names common (Minnesota, Wisconsin, the Dakotas) reflecting 19th-century immigration.",
+    "false_friends": ["Canadian prairie provinces", "Northeast US (older brick industrial towns)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "N/A as national.",
+    "guardrail_type": "Steel W-beam as national.",
+    "line_paint": "Yellow center line as national; roads follow an extremely regular section-line grid (a legacy of the Public Land Survey System) — long dead-straight rural roads meeting at right angles are a very strong Midwest/Great Plains tell.",
+    "curb_style": "Open roadside ditches in rural farmland; curbed streets in towns.",
+    "km_marker_style": "Wooden utility poles as national; grain elevators (tall concrete/steel cylindrical silos) visible on the horizon near small towns are a near-unique Midwest tell."
+  },
+
+  "architecture": {
+    "roof_style": "Simple gable roofs on farmhouses; distinctive round and octagonal barns were historically most popular in this region (1880s-1920s).",
+    "roof_material": "Asphalt shingle as national default; red-painted metal roofing on barns.",
+    "wall_construction": "Wood-frame farmhouses; red brick common in older industrial Rust Belt cities (Chicago, Detroit, Cleveland); classic red 'Midwest Three-Portal' gambrel barns beside farmhouses.",
+    "wall_color_palette": "White farmhouses with red barns is the classic regional palette; red brick in older industrial city cores.",
+    "distinctive_building_types": "Red gambrel/round barns beside white farmhouses; grain elevators; small-town Main Streets with brick storefronts; Rust Belt industrial architecture in Great Lakes cities."
+  },
+
+  "nature": {
+    "vegetation": "Vast flat corn and soybean cropland (the 'Corn Belt') dominates the landscape; treeless wheat prairie further west on the Great Plains; scattered woodlots and windbreak tree lines between fields.",
+    "terrain": "Famously flat to gently rolling — glaciated plains around the Great Lakes, flattening into the true high plains toward the Dakotas/Nebraska/Kansas; the Great Lakes themselves visible as huge inland water bodies.",
+    "climate_signature": "Wide-open big-sky horizons over flat farmland; harsh snowy winters, green humid summers; frequent long straight-road vanishing-point shots."
+  },
+
+  "vehicles": {
+    "common_brands": ["Ford", "Chevrolet", "Ram", "GMC"],
+    "plate_color": "Varies by state — Illinois blue-on-white, Ohio blue-and-white with a state outline, Michigan blue-and-white, Minnesota blue-and-white with loon imagery.",
+    "plate_format": "Varies by state as national.",
+    "distinctive_vehicles": "Farm equipment (tractors, combines) visible in season; pickup trucks common; otherwise standard national fleet."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of generations; dense modern coverage around Chicago and other major cities, older/thinner in remote Great Plains counties.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very complete grid coverage of rural section-line roads is a hallmark of this region — Street View literally follows the farm grid for miles."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Canadian prairie provinces",
+      "shared_traits": "Flat farmland, grain elevators, similar grid road layout, similar climate",
+      "tiebreaker": "US plates carry a state name and yellow center lines with mph signage; Canadian prairie provinces use km/h signage and provincial plates, and Canadian grain elevators/architecture carry subtly different branding and styles."
+    },
+    {
+      "country": "South US",
+      "shared_traits": "Rural farmland, wood-frame houses, similar road furniture",
+      "tiebreaker": "The Midwest is flatter with a rigid section-line grid and corn/soy cropland; the South has red clay, pine forest, kudzu and a hazier, more humid look with less rigid road grids."
+    }
+  ]
+}

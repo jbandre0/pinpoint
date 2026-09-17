@@ -1,0 +1,82 @@
+{
+  "id": "jp",
+  "name": "Japan",
+  "aliases": ["日本", "Nippon", "Nihon"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geometas.com/metas/countries/japan/",
+    "https://www.plonkit.net/japan",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Japan",
+    "https://geopinning.space/en/rule/asia/japan/chugoku/yamaguchi/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇯🇵",
+    "capital": "Tokyo"
+  },
+
+  "language": {
+    "official_languages": ["Japanese"],
+    "script": "Japanese (kanji + hiragana + katakana)",
+    "sample_text": "この先工事中 — 注意",
+    "script_notes": "Three scripts mixed together: kanji (dense characters), hiragana (rounded, curved strokes like の/く/し), katakana (angular, for foreign words). Very distinct from Korean Hangul (geometric blocks) or Chinese (kanji only, no hiragana/katakana mixed in).",
+    "false_friends": ["South Korea", "Taiwan", "China"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White with distinctive front/back reflector shapes; regional variation exists.",
+    "bollard_shape": "Slim posts, often paired at narrow road entrances.",
+    "guardrail_type": "Simple white guardrail nationwide, with regional colour accents (see regional profiles) — green bands in Kyushu, orange 'natsumikan' guardrails unique to Yamaguchi.",
+    "line_paint": "White edge and center lines; yellow center line where passing is prohibited, common on narrower roads.",
+    "curb_style": "Low concrete kerbs, often with a drainage gutter running alongside narrow residential streets.",
+    "km_marker_style": "Yellow-and-black striped rectangular poles are a strong national tell. Small kanji plates affixed to utility poles name the local area/chōme, useful for narrowing location if legible. Blue road signs with white lettering for directions; yellow diamond warning signs."
+  },
+
+  "architecture": {
+    "roof_style": "Grey ceramic-tiled pitched roofs on traditional houses nationwide; flat/low-slope roofs on urban apartment blocks; heavy snow-load roof shapes in the north.",
+    "roof_material": "Grey kawara ceramic tiles are the classic residential roof; corrugated metal on utility/rural buildings.",
+    "wall_construction": "Narrow multi-story houses packed tightly on small urban lots; corrugated metal siding common on rural/utility buildings; grey or beige stucco/siding on newer suburban houses.",
+    "wall_color_palette": "Muted greys, beiges and browns dominate; utility poles and overhead wires are everywhere and are themselves a strong Japan signal.",
+    "distinctive_building_types": "Narrow multi-story urban houses wedged onto tiny lots; vending machines on nearly every street corner; konbini (convenience stores — Lawson, 7-Eleven, FamilyMart) with distinctive signage; Shinto torii gates and shrine buildings."
+  },
+
+  "nature": {
+    "vegetation": "Dense cedar/cypress forest covering mountainous terrain nationwide; rice paddies in flat valleys and coastal plains; distinctive broad-leafed 'cabbage-looking' alpine vegetation in Hokkaido and mountainous Honshu.",
+    "terrain": "Mountainous and forested over most of the country, with development squeezed into narrow coastal plains and valleys; volcanic peaks throughout.",
+    "climate_signature": "Humid and green most of the year in the south and center; snowy winters with tall snow poles in Hokkaido and the Sea of Japan side of Honshu."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Suzuki", "Daihatsu"],
+    "plate_color": "White plate with green text for private passenger cars, yellow plate with black text for kei (light) cars, green plate with white text for commercial vehicles.",
+    "plate_format": "Two lines — top line: prefecture/city office name in kanji + a classification number; bottom line: one hiragana character + a 2-2 digit serial number.",
+    "distinctive_vehicles": "Boxy kei cars (very small, near-square light vehicles) are a strong Japan tell; Toyota, Honda, Suzuki and Daihatsu dominate the fleet; distinctive white delivery vans and taxis."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3 with a growing amount of Gen 4 on recently re-covered roads; clear, sharp, natural-colour imagery.",
+    "blur_style": "Standard Google blurring, but the camera car itself is mounted lower than normal, producing a distinctly large blurred car/hood in the bottom of frame — this look is shared with only a few other countries (Switzerland, Sri Lanka, some of India).",
+    "coverage_notes": "Extremely dense, near-complete coverage including narrow residential streets and rural mountain roads."
+  },
+
+  "confusion_set": [
+    {
+      "country": "South Korea",
+      "shared_traits": "East Asian urban density, similar utility-pole-and-wire streetscapes, similar vending-machine/convenience-store culture",
+      "tiebreaker": "Japan drives on the LEFT (Korea drives on the right); Japanese script mixes kanji with rounded hiragana and angular katakana, while Korean uses Hangul's geometric circle/square/line blocks — very different at a glance."
+    },
+    {
+      "country": "Taiwan",
+      "shared_traits": "Kanji-derived characters, similar humid subtropical vegetation in the south, dense narrow streets",
+      "tiebreaker": "Japan drives on the left with yellow-black striped poles and hiragana/katakana mixed in; Taiwan drives on the right with Traditional Chinese only (no hiragana/katakana) and different scooter-dominated street culture."
+    },
+    {
+      "country": "Switzerland",
+      "shared_traits": "The distinctive low-mounted camera producing a large blurred car in frame is shared between the two",
+      "tiebreaker": "Script alone settles it instantly — Japanese kanji/kana vs. Swiss Latin script (German/French/Italian); mountain architecture and road signage are also completely different."
+    }
+  ]
+}

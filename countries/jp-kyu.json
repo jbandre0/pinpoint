@@ -1,0 +1,77 @@
+{
+  "id": "jp-kyu",
+  "name": "Kyushu & Okinawa (Southern Japan)",
+  "aliases": ["九州", "沖縄"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "parent": "jp",
+  "sources": [
+    "https://geopinning.space/en/rule/asia/japan/chugoku/yamaguchi/",
+    "https://www.plonkit.net/japan",
+    "https://www.nippon.com/en/guide-to-japan/gu900208/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇯🇵",
+    "capital": "Fukuoka (Kyushu) / Naha (Okinawa)"
+  },
+
+  "language": {
+    "official_languages": ["Japanese"],
+    "script": "Japanese (kanji + hiragana + katakana)",
+    "sample_text": "この先工事中 — 注意",
+    "script_notes": "Standard Japanese as national. Okinawa retains some Ryukyuan-language place names and cultural vocabulary distinct from mainland Japanese.",
+    "false_friends": ["Taiwan (Okinawa's subtropical look)", "mainland Honshu"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White as national.",
+    "bollard_shape": "Slim posts, national standard.",
+    "guardrail_type": "Green-banded guardrails are common across Kyushu (most concentrated in Oita and Miyazaki); a distinctive orange 'natsumikan' (summer-orange) coloured guardrail is unique to Yamaguchi Prefecture just north of Kyushu proper.",
+    "line_paint": "White/yellow center lines as national.",
+    "curb_style": "Low concrete kerb as national; open roadside drainage more common in rural Kyushu.",
+    "km_marker_style": "Yellow-and-black striped poles as national."
+  },
+
+  "architecture": {
+    "roof_style": "Grey ceramic tile as mainland standard across most of Kyushu; in Okinawa specifically, low-pitched roofs with distinctive red clay tiles (traditionally reserved for aristocrats, common since 1889) mortared together against typhoon winds.",
+    "roof_material": "Grey kawara tile in Kyushu; red kawara tile in Okinawa.",
+    "wall_construction": "Kyushu resembles mainland Honshu housing; Okinawan houses are traditionally low, concrete-built (post-war reconstruction after WWII) to withstand typhoons, often walled with coral-stone fences.",
+    "wall_color_palette": "Standard muted mainland palette in Kyushu; white/grey concrete with red-roof accents in Okinawa.",
+    "distinctive_building_types": "Shisa lion-dog guardian statues on Okinawan rooftops and gateposts (open-mouthed = male, closed-mouthed = female) are a near-unique Okinawa tell; Kyushu otherwise looks close to mainland Honshu with volcanic scenery (Sakurajima, Aso) and hot-spring towns (Beppu, Yufuin)."
+  },
+
+  "nature": {
+    "vegetation": "Subtropical vegetation intensifies moving south — palm trees and lush greenery increasingly common through Kyushu, fully subtropical/tropical in Okinawa with mangroves and coral reefs offshore.",
+    "terrain": "Volcanic peaks throughout Kyushu (Sakurajima, Mount Aso's huge caldera); Okinawa is a chain of low subtropical islands with coral coastline, flatter and lower than the mainland.",
+    "climate_signature": "Warm and humid, noticeably milder winters than the rest of Japan; Okinawa is subtropical year-round with bright turquoise coastal water."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Suzuki", "Daihatsu"],
+    "plate_color": "White/yellow/green as national.",
+    "plate_format": "Two-line format as national; Okinawa plates read 沖縄 at the top.",
+    "distinctive_vehicles": "Standard Japanese fleet; more scooters/mopeds in dense Okinawan towns."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of Gen 3 and Gen 4, generally good along main roads.",
+    "blur_style": "Standard Japan low-mounted-camera blur as national.",
+    "coverage_notes": "Solid coverage in Kyushu's cities and coast roads; Okinawa's outer/smaller islands have thinner coverage than the main island."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Mainland Honshu",
+      "shared_traits": "Same country, same script, same plate style, similar general architecture in Kyushu specifically",
+      "tiebreaker": "Kyushu's green-banded guardrails (Oita/Miyazaki) and Yamaguchi's orange guardrails don't appear on the mainland; Okinawa's red-tiled roofs, shisa statues and coral-stone walls are unmistakably distinct from anywhere else in Japan."
+    },
+    {
+      "country": "Taiwan",
+      "shared_traits": "Subtropical vegetation and climate in Okinawa specifically, similar coastal scenery",
+      "tiebreaker": "Japan drives on the left with kanji/hiragana/katakana mixed script and shisa statues; Taiwan drives on the right, uses Traditional Chinese only, and has a very different scooter-dominated street culture."
+    }
+  ]
+}

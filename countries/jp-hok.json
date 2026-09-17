@@ -1,0 +1,76 @@
+{
+  "id": "jp-hok",
+  "name": "Hokkaido",
+  "aliases": ["北海道"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "parent": "jp",
+  "sources": [
+    "https://www.plonkit.net/japan",
+    "https://geometas.com/metas/countries/japan/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇯🇵",
+    "capital": "Sapporo"
+  },
+
+  "language": {
+    "official_languages": ["Japanese"],
+    "script": "Japanese (kanji + hiragana + katakana)",
+    "sample_text": "この先工事中 — 注意",
+    "script_notes": "Standard Japanese as national. Place names sometimes derive from Ainu language roots (e.g. many end in -betsu, -nai).",
+    "false_friends": ["Mountainous mainland Honshu in winter", "Russian Far East (snow, wide roads)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White as national, but noticeably taller in heavy-snow areas so they remain visible above snowbanks.",
+    "bollard_shape": "Slim posts, elevated/taller variants near passes and rural roads.",
+    "guardrail_type": "White guardrail with red-and-white chevron reflector stickers; occasional orange stickers.",
+    "line_paint": "White/yellow center lines as national, though often snow-covered or faded in winter imagery.",
+    "curb_style": "Minimal or absent on rural roads; wide paved shoulders instead.",
+    "km_marker_style": "Red-and-white striped snow poles (down-pointing arrows) mark the road edge above the snow line — a strong Hokkaido-specific tell. Roads are noticeably wider than the rest of Japan to leave room for snow removal and piled snowbanks."
+  },
+
+  "architecture": {
+    "roof_style": "Steep-pitched roofs designed for heavy snow load; many houses raised or built with above-ground utility connections to survive snow depth.",
+    "roof_material": "Metal roofing, often brightly coloured (blue, green, red) rather than the grey ceramic tile typical further south.",
+    "wall_construction": "Detached houses with more space between them than crowded mainland cities; larger farm structures reflecting Hokkaido's agricultural land.",
+    "wall_color_palette": "Bright primary-colour metal roofs against muted wall siding; utility poles less densely packed than in Honshu cities.",
+    "distinctive_building_types": "Large dairy/agricultural barns, wide low-density farmhouses, ski-resort infrastructure, Sapporo's grid-planned city blocks."
+  },
+
+  "nature": {
+    "vegetation": "Broad-leafed 'cabbage-looking' alpine shrubs and grassland at altitude; birch and coniferous forest; large flat agricultural plains (Tokachi, Furano) unlike mountainous mainland Japan.",
+    "terrain": "More open and flatter in the agricultural plains than the rest of Japan, with volcanic mountains (Daisetsuzan) and caldera lakes; less densely forested-and-squeezed than Honshu.",
+    "climate_signature": "Cold, snowy winters with long-lasting snow cover; imagery frequently shows snowbanks, bare trees and grey skies — much colder-looking than the rest of Japan."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Suzuki", "Subaru"],
+    "plate_color": "White/yellow/green as national.",
+    "plate_format": "Two-line kanji + hiragana + digits format as national; top line reads a Hokkaido regional office name (e.g. 札幌, 函館).",
+    "distinctive_vehicles": "More 4WD and Subarus than the national average given snow and rural terrain; snowplow and agricultural equipment common in season."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of Gen 3 and Gen 4.",
+    "blur_style": "Standard Japan low-mounted-camera blur as national.",
+    "coverage_notes": "Good coverage along main routes and towns; larger gaps in remote mountain/agricultural areas than central Honshu. Snowy imagery common outside summer."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Mainland Honshu (Japan, winter imagery)",
+      "shared_traits": "Same country, same script, same plates",
+      "tiebreaker": "Hokkaido's noticeably wider roads, red-and-white snow poles, and flatter agricultural plains (Tokachi/Furano) distinguish it from Honshu's narrower, more mountainous, densely built roads."
+    },
+    {
+      "country": "Russian Far East",
+      "shared_traits": "Cold snowy climate, wide roads, similar-looking rural infrastructure",
+      "tiebreaker": "Japan drives on the LEFT with Japanese script and yellow-black striped poles; the Russian Far East drives on the right with Cyrillic and Soviet panel-block architecture."
+    }
+  ]
+}

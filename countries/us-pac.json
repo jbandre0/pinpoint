@@ -1,0 +1,77 @@
+{
+  "id": "us-pac",
+  "name": "Pacific West Coast US (California · Oregon · Washington)",
+  "aliases": ["West Coast", "Pacific Northwest", "California"],
+  "continent": "North America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "us",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Central_Pacific_coastal_forests",
+    "https://en.wikipedia.org/wiki/Marine_West_Coast_Forest",
+    "https://www.plonkit.net/united-states"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇺🇸",
+    "capital": "Sacramento / Olympia"
+  },
+
+  "language": {
+    "official_languages": ["English"],
+    "script": "Latin",
+    "sample_text": "ROAD WORK AHEAD",
+    "script_notes": "English as national; Spanish signage common in California, especially in agricultural Central Valley and southern California.",
+    "false_friends": ["British Columbia, Canada (same coastal conifer forest)", "Mountain West US (inland forest)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "N/A as national.",
+    "guardrail_type": "Steel W-beam as national, common on winding coastal/mountain roads (e.g. Highway 1).",
+    "line_paint": "Yellow center line as national. Botts' dots (raised round non-reflective lane markers) historically used instead of painted lane lines on California freeways are a state-specific tell where visible.",
+    "curb_style": "Concrete curbs in dense coastal cities; open shoulders on rural coastal highways.",
+    "km_marker_style": "Wooden utility poles as national, often with dense overhead wiring in coastal California towns."
+  },
+
+  "architecture": {
+    "roof_style": "Low-pitch roofs on mid-century California suburban stock; steeper roofs further north in wetter Oregon/Washington to shed rain.",
+    "roof_material": "Asphalt shingle as national default; red clay tile roofing common on Spanish/Mission-revival houses in California.",
+    "wall_construction": "Stucco construction very common in California (earthquake-country building style); wood-frame siding more common further north in Oregon/Washington.",
+    "wall_color_palette": "Warm stucco tones and Mission-revival white/terracotta in California; muted greens/greys against dense evergreen backdrops further north.",
+    "distinctive_building_types": "Spanish Mission-revival architecture with red tile roofs (California); redwood-country cabins and lodges; Pacific Northwest craftsman-style wood houses; tech-campus modern architecture in the Bay Area; vineyard architecture in Napa/Sonoma."
+  },
+
+  "nature": {
+    "vegetation": "Towering coast redwoods in northern California/southern Oregon are a near-unique regional tell; Douglas fir, western hemlock and red cedar dominate further north in Oregon/Washington; golden dry grass hills and oak woodland in inland/central California; vineyards in Napa/Sonoma/Central Coast.",
+    "terrain": "A dramatic, often cliff-lined Pacific coastline; the Coast Ranges and Cascades running the length of the region; the flat agricultural Central Valley in California; volcanic peaks (Mt. Rainier, Mt. Hood, Mt. Shasta) visible from many inland roads.",
+    "climate_signature": "Mediterranean climate in California — dry golden hills much of the year, green only in winter/spring; markedly wetter, greyer, and more consistently green in Oregon/Washington ('Pacific Northwest drizzle' look)."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Ford", "Tesla"],
+    "plate_color": "California: white plate with red/blue script and yellow DMV lettering; Oregon: white/blue with a tree silhouette; Washington: white plate with a green mountain silhouette.",
+    "plate_format": "Varies by state as national (California uses 1ABC234).",
+    "distinctive_vehicles": "Noticeably higher EV/Tesla presence than the national average, especially in California; logging trucks common on rural Oregon/Washington roads."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of generations; very dense, frequently updated Gen 3/4 coverage in and around the Bay Area, LA, Seattle and Portland.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Some of the best and most current coverage in the country given tech-industry proximity; still has real gaps in remote redwood-country and Cascade mountain roads."
+  },
+
+  "confusion_set": [
+    {
+      "country": "British Columbia, Canada",
+      "shared_traits": "Same Pacific coastal conifer forest (Douglas fir, cedar, hemlock), similar mountainous terrain and grey drizzly climate in Washington/BC",
+      "tiebreaker": "US plates carry a state name with yellow center lines and mph signage; Canadian BC plates and km/h signage, plus French appearing on some federally-mandated packaging/signage, mark the Canadian side."
+    },
+    {
+      "country": "Mountain West US",
+      "shared_traits": "Same country, some shared conifer forest at elevation inland",
+      "tiebreaker": "The Pacific region has redwoods, a Pacific coastline and Mediterranean/marine climate; the Mountain West has red-rock desert, sagebrush and a drier, higher-elevation look with no ocean coastline."
+    }
+  ]
+}

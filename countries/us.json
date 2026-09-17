@@ -1,0 +1,82 @@
+{
+  "id": "us",
+  "name": "United States",
+  "aliases": ["USA", "United States of America", "America"],
+  "continent": "North America",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/n_america/usa/",
+    "https://www.plonkit.net/united-states",
+    "https://en.wikipedia.org/wiki/United_States_license_plate_designs_and_serial_formats",
+    "https://en.wikipedia.org/wiki/Google_Street_View_coverage"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇺🇸",
+    "capital": "Washington, D.C."
+  },
+
+  "language": {
+    "official_languages": ["English"],
+    "script": "Latin",
+    "sample_text": "ROAD WORK AHEAD",
+    "script_notes": "English signage nationwide; Spanish appears bilingually in the Southwest/border areas. Highway signage uses the FHWA 'Highway Gothic'/Clearview font family, standardized nationwide.",
+    "false_friends": ["Canada", "Australia", "New Zealand"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Not commonly used the way Europe uses them; where present, plain reflective posts.",
+    "bollard_shape": "N/A in most contexts — American roads use painted curbs, delineator posts and guardrails instead of European-style bollards.",
+    "guardrail_type": "Galvanized steel W-beam guardrail is standard nationwide; wooden posts common in National Parks and rural areas painted a medium brown by park convention.",
+    "line_paint": "Yellow center line (a strong Americas-wide tell vs. most of the world's white), white edge/lane lines. Green highway signs with white text and reflective route shields that vary by state.",
+    "curb_style": "Poured concrete curbs in developed areas; open roadside ditches common in rural/exurban areas with no curb at all.",
+    "km_marker_style": "Wooden utility poles with cross-arms are the default nationwide (unlike concrete poles common elsewhere); mailbox style (post-mounted rural box vs. house-mounted) and fire hydrant colour/shape vary meaningfully by state/municipality and can help narrow location further."
+  },
+
+  "architecture": {
+    "roof_style": "Asphalt shingle gable and hip roofs dominate residential construction nationwide; low-slope roofs on commercial strip development.",
+    "roof_material": "Asphalt shingles are overwhelmingly the default nationwide — a strong general 'this is the US' cue versus tile/slate-dominant countries elsewhere.",
+    "wall_construction": "Wood-frame siding construction is the national default (vinyl or wood clapboard siding); brick more common in the Northeast/Midwest, stucco more common in the Southwest/California.",
+    "wall_color_palette": "Highly variable by region — muted New England clapboard, red-brick Midwest/Northeast, warm stucco tones in the Southwest.",
+    "distinctive_building_types": "Strip malls and big-box retail with huge parking lots; wide suburban single-family subdivisions with attached garages; wood-frame houses set back from the road on individual lawns; ubiquitous gas station/fast-food chain signage."
+  },
+
+  "nature": {
+    "vegetation": "Extremely varied by region — see regional profiles for specifics (deciduous Northeast forest, Southern pine, Midwest cropland, Southwest desert, Pacific conifer forest).",
+    "terrain": "Vast and varied: Appalachian hills in the east, flat interior plains, the Rocky Mountains, desert basins in the Southwest, the Pacific coastal ranges and Sierra Nevada/Cascades in the west.",
+    "climate_signature": "Ranges from humid subtropical in the Southeast to arid desert in the Southwest to temperate rainforest on the Pacific Northwest coast — no single national climate signature; rely on regional cues."
+  },
+
+  "vehicles": {
+    "common_brands": ["Ford", "Chevrolet", "Ram", "Toyota", "Honda"],
+    "plate_color": "Extremely varied by state — each of the 50 states issues its own plate design and colour scheme (e.g. California blue-on-white with yellow accents, New York blue-and-gold, Florida orange with green citrus leaf, Arizona with a purple accent).",
+    "plate_format": "Varies by state: common patterns include ABC-1234, 123-ABC, ABC-123, and 1234AB, among others — state plate design is itself one of the single best in-country location clues.",
+    "distinctive_vehicles": "Full-size pickup trucks (Ford F-series, Chevrolet Silverado, Ram) are disproportionately common versus most other countries — a general US/North America tell alongside yellow school buses."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Full range from Gen 1 through Gen 4. Gen 1 (very low quality, blown-out skies, visible lens-stitching seams) is disproportionately found in the US versus almost anywhere else, making rock-bottom image quality itself a US/Australia/New Zealand tell.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Extremely dense and near-complete across the lower 48 states, including most rural roads; some genuine gaps in remote parts of the Mountain West and Alaska."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Canada",
+      "shared_traits": "English signage, yellow center lines, similar wood-frame suburban architecture and pickup-truck culture near the shared border",
+      "tiebreaker": "Canadian plates are white/blue-and-white with a provincial name, not a US state name; Canadian highway signs use metric (km/h) speeds, and French appears bilingually in Quebec/officially nationwide."
+    },
+    {
+      "country": "Australia",
+      "shared_traits": "English signage, similar low image quality on older Gen 1 coverage, similar suburban sprawl style",
+      "tiebreaker": "Australia drives on the LEFT; US drives on the right — this alone settles it once any oncoming traffic or parked cars are visible."
+    },
+    {
+      "country": "New Zealand",
+      "shared_traits": "English signage, some shared Gen 1 imagery quality",
+      "tiebreaker": "New Zealand drives on the LEFT and has no state-by-state license plate variation (one national plate design), unlike the US's wildly varying state plates."
+    }
+  ]
+}

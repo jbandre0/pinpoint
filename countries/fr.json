@@ -1,0 +1,92 @@
+{
+  "id": "fr",
+  "name": "France",
+  "aliases": ["French Republic", "République française"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geometas.com/metas/countries/france/",
+    "https://geopinning.space/en/rule/europe/france/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_France",
+    "https://en.wikipedia.org/wiki/Geography_of_France"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇫🇷",
+    "capital": "Paris"
+  },
+
+  "language": {
+    "official_languages": ["French"],
+    "script": "Latin",
+    "sample_text": "ATTENTION — TRAVAUX",
+    "script_notes": "Street corners commonly carry a blue enamel plate reading 'Rue de/du ...'. Departmental roads are signed 'D' + number in yellow. Bilingual French/Breton signage in Brittany, French/Corsican in Corsica (sometimes the French half is defaced), Occitan text appears in the south.",
+    "false_friends": ["Belgium", "Switzerland (French-speaking cantons)", "Luxembourg", "Quebec (Canada)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Thick white cylindrical posts with a red reflective band wrapped fully around the top — France wraps the red 100% around the cap, unlike Hungary's smaller discrete red reflector. A rarer grey-reflector variant also exists.",
+    "bollard_shape": "Distinctive rounded post shape unlike most other European bollards; a less common wedge-shaped bollard with rectangular white reflectors front and back also appears.",
+    "guardrail_type": "Standard steel W-beam, unremarkable.",
+    "line_paint": "Center line often made of two small squares joined together ('tiret double') rather than one continuous dash — close to unique to France in Europe. Long white dashes run along both road edges, longer than almost anywhere else in Europe.",
+    "curb_style": "Painted kerbs in towns; unremarkable elsewhere.",
+    "km_marker_style": "Concrete square or segmented utility poles, frequently carrying a small blue rectangular plate — a near-definitive France tell. Yellow 'D' road markers for departmental routes; red-bordered white speed-limit signs; the blue 'turn right ahead' sign is square in France (round elsewhere in Europe)."
+  },
+
+  "architecture": {
+    "roof_style": "Steep dark slate roofs across the north and center (Brittany, Normandy, Corrèze); rounded overlapping clay tiles of varying colour in the south; mansard (double-pitch) roofs with dormer windows common in and around Paris.",
+    "roof_material": "Slate in the north; terracotta barrel tiles in the south; fish-scale tiles and steep half-hipped roofs in Alsace.",
+    "wall_construction": "Whitewashed single-story homes on the west coast; thin flat pale stone walls in the southeast (Luberon/Provence); half-timbering in Alsace (Germanic influence); dark red brick rowhouses near the Belgian border, bricks often outlined in white mortar.",
+    "wall_color_palette": "Cream/pale stone through most of the country, whitewash on the Atlantic coast, warm orange/ochre render around Toulouse, dark brick in the north near Belgium, half-timber browns in Alsace.",
+    "distinctive_building_types": "Mansard-roofed Parisian apartment blocks with wrought-iron balconies; half-timbered Alsatian houses; Provençal stone farmhouses (mas); bright orange-brick Toulouse townhouses with wooden shutters; village churches with a single spire."
+  },
+
+  "nature": {
+    "vegetation": "Hedgerows, green meadows and apple orchards in Normandy; pine and spruce in the Alps and the Vosges/Jura; olive trees, vineyards and warm Mediterranean scrub in Provence and along the south coast; vineyards widespread in the southwest and Burgundy.",
+    "terrain": "Mostly low plains and plateaus in the north and center; the Alps (Mont Blanc, 4,808 m) and Pyrenees rising sharply in the south and southwest; rugged limestone Calanques coves along the Mediterranean coast; mountainous, Mediterranean-feeling Corsica offshore.",
+    "climate_signature": "Oceanic and often overcast in the northwest; continental in the east; hot and sun-bleached Mediterranean in the south — imagery ranges from grey Norman hedgerow lanes to bright Provençal stone villages."
+  },
+
+  "vehicles": {
+    "common_brands": ["Renault", "Peugeot", "Citroën"],
+    "plate_color": "White plate with a blue strip on the left (France's 'F' + EU star); a second blue strip on the right shows a regional emblem above the two-digit department number, plus an optional circular department sticker below it. Occasional fully yellow plates on older/agricultural vehicles.",
+    "plate_format": "AA-NNN-AA (two letters, three digits, two letters).",
+    "distinctive_vehicles": "Renault Twingo/Clio/Megane/Espace, Peugeot 205/208/308, Citroën with its double-chevron badge (2CV still occasionally seen). Overall a French-brand-dominated fleet, unlike Germany's or Italy's."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3 with some Gen 4 in cities; a small amount of Gen 1 exists but is far more likely encountered in the US, Australia or New Zealand.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense, near-complete coverage across the whole country including rural D-roads — one of the best-covered countries in Europe."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Belgium",
+      "shared_traits": "Latin script, similar road signage style, brick rowhouses near the shared border",
+      "tiebreaker": "France has slate roofs (north) and the white/red-band bollard with a blue utility-pole plate; Belgium leans more heavily brick and lacks France's bollard style and square keep-right sign."
+    },
+    {
+      "country": "Switzerland",
+      "shared_traits": "French-speaking cantons, similar mountain architecture near the shared border, similar terrain in the Alps/Jura",
+      "tiebreaker": "French plates carry the blue EU strip and department number; Swiss plates are white with a black canton code and no blue EU strip. Switzerland is generally tidier and better-maintained."
+    },
+    {
+      "country": "Spain",
+      "shared_traits": "Blue-and-white chevron road-curve signs (unique to just these two countries in Europe), Mediterranean vegetation in the south",
+      "tiebreaker": "France's square blue keep-right sign and red-banded white bollards are absent in Spain; Spanish plates are yellow-only on the rear, white in front, with no blue strip."
+    },
+    {
+      "country": "Italy",
+      "shared_traits": "Mediterranean coastline and vegetation, similar terracotta roof tiles in the south",
+      "tiebreaker": "France's blue utility-pole plates and red-topped bollards are absent in Italy; Italian plates are plain white with a blue EU strip but no department emblem."
+    },
+    {
+      "country": "Germany",
+      "shared_traits": "Half-timbered architecture near Alsace, similar signage conventions",
+      "tiebreaker": "French plates have the blue department strip vs. Germany's white plate with a city-code prefix; German town names often end in '-heim'/'-burg', which doesn't occur in France."
+    }
+  ]
+}
