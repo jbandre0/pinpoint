@@ -1,0 +1,77 @@
+{
+  "id": "es-n",
+  "name": "Green Spain (Galicia · Asturias · Basque Country)",
+  "aliases": ["España Verde", "Cantabrian Coast", "Northern Spain"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "parent": "es",
+  "sources": [
+    "http://www.galiciaguide.com/Greenspain.html",
+    "https://en.wikipedia.org/wiki/Cantabrian_Coast",
+    "https://geopinning.space/en/rule/europe/spain/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇪🇸",
+    "capital": "Santiago de Compostela / Bilbao"
+  },
+
+  "language": {
+    "official_languages": ["Spanish", "Galician", "Basque"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS",
+    "script_notes": "Spanish as national, but bilingual signage is extremely common — Galician in Galicia (close to Portuguese), Basque (Euskara, a language isolate with unmistakable non-Latin-derived words like 'kalea' for street) in the Basque Country/Navarre.",
+    "false_friends": ["Ireland/UK/Brittany (similar green Atlantic coast)", "Portugal (Galician is close to Portuguese)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national — wedge-shaped, orange front reflector, white rear reflectors — with a distinct flat-design, red-square-reflector variant on the AP-15 in Navarre.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; more common on winding coastal and mountain roads.",
+    "line_paint": "As national.",
+    "curb_style": "As national.",
+    "km_marker_style": "As national; Basque-language place-name signage is a strong regional tell where legible."
+  },
+
+  "architecture": {
+    "roof_style": "Steeper pitched roofs than the arid south, built to shed frequent rain.",
+    "roof_material": "Slate and dark stone tile more common here than the terracotta that dominates the rest of Spain.",
+    "wall_construction": "Stone construction is the defining regional material — grey granite farmhouses and stone field walls, closer in feel to Ireland/Britain/Brittany than to the rest of Spain.",
+    "wall_color_palette": "Grey stone tones dominate, a marked contrast to the whitewash and terracotta of the south.",
+    "distinctive_building_types": "Stone hórreos (raised granaries on stilts) dotting the Galician countryside; grey stone farmhouses; modernist Bilbao architecture (Guggenheim) alongside traditional Basque half-timbered houses."
+  },
+
+  "nature": {
+    "vegetation": "Lush green pasture and deciduous/mixed forest, eucalyptus plantations in Galicia — visually closer to Ireland or the UK than to the rest of Spain.",
+    "terrain": "A green, rugged Atlantic coastline (rías in Galicia, cliffs in Asturias/Cantabria); the Cantabrian Mountains rise close behind the coast.",
+    "climate_signature": "Oceanic climate — wet, overcast and green much of the year, a strong contrast to the dry sun-bleached feel of the rest of Spain."
+  },
+
+  "vehicles": {
+    "common_brands": ["SEAT", "Renault", "Peugeot", "Volkswagen"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 4 around Bilbao/Santiago; thinner and possibly older in remote rural Galicia/Asturias.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coastal and city coverage; sparser in the rural interior mountains."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Ireland/United Kingdom/Brittany",
+      "shared_traits": "Green rolling pasture, Atlantic coastline, cool overcast weather, stone field walls",
+      "tiebreaker": "Green Spain has Spanish/Galician/Basque signage and Spain's national road furniture (wedge bollards, blue-EU-strip plates) rather than UK/Irish left-hand traffic or French Breton signage."
+    },
+    {
+      "country": "Central/Southern Spain",
+      "shared_traits": "Same country, same script/plate/bollard base style",
+      "tiebreaker": "Green Spain is stone-built and lushly green year-round; the Meseta is flat, dry and golden-brown, and Andalusia is whitewashed and sun-bleached."
+    }
+  ]
+}

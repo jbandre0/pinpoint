@@ -1,0 +1,82 @@
+{
+  "id": "es-s",
+  "name": "Mediterranean & Southern Spain (Andalusia · Catalonia · Valencia)",
+  "aliases": ["Andalusia", "Costa del Sol", "Mediterranean coast"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "es",
+  "sources": [
+    "https://en.wikipedia.org/wiki/White_Towns_of_Andalusia",
+    "https://amateurtraveler.com/los-pueblos-blancos-of-andalucia/",
+    "https://geopinning.space/en/rule/europe/spain/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇪🇸",
+    "capital": "Seville / Barcelona"
+  },
+
+  "language": {
+    "official_languages": ["Spanish", "Catalan"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS",
+    "script_notes": "Spanish as national; Catalan appears bilingually (and often primarily) on signage in Catalonia/Valencia/the Balearics — visually distinct with doubled 'l·l' and accented vowels.",
+    "false_friends": ["Southern Italy/Sicily (similar whitewash/Mediterranean look)", "Morocco/North Africa (Moorish architectural influence in Andalusia)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; orange reflectors common on coastal highway guardrails.",
+    "line_paint": "As national.",
+    "curb_style": "As national; dense modernist street furniture in Barcelona specifically (distinctive tiled sidewalks, ornate lampposts).",
+    "km_marker_style": "As national."
+  },
+
+  "architecture": {
+    "roof_style": "Flat or very low-pitch roofs common in the arid Andalusian interior; standard terracotta pitched roofs along the Mediterranean coast and in Catalonia.",
+    "roof_material": "Terracotta tile as national default, though flat roofs increase toward the drier south.",
+    "wall_construction": "Whitewashed masonry is the defining Andalusian look ('pueblos blancos'), often with Moorish/Mudéjar architectural details (horseshoe arches, tilework, courtyards) reflecting centuries of Islamic rule; Gaudí/Catalan modernist architecture and dense stucco apartment blocks in Barcelona.",
+    "wall_color_palette": "Brilliant whitewash is the single strongest Andalusian tell; warm Mediterranean stucco tones along the Costa del Sol/Costa Brava; Barcelona's colourful modernist facades.",
+    "distinctive_building_types": "Whitewashed pueblos blancos built into cliff faces (Setenil de las Bodegas); Moorish palace architecture (Alhambra-style arches and tilework); Gaudí's modernist Barcelona landmarks; dense Mediterranean resort development along the coast."
+  },
+
+  "nature": {
+    "vegetation": "Dense grid-planted olive groves cover huge stretches of the Andalusian interior; Mediterranean scrub, palm trees and citrus orchards along the coast; noticeably more cactus/succulent and arid vegetation in the southeast (Almería).",
+    "terrain": "The Sierra Nevada and Sierra de Grazalema mountains rise behind a warm Mediterranean/Atlantic coastline; the Guadalquivir river valley cuts through Andalusia; the Catalan/Valencian coast is a long, developed Mediterranean shoreline.",
+    "climate_signature": "Classic hot, dry, sun-bleached Mediterranean light — brighter and more intense than central or northern Spain, with silvery olive-grove hillsides a recurring visual signature."
+  },
+
+  "vehicles": {
+    "common_brands": ["SEAT", "Renault", "Peugeot", "Volkswagen"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national; heavy tourist/rental car presence along the Costa del Sol."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 4 around Barcelona, Seville, Valencia and Málaga.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very dense along the coast and in major cities; thinner in the remote Andalusian sierra interior."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Central Spain (Meseta)",
+      "shared_traits": "Dry farmland, similar hot summer climate",
+      "tiebreaker": "Andalusia has whitewashed pueblos blancos, dense olive-grove grids and Moorish architectural detail; the Meseta is a flatter, higher wheat-farming plateau without the whitewash or Moorish arches."
+    },
+    {
+      "country": "Southern Italy/Sicily",
+      "shared_traits": "Whitewashed Mediterranean hill towns, similar bright coastal light, olive groves",
+      "tiebreaker": "Spain's bollard is wedge-shaped with orange/white reflectors vs. Italy's red-diagonal post; Spanish vocabulary ('Calle') and Moorish arch details differ from Italian 'Via' signage and Italy's terracotta-dominant roofing."
+    },
+    {
+      "country": "Morocco/North Africa",
+      "shared_traits": "Shared Moorish/Andalusian architectural heritage — horseshoe arches, tilework, courtyard houses",
+      "tiebreaker": "Spain uses Latin script and Spanish/Catalan language with EU blue-strip plates; Morocco uses Arabic script (plus French) and different plate styles, and drives on the right but with visibly different road infrastructure and vehicle stock."
+    }
+  ]
+}

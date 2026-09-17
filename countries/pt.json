@@ -1,0 +1,77 @@
+{
+  "id": "pt",
+  "name": "Portugal",
+  "aliases": ["Portuguese Republic", "República Portuguesa"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/portugal/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Portugal",
+    "https://geopinning.space/en/rule/europe/portugal/",
+    "https://www.bluegreenatlas.com/portugal.html"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇵🇹",
+    "capital": "Lisbon"
+  },
+
+  "language": {
+    "official_languages": ["Portuguese"],
+    "script": "Latin",
+    "sample_text": "ATENÇÃO — OBRAS",
+    "script_notes": "Portuguese uses ã/õ nasal tildes and ç, distinguishing it at a glance from Spanish. Street signs read 'Rua', 'Avenida', 'Estrada', 'Praça', 'Rotunda' — all different words from Spanish equivalents ('Calle', 'Avenida', 'Carretera', 'Plaza', 'Rotonda').",
+    "false_friends": ["Spain", "Brazil (same language, very different meta)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White with either a thin white top (wedge-shaped) or a wide flat reflector; a duller orange reflector variant also occurs, noticeably darker/less saturated than Spain's yellow reflectors.",
+    "bollard_shape": "Wedge-shaped or flat-topped posts, distinct from Spain's more rounded style.",
+    "guardrail_type": "Standard steel W-beam, unremarkable.",
+    "line_paint": "Center/edge line combinations mixing yellow and white segments in patterns distinct from Spain's more uniform white lines.",
+    "curb_style": "Traditional black-and-white (or beige-and-white) calçada portuguesa mosaic cobblestone pavement in historic town centers and sidewalks — a strong, near-unique Portugal tell.",
+    "km_marker_style": "Portugal-specific curve/chevron/roundabout/pedestrian-crossing sign designs, distinct in style from Spain's equivalents. Galp is the dominant fuel station brand, vs. Repsol/Cepsa in Spain."
+  },
+
+  "architecture": {
+    "roof_style": "Simple pitched roofs on whitewashed houses; red tile roofs nationwide.",
+    "roof_material": "Terracotta barrel tile roofing is standard nationwide.",
+    "wall_construction": "Whitewashed masonry walls are the classic Portuguese look, frequently covered in blue-and-white azulejo ceramic tiles on building façades — Portugal covers entire building exteriors in tile far more extensively than Spain does.",
+    "wall_color_palette": "White walls with blue-and-white (cobalt) azulejo tile patterns is the single strongest Portugal architectural tell; colourful painted townhouses in Lisbon/Porto.",
+    "distinctive_building_types": "Azulejo-tiled townhouse façades; whitewashed Algarve village houses with chimney-pot decoration; steep tiled-roof Porto riverside houses; windmills in rural areas."
+  },
+
+  "nature": {
+    "vegetation": "Cork oak and holm oak savanna-like 'montado' woodland across the southern Alentejo plains; terraced vineyards along the Douro Valley; pine and eucalyptus forest in the center/north; olive groves throughout.",
+    "terrain": "Atlantic coastline running the length of the country; rolling hills and mountains in the north (Peneda-Gerês); flatter wheat/cork plains in the Alentejo south; terraced river valleys (Douro).",
+    "climate_signature": "Mediterranean/Atlantic climate — greener and cooler in the north, drier and more golden in the Alentejo south; bright coastal light along the Algarve."
+  },
+
+  "vehicles": {
+    "common_brands": ["Renault", "Peugeot", "Opel", "Mercedes-Benz"],
+    "plate_color": "White plate with a blue EU strip on the left. Older plates (pre-2020) also carry a distinctive yellow strip on the right showing the registration month/year — Portugal is the only European country pairing a blue left strip with a yellow right strip. Newer plates (post-2020) drop the yellow strip and look closer to the general EU standard.",
+    "plate_format": "AA-NN-NN or similar letter/digit groupings depending on registration era.",
+    "distinctive_vehicles": "Standard Western European fleet; smaller cars and vans proportionally more common than in wealthier neighbours."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3, some Gen 4 in cities.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage along the coast and main routes; thinner in the remote interior/mountainous north."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Spain",
+      "shared_traits": "Iberian Peninsula, similar Mediterranean/Atlantic climate and terrain, similar Latin-derived language at a glance",
+      "tiebreaker": "Portuguese has ã/õ nasal tildes and ç absent from Spanish spelling; Portugal's blue-and-white azulejo-tiled building façades are far more extensive than Spain's; Portuguese plates historically carry the yellow right-hand strip Spain's plates lack; calçada mosaic pavement is a strong Portugal-only tell."
+    },
+    {
+      "country": "Brazil",
+      "shared_traits": "Same Portuguese language",
+      "tiebreaker": "Brazil drives on the right with very different tropical vegetation, yellow-plate-then-Mercosul plates, and a totally different, generally lower-density built environment than Portugal's dense whitewashed European towns."
+    }
+  ]
+}

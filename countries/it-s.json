@@ -1,0 +1,82 @@
+{
+  "id": "it-s",
+  "name": "Southern Italy & Sicily (Mezzogiorno)",
+  "aliases": ["Mezzogiorno", "Sud Italia", "Sicilia"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "it",
+  "sources": [
+    "https://www.understandingitaly.com/nature-in-italy.html",
+    "https://www.insightvacations.com/blog/northern-vs-southern-italy/",
+    "https://www.tandfonline.com/doi/full/10.1080/17445647.2015.1094969"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇮🇹",
+    "capital": "Naples"
+  },
+
+  "language": {
+    "official_languages": ["Italian"],
+    "script": "Latin",
+    "sample_text": "ATTENZIONE — LAVORI IN CORSO",
+    "script_notes": "Standard Italian as national; strong regional dialects (Neapolitan, Sicilian) sometimes appear on informal signage.",
+    "false_friends": ["Greece (similar Mediterranean light/architecture)", "Northern Italy", "Malta"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "Steel W-beam as national; common on winding coastal roads (Amalfi Coast).",
+    "line_paint": "White lines as national.",
+    "curb_style": "Narrow, winding roads through hill towns; less formal shoulder/curb infrastructure than the industrial north.",
+    "km_marker_style": "As national; generally less dense motorway signage than the north."
+  },
+
+  "architecture": {
+    "roof_style": "Flatter, low-pitch roofs common in the deep south and Sicily reflecting drier climate; terracotta pitched roofs still standard elsewhere.",
+    "roof_material": "Terracotta tile as national default.",
+    "wall_construction": "Whitewashed cave-dwelling architecture (sassi) in Matera; pastel-painted hill towns (e.g. Ostuni's 'White Town') in Puglia; dense, weathered stone/stucco construction in Naples; baroque architecture in Sicilian towns (Noto, Ragusa) rebuilt after the 1693 earthquake.",
+    "wall_color_palette": "Whitewash and pastel tones dominate coastal towns; warm sun-bleached ochre and cream in inland hill towns; dramatic dark volcanic stone near Mount Etna in Sicily.",
+    "distinctive_building_types": "Whitewashed cave dwellings (sassi di Matera); pastel hill towns; trulli — distinctive conical dry-stone huts unique to Puglia; dense, vertical Naples streetscapes; Sicilian baroque towns; Mount Etna's volcanic backdrop."
+  },
+
+  "nature": {
+    "vegetation": "Mediterranean evergreen scrub (macchia), olive groves, holm oak, umbrella pines and citrus orchards dominate; prickly pear cactus common in Sicily and Puglia; noticeably drier and browner in summer than the north.",
+    "terrain": "Dramatic coastlines (Amalfi Coast, Cinque Terre further north but similar style, Sicilian coast); the Apennines continue south; Mount Etna's active volcanic cone dominates eastern Sicily; flatter plains in Puglia.",
+    "climate_signature": "Classic sun-bleached Mediterranean light, hot dry summers, sparse golden-brown vegetation by late summer — a warmer, brighter look than the hazy north."
+  },
+
+  "vehicles": {
+    "common_brands": ["Fiat", "Alfa Romeo", "Lancia"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Smaller, older cars and scooters (Vespa/Piaggio) proportionally more common than in the wealthier industrial north."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 4 in cities and along the coast; some older/lower coverage in remote inland hill towns.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coastal and city coverage; noticeably thinner in remote inland mountain areas of Basilicata/Calabria/interior Sicily than the industrial north."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Northern Italy",
+      "shared_traits": "Same country, same script, same plate and bollard style",
+      "tiebreaker": "The south has Mediterranean scrub, olive groves, pastel/whitewashed hill towns and a sun-bleached coastal light; the north has flat cultivated Po Valley farmland, foggy continental winters and Alpine peaks."
+    },
+    {
+      "country": "Greece",
+      "shared_traits": "Similar Mediterranean whitewashed architecture, bright coastal light, olive groves",
+      "tiebreaker": "Italy uses Latin script and Italian vocabulary ('Via', 'Piazza') vs. Greek script and language; Italy's bollard/plate design differs from Greece's."
+    },
+    {
+      "country": "Malta",
+      "shared_traits": "Similar Mediterranean limestone architecture and climate near Sicily",
+      "tiebreaker": "Malta drives on the LEFT (former British colony) with UK-style road signage; Sicily/southern Italy drives on the right with standard Italian signage."
+    }
+  ]
+}

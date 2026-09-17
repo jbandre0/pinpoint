@@ -1,0 +1,82 @@
+{
+  "id": "es",
+  "name": "Spain",
+  "aliases": ["Kingdom of Spain", "España"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/spain/",
+    "https://geopinning.space/en/rule/europe/spain/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Spain",
+    "https://en.wikipedia.org/wiki/Geography_of_Spain"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇪🇸",
+    "capital": "Madrid"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS",
+    "script_notes": "Castilian Spanish nationwide; regional co-official languages appear bilingually on signage in their territories — Catalan in Catalonia, Basque (Euskara) in the Basque Country/Navarre, Galician in Galicia. Street signs use 'Calle', 'Avenida', 'Plaza', 'Paseo', 'Carretera'.",
+    "false_friends": ["Portugal", "Italy", "Latin American Spanish-speaking countries (via language alone)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Wedge-shaped, hollow posts with an orange rectangular reflector on the front and two white circular reflectors on the back — a reliable Spain tell distinct from Portugal's duller orange and Italy's red-diagonal design.",
+    "bollard_shape": "Wedge-shaped, hollow construction.",
+    "guardrail_type": "Guardrails often carry orange reflectors; short white-with-black-stripe painted segments appear at hazard points on many highways.",
+    "line_paint": "Yellow outside line with white inside line is common on many roads, alongside plain white-on-white elsewhere.",
+    "curb_style": "Standard painted kerbs in towns.",
+    "km_marker_style": "Small orange or yellow kilometer marker plates along the roadside showing the route number; ladder-style utility poles common. Repsol, Cepsa, BP, Galp and Disa are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "Low-pitch terracotta tile roofs across most of the country; flat roofs common in the arid south; steep slate/stone roofs in the wet green north.",
+    "roof_material": "Terracotta curved tile is the national default outside the north; slate more common in Galicia/Asturias.",
+    "wall_construction": "Highly regional — stone construction in the green north, whitewashed masonry in the south, dense stucco apartment blocks in major cities, and distinctive Moorish/Mudéjar architectural influence in parts of the south.",
+    "wall_color_palette": "Varies sharply by region — see regional profiles for Galicia/north, Meseta/center, and Andalusia/south specifics.",
+    "distinctive_building_types": "Whitewashed 'pueblos blancos' hill towns in the south; Gaudí/modernist architecture in Barcelona; grand plazas and boulevards in Madrid; Moorish-influenced architecture (Alhambra-style arches, tilework) in Andalusia."
+  },
+
+  "nature": {
+    "vegetation": "Extremely varied — lush green pasture and forest in the wet Atlantic north, dry wheat plains and scrub on the central plateau, olive groves and Mediterranean scrub in the south and along the coast. See regional profiles for specifics.",
+    "terrain": "The vast central Meseta plateau dominates the interior; the Pyrenees form the northeastern border; a green mountainous Atlantic coast in the north; a warm Mediterranean coastline in the east and south.",
+    "climate_signature": "Highly regional — oceanic/green in the north, harsh continental (hot dry summers, cold winters) on the central plateau, Mediterranean in the south and east."
+  },
+
+  "vehicles": {
+    "common_brands": ["SEAT", "Renault", "Peugeot", "Volkswagen"],
+    "plate_color": "White plate, black text, blue EU strip on the left with 'E' for España.",
+    "plate_format": "NNNN LLL (four digits, three consonants — vowels are excluded to avoid forming words).",
+    "distinctive_vehicles": "SEAT (Spain's own brand, now VW-owned) is disproportionately common versus the rest of Europe — a useful national tell."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 4 in and around major cities (Madrid, Barcelona, Seville, Valencia); some third-party/Insta360-sourced imagery exists in parts of the country including the Canary Islands.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage in populated areas; thinner in remote parts of the interior plateau and mountain regions."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Portugal",
+      "shared_traits": "Iberian Peninsula, similar Mediterranean/Atlantic climate and terrain, superficially similar Romance-language signage",
+      "tiebreaker": "Spain's wedge-shaped orange-reflector bollard differs from Portugal's duller-orange wedge; Spanish lacks the ã/õ tildes and ç of Portuguese; Portugal's building façades are far more extensively covered in blue-and-white azulejo tile than Spain's."
+    },
+    {
+      "country": "Italy",
+      "shared_traits": "Terracotta tile roofs, Mediterranean vegetation and climate, similar Latin script and warm-toned architecture",
+      "tiebreaker": "Spain's bollard is wedge-shaped with orange/white reflectors vs. Italy's red-diagonal-band post; vocabulary differs ('Calle' vs 'Via')."
+    },
+    {
+      "country": "Latin America (via language)",
+      "shared_traits": "Same Spanish language",
+      "tiebreaker": "European road infrastructure, EU blue-strip plates and Iberian architecture immediately separate Spain from any Latin American country, regardless of shared language."
+    }
+  ]
+}

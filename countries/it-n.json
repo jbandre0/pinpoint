@@ -1,0 +1,77 @@
+{
+  "id": "it-n",
+  "name": "Northern Italy (Po Valley · Alps · Turin/Milan/Venice)",
+  "aliases": ["Nord Italia"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "it",
+  "sources": [
+    "https://www.understandingitaly.com/nature-in-italy.html",
+    "https://en.wikipedia.org/wiki/North-Western_Italian_architecture",
+    "https://www.insightvacations.com/blog/northern-vs-southern-italy/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇮🇹",
+    "capital": "Milan"
+  },
+
+  "language": {
+    "official_languages": ["Italian"],
+    "script": "Latin",
+    "sample_text": "ATTENZIONE — LAVORI IN CORSO",
+    "script_notes": "Standard Italian as national; German appears bilingually alongside Italian in South Tyrol/Alto Adige near the Austrian border; French appears in Valle d'Aosta.",
+    "false_friends": ["Austria/Switzerland (Alpine terrain)", "Southern France (similar farmland further west)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White with red-diagonal-band front / white back, as national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "Steel W-beam as national; more common on Alpine mountain roads.",
+    "line_paint": "White lines as national.",
+    "curb_style": "As national; cobblestone historic centers in Milan/Turin/Venice.",
+    "km_marker_style": "As national. Autostrada (motorway) signage denser here than the south given the region's industrial road network."
+  },
+
+  "architecture": {
+    "roof_style": "Wooden Alpine chalets with steep, deep-overhang roofs in the mountains; baroque stone architecture in Turin; canal-side Venetian Gothic architecture in Venice.",
+    "roof_material": "Terracotta tile in the cities and lowlands; wood shingle/shake in Alpine mountain areas.",
+    "wall_construction": "Formal baroque stone facades in Turin; brick and stucco apartment blocks in Milan; colourful stucco canal-side houses in Venice and Burano; timber Alpine chalet construction near the Austrian/Swiss border.",
+    "wall_color_palette": "Elegant ochre/cream baroque stone in Turin; brightly painted pastel houses on Burano; muted browns/greens on Alpine timber chalets.",
+    "distinctive_building_types": "Alpine wooden chalets; Milan's dense apartment blocks and modern skyline; Venice's canal architecture and gondolas; Turin's grand baroque boulevards."
+  },
+
+  "nature": {
+    "vegetation": "Intensively cultivated flat farmland (wheat, corn, rice paddies) fills the Po Valley — almost no original forest remains; coniferous Alpine forest at elevation in the mountains.",
+    "terrain": "The flat, hazy Po Valley (Italy's industrial and agricultural heartland) is bounded by the dramatic snow-capped Alps to the north and the Apennines to the south; Lake Como/Garda/Maggiore sit at the foot of the Alps.",
+    "climate_signature": "Humid continental — harsh, foggy winters and hot summers in the Po Valley, a noticeably different feel from the sun-bleached Mediterranean south; frequent haze/fog in valley imagery."
+  },
+
+  "vehicles": {
+    "common_brands": ["Fiat", "Alfa Romeo", "Lancia"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national; higher density of German-brand cars (BMW, Audi, VW) near the Austrian/Swiss border in the northeast."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 4, dense coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very dense coverage across the industrial/urban Po Valley corridor; good mountain-road coverage in the Alps."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Southern Italy",
+      "shared_traits": "Same country, same script, same plate and bollard style",
+      "tiebreaker": "The north is flatter (Po Valley farmland) with foggy continental winters and Alpine peaks; the south has Mediterranean scrub, olive groves, pastel hill towns and a sun-bleached coastal light the north lacks."
+    },
+    {
+      "country": "Austria/Switzerland",
+      "shared_traits": "Shared Alpine mountain terrain, wooden chalet architecture near the border, bilingual German signage in South Tyrol",
+      "tiebreaker": "Italy's red-diagonal bollard and blue-EU-strip plate differ from Austrian/Swiss plates; south of the Alpine border zone, Italian terracotta roofs and cypress trees reappear, which don't occur in Austria/Switzerland."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "it",
+  "name": "Italy",
+  "aliases": ["Italian Republic", "Repubblica Italiana"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/italy/",
+    "https://geometas.com/metas/countries/italy/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Italy",
+    "https://www.understandingitaly.com/nature-in-italy.html"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇮🇹",
+    "capital": "Rome"
+  },
+
+  "language": {
+    "official_languages": ["Italian"],
+    "script": "Latin",
+    "sample_text": "ATTENZIONE — LAVORI IN CORSO",
+    "script_notes": "Street signs commonly read 'Via', 'Piazza', 'Strada', 'Viale', 'Corso', 'Vicolo' — distinct vocabulary from Spanish/French/Portuguese equivalents.",
+    "false_friends": ["Spain", "France (south)", "Croatia/Slovenia (Istria)", "Greece"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White post with a vertical red rectangle set inside a black diagonal band on the front face; the back face shows a plain white rectangle instead of red — a reliable front/back Italy tell.",
+    "bollard_shape": "Slim rounded post, distinct diagonal-band reflector pattern from Austria's similar-but-differently-arranged design.",
+    "guardrail_type": "Standard steel W-beam, unremarkable.",
+    "line_paint": "White center and edge lines (both 'white outside, white inside' in meta terms) — plain white lines are one of the ways to rule out yellow-line countries like France/Americas.",
+    "curb_style": "Painted kerbs in towns; cobblestone (sampietrini) streets in historic centers, especially Rome.",
+    "km_marker_style": "Blue directional arrow road signs; distinctive curve/chevron/roundabout/pedestrian sign designs. Esso, Q8, Eni/Agip, Tamoil and IP are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "Low-pitch terracotta tile roofs nationwide; wooden Alpine chalets in the northern mountains.",
+    "roof_material": "Red terracotta curved barrel tiles are the standard nationwide roofing material.",
+    "wall_construction": "Warm-toned stucco/render walls; baroque stone architecture in Turin and much of the northwest; pastel-painted hill towns; whitewashed cave-dwelling architecture (sassi) in Matera further south.",
+    "wall_color_palette": "Ochre, terracotta, pale yellow and cream renders dominate nationwide; pastel-coloured southern hill towns (e.g. Ostuni's whitewashed 'White Town').",
+    "distinctive_building_types": "Terracotta-roofed hill towns; Roman-era ruins and cobblestone historic centers; Alpine wooden chalets in the north; whitewashed cave dwellings (sassi) and pastel villages in the south."
+  },
+
+  "nature": {
+    "vegetation": "Cultivated flat farmland (wheat, corn, rice) dominates the Po Valley in the north; Mediterranean evergreen scrub, olive groves, holm oak and cypress trees increasingly dominate moving south; umbrella (stone) pines are a classic central/southern Italy silhouette.",
+    "terrain": "The Alps form a dramatic northern border; the flat, intensively farmed Po Valley sits beneath them; the Apennine mountains run the length of the peninsula; a long Mediterranean coastline on both sides.",
+    "climate_signature": "Humid continental with harsh winters in the Po Valley/north; classic sun-bleached Mediterranean climate and light further south."
+  },
+
+  "vehicles": {
+    "common_brands": ["Fiat", "Alfa Romeo", "Lancia"],
+    "plate_color": "White plate with a blue strip on the left carrying the EU stars and 'I' for Italy.",
+    "plate_format": "AA NNN AA (two letters, three digits, two letters).",
+    "distinctive_vehicles": "Fiat (500, Panda) dominates the small-car segment more than almost anywhere else in Europe — a strong national tell; scooters (Vespa-style) very common in cities."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 4 across most of the country, giving sharp, high-quality imagery typical of most of modern Western Europe.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage nationwide including most rural and mountain roads."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Spain",
+      "shared_traits": "Terracotta tile roofs, Mediterranean vegetation and climate, similar Latin script and pale/warm-toned architecture",
+      "tiebreaker": "Italy's bollard has a red-front/white-back diagonal-band design vs. Spain's different reflector style; Italian plates carry only a blue left EU strip while some Spanish plates historically carried yellow rear-only plates; vocabulary differs ('Via' vs 'Calle')."
+    },
+    {
+      "country": "Southern France",
+      "shared_traits": "Mediterranean coastline, similar terracotta roofing and cypress/olive vegetation near the shared border",
+      "tiebreaker": "France's bollards are white with a red-wrapped cap and its road signs use French vocabulary/yellow D-road markers; Italy's roofs run a deeper red and its bollards show the red-diagonal front pattern."
+    },
+    {
+      "country": "Croatia/Slovenia (Istria)",
+      "shared_traits": "Similar Adriatic coastal architecture, terracotta roofs, cypress trees in Istria specifically",
+      "tiebreaker": "Croatian/Slovenian plates and script (some Slavic diacritics) differ from Italian; Italy's bollard design and 'Via'/'Piazza' signage are absent across the border."
+    }
+  ]
+}
