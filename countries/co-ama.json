@@ -1,0 +1,82 @@
+{
+  "id": "co-ama",
+  "name": "Amazon & Llanos (Eastern Lowlands)",
+  "aliases": ["Los Llanos", "Amazonía Colombiana", "Eastern Plains"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "parent": "co",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Llanos",
+    "https://lacgeo.com/natural-landscape-colombia",
+    "https://www.colombiatravelreporter.com/blog-posts/los-llanos---the-great-plains-of-colombia"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇴",
+    "capital": "Villavicencio / Leticia"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Colombian Spanish as national; various Indigenous Amazonian languages spoken locally in the far south, rarely on formal signage.",
+    "false_friends": ["Venezuelan Llanos (the savanna continues across the border)", "Brazilian/Peruvian Amazon"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national, where roads exist.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "Minimal; the road network thins dramatically east of the Andes.",
+    "line_paint": "As national where paved roads exist.",
+    "curb_style": "Largely absent outside Villavicencio and a handful of towns; much of the deep Amazon (Leticia) is accessible only by river or air.",
+    "km_marker_style": "As national on the limited road network."
+  },
+
+  "architecture": {
+    "roof_style": "Simple pitched or flat roofs on ranch (hato) buildings in the Llanos; stilt or elevated construction near Amazon rivers given seasonal flooding.",
+    "roof_material": "Corrugated metal common throughout.",
+    "wall_construction": "Open cattle-ranch (hato) architecture defines the Llanos; simple wood-frame river settlements in the Amazon portion, similar to Peru's and Brazil's Amazon river towns.",
+    "wall_color_palette": "Muted, practical tones reflecting the region's ranching/river-town character rather than dense urban development.",
+    "distinctive_building_types": "Cattle ranches (hatos) across the open Llanos grassland; simple river settlements in the Amazon; Leticia's unique tri-border river-port town (adjoining Peru and Brazil)."
+  },
+
+  "nature": {
+    "vegetation": "Vast treeless savanna grassland (the Llanos) dominates the north of this region — swamp grasses in low-lying flood-prone areas, long-stemmed grasses in drier areas; dense tropical Amazon rainforest takes over further south.",
+    "terrain": "Flat, low-elevation plains stretching from the eastern base of the Andes to the Orinoco river basin in the north, transitioning into the Amazon basin and dense rainforest in the south — together making up roughly half of Colombia's total area despite housing a small fraction of its population.",
+    "climate_signature": "Hot and seasonally flood-prone in the Llanos (wet/dry season savanna); consistently hot, humid and green in the Amazon rainforest further south — a stark, wide-open contrast to the mountainous Andean interior."
+  },
+
+  "vehicles": {
+    "common_brands": ["Chevrolet", "Toyota", "Renault", "Mazda"],
+    "plate_color": "As national, where vehicles/roads exist.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "4WD vehicles and horses common on Llanos cattle ranches; river boats are the primary transport in the deep Amazon around Leticia."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Sparse; concentrated around Villavicencio and Leticia where roads/towns exist.",
+    "blur_style": "Standard Google blurring where present.",
+    "coverage_notes": "Among the sparsest coverage in Colombia — vast stretches of both the Llanos and the Amazon have no Street View coverage at all."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Venezuelan Llanos",
+      "shared_traits": "The same savanna grassland ecosystem continues seamlessly across the Colombia-Venezuela border",
+      "tiebreaker": "Colombia's yellow plates and narrow pole signage differ from Venezuela's; Venezuela's Street View coverage is notably older/sparser in recent years given the country's infrastructure challenges."
+    },
+    {
+      "country": "Brazilian/Peruvian Amazon",
+      "shared_traits": "Same Amazon rainforest biome, similar river-town architecture around the shared tri-border region near Leticia",
+      "tiebreaker": "Colombia's signage and plates are distinct from Brazil's Portuguese/Mercosur-style plates and Peru's road furniture; Leticia itself is a recognizable, relatively well-documented tri-border river port."
+    },
+    {
+      "country": "Andean Interior/Caribbean Coast (Colombia)",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "This region is flat lowland — treeless savanna or dense rainforest; the Andean interior is cool and mountainous, and the coast is hot tropical coastline — all visually distinct."
+    }
+  ]
+}

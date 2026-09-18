@@ -1,0 +1,77 @@
+{
+  "id": "ca",
+  "name": "Canada",
+  "aliases": [],
+  "continent": "North America",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/canada/",
+    "https://www.plonkit.net/canada",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Canada",
+    "https://en.wikipedia.org/wiki/Google_Street_View_in_Canada"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇦",
+    "capital": "Ottawa"
+  },
+
+  "language": {
+    "official_languages": ["English", "French"],
+    "script": "Latin",
+    "sample_text": "ATTENTION — TRAVAUX EN COURS",
+    "script_notes": "English and French are both official nationwide (bilingual federal signage); French is dominant in Quebec specifically, English dominant elsewhere. Speed limits are posted in km/h — a reliable way to rule out the US at a glance.",
+    "false_friends": ["United States", "France (via Quebec's French signage)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Varies distinctly by province — see regional profiles for Quebec's thin white guardrail-mounted bollards, Ontario's diamond markers, and the Northwest Territories' black-and-white striped cylindrical bollards.",
+    "bollard_shape": "Varies by province.",
+    "guardrail_type": "Standard steel W-beam nationally, with provincial variations in attached reflectors/markers.",
+    "line_paint": "White outside/yellow inside lines nationally — distinct from the more US-typical all-yellow-center convention.",
+    "curb_style": "Well-maintained painted kerbs in cities nationwide.",
+    "km_marker_style": "Esso, Irving, Petro-Canada, Husky Energy and Ultramar are common fuel-station brands. Ontario's speed-limit signs explicitly include a 'km/h' label at the bottom in white text on black."
+  },
+
+  "architecture": {
+    "roof_style": "Steep-pitched roofs nationwide given snow load; the classic 'Ontario Style House' (rectangular wood-frame with a gable over the short side and a smaller entrance gable) is a recognizable historic Ontario form.",
+    "roof_material": "Asphalt shingle widespread; metal roofing common in snowier/rural areas.",
+    "wall_construction": "Wood-frame siding construction is the national default, similar to the US; French Catholic church architecture in Quebec did not adopt the High Gothic Revival style common in Ontario/Maritime churches — a subtle regional architectural difference.",
+    "wall_color_palette": "Muted, weather-resistant tones nationwide; regional variation covered in profiles.",
+    "distinctive_building_types": "Wood-frame single-family houses nationwide; grain elevators across the Prairies; Quebec's distinctive church architecture; lighthouses along the Maritime coast."
+  },
+
+  "nature": {
+    "vegetation": "Extremely varied given the country's enormous size — dense mixed/boreal forest across most of the country, flat prairie farmland in the west-central provinces, temperate rainforest on the Pacific coast, and Arctic tundra in the far north. See regional profiles.",
+    "terrain": "The world's second-largest country by area — the Canadian Shield's forest and lakes cover much of the center-east, the Rocky Mountains and Coast Mountains dominate the west, flat prairie fills the west-central provinces, and Arctic terrain covers the far north.",
+    "climate_signature": "Cold winters nationwide with heavy snow common in Street View imagery; strong regional variation from temperate coastal rainforest to Arctic tundra."
+  },
+
+  "vehicles": {
+    "common_brands": ["Ford", "Chevrolet", "Toyota", "Honda"],
+    "plate_color": "Varies distinctly by province — Ontario white with blue text ('Yours to Discover'), Quebec blue-on-white with a fleur-de-lis, Alberta red-on-white ('Wild Rose Country'), British Columbia blue-on-white with a screened provincial flag, and the Northwest Territories' famous polar-bear-shaped plate.",
+    "plate_format": "Varies by province; commonly a letter/digit mix.",
+    "distinctive_vehicles": "Pickup trucks and SUVs are disproportionately common as in the US; provincial plate design/colour is one of the single best in-country location clues."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of Gen 3/4 in populated areas; Gen 1/2 in some older rural coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense across the populated south; genuine coverage exists in the far north but is extremely sparse — limited to a handful of highways and towns (see North Canada profile)."
+  },
+
+  "confusion_set": [
+    {
+      "country": "United States",
+      "shared_traits": "English signage nationwide outside Quebec, similar wood-frame suburban architecture, similar pickup-truck culture near the shared border",
+      "tiebreaker": "Canadian speed-limit signs are posted in km/h (vs. US mph); Canadian plates carry a province name (not a US state), and Canada has universal bilingual federal signage (English/French) that the US lacks."
+    },
+    {
+      "country": "France (via Quebec)",
+      "shared_traits": "Shared French language and some similar Catholic church architecture in Quebec specifically",
+      "tiebreaker": "Quebec's road furniture (bollards, plate format, km/h signage) is distinctly North American/Canadian, not French; the surrounding wood-frame architecture and grid-pattern suburban development look nothing like rural France."
+    }
+  ]
+}

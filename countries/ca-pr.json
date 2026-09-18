@@ -1,0 +1,77 @@
+{
+  "id": "ca-pr",
+  "name": "The Prairies (Alberta · Saskatchewan · Manitoba)",
+  "aliases": ["Canadian Prairies", "the West-Central provinces"],
+  "continent": "North America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "ca",
+  "sources": [
+    "https://www.thecanadianencyclopedia.ca/en/article/grain-elevators",
+    "https://www.readersdigest.ca/travel/canada/grain-elevator-prairies/",
+    "https://en.wikipedia.org/wiki/Canadian_licence_plate_designs_and_serial_formats"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇦",
+    "capital": "Edmonton / Regina / Winnipeg"
+  },
+
+  "language": {
+    "official_languages": ["English", "French"],
+    "script": "Latin",
+    "sample_text": "ATTENTION — TRAVAUX EN COURS",
+    "script_notes": "English dominant; French appears via federal bilingual signage but far less prominently than in Quebec.",
+    "false_friends": ["US Midwest (similarly flat farmland and grid roads)", "Canadian Prairies' own vast uniformity making internal orientation hard"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national; long, dead-straight rural section-line roads are extremely common given the flat terrain.",
+    "curb_style": "Minimal outside towns; open roadside ditches in rural farmland.",
+    "km_marker_style": "As national; grain elevator silhouettes on the horizon near small towns are a defining regional tell."
+  },
+
+  "architecture": {
+    "roof_style": "Simple gable roofs on farmhouses; utilitarian small-town Main Street storefronts.",
+    "roof_material": "Asphalt shingle and metal roofing widespread.",
+    "wall_construction": "Wood-frame farmhouses; historic wooden, concrete or steel grain elevators standing beside rail lines in nearly every small town — the single strongest Prairie visual signature.",
+    "wall_color_palette": "Weathered wood tones on grain elevators and farm buildings; simple painted storefronts in small towns.",
+    "distinctive_building_types": "Grain elevators (wooden, concrete or steel) beside rail lines in almost every town; simple prairie farmhouses; small-town Main Streets; oil/gas industry infrastructure in Alberta specifically."
+  },
+
+  "nature": {
+    "vegetation": "Vast, flat cultivated cropland (wheat, canola, barley) stretching to the horizon; treeless or near-treeless in the driest southern stretches, transitioning to aspen parkland and boreal forest further north.",
+    "terrain": "Famously flat to gently rolling, part of the Great Plains — among the flattest, most open landscapes in Canada, with a huge sky-dominated horizon; the Rocky Mountains rise abruptly at the western edge of Alberta.",
+    "climate_signature": "Wide-open big-sky horizons over flat farmland; harsh snowy winters, hot summers — visually similar to the US Great Plains/Midwest but with Canadian road furniture and km/h signage."
+  },
+
+  "vehicles": {
+    "common_brands": ["Ford", "Chevrolet", "GMC", "Toyota"],
+    "plate_color": "Alberta red-on-white ('Wild Rose Country'), Saskatchewan and Manitoba each with their own distinct provincial designs (Manitoba dark blue on white).",
+    "plate_format": "As national, varying by province.",
+    "distinctive_vehicles": "Farm equipment (tractors, combines) visible in season; pickup trucks especially common given the region's agricultural and oil/gas economy."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of generations; dense modern coverage around Calgary/Edmonton/Winnipeg, older/thinner in remote rural areas.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good grid coverage of rural section-line roads similar to the US Midwest; some gaps in the most remote farmland."
+  },
+
+  "confusion_set": [
+    {
+      "country": "US Midwest/Great Plains",
+      "shared_traits": "Nearly identical flat farmland, grain elevators, grid road layout, similar climate",
+      "tiebreaker": "Canadian speed signage is in km/h (vs. US mph); Canadian plates carry a province name and different colour schemes than US state plates; Canadian road furniture (bollard/guardrail styles) also differs from the US default."
+    },
+    {
+      "country": "Eastern/Western/North Canada",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The Prairies are flat open farmland; the East is forested/lake-covered, the West is mountainous, and the North is Arctic tundra — all visually distinct."
+    }
+  ]
+}

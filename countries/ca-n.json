@@ -1,0 +1,77 @@
+{
+  "id": "ca-n",
+  "name": "North Canada (Yukon · NWT · Nunavut)",
+  "aliases": ["Northern Canada", "the Territories"],
+  "continent": "North America",
+  "tier": 3,
+  "status": "draft",
+  "parent": "ca",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Geography_of_the_Northwest_Territories",
+    "https://en.wikipedia.org/wiki/Northern_Canada",
+    "https://en.wikipedia.org/wiki/Google_Street_View_in_Canada"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇦",
+    "capital": "Whitehorse / Yellowknife / Iqaluit"
+  },
+
+  "language": {
+    "official_languages": ["English", "French", "Inuktitut"],
+    "script": "Latin (Inuktitut syllabics in Nunavut)",
+    "sample_text": "ATTENTION — TRAVAUX EN COURS",
+    "script_notes": "English dominant; Inuktitut syllabics (a distinctive geometric script, unlike Latin letters) appear on signage in Nunavut specifically — a strong, unmistakable regional tell where visible.",
+    "false_friends": ["Alaska (similar Arctic/subarctic terrain and isolation)", "Greenland/Arctic Scandinavia (visually, tundra and ice)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Northwest Territories: black-and-white striped cylindrical bollards with two thick black bands — a distinctive regional tell.",
+    "bollard_shape": "Cylindrical with thick black-and-white stripes in the NWT.",
+    "guardrail_type": "Minimal to absent on the very limited road network.",
+    "line_paint": "As national where roads are paved; many stretches are unpaved gravel.",
+    "curb_style": "Essentially absent outside the handful of covered towns (Whitehorse, Yellowknife, Tuktoyaktuk, Iqaluit, Cambridge Bay).",
+    "km_marker_style": "As national on the very limited highway network — the Dempster Highway (Yukon to NWT) and the Top of the World Highway are among the only long-distance routes with coverage."
+  },
+
+  "architecture": {
+    "roof_style": "Simple, utilitarian buildings built to withstand extreme cold; raised/piled foundations common given permafrost.",
+    "roof_material": "Metal roofing dominant.",
+    "wall_construction": "Simple prefab/modular construction is the norm in remote northern communities; almost no dense urban development outside Whitehorse, Yellowknife and Iqaluit.",
+    "wall_color_palette": "Often brightly painted buildings stand out deliberately against the white/grey Arctic landscape for visibility.",
+    "distinctive_building_types": "Small, isolated northern communities with colourful prefab housing; almost no continuous urban development; a Trekker-only path exists as far north as Ellesmere Island, showing glacial, rocky, desolate landscape — the northernmost Street View coverage in the world."
+  },
+
+  "nature": {
+    "vegetation": "Boreal forest in the southern Yukon/NWT gives way to treeless Arctic tundra further north — low shrubs, lichen, moss; almost no trees in the northernmost covered areas (Tuktoyaktuk, Nunavut).",
+    "terrain": "Vast, sparsely populated Arctic and subarctic terrain; permafrost, tundra, and the Arctic Ocean coastline (Tuktoyaktuk); glaciers and rocky desolation at the northernmost extreme (Ellesmere Island).",
+    "climate_signature": "Cold, often snow-covered even outside peak winter; long horizon-to-horizon tundra views with essentially no trees in the northernmost imagery — visually unmistakable once recognized."
+  },
+
+  "vehicles": {
+    "common_brands": ["Ford", "Chevrolet", "Toyota", "Honda"],
+    "plate_color": "The Northwest Territories' famous polar-bear-shaped license plate is a completely unique, instantly recognizable North American design.",
+    "plate_format": "As national elsewhere; NWT's plate shape itself is the identifier.",
+    "distinctive_vehicles": "4WD/AWD vehicles necessary given terrain and climate; snowmobiles common in winter."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Very limited, specific coverage: the Dempster and Top of the World Highways in Yukon; the Alberta border to Yellowknife and Fort McPherson to Tuktoyaktuk in the NWT (plus Tulita); only Iqaluit and Cambridge Bay in Nunavut, plus a Trekker path on Ellesmere Island.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Extremely sparse and specific — coverage exists only along a handful of named highways and in a few named towns; anywhere else in the North has no coverage at all."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Alaska (US)",
+      "shared_traits": "Shared Arctic/subarctic terrain, similar isolation and tundra/boreal vegetation",
+      "tiebreaker": "Canadian speed signage is in km/h and plates carry a Canadian territory design (including the NWT's unique polar-bear-shaped plate) rather than an Alaska US state plate; Nunavut's Inuktitut syllabic script is a distinctive, unmistakable regional tell absent in Alaska."
+    },
+    {
+      "country": "Eastern/Prairies/Western Canada",
+      "shared_traits": "Same country, same national plate/bollard base style",
+      "tiebreaker": "The North is treeless Arctic tundra with extremely sparse, isolated coverage; the other Canadian regions are forested, flat-farmed, or mountainous with dense continuous coverage — the emptiness itself is the tell."
+    }
+  ]
+}

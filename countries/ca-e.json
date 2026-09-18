@@ -1,0 +1,77 @@
+{
+  "id": "ca-e",
+  "name": "Eastern Canada (Ontario · Quebec · Maritimes)",
+  "aliases": ["Central Canada", "The Maritimes"],
+  "continent": "North America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "ca",
+  "sources": [
+    "https://geomastr.com/country/canada/",
+    "https://en.wikipedia.org/wiki/Architecture_of_Quebec",
+    "https://en.wikipedia.org/wiki/History_of_lighthouses_in_Canada"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇦",
+    "capital": "Ottawa / Quebec City"
+  },
+
+  "language": {
+    "official_languages": ["English", "French"],
+    "script": "Latin",
+    "sample_text": "ATTENTION — TRAVAUX EN COURS",
+    "script_notes": "French is dominant and often exclusive on signage in Quebec; English dominant in Ontario and the Maritimes, with French appearing bilingually via federal signage.",
+    "false_friends": ["France (via Quebec)", "Northeastern US (similar architecture near the border)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Quebec: long, thin white posts always attached to guardrails, with a red or green reflector at the top — a strong, reliable Quebec-specific tell, sometimes paired with yellow fire-hydrant markers on signposts (Quebec City's often carry a blue rectangle). Ontario: diamond-shaped roadside markers that vary in colour.",
+    "bollard_shape": "Varies by province as described above.",
+    "guardrail_type": "As national, with Quebec's bollard-on-guardrail combination as a specific regional tell.",
+    "line_paint": "As national.",
+    "curb_style": "As national; dense formal infrastructure in Toronto, Montreal, Ottawa.",
+    "km_marker_style": "Ontario's speed-limit signs explicitly include a 'km/h' label in white text on black at the bottom."
+  },
+
+  "architecture": {
+    "roof_style": "The Ontario Style House (rectangular wood-frame with a gable over the short side, a smaller entrance gable) is a distinctive historic Ontario form; Quebec's French Catholic churches use a distinct architectural tradition that did not adopt the High Gothic Revival style common in Ontario/Maritime churches.",
+    "roof_material": "Asphalt shingle and metal roofing widespread, as national.",
+    "wall_construction": "Wood-frame siding as national default; Quebec's older towns carry a distinct French-Canadian architectural character (steep silver tin roofs, dormer windows); Maritime coastal towns feature lighthouses and clapboard fishing-village architecture.",
+    "wall_color_palette": "Muted wood-frame tones nationally; Quebec's older buildings sometimes carry French colonial-era grey stone.",
+    "distinctive_building_types": "Quebec's French Catholic churches and old-town architecture (Quebec City, Old Montreal); Ontario-style historic wood-frame farmhouses; Maritime lighthouses and clapboard fishing villages; Toronto's modern skyline."
+  },
+
+  "nature": {
+    "vegetation": "Dense mixed and boreal forest across most of the region; the Canadian Shield's lake-and-forest terrain covers much of Ontario/Quebec; a rugged Atlantic coastline in the Maritimes (Nova Scotia, New Brunswick, PEI, Newfoundland).",
+    "terrain": "The Great Lakes and St. Lawrence River valley form the demographic core; the Canadian Shield's rock, forest and lakes dominate further north; the Maritime provinces sit on a rugged Atlantic coast.",
+    "climate_signature": "Cold snowy winters, warm humid summers; vivid autumn foliage; coastal fog and maritime climate in the Atlantic provinces."
+  },
+
+  "vehicles": {
+    "common_brands": ["Ford", "Chevrolet", "Toyota", "Honda"],
+    "plate_color": "Ontario white-with-blue-text ('Yours to Discover'), Quebec blue-on-white with a fleur-de-lis, Maritime provinces embossed red (New Brunswick) or blue (Nova Scotia) on white.",
+    "plate_format": "As national, varying by province.",
+    "distinctive_vehicles": "As national; heaviest overall vehicle density given this region holds most of Canada's population."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Best and most current coverage in the country, concentrated around Toronto, Montreal, Ottawa and the Maritime coastal towns.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very dense, near-complete coverage — most 'generic Canada' Street View imagery comes from this region."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Prairies/West/North Canada",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "Eastern Canada is forested/lake-covered with dense population centers; the Prairies are flat farmland, the West is mountainous, and the North is Arctic tundra — all visually distinct."
+    },
+    {
+      "country": "France",
+      "shared_traits": "Shared French language in Quebec, some similar Catholic church architectural roots",
+      "tiebreaker": "Quebec's road furniture (guardrail-mounted bollards, km/h signage, North American plate format) is distinctly Canadian, and the surrounding wood-frame architecture looks nothing like rural France."
+    }
+  ]
+}

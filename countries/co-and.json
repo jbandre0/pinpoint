@@ -1,0 +1,77 @@
+{
+  "id": "co-and",
+  "name": "Andean Interior (Bogotá · Medellín · Coffee Region)",
+  "aliases": ["Región Andina", "Eje Cafetero"],
+  "continent": "South America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "co",
+  "sources": [
+    "https://www.britannica.com/place/Colombia/Settlement-patterns",
+    "https://en.wikipedia.org/wiki/Geography_of_Colombia",
+    "https://www.pinpointme.net/learn/countries/colombia"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇴",
+    "capital": "Bogotá"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Colombian Spanish as national — this is the country's demographic, political and economic core.",
+    "false_friends": ["Andean Ecuador", "Andean Venezuela (Mérida/Táchira)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; heavily used on winding mountain roads given the terrain.",
+    "line_paint": "As national.",
+    "curb_style": "As national; dense formal infrastructure in Bogotá/Medellín.",
+    "km_marker_style": "As national; dramatic switchback mountain roads common between cities given the three parallel Andean ranges."
+  },
+
+  "architecture": {
+    "roof_style": "Traditional wooden coffee-farm houses (fincas) with wide eaves in the Eje Cafetero; dense modern high-rise construction in Bogotá and Medellín.",
+    "roof_material": "Terracotta tile on traditional Andean/colonial buildings; flat concrete on modern urban high-rises.",
+    "wall_construction": "Brightly painted wooden coffee-farmhouse architecture (bahareque construction) is the Eje Cafetero's defining regional signature; dense modern glass-and-concrete high-rises define Bogotá's and Medellín's skylines, set dramatically against steep Andean mountain backdrops.",
+    "wall_color_palette": "Vividly painted wooden trim on coffee-region farmhouses; muted grey/glass modern urban towers in the big cities.",
+    "distinctive_building_types": "Traditional coffee fincas with steep tin roofs in the Eje Cafetero; Medellín's cable-car (Metrocable) system climbing steep hillside barrios; Bogotá's high-altitude, mountain-ringed modern skyline; colonial towns (Villa de Leyva) elsewhere in the highlands."
+  },
+
+  "nature": {
+    "vegetation": "World-renowned high-altitude Arabica coffee plantations blanket the hillsides of the Eje Cafetero; cool cloud forest and páramo (high-altitude moorland) vegetation at the highest elevations near Bogotá.",
+    "terrain": "Three parallel Andean mountain ranges (cordilleras) run through this region, separated by deep river valleys; Bogotá itself sits on a high plateau at roughly 2,600m elevation.",
+    "climate_signature": "Cool and temperate given the high elevation — a marked contrast to the hot coasts and lowlands; frequently overcast/misty in the coffee-growing cloud-forest zone."
+  },
+
+  "vehicles": {
+    "common_brands": ["Chevrolet", "Renault", "Mazda", "Kia"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Willys Jeeps are a beloved cultural icon specifically in the Eje Cafetero coffee region, used to transport coffee and passengers on steep mountain roads."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Best and most current coverage in the country, concentrated around Bogotá and Medellín.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very dense in the major cities; good coverage through the coffee region given its tourism importance."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Andean Ecuador",
+      "shared_traits": "Shared high-Andean terrain, similar cool cloud-forest climate and colonial mountain-town architecture",
+      "tiebreaker": "Colombia's yellow plates and Carrera/Calle grid signage differ from Ecuador's road furniture; Colombia's coffee-region Willys Jeeps and bahareque farmhouse architecture are distinctly Colombian."
+    },
+    {
+      "country": "Caribbean Coast/Amazon & Llanos (Colombia)",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The Andean interior is cool and mountainous with coffee farms and dense modern cities; the coast is hot and tropical, and the Amazon/Llanos is flat lowland savanna or rainforest — all visually distinct."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "co",
+  "name": "Colombia",
+  "aliases": ["Republic of Colombia", "República de Colombia"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/colombia/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Colombia",
+    "https://en.wikipedia.org/wiki/Natural_regions_of_Colombia",
+    "https://www.pinpointme.net/learn/countries/colombia"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇴",
+    "capital": "Bogotá"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Colombian Spanish as national. Street suffixes: Calle, Avenida, Carrera, Transversal, Diagonal, Autopista — the Carrera/Calle grid-numbering system used in Colombian cities is a distinctive national convention.",
+    "false_friends": ["Venezuela", "Ecuador", "Panama"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Yellow-and-black striped bollards.",
+    "bollard_shape": "Simple striped post.",
+    "guardrail_type": "Standard steel guardrail, common on mountainous Andean roads given the terrain.",
+    "line_paint": "White outside/yellow inside is common, with yellow outside/white inside also seen.",
+    "curb_style": "Painted kerbs in cities; narrow, winding mountain roads common in the Andean interior.",
+    "km_marker_style": "Distinctively narrow pole-mounted signs. Terpel, EcoPetrol, Puma, Esso, Texaco and Biomax are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "Varies sharply by region — colonial tile roofs on the coast and in Andean colonial towns, corrugated metal common in warmer lowland areas. See regional profiles.",
+    "roof_material": "Varies by region.",
+    "wall_construction": "Highly regional — colourful Spanish colonial architecture on the Caribbean coast (Cartagena), dense modern high-rise development in Bogotá/Medellín, traditional coffee-region farmhouses in the Andean interior.",
+    "wall_color_palette": "Varies by region.",
+    "distinctive_building_types": "UNESCO-listed colonial Cartagena old town; modern high-rise Bogotá/Medellín skylines set against Andean mountain backdrops; traditional wooden coffee-farm houses (fincas) in the Eje Cafetero."
+  },
+
+  "nature": {
+    "vegetation": "Extremely varied — tropical Caribbean coastal vegetation in the north, cool high-altitude Andean cloud forest and coffee plantations in the interior, treeless savanna grassland in the Llanos, and dense Amazon rainforest in the south. See regional profiles.",
+    "terrain": "The Andes split into three parallel mountain ranges (cordilleras) running through the country's center; a Caribbean coast in the north, a Pacific coast in the west, and vast eastern lowlands (Llanos savanna transitioning to Amazon rainforest) making up roughly half the country's area.",
+    "climate_signature": "No single national climate — hot and humid on both coasts, cool and temperate in the high Andean cities (Bogotá sits at ~2,600m), hot and wet in the Amazon and Llanos."
+  },
+
+  "vehicles": {
+    "common_brands": ["Chevrolet", "Renault", "Mazda", "Kia"],
+    "plate_color": "Yellow plates with black text — a strong, reliable national tell.",
+    "plate_format": "Three letters + three digits (e.g. 'ABC-123').",
+    "distinctive_vehicles": "Willys Jeeps (a Colombian coffee-region cultural icon, especially in the Eje Cafetero) and colourful 'chiva' rural buses are notable regional tells."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed Gen 3/4 official coverage concentrated in major cities, supplemented by Trekker imagery elsewhere.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense around Bogotá, Medellín and Cartagena; sparse in the Llanos and Amazon regions."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Venezuela",
+      "shared_traits": "Shared Andean/Caribbean coast geography and Llanos savanna straddling the border",
+      "tiebreaker": "Colombia's yellow license plates and distinctive narrow pole signage differ from Venezuela's road furniture; Venezuela has had far less Street View updating in recent years, so coverage age/quality can also be a tell."
+    },
+    {
+      "country": "Ecuador",
+      "shared_traits": "Shared Andean mountain terrain and similar coffee-growing highland agriculture",
+      "tiebreaker": "Colombia's Carrera/Calle grid street-naming convention and yellow plates differ from Ecuador's road furniture and signage."
+    },
+    {
+      "country": "Panama",
+      "shared_traits": "Shares a border and some similar tropical coastal architecture/vegetation near the Caribbean",
+      "tiebreaker": "Panama's plates and road signage differ from Colombia's; Panama also has a notably different urban skyline (Panama City) and the Panama Canal as a unique landmark."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "om",
+  "name": "Oman",
+  "aliases": ["Sultanate of Oman"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/oman/",
+    "https://geopinning.space/en/rule/middle_east/oman/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Oman",
+    "https://www.arabamerica.com/omans-traditional-architecture-culture-meets-climate/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇴🇲",
+    "capital": "Muscat"
+  },
+
+  "language": {
+    "official_languages": ["Arabic"],
+    "script": "Arabic",
+    "sample_text": "تنبيه — أعمال طريق",
+    "script_notes": "Arabic script nationwide, generally paired with English on official road signage (a common Gulf-state convention).",
+    "false_friends": ["United Arab Emirates", "Saudi Arabia", "Yemen"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Rare overall, concentrated on major roads and near cities; largely absent on remote desert roads.",
+    "bollard_shape": "Simple post where present.",
+    "guardrail_type": "More common than bollards; each reflector on Omani guardrails is red only — distinct from most countries that pair red with yellow or white.",
+    "line_paint": "Mostly yellow side/edge lines on paved roads, with some white scattered about.",
+    "curb_style": "Minimal outside cities; well-paved major highways.",
+    "km_marker_style": "Directional signs and distance boards are blue. Chevron curve-warning signs usually show orange-and-black stripes. White-and-black striped poles are common (also seen in the UAE)."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs are standard nationwide, suited to the arid climate.",
+    "roof_material": "Flat concrete/masonry roofing nationwide.",
+    "wall_construction": "Traditional sun-dried mud brick coated in lime/gypsum plaster is the classic Omani building material in lowland areas; stone construction more common in the mountainous Jebel Akhdar region. Omani forts (Nizwa, Bahla) are iconic circular-towered mud-brick/stone structures.",
+    "wall_color_palette": "Sand/tan tones matching the desert nationwide; whitewashed mosque domes and minarets.",
+    "distinctive_building_types": "Iconic circular-towered forts (Nizwa Fort, Bahla Fort); whitewashed mosques with minarets; traditional watchtowers dotting hilltops; terraced mountain farms in Jebel Akhdar."
+  },
+
+  "nature": {
+    "vegetation": "Largely barren desert nationwide; a striking green terraced-farm exception in the Jebel Akhdar mountains (pomegranate orchards, rose gardens); date palm plantations concentrated along the northeastern coast.",
+    "terrain": "The rugged Al Hajar mountain range (including Jebel Shams, Oman's highest peak) runs along the north; vast desert (including the Wahiba Sands dunes) dominates the interior; a long coastline on the Gulf of Oman and Arabian Sea.",
+    "climate_signature": "Hot, arid desert climate nationwide with intense sun; a striking contrast between barren lowland desert and the green terraced highlands of Jebel Akhdar."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Nissan", "Mitsubishi", "Land Cruiser (Toyota)"],
+    "plate_color": "Yellow plates with black text — distinctive among Gulf states, most of which use white plates.",
+    "plate_format": "Digits followed by letters, generally shorter than neighboring countries' formats.",
+    "distinctive_vehicles": "Large SUVs (especially Toyota Land Cruisers) very common given the desert/mountain terrain."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed; large sections of the country are uncovered or covered only by aerial/satellite imagery rather than street-level.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Concentrated on major roads and cities (Muscat, Nizwa, Salalah); substantial gaps across the desert interior."
+  },
+
+  "confusion_set": [
+    {
+      "country": "United Arab Emirates",
+      "shared_traits": "Shared Gulf desert terrain, similar Arabic/English bilingual signage, shared Musandam border region with rocky hills on both sides",
+      "tiebreaker": "Oman's yellow plates are distinctive versus the UAE's mostly white plates (sometimes with a red left strip); Oman's blue directional signage and all-red guardrail reflectors differ from UAE conventions; the UAE's Google car is typically a white SUV with a visible roof."
+    },
+    {
+      "country": "Saudi Arabia",
+      "shared_traits": "Shared Arabian Peninsula desert terrain and Arabic-language signage",
+      "tiebreaker": "Oman's yellow license plates are absent in Saudi Arabia (which uses white plates); road signage styles and coverage density also differ once compared directly."
+    },
+    {
+      "country": "Yemen",
+      "shared_traits": "Shares a border and some similar mountainous terrain in the south",
+      "tiebreaker": "Yemen has essentially no official Street View coverage, so any coverage at all in this border region is very likely Oman; Oman's developed road infrastructure also contrasts with Yemen's."
+    }
+  ]
+}

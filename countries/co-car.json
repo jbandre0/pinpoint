@@ -1,0 +1,77 @@
+{
+  "id": "co-car",
+  "name": "Caribbean Coast (Cartagena · Barranquilla)",
+  "aliases": ["Costa Caribe", "Atlantic Coast"],
+  "continent": "South America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "co",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Caribbean_region_of_Colombia",
+    "https://en.wikipedia.org/wiki/Cartagena,_Colombia",
+    "https://www.britannica.com/place/Colombia/Settlement-patterns"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇴",
+    "capital": "Barranquilla / Cartagena"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Colombian Spanish as national — coastal (costeño) accent and vocabulary distinct from the interior, though not usually reflected in formal signage.",
+    "false_friends": ["Panama's Caribbean coast", "Venezuela's Caribbean coast"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; less common given flatter coastal terrain.",
+    "line_paint": "As national.",
+    "curb_style": "Colonial-era cobblestone streets within Cartagena's walled old town.",
+    "km_marker_style": "As national."
+  },
+
+  "architecture": {
+    "roof_style": "Colonial tile roofs within historic Cartagena; simpler corrugated metal roofing common elsewhere along the coast given the heat.",
+    "roof_material": "Terracotta tile in colonial old towns; corrugated metal widespread elsewhere.",
+    "wall_construction": "Cartagena's UNESCO-listed walled old town is defined by colourful colonial Spanish architecture — pastel-painted buildings with wooden balconies and bougainvillea; simpler concrete-block construction in Barranquilla and smaller coastal towns.",
+    "wall_color_palette": "Vivid pastel colours (yellow, blue, pink, orange) on Cartagena's colonial buildings is the region's strongest visual tell.",
+    "distinctive_building_types": "Cartagena's walled colonial old town with its fortifications and pastel buildings; Barranquilla's more modern port-city development; beach resort architecture further along the coast (Santa Marta)."
+  },
+
+  "nature": {
+    "vegetation": "Tropical coastal vegetation — palm trees, mangroves near river deltas and lagoons; drier scrub inland toward the Guajira Peninsula in the far northeast.",
+    "terrain": "A warm, humid Caribbean coastline with Cartagena's protected bay and historic fortifications; the Sierra Nevada de Santa Marta rises dramatically and unusually close to the coast just east of Santa Marta.",
+    "climate_signature": "Hot, humid, tropical Caribbean climate year-round — bright coastal light and lush palm-lined streets."
+  },
+
+  "vehicles": {
+    "common_brands": ["Chevrolet", "Renault", "Mazda", "Kia"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national; heavy tourist/rental vehicle presence in Cartagena specifically."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Good coverage in Cartagena and Barranquilla given their tourism and port importance.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense along the coast and in the main coastal cities; sparser inland toward the Guajira Peninsula."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Panama's Caribbean coast",
+      "shared_traits": "Similar tropical Caribbean coastal architecture and vegetation, both former Spanish colonial territories",
+      "tiebreaker": "Colombia's yellow plates and Carrera/Calle grid signage differ from Panama's; Cartagena's specific fortified-wall colonial architecture is a unique regional landmark not replicated in Panama."
+    },
+    {
+      "country": "Andean Interior/Amazon & Llanos (Colombia)",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The Caribbean coast is hot, humid and tropical with colourful colonial architecture; the Andean interior is cool and mountainous with coffee farms, and the Amazon/Llanos is flat lowland savanna or dense rainforest — all visually distinct."
+    }
+  ]
+}
