@@ -1,0 +1,82 @@
+{
+  "id": "ua-w",
+  "name": "Western Ukraine (Lviv · Carpathians · Transcarpathia)",
+  "aliases": ["Galicia", "Halychyna", "Zakarpattia"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "ua",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Carpathian_wooden_churches",
+    "https://en.wikipedia.org/wiki/Wooden_churches_in_Ukraine",
+    "https://geopinning.space/en/rule/europe/ukraine/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇺🇦",
+    "capital": "Lviv"
+  },
+
+  "language": {
+    "official_languages": ["Ukrainian"],
+    "script": "Cyrillic",
+    "sample_text": "УВАГА — РЕМОНТ ДОРОГИ",
+    "script_notes": "Ukrainian Cyrillic with і, ї, є and ґ; the west is the most exclusively Ukrainian-speaking part of the country, and minority languages such as Hungarian and Romanian appear in Transcarpathia near the borders.",
+    "false_friends": ["Poland", "Slovakia", "Romania", "Hungary"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; more common on winding Carpathian mountain roads.",
+    "line_paint": "As national.",
+    "curb_style": "Cobblestone streets and tram lines in Lviv's historic center.",
+    "km_marker_style": "As national, including white-painted pole bases and flag-coloured roadside objects."
+  },
+
+  "architecture": {
+    "roof_style": "Multi-tiered shingled roofs with small domes on Carpathian wooden churches; steep tiled roofs on Habsburg-era buildings.",
+    "roof_material": "Wooden shingle on churches and traditional houses; clay tile and metal on newer buildings.",
+    "wall_construction": "Timber-log churches in Hutsul, Boyko and Lemko styles (eight are UNESCO-listed); dense Habsburg-era masonry facades in Lviv with Gothic, Renaissance and Baroque influences; Central European-style plastered houses.",
+    "wall_color_palette": "Weathered dark wood on churches; cream, ochre and pastel plaster on historic town buildings.",
+    "distinctive_building_types": "Carpathian wooden churches (Ukraine has over 2,500 across the country, with the highest concentration in the west); Lviv's cobbled Old Town, Baroque churches and trams; Transcarpathian Reformed churches and Hungarian-influenced architecture."
+  },
+
+  "nature": {
+    "vegetation": "Dense spruce and beech forest and mountain meadows in the Carpathians; hay meadows and orchards in the foothills.",
+    "terrain": "The Carpathian Mountains — the only true mountain range in mainland Ukraine, with peaks over 2,000m such as Hoverla — rise above rolling foothills.",
+    "climate_signature": "Cooler and wetter than the rest of Ukraine, with snow-capped ridges in winter and a distinctly Central European feel."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Skoda", "Opel", "Renault"],
+    "plate_color": "As national — region letters such as 'BC' for Lviv Oblast.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Used Central and Western European imports (especially German and Czech brands) are more visible here than older Ladas; trams operate in Lviv."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage of Lviv and the main highways, dating mostly from around 2015; thinner in remote Carpathian valleys."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Poland",
+      "shared_traits": "Shared border region, Habsburg and Central European architecture, wooden church traditions on both sides of the Carpathians",
+      "tiebreaker": "Cyrillic versus Latin script; Poland's red-striped one-sided bollard and red-outlined yellow warning triangles are absent in Ukraine."
+    },
+    {
+      "country": "Slovakia / Hungary / Romania",
+      "shared_traits": "Shared Carpathian terrain and mountain villages across the borders",
+      "tiebreaker": "Ukrainian Cyrillic signage and Ukrainian blue-and-yellow plate strips separate the country; Slovakia's white-on-black house numbers and Romania's holey poles are absent."
+    },
+    {
+      "country": "Central / East-South Ukraine",
+      "shared_traits": "Same country, same national road furniture",
+      "tiebreaker": "The west has Carpathian mountains, wooden churches and Habsburg-era towns; the center and east are flat black-earth farmland and steppe with Soviet blocks and whitewashed mazanka houses."
+    }
+  ]
+}

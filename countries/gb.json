@@ -1,0 +1,82 @@
+{
+  "id": "gb",
+  "name": "United Kingdom",
+  "aliases": ["Great Britain", "UK", "Britain"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://www.geocoach.me/theory/united-kingdom/identify",
+    "https://geopinning.space/en/rule/europe/united-kingdom/",
+    "https://reverseimagelocation.com/blog/world-bollards-guide",
+    "https://en.wikipedia.org/wiki/Terraced_houses_in_the_United_Kingdom"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇬🇧",
+    "capital": "London"
+  },
+
+  "language": {
+    "official_languages": ["English"],
+    "script": "Latin",
+    "sample_text": "SLOW — ROAD WORKS AHEAD",
+    "script_notes": "English nationwide, with Welsh on bilingual signs in Wales (Welsh text first, plus words like 'ARAF' for 'slow' on the road surface), Scottish Gaelic increasingly on signs in Scotland, and some Irish and Ulster Scots in Northern Ireland. Yield signs read 'GIVE WAY' (Ireland's read 'YIELD').",
+    "false_friends": ["Ireland", "Australia", "New Zealand", "South Africa"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Black-and-white striped, cylindrical posts with rounded tops and a white or red rectangular reflector set deeper into the post; some carry a circle in the middle of the white stripe. Yellow plastic bollards with white borders and flat tops also appear, often with arrow signs.",
+    "bollard_shape": "Cylindrical with a rounded top.",
+    "guardrail_type": "Standard steel guardrail; distinctive black-and-white striped poles topped with yellow balls mark pedestrian crossings in place of pedestrian street signs.",
+    "line_paint": "Double yellow lines along the road edge mark no-parking zones — a strong UK/Ireland tell; white or silver reflective studs sit between the dashes on the road.",
+    "curb_style": "Painted or plain kerbs; roads are typically narrow and hedge- or wall-lined outside towns.",
+    "km_marker_style": "Speed limits are in mph — the UK is the main European country still using imperial road units. Signposts and lampposts often taper from a thick base. Utility poles carry small circular attachments (Ireland's are rectangular) and vertical white/yellow plates showing letters and digits. Yellow 'Danger of Death' stickers with a lightning bolt appear on electrical equipment; direction signs are green on A-roads, blue on motorways and white in small places. Road classes use the letters A, B and C/U."
+  },
+
+  "architecture": {
+    "roof_style": "Steeply pitched gable roofs, with long rows of chimney stacks carrying 6 to 12 or more pots in a line along the ridge.",
+    "roof_material": "Slate, clay tile and stone tile depending on region; thatch on some rural English cottages.",
+    "wall_construction": "Red brick terraced and semi-detached houses are extremely common; local stone dominates in the Cotswolds, Wales and Scotland; harled (rendered) stone in Scotland; half-timbered Tudor buildings in parts of England.",
+    "wall_color_palette": "Red and brown brick, grey stone and honey-coloured limestone depending on region; often with white-painted window frames.",
+    "distinctive_building_types": "Long terraces of brick houses; semi-detached 'semis' with bay windows; red pillar boxes and telephone boxes; village pubs and stone churches; regional variation described in each nation's profile."
+  },
+
+  "nature": {
+    "vegetation": "Hedgerows and stone walls divide small green fields; mixed deciduous woodland; heather moorland and bracken on the uplands.",
+    "terrain": "Rolling lowland farmland in the south and east, upland moor and mountains in the north and west — the Scottish Highlands, Snowdonia and the Pennines.",
+    "climate_signature": "Mild, damp maritime climate — often overcast and green year-round with frequent drizzle."
+  },
+
+  "vehicles": {
+    "common_brands": ["Ford", "Vauxhall", "Volkswagen", "BMW"],
+    "plate_color": "White front plate and yellow rear plate; some plates carry a blue or green strip on the left.",
+    "plate_format": "Two letters, two digits, a space, then three letters (e.g. 'AB12 CDE'), where the first letters indicate the region of registration.",
+    "distinctive_vehicles": "Double-decker buses (red in London), black taxi cabs, and right-hand-drive cars; Ford and Vauxhall hatchbacks dominate."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of Gen 3 and Gen 4 imagery; coverage is very dense across the whole country including single-track rural roads.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense, near-complete coverage; the country is one of the best covered in the world."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Ireland",
+      "shared_traits": "Left-hand traffic, English signage, double yellow lines, hedgerow-lined green landscape, similar houses",
+      "tiebreaker": "UK utility-pole attachments are circular (Ireland's are rectangular); UK distance markers are blue (Ireland's are green); yield signs read 'GIVE WAY' rather than 'YIELD'; UK speed limits are in mph while Ireland uses km/h; UK plates are white front and yellow rear."
+    },
+    {
+      "country": "Australia / New Zealand",
+      "shared_traits": "Left-hand traffic and English signage",
+      "tiebreaker": "UK terrain, dense brick terraces, hedgerows and mph signage look nothing like Australia's brick-veneer suburbs and eucalyptus scrub or New Zealand's hillier landscape, and Australian and New Zealand bollards differ."
+    },
+    {
+      "country": "South Africa",
+      "shared_traits": "Left-hand traffic and English signage",
+      "tiebreaker": "The UK's mph speed limits, brick terraced houses and green hedgerow landscape differ from South Africa's km/h signs and dry savanna scenery."
+    }
+  ]
+}

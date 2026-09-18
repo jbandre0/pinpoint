@@ -1,0 +1,82 @@
+{
+  "id": "ua-c",
+  "name": "Central & Northern Ukraine (Kyiv · Polissia · Dnipro Basin)",
+  "aliases": ["Kyiv region", "Polissia", "Left-bank and right-bank Ukraine"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "ua",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/ukraine/",
+    "https://en.wikipedia.org/wiki/Mazanka",
+    "https://en.wikipedia.org/wiki/Khrushchevka"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇺🇦",
+    "capital": "Kyiv"
+  },
+
+  "language": {
+    "official_languages": ["Ukrainian"],
+    "script": "Cyrillic",
+    "sample_text": "УВАГА — РЕМОНТ ДОРОГИ",
+    "script_notes": "Ukrainian Cyrillic with і, ї, є and ґ; Russian is also widely spoken in Kyiv and the cities, though signage is in Ukrainian.",
+    "false_friends": ["Belarus (northern border)", "Russia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national — often painted black and white.",
+    "line_paint": "As national.",
+    "curb_style": "As national; dense Soviet-era boulevard infrastructure in Kyiv.",
+    "km_marker_style": "As national, including white-painted pole bases."
+  },
+
+  "architecture": {
+    "roof_style": "Golden and blue onion domes on Orthodox churches and monasteries; flat roofs on Soviet apartment blocks; pitched roofs on village houses.",
+    "roof_material": "Metal and slate on houses; gilded copper on church domes.",
+    "wall_construction": "Vast fields of khrushchyovka and later panel apartment blocks around Kyiv and every regional city; whitewashed clay mazanka houses with thatched or metal roofs in villages; grand Stalinist-era buildings along Kyiv's Khreshchatyk.",
+    "wall_color_palette": "Whitewash with blue trim on village houses; grey and pastel panel blocks; gold and white on churches.",
+    "distinctive_building_types": "Golden-domed Orthodox churches (Kyiv Pechersk Lavra, St Sophia); Stalinist and Soviet monuments; the abandoned buildings of the Chornobyl exclusion zone, which appear in Street View; whitewashed village houses."
+  },
+
+  "nature": {
+    "vegetation": "Dense pine and mixed forest and marshland in the northern Polissia lowlands; black-earth farmland with sunflower, wheat and maize across the forest-steppe; willow and poplar lines along rivers and roads.",
+    "terrain": "Flat to gently rolling plains cut by the wide Dnipro River, with the Kyiv hills on its right bank and low, marshy forest to the north.",
+    "climate_signature": "Humid continental — green and forested in the north, opening into open, intensively farmed plains further south."
+  },
+
+  "vehicles": {
+    "common_brands": ["Lada", "Volkswagen", "Skoda", "Renault"],
+    "plate_color": "As national — 'AA' and 'KA' for Kyiv.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "A mix of older Lada and Soviet-era cars with used Western imports; marshrutka minibuses; trams and the Kyiv metro."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3 with a faint red hood sometimes visible.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage in Kyiv and along main routes, mostly from around 2015; the Chornobyl exclusion zone has notable coverage of abandoned settlements."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Belarus",
+      "shared_traits": "Flat forested terrain, marshy Polissia landscape, Soviet panel blocks and Cyrillic signage",
+      "tiebreaker": "Ukrainian letters (і, ї, є, ґ), flag-coloured painted roadside objects and blue-and-yellow plate strips separate Ukraine from Belarus."
+    },
+    {
+      "country": "Russia",
+      "shared_traits": "Cyrillic script, black-and-white guardrails, Soviet architecture, similar farmland",
+      "tiebreaker": "Ukrainian bollards are not attached to a narrow support pole (Russian ones are); the letters і, ї, є, ґ appear only in Ukrainian; white-painted pole bases are a Ukrainian tell."
+    },
+    {
+      "country": "Western / East-South Ukraine",
+      "shared_traits": "Same country, same national road furniture",
+      "tiebreaker": "The center and north is green forest-steppe and marsh with Kyiv's gilded domes; the west has Carpathian mountains and wooden churches, and the east and south is dry steppe."
+    }
+  ]
+}

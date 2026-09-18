@@ -1,0 +1,82 @@
+{
+  "id": "ua",
+  "name": "Ukraine",
+  "aliases": ["Україна"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/ukraine/",
+    "https://geometas.com/metas/countries/ukraine/",
+    "https://geometas.com/metas/detail/5d24de05-139f-45ca-ad7c-a6dbaaa306d0/",
+    "https://en.wikipedia.org/wiki/Khrushchevka"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇺🇦",
+    "capital": "Kyiv"
+  },
+
+  "language": {
+    "official_languages": ["Ukrainian"],
+    "script": "Cyrillic",
+    "sample_text": "УВАГА — РЕМОНТ ДОРОГИ",
+    "script_notes": "Ukrainian Cyrillic uses the letters і, ї, є and ґ, which do not appear in Russian; Russian in turn uses ы, э and ё, which are absent from Ukrainian. This letter check is the fastest way to separate Ukraine from Russia and Belarus. Russian is also widely spoken, especially in the east and south.",
+    "false_friends": ["Russia", "Belarus", "Poland", "Romania", "Moldova", "Bulgaria"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White post with a wide red rectangle — wider than the red rectangles on Hungarian, Bulgarian, Croatian and North Macedonian bollards — and often visibly damaged or run-down.",
+    "bollard_shape": "Plain post; similar in look to Russian bollards, though Russian ones are attached to a narrow support pole.",
+    "guardrail_type": "Guardrails and barriers are often painted black and white, similar to Russia.",
+    "line_paint": "White center and edge lines where roads are marked; many rural roads are worn or unmarked.",
+    "curb_style": "Curbs and roadside objects such as fences and kerbs are often painted in the blue and yellow of the national flag.",
+    "km_marker_style": "Many utility poles have their base section painted white. Pedestrian warning signs show three zebra bars across the crossing symbol."
+  },
+
+  "architecture": {
+    "roof_style": "Pitched roofs on houses; flat roofs on Soviet apartment blocks; wooden multi-tiered roofs on Carpathian churches.",
+    "roof_material": "Slate, corrugated metal and tile on houses; sheet metal on village buildings.",
+    "wall_construction": "Prefab concrete-panel and brick khrushchyovka apartment blocks (three to five storeys) in nearly every town; traditional whitewashed clay-and-timber mazanka houses in the steppe and forest-steppe; grand Habsburg-era masonry in Lviv and the west.",
+    "wall_color_palette": "Whitewashed walls with blue trim on village houses; grey and pastel Soviet blocks; ornate cream and ochre historic facades in Lviv and Odesa.",
+    "distinctive_building_types": "Khrushchyovka apartment blocks; whitewashed mazanka village houses; onion-domed Orthodox churches; Soviet monuments and mosaics; more than 2,500 traditional wooden churches, concentrated in the Carpathian west."
+  },
+
+  "nature": {
+    "vegetation": "Dense, taller forest in the humid north and northwest (including the Polissia lowlands); open black-earth farmland across the center; dry steppe with sparse vegetation in the south and southeast.",
+    "terrain": "Mostly flat to gently rolling plains and steppe, with the Carpathian Mountains in the far west and the Crimean Mountains in the far south; the Dnipro River divides the country.",
+    "climate_signature": "Temperate continental — humid and forested in the northwest, drier and more steppe-like toward the southeast; sunflower and wheat fields are a classic summer sight."
+  },
+
+  "vehicles": {
+    "common_brands": ["Lada", "Volkswagen", "Skoda", "Renault"],
+    "plate_color": "White plate with black text and a blue strip on the left carrying the Ukrainian flag colours and 'UA'.",
+    "plate_format": "Two letters, four digits, two letters (e.g. 'AA 1234 BB'), with the first letters indicating the region.",
+    "distinctive_vehicles": "Older Soviet-era Ladas remain common alongside used Western European imports; marshrutka minibuses are widespread."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3, with a faint red hood sometimes visible on the capture vehicle (also seen in Russia and Belgium).",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Most coverage dates from around 2015, with an earlier 2012 pass in major cities; the imagery is outdated, and areas such as Crimea and parts of the east cannot currently be updated."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Russia",
+      "shared_traits": "Cyrillic script, Soviet panel blocks, black-and-white guardrails, similar bollards and farmland",
+      "tiebreaker": "The letters і, ї, є and ґ appear only in Ukrainian, while ы, э and ё appear only in Russian; Ukrainian bollards are not attached to a narrow support pole; Ukrainian plates carry a blue-and-yellow strip."
+    },
+    {
+      "country": "Belarus",
+      "shared_traits": "Cyrillic script, Soviet architecture, flat forested terrain",
+      "tiebreaker": "Ukrainian letter shapes (і, ї, є, ґ), flag-coloured painted roadside objects and blue-and-yellow plate strips separate Ukraine from Belarus."
+    },
+    {
+      "country": "Poland",
+      "shared_traits": "Border region architecture and farmland in the west",
+      "tiebreaker": "Cyrillic versus Latin script settles it at once; Poland's red-striped one-sided bollard and red-outlined yellow warning triangles are absent in Ukraine."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "gb-wls",
+  "name": "Wales",
+  "aliases": ["Cymru"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "gb",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Road_signs_in_Wales",
+    "https://en.wikipedia.org/wiki/Welsh_Language_Act_1993",
+    "https://cadw.gov.wales/roofs",
+    "https://tppuk.com/local-area/north-wales-property-types/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "capital": "Cardiff"
+  },
+
+  "language": {
+    "official_languages": ["Welsh", "English"],
+    "script": "Latin",
+    "sample_text": "ARAF — GWAITH FFORDD",
+    "script_notes": "Bilingual signage is legally required for all new and replaced road signs and Welsh text is placed first. Welsh words such as 'ARAF' (slow) appear painted on the road surface. Welsh place names (Llan-, Aber-, Pen-, Cwm-) and letters like ll, dd, ff and w as a vowel are distinctive.",
+    "false_friends": ["England (border counties)", "Brittany (a Celtic-language region of France)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national, plus 'ARAF' and other Welsh text painted on the carriageway.",
+    "curb_style": "As national; narrow winding roads through steep valleys.",
+    "km_marker_style": "As national — mph signs and circular pole attachments; bilingual Welsh-first signs are the strongest tell."
+  },
+
+  "architecture": {
+    "roof_style": "Steep slate roofs with large chimney stacks; stone-tiled roofs survive on older houses in parts of the south and the Brecon Beacons.",
+    "roof_material": "Welsh slate dominates from the nineteenth century onward.",
+    "wall_construction": "Long terraces of stone houses with colourful doors and windows and big chimney stacks along the South Wales Valleys, built for mining families; robust slate and granite houses in North Wales reflecting its quarrying heritage; whitewashed stone farmhouses in the uplands.",
+    "wall_color_palette": "Grey and dark slate stone, brightly painted doors and window frames on valley terraces, whitewashed farm walls.",
+    "distinctive_building_types": "Valley terraces climbing steep hillsides; slate quarry landscapes; chapels; castles (Caernarfon, Conwy); whitewashed hill farms."
+  },
+
+  "nature": {
+    "vegetation": "Green sheep-grazed hillsides with stone walls and bracken; conifer plantations; oak woodland in valleys.",
+    "terrain": "Mountainous and hilly — Snowdonia (Eryri) in the north, the Brecon Beacons in the south and narrow steep-sided river valleys in the south.",
+    "climate_signature": "Wet, cloud-covered mountains and green valleys; among the rainiest parts of the UK."
+  },
+
+  "vehicles": {
+    "common_brands": ["Ford", "Vauxhall", "Volkswagen", "Land Rover"],
+    "plate_color": "As national — white front, yellow rear.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Farm 4x4s and pickups; sheep frequently on the road."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of Gen 3 and Gen 4.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage of main roads and most rural lanes."
+  },
+
+  "confusion_set": [
+    {
+      "country": "England",
+      "shared_traits": "Same country, same national road furniture and plates",
+      "tiebreaker": "Bilingual signs with Welsh first and painted 'ARAF' markings are unique to Wales; England has English-only signs."
+    },
+    {
+      "country": "Scotland",
+      "shared_traits": "Upland moor and mountain scenery, stone houses",
+      "tiebreaker": "Welsh rather than Gaelic on signs; long slate-roofed valley terraces are distinctly Welsh."
+    },
+    {
+      "country": "Ireland",
+      "shared_traits": "Celtic-language bilingual signage, green hills, stone walls",
+      "tiebreaker": "Welsh text versus Irish text, UK circular pole attachments, mph speed limits and 'GIVE WAY' text."
+    }
+  ]
+}

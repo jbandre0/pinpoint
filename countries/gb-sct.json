@@ -1,0 +1,82 @@
+{
+  "id": "gb-sct",
+  "name": "Scotland",
+  "aliases": ["Alba", "Scottish Highlands"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "gb",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gaelic_road_signs_in_Scotland",
+    "https://en.wikipedia.org/wiki/Scottish_Vernacular",
+    "https://blog.historicenvironment.scot/2020/09/urban-housing-scotland/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "capital": "Edinburgh"
+  },
+
+  "language": {
+    "official_languages": ["English", "Scottish Gaelic", "Scots"],
+    "script": "Latin",
+    "sample_text": "SLOW — ROAD WORKS AHEAD",
+    "script_notes": "English is the dominant signage language; Scottish Gaelic is increasingly visible on road signs, not only in the northwest and on the islands but also on main primary routes.",
+    "false_friends": ["Ireland", "Norway and Iceland (moorland and fjord-like sea lochs)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national; many single-track Highland roads use passing places marked with signs.",
+    "curb_style": "As national; minimal roadside infrastructure in the Highlands.",
+    "km_marker_style": "As national — mph signs and circular pole attachments; Highland single-track roads with diamond passing-place signs are a strong Scotland tell."
+  },
+
+  "architecture": {
+    "roof_style": "Steep-pitched slate roofs on stone tenements; simple pitched roofs on crofts and farm buildings.",
+    "roof_material": "Slate and corrugated metal; historically thatch on traditional blackhouses.",
+    "wall_construction": "Thick solid-stone tenements three or four storeys high in Glasgow and Edinburgh; harled (rendered) stone walls on white-painted houses, particularly in the islands; grey granite in Aberdeen; low stone crofts and farmhouses in the Highlands.",
+    "wall_color_palette": "Grey stone, white harling and dark slate roofs.",
+    "distinctive_building_types": "Four-storey stone tenements; whitewashed harled croft houses; stone castles and tower houses; single-track roads with passing places; sheep on unfenced roads."
+  },
+
+  "nature": {
+    "vegetation": "Heather moorland, bracken, Caledonian pine forest and open, treeless hillsides with sheep; birch woodland in glens.",
+    "terrain": "Mountainous Highlands with deep glens and sea lochs, lowland central belt, and hundreds of islands (Hebrides, Orkney, Shetland).",
+    "climate_signature": "Cool, wet and windy, with dramatic cloud and mist over moor and loch."
+  },
+
+  "vehicles": {
+    "common_brands": ["Ford", "Vauxhall", "Volkswagen", "Land Rover"],
+    "plate_color": "As national — white front, yellow rear.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "4x4 pickups and Land Rovers are common in rural areas; campervans on the North Coast 500 route."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of Gen 3 and Gen 4.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage of the central belt and main roads; even remote Highland and island single-track roads are largely covered."
+  },
+
+  "confusion_set": [
+    {
+      "country": "England / Wales",
+      "shared_traits": "Same country, same national road furniture and plates",
+      "tiebreaker": "Scotland has Gaelic signs on some roads, heather moorland and lochs, and grey-stone tenements; England lacks Gaelic and Wales shows bilingual Welsh-first signs."
+    },
+    {
+      "country": "Ireland",
+      "shared_traits": "Gaelic-language signage on the west coast, similar moor, coast and stone-wall landscape",
+      "tiebreaker": "UK circular pole attachments, blue distance markers, mph speed signs and 'GIVE WAY' text separate Scotland from Ireland."
+    },
+    {
+      "country": "Norway / Iceland",
+      "shared_traits": "Moorland, bare hillsides, sea lochs comparable to fjords",
+      "tiebreaker": "Scotland drives on the left with UK yellow rear plates and mph signs; Norway and Iceland drive on the right."
+    }
+  ]
+}

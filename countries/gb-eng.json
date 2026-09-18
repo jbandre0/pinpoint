@@ -1,0 +1,77 @@
+{
+  "id": "gb-eng",
+  "name": "England",
+  "aliases": ["English regions"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "gb",
+  "sources": [
+    "https://www.geocoach.me/theory/united-kingdom/identify",
+    "https://discovercotswolds.co.uk/the-typical-english-cottage/",
+    "https://en.wikipedia.org/wiki/Terraced_houses_in_the_United_Kingdom"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "capital": "London"
+  },
+
+  "language": {
+    "official_languages": ["English"],
+    "script": "Latin",
+    "sample_text": "SLOW — ROAD WORKS AHEAD",
+    "script_notes": "English-only signage throughout — the lack of Welsh or Gaelic on signs is itself a clue that separates England from Wales and Scotland.",
+    "false_friends": ["Wales (English border counties)", "Ireland"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national; double yellow lines along kerbs, white studs between dashes.",
+    "curb_style": "As national; dense formal infrastructure in London and the cities.",
+    "km_marker_style": "As national — mph signs, circular pole attachments, black-and-white striped crossing poles with yellow balls."
+  },
+
+  "architecture": {
+    "roof_style": "Steeply pitched roofs with rows of chimney pots; thatch on rural cottages in southern and western counties.",
+    "roof_material": "Clay tile, slate, and thatch; Cotswold limestone tiles in the Cotswolds.",
+    "wall_construction": "Red-brick terraces and semi-detached houses dominate towns and cities; honey-coloured Cotswold limestone cottages; half-timbered Tudor buildings in the Midlands and southeast; Victorian industrial brick in the north.",
+    "wall_color_palette": "Red and brown brick, warm honey stone in the Cotswolds, and whitewashed or plastered cottage walls.",
+    "distinctive_building_types": "Long brick terraces; thatched Cotswold and Devon cottages; Georgian townhouses; Victorian mills and viaducts in the north; village greens with a church and pub."
+  },
+
+  "nature": {
+    "vegetation": "Hedge-bordered patchwork fields, mixed deciduous woodland (oak, beech), and heather moorland in the northern uplands.",
+    "terrain": "Mostly rolling lowland farmland, with chalk downs in the south, the Pennines in the north, and the Lake District and Dartmoor as upland areas.",
+    "climate_signature": "Mild, often overcast and drizzly, generally drier in the east than the west."
+  },
+
+  "vehicles": {
+    "common_brands": ["Ford", "Vauxhall", "Volkswagen", "BMW"],
+    "plate_color": "As national — white front, yellow rear.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "London's red double-decker buses and black taxi cabs; otherwise the standard national mix."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of Gen 3 and Gen 4.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very dense, near-complete coverage including narrow rural lanes."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Wales / Scotland",
+      "shared_traits": "Same country, same national road furniture and plates",
+      "tiebreaker": "England has English-only signage; Wales shows bilingual Welsh-first signs and 'ARAF' road markings, and Scotland shows Gaelic on some signs with moorland and lochs."
+    },
+    {
+      "country": "Ireland",
+      "shared_traits": "Left-hand traffic, English signage, double yellow lines, hedgerows",
+      "tiebreaker": "Circular UK pole attachments versus Ireland's rectangular ones, blue versus green distance markers, 'GIVE WAY' versus 'YIELD', and mph versus km/h."
+    }
+  ]
+}

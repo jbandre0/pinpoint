@@ -1,0 +1,82 @@
+{
+  "id": "cz",
+  "name": "Czech Republic",
+  "aliases": ["Czechia", "Česko", "Česká republika"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/czechia/",
+    "https://geometas.com/metas/countries/czech_republic/",
+    "https://en.wikipedia.org/wiki/Panel%C3%A1k",
+    "https://en.wikipedia.org/wiki/%C5%A0koda_Auto"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇿",
+    "capital": "Prague"
+  },
+
+  "language": {
+    "official_languages": ["Czech"],
+    "script": "Latin",
+    "sample_text": "POZOR — SILNIČNÍ PRÁCE",
+    "script_notes": "Latin alphabet with distinctive Czech diacritics — the letters Ř, Ě and Ů/ů appear only in Czech, never in Slovak, so spotting any of them settles Czechia versus Slovakia at once. Guide signs use a layout without arrows, unlike the Slovak versions.",
+    "false_friends": ["Slovakia", "Poland", "Austria", "Germany"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Black bollards with orange double reflectors on the front and a single white reflector on the back; rarer blue and red variants exist. Only Slovakia uses the same design.",
+    "bollard_shape": "Flat-fronted black post with reflective strips mounted on the black section.",
+    "guardrail_type": "A wide 'type B' guardrail profile — angular with a central recess — used only in Czechia and Slovakia in Europe.",
+    "line_paint": "Roads often have solid outer lines with no center line, which helps separate Czechia from Slovakia.",
+    "curb_style": "Neat kerbs in towns; well-maintained road surfaces.",
+    "km_marker_style": "Wide, round concrete utility poles, often attached in pairs, with short metal crossbars holding the insulators and sometimes an upside-down-triangle pair of support bars. House numbers on a RED background with white text are the clearest Czechia tell. Signposts with a black cap on top also favour Czechia (not an absolute rule)."
+  },
+
+  "architecture": {
+    "roof_style": "Steep-pitched roofs on traditional houses; flat roofs on the many panel apartment blocks.",
+    "roof_material": "Clay tile and slate widely used; corrugated metal and asphalt on utility buildings.",
+    "wall_construction": "Prefabricated concrete panel apartment blocks (paneláky) — over a million flats were built between 1959 and 1995, and around a third of Czechs still live in them — now often renovated and painted in pastel colours; plastered masonry family houses in towns and villages; ornate Baroque, Gothic and Art Nouveau facades in historic centers such as Prague and Český Krumlov.",
+    "wall_color_palette": "Pastel blues, pinks, yellows and greens on renovated paneláky; cream and warm-tinted plaster on older houses.",
+    "distinctive_building_types": "Pastel-painted panel apartment blocks; Baroque churches with onion-shaped spires; hilltop castles and chateaux; Prague's dense, ornate historic core."
+  },
+
+  "nature": {
+    "vegetation": "Farmland and rolling countryside broken by beech, spruce and pine forest; hop fields and orchards in parts of Bohemia; vineyards in southern Moravia.",
+    "terrain": "A landlocked country of rolling hills and low mountains — the Bohemian basin is ringed by ranges such as the Krkonoše, Šumava and Ore Mountains, with the Moravian lowlands to the east.",
+    "climate_signature": "Temperate continental climate with cold winters and warm summers; often overcast and green."
+  },
+
+  "vehicles": {
+    "common_brands": ["Škoda", "Volkswagen", "Hyundai", "Ford"],
+    "plate_color": "White plate with black text and a blue EU strip on the left carrying 'CZ'.",
+    "plate_format": "Digit, letter code for the region, then digits (e.g. '1A2 3456'), where the first letters indicate the region of registration.",
+    "distinctive_vehicles": "Škoda — Czech-made and headquartered in Mladá Boleslav — is by far the most common brand and a strong national tell."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 with dense coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense, near-complete coverage of roads nationwide including small villages."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Slovakia",
+      "shared_traits": "Shared bollard design, thin-B guardrails and paired round concrete poles from their common history",
+      "tiebreaker": "House numbers on a red background with white text point to Czechia (Slovakia uses white with black lettering); the letters Ř, Ě and Ů appear only in Czech; Czech roads often have solid outer lines with no center line."
+    },
+    {
+      "country": "Poland",
+      "shared_traits": "Central European architecture, Slavic languages, similar road furniture styles",
+      "tiebreaker": "Poland's red-striped one-sided bollard and red-outlined yellow warning triangles are absent in Czechia, and Polish diacritics (ł, ż, ą, ę) differ from Czech ones (ř, ě, ů)."
+    },
+    {
+      "country": "Austria / Germany",
+      "shared_traits": "Shared Central European architecture and terrain along the borders",
+      "tiebreaker": "Czech-language signs, red house-number plates and the Czech black bollard with orange double reflectors differ from Austrian and German road furniture."
+    }
+  ]
+}

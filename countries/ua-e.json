@@ -1,0 +1,82 @@
+{
+  "id": "ua-e",
+  "name": "Eastern & Southern Ukraine (Steppe · Odesa · Black Sea Coast)",
+  "aliases": ["Southeast Ukraine", "Novorossiya (historical term)", "Black Sea Ukraine"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "parent": "ua",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/ukraine/",
+    "https://en.wikipedia.org/wiki/Mazanka",
+    "https://medium.com/@alerivan/geolocating-areas-in-ukraine-with-minimal-street-view-coverage-e421e269112f"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇺🇦",
+    "capital": "Odesa / Kharkiv / Dnipro"
+  },
+
+  "language": {
+    "official_languages": ["Ukrainian"],
+    "script": "Cyrillic",
+    "sample_text": "УВАГА — РЕМОНТ ДОРОГИ",
+    "script_notes": "Ukrainian Cyrillic with і, ї, є and ґ on official signage; Russian is widely spoken in daily life in the east and south, so commercial signs and informal writing can appear in Russian (using ы, э and ё) — a reason not to rely on vocabulary alone.",
+    "false_friends": ["Russia (adjacent border regions)", "Moldova", "Romania (Danube delta)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national; long, straight steppe roads with sparse markings.",
+    "curb_style": "As national.",
+    "km_marker_style": "As national, including white-painted pole bases and roadside objects in national colours."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs on Soviet blocks; low-pitched metal or slate roofs on single-storey village houses.",
+    "roof_material": "Corrugated metal, slate and tile.",
+    "wall_construction": "Whitewashed single-storey mazanka houses (clay, timber and reed) in the steppe and forest-steppe; large Soviet panel and khrushchyovka estates in industrial cities such as Kharkiv, Dnipro and Zaporizhzhia; ornate 19th-century Neoclassical and Art Nouveau masonry in Odesa.",
+    "wall_color_palette": "Whitewash with blue trim on village houses; grey industrial blocks; warm cream and ochre in Odesa's historic center.",
+    "distinctive_building_types": "Industrial-city Soviet estates, factories, mine spoil heaps (terrikony) in the Donbas coal region; Odesa's Neoclassical center and Potemkin Stairs; whitewashed village mazanka houses."
+  },
+
+  "nature": {
+    "vegetation": "Sparse, dry steppe grassland and vast wheat and sunflower fields; few trees beyond planted windbreak lines; reed beds and lagoons along the Black Sea and Azov coasts.",
+    "terrain": "Very flat, open steppe stretching to the horizon, dropping to the Black Sea and Sea of Azov coasts; the Crimean Mountains rise in the far south.",
+    "climate_signature": "Dry steppe climate with hot summers — noticeably sparser vegetation and bigger skies than the forested north and west."
+  },
+
+  "vehicles": {
+    "common_brands": ["Lada", "Volkswagen", "Renault", "Daewoo"],
+    "plate_color": "As national — region letters such as 'BH' for Odesa Oblast.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "A high proportion of older Soviet-era cars and industrial and mining trucks; trams operate in several cities."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Coverage dates mostly from around 2015 and is outdated; Crimea and parts of the east and south cannot currently be updated, and large stretches have little or no coverage."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Russia",
+      "shared_traits": "The same steppe extends across the border, with Cyrillic script, Soviet architecture and similar black-and-white guardrails and farmland",
+      "tiebreaker": "The letters і, ї, є and ґ appear only in Ukrainian; Ukrainian bollards are not attached to a narrow support pole; Ukrainian plates carry a blue-and-yellow strip and white-painted pole bases are common."
+    },
+    {
+      "country": "Moldova / Romania",
+      "shared_traits": "Similar steppe and farmland near the southwestern border and Danube region",
+      "tiebreaker": "Romania uses Latin script and holey concrete poles; Moldova's plates and signage differ from Ukraine's, and Ukrainian Cyrillic is a reliable separator from Romania."
+    },
+    {
+      "country": "Western / Central Ukraine",
+      "shared_traits": "Same country, same national road furniture",
+      "tiebreaker": "The east and south is flat, dry steppe with industrial cities and whitewashed villages; the west has Carpathian mountains and wooden churches, and the center is greener forest-steppe."
+    }
+  ]
+}
