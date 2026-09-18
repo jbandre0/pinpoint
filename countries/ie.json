@@ -1,0 +1,82 @@
+{
+  "id": "ie",
+  "name": "Ireland",
+  "aliases": ["Éire"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/ireland/",
+    "https://www.geocoach.me/theory/united-kingdom/identify",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_the_Republic_of_Ireland",
+    "https://www.revenue.ie/en/vrt/vehicle-registration-tax/registration-plates-and-format-standards.aspx"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇮🇪",
+    "capital": "Dublin"
+  },
+
+  "language": {
+    "official_languages": ["Irish", "English"],
+    "script": "Latin",
+    "sample_text": "MALL — OIBRÍ BÓTHAIR",
+    "script_notes": "Dual-language signage in Irish and English is found nationwide, with Irish first on many signs; in the western Gaeltacht areas signs may be Irish-only. Irish uses the fada accent (á, é, í, ó, ú) and letter groups like 'bh', 'mh' and 'ch'. Place names often begin Bally-, Kil-, Cnoc or Inis.",
+    "false_friends": ["United Kingdom (especially the north-east of this same island)", "Wales and Scotland (Celtic-language signs)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Green bollards are characteristic; posts are simple and low-key.",
+    "bollard_shape": "Slim posts, often green.",
+    "guardrail_type": "Standard steel guardrail; stone walls and hedgerows line most rural roads instead.",
+    "line_paint": "Yellow dashed center lines and yellow edge lines are distinctly Irish — a key contrast with the white center lines used in Great Britain.",
+    "curb_style": "Painted or plain kerbs in towns; narrow roads bordered by hedgerows or stone walls.",
+    "km_marker_style": "Road numbers begin with R, N or M (the UK uses B, A and M). Utility poles carry small rectangular attachments — white, with digits on a small yellow background — where the UK's are circular; wooden poles with climbing steps are common, and some have crossbars like those in Sweden or Finland. Warning triangles often appear with no figure inside, and chevrons are black with yellow arrows (the UK's are black with white arrows). Post boxes are green. Speed limits are in km/h."
+  },
+
+  "architecture": {
+    "roof_style": "Steeply pitched slate or tile roofs on traditional houses; bungalows with low pitched roofs are extremely common in the countryside.",
+    "roof_material": "Slate and concrete tile.",
+    "wall_construction": "Single-storey bungalows and two-storey houses in white or pastel pebbledash render are the classic rural look, usually brighter and whiter than in Great Britain; brick terraces in Dublin; stone farmhouses and dry-stone field walls in the west.",
+    "wall_color_palette": "White, cream and bright pastel render, often with dark slate roofs.",
+    "distinctive_building_types": "One-off rural bungalows strung along country roads; Georgian brick townhouses with coloured doors in Dublin; thatched cottages in the west; ruined castles, abbeys and round towers; village pubs with bright painted fronts."
+  },
+
+  "nature": {
+    "vegetation": "Lush green grassland divided by hedgerows and stone walls; peat bog, heather and rushes in the uplands; gorse and fuchsia hedges; few large forests.",
+    "terrain": "A rolling central plain ringed by coastal hills and mountains, with stony, wind-swept Atlantic coasts in the west — including the karst limestone of the Burren — and many small offshore islands.",
+    "climate_signature": "Mild, damp and often overcast maritime climate, keeping the countryside vividly green year-round."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Volkswagen", "Hyundai", "Ford"],
+    "plate_color": "White plate with black text and a blue EU strip on the left carrying the EU stars and 'IRL'; the county name appears in Irish.",
+    "plate_format": "Year-and-half, county code, then a sequence number (e.g. '241-D-12345'); the county code marks the place of registration, such as D for Dublin, C for Cork or G for Galway.",
+    "distinctive_vehicles": "A standard European mix of hatchbacks and SUVs, all right-hand drive, with many farm vehicles and vans on rural roads."
+  },
+
+  "google_coverage": {
+    "camera_generation": "A mix of Gen 3 and Gen 4 imagery.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage of roads including small rural lanes, and some offshore islands."
+  },
+
+  "confusion_set": [
+    {
+      "country": "United Kingdom",
+      "shared_traits": "Left-hand traffic, English signage, hedgerows, similar houses and landscape, and a shared island with Northern Ireland",
+      "tiebreaker": "Irish utility-pole attachments are rectangular (the UK's are circular); distance markers are green here (blue in the UK); warning triangles often lack a figure; chevrons are black with yellow arrows; yellow dashed center lines and km/h speed signs are used, and signs are dual-language Irish and English."
+    },
+    {
+      "country": "Scotland / Wales",
+      "shared_traits": "Celtic-language signage, green hills, stone walls",
+      "tiebreaker": "Irish text rather than Gaelic or Welsh, km/h speeds, green post boxes, and R and N road numbers."
+    },
+    {
+      "country": "Iceland / Faroe Islands",
+      "shared_traits": "Green, treeless, wind-swept Atlantic landscape",
+      "tiebreaker": "Left-hand traffic and Irish-language signs point here; Iceland and the Faroes drive on the right."
+    }
+  ]
+}

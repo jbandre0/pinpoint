@@ -1,0 +1,82 @@
+{
+  "id": "bd",
+  "name": "Bangladesh",
+  "aliases": ["People's Republic of Bangladesh", "বাংলাদেশ"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/asia/bangladesh/",
+    "https://geometas.com/metas/countries/bangladesh/",
+    "https://www.re-thinkingthefuture.com/rtf-fresh-perspectives/a1634-vernacular-architecture-of-bangladesh/",
+    "https://en.wikipedia.org/wiki/Architecture_of_Bengal"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇧🇩",
+    "capital": "Dhaka"
+  },
+
+  "language": {
+    "official_languages": ["Bengali"],
+    "script": "Bengali",
+    "sample_text": "সাবধান — রাস্তার কাজ চলছে",
+    "script_notes": "Bengali script hangs its letters from a horizontal line and is also used in the Indian state of West Bengal, so the script alone does not separate the two — it does rule out Devanagari-script India and most of South Asia. English appears widely as a second language on signs.",
+    "false_friends": ["India (West Bengal)", "Nepal", "Myanmar", "Bhutan"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Red-and-white striped bollards, chimney-shaped and painted in alternating sections; also on fences beside water.",
+    "bollard_shape": "Chimney-shaped concrete posts, often clustered near bridges.",
+    "guardrail_type": "Minimal on most roads; low painted barriers near bridges.",
+    "line_paint": "Yellow and white markings where roads are marked; many roads have none.",
+    "curb_style": "Mostly absent; roads are crowded to the edge with stalls, rickshaws and pedestrians.",
+    "km_marker_style": "Many road signs sit on black-and-white striped poles (also seen in Bhutan), and utility poles are often wooden or concrete. Red-and-white bollards cluster near bridges."
+  },
+
+  "architecture": {
+    "roof_style": "Pitched roofs — gabled (dochala) or hipped (chochola) — on rural houses, with flat concrete roofs on urban buildings.",
+    "roof_material": "Corrugated tin sheet is the most popular roofing, used widely by rural families; thatch on more traditional houses.",
+    "wall_construction": "Rural houses of mud, bamboo, timber and tin on a raised earth plinth, usually single-storey around an open courtyard; kiln-fired brick and cement in towns; ornate brick and terracotta mosques and old zamindar mansions in historic areas.",
+    "wall_color_palette": "Earthy brown mud and grey tin in the countryside; bare brick and weathered concrete in cities.",
+    "distinctive_building_types": "Tin-roofed village houses; brick kilns with tall chimneys dotting the plains; Dhaka's extremely dense high-rise and low-rise mix; mosques with domes and minarets; ship-breaking yards on the Chittagong coast."
+  },
+
+  "nature": {
+    "vegetation": "Flat, waterlogged rice paddies stretch to the horizon; dense village groves of banana, palm, bamboo and mango; jute and vegetable fields; mangrove forest in the south.",
+    "terrain": "One of the flattest, most water-covered countries on Earth — a vast river delta of the Ganges, Brahmaputra and Meghna, with monsoon flooding, small hills only in the far southeast (Chittagong Hill Tracts) and northeast.",
+    "climate_signature": "Hot, humid and hazy tropical monsoon; severe air pollution often limits visibility in the distance."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Bajaj", "Tata"],
+    "plate_color": "White plates for private vehicles and green plates for commercial ones (CNG three-wheelers and baby taxis), in contrast to India's yellow and white system.",
+    "plate_format": "City or district name in Bengali script followed by a class letter and digits.",
+    "distinctive_vehicles": "Cycle rickshaws with colourful painted art and CNG auto-rickshaws ('baby taxis') swarm the roads; heavily decorated trucks and buses; Street View images often show red mirror reflections."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed official coverage with third-party imagery in places.",
+    "blur_style": "Standard Google blurring, with red mirror reflections visible in the car imagery.",
+    "coverage_notes": "Concentrated on Dhaka, the Dhaka–Chittagong corridor and the main highways; more limited in rural areas."
+  },
+
+  "confusion_set": [
+    {
+      "country": "India (West Bengal)",
+      "shared_traits": "Same Bengali script, same delta landscape, similar rickshaws and rural houses",
+      "tiebreaker": "Script does not separate them; green commercial plates, red-and-white chimney bollards and black-and-white striped sign poles point here, while India uses yellow commercial plates."
+    },
+    {
+      "country": "Nepal / Bhutan",
+      "shared_traits": "South Asian road culture; striped black-and-white sign poles shared with Bhutan",
+      "tiebreaker": "Bengali script and the flat, water-covered delta separate it from mountainous Nepal and Bhutan."
+    },
+    {
+      "country": "Myanmar",
+      "shared_traits": "Shared southeastern border hills and tropical vegetation",
+      "tiebreaker": "Bengali versus Burmese script, and left-hand versus right-hand traffic (Myanmar drives on the right)."
+    }
+  ]
+}

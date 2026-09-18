@@ -1,0 +1,82 @@
+{
+  "id": "py",
+  "name": "Paraguay",
+  "aliases": ["Republic of Paraguay", "República del Paraguay", "Paraguái"],
+  "continent": "South America",
+  "tier": 3,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/cs_america/paraguay/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Paraguay",
+    "https://en.wikipedia.org/wiki/Paraguayan_architecture",
+    "https://www.mgedwards.com/2014/04/17/the-mennonites-of-paraguay-with-photos/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇵🇾",
+    "capital": "Asunción"
+  },
+
+  "language": {
+    "official_languages": ["Spanish", "Guaraní"],
+    "script": "Latin",
+    "sample_text": "PRECAUCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Spanish and the Indigenous Guaraní are both official, and Guaraní is spoken by most of the population, so Guaraní words and the letters ñ, ý and g̃ can appear on signs and shops alongside Spanish. Street suffixes: Calle, Avenida, Ruta.",
+    "false_friends": ["Argentina", "Bolivia", "Brazil", "Uruguay"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Bollards are not a strong national tell and are relatively uncommon.",
+    "bollard_shape": "Varies.",
+    "guardrail_type": "Minimal on most roads.",
+    "line_paint": "White edge lines with yellow center lines where roads are marked; many rural roads are unpaved.",
+    "curb_style": "Painted or plain kerbs in towns; red dirt roads outside cities.",
+    "km_marker_style": "Arch-shaped signboards spanning the road, rarely seen outside this country. Utility poles have cut-outs similar to Brazil's, and road signs have black backs, as in Brazil."
+  },
+
+  "architecture": {
+    "roof_style": "Low-pitched clay tile roofs, often on courtyard-style houses; corrugated metal on newer buildings.",
+    "roof_material": "Clay tile and corrugated metal.",
+    "wall_construction": "Red brick made from the local clay is the defining material, along with timber and local stone; Spanish colonial and Baroque buildings in red and yellow tones; Jesuit mission ruins in dark red brick (a UNESCO World Heritage site); simple ranch (estancia) buildings on Mennonite farms in the north-west.",
+    "wall_color_palette": "Red brick, ochre and yellow plaster, and whitewashed walls.",
+    "distinctive_building_types": "Colonial and neoclassical buildings in the capital's historic center; Jesuit mission ruins near Encarnación; Mennonite ranches with grazing cattle in the Chaco; ñandutí lace as a national craft symbol."
+  },
+
+  "nature": {
+    "vegetation": "Soybean, rice and corn fields in the wetter southeast; cotton and peanut farming and thorny dry forest (the Chaco) in the drier northwest; subtropical forest along the rivers; cattle pasture almost everywhere.",
+    "terrain": "A landlocked country divided by a great north-south river — hilly, fertile, red-soiled country in the east and a vast, flat, sparsely populated lowland plain (the Gran Chaco) in the west.",
+    "climate_signature": "Hot, humid subtropical climate; striking red soil in the east, and drier, scrubbier country toward the northwest."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Kia", "Honda (motorbikes)", "Chevrolet"],
+    "plate_color": "Mercosur plate since 2019, with a blue band at the top carrying the country name, flag and Mercosur logo; the plates look slightly red-tinted in Street View compared with neighbours'.",
+    "plate_format": "Letters followed by digits on the white Mercosur plate.",
+    "distinctive_vehicles": "Motorcycles are the primary personal transport, mostly imported from China and locally assembled; used Japanese and Korean cars fill the roads."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3 official coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Concentrated in the east around the capital, Ciudad del Este and Encarnación; the northwest Chaco has limited coverage."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Brazil",
+      "shared_traits": "Shared utility poles with cut-outs, road signs with black backs, red soil and soybean farms near the eastern border",
+      "tiebreaker": "Spanish and Guaraní signage rather than Portuguese; arch-shaped signboards over the road and the slightly red-tinted Mercosur plates are found here."
+    },
+    {
+      "country": "Argentina",
+      "shared_traits": "Shared Mercosur plates, Spanish signage and subtropical farmland in the north of Argentina",
+      "tiebreaker": "Argentina's black Gen 3 car, chevron and kilometer markers differ; arch-shaped road signs and Guaraní words point here."
+    },
+    {
+      "country": "Bolivia",
+      "shared_traits": "Shared Chaco lowlands and dry thorn scrub in the northwest",
+      "tiebreaker": "Bolivia's thick lumber utility poles and faint-blue plates differ, and the eastern hills and red soil are found here."
+    }
+  ]
+}
