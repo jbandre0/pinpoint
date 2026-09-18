@@ -1,0 +1,82 @@
+{
+  "id": "ph",
+  "name": "Philippines",
+  "aliases": ["Republic of the Philippines", "Pilipinas"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/philippines/",
+    "https://geometas.com/metas/countries/philippines/",
+    "https://www.plonkit.net/philippines",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_the_Philippines"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇵🇭",
+    "capital": "Manila"
+  },
+
+  "language": {
+    "official_languages": ["Filipino", "English"],
+    "script": "Latin",
+    "sample_text": "PAALALA — GINAGAWANG KALSADA",
+    "script_notes": "Filipino (Tagalog-based) and English both appear on signage, with English extremely common — much more so than in most of Southeast Asia. Dozens of regional languages (Cebuano, Ilocano, Hiligaynon and others) are spoken but rarely on formal road signs.",
+    "false_friends": ["Indonesia", "Malaysia", "Vietnam"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Two documented bollard patterns, generally short concrete or plastic posts with reflectors.",
+    "bollard_shape": "Short, simple posts.",
+    "guardrail_type": "Varies by region — yellow-and-black striped concrete guardrails in the Cordillera mountains, and white guardrails with three recurring black stripes unique to the Bicol region of southern Luzon.",
+    "line_paint": "White outside/white inside or white outside/yellow inside lines.",
+    "curb_style": "Painted kerbs in cities; open roadside drainage common elsewhere.",
+    "km_marker_style": "Utility poles are a strong regional signal — see regional profiles. Caltex, Petron, Phoenix Petroleum and Seaoil are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "Corrugated metal roofing is by far the most common roof type nationwide; traditional nipa (palm thatch) roofs on rural bahay kubo houses.",
+    "roof_material": "Corrugated metal dominant; nipa/cogon thatch on traditional huts.",
+    "wall_construction": "Concrete hollow-block construction dominates towns and cities, often with exposed, unpainted or partly painted walls; traditional bahay kubo (stilted bamboo/wood houses with thatched roofs) in rural areas; Spanish colonial stone churches in an 'earthquake Baroque' style and bahay na bato (stone-base ancestral houses).",
+    "wall_color_palette": "Brightly painted shopfronts and sari-sari (small neighbourhood) stores alongside bare grey concrete; heavy advertising signage.",
+    "distinctive_building_types": "Spanish colonial 'earthquake Baroque' churches; bahay na bato ancestral houses; ubiquitous sari-sari stores; basketball courts (nearly every barangay has a covered court); tricycle terminals; Jollibee restaurants as a national tell."
+  },
+
+  "nature": {
+    "vegetation": "Coconut palms are extremely widespread; rice paddies and terraced fields (Ifugao rice terraces in northern Luzon); dense tropical rainforest in the mountainous interiors.",
+    "terrain": "An archipelago of over 7,000 islands — mountainous, volcanic islands with narrow coastal plains; Luzon in the north, the Visayas in the center, and Mindanao in the south.",
+    "climate_signature": "Hot, humid tropical climate with heavy monsoon rains and frequent typhoons; lush green vegetation year-round."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Mitsubishi", "Honda (motorbikes)", "Suzuki"],
+    "plate_color": "Mostly white plates with black text for private vehicles; red text on white for government vehicles, green on white for electric/hybrid, and blue on white for diplomatic vehicles; some plates show green and blue colour shading.",
+    "plate_format": "Three letters + three or four digits (e.g. 'ABC 1234').",
+    "distinctive_vehicles": "Jeepneys — converted, elaborately painted military-jeep-style shared buses — are the single most iconic Philippines vehicle; tricycles (motorbikes with attached sidecars) are ubiquitous; motorbikes are extremely common."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed Gen 3/4 official coverage, supplemented by Trekker imagery in remote areas.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense around Metro Manila and Luzon; more variable across the Visayas and Mindanao."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Indonesia",
+      "shared_traits": "Tropical archipelago, similar corrugated-roof concrete-block towns, motorbike and shared-taxi culture",
+      "tiebreaker": "The Philippines drives on the RIGHT while Indonesia drives on the LEFT; Filipino signage uses much more English, and jeepneys and tricycles are distinctly Filipino."
+    },
+    {
+      "country": "Vietnam",
+      "shared_traits": "Similar tropical rice-paddy landscape, concrete shophouse towns and motorbike traffic, both drive on the right",
+      "tiebreaker": "Vietnamese uses Latin script with heavy diacritics while Filipino signage is largely plain English/Tagalog; jeepneys, tricycles and Spanish-colonial churches are strong Philippines tells."
+    },
+    {
+      "country": "Malaysia",
+      "shared_traits": "Tropical vegetation, similar Southeast Asian shophouse and corrugated-roof architecture",
+      "tiebreaker": "Malaysia drives on the LEFT while the Philippines drives on the right; Malaysian black-and-white painted guardrails and two-section plates differ from Philippine road furniture."
+    }
+  ]
+}

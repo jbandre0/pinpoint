@@ -1,0 +1,82 @@
+{
+  "id": "lk",
+  "name": "Sri Lanka",
+  "aliases": ["Democratic Socialist Republic of Sri Lanka", "Ceylon"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/sri-lanka/",
+    "https://geopinning.space/en/rule/asia/srilanka/",
+    "https://www.plonkit.net/sri-lanka",
+    "https://en.wikipedia.org/wiki/Sri_lankan_architecture"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇱🇰",
+    "capital": "Colombo / Sri Jayawardenepura Kotte"
+  },
+
+  "language": {
+    "official_languages": ["Sinhala", "Tamil"],
+    "script": "Sinhala and Tamil",
+    "sample_text": "අවවාදයයි — මාර්ග වැඩ",
+    "script_notes": "Sinhala script (rounded, loop-heavy letters) is unique to Sri Lanka and the single most definitive tell. Tamil script also appears and is shared with Tamil Nadu in India, so Tamil alone is ambiguous — but the mix of Sinhala and Tamil on bilingual signs, often far from Tamil-majority areas, points to Sri Lanka. English appears widely as a third language on signage.",
+    "false_friends": ["India (especially Tamil Nadu and Kerala)", "Maldives"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Small white and black stone bollards; some yellow-and-black striped variants documented.",
+    "bollard_shape": "Short, squat stone posts.",
+    "guardrail_type": "Minimal on most roads.",
+    "line_paint": "Yellow outside/white inside or white outside/white inside lines.",
+    "curb_style": "Black-and-white painted curb blocks appear near canals and at intersections — a distinctive Sri Lanka tell, with bollards showing up frequently alongside.",
+    "km_marker_style": "Two common utility-pole types: one with see-through 'holey' openings in the lower half of the pole, and one with small holes only near the top. Ceylon Petroleum Corporation (CEYPETCO), Lanka IOC and Laugfs are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "Red clay tile pitched roofs are the default on houses and shophouses; Portuguese-style pitched roofs with balconies visible in colonial-era coastal areas.",
+    "roof_material": "Red clay tile very common nationwide; corrugated metal on simpler buildings.",
+    "wall_construction": "Concrete-block and stucco houses in whitewashed or pastel tones; Buddhist temples (viharas) with white dagobas (bell-shaped stupas) are a defining feature — Sri Lanka's stupas are among the largest brick structures in the world; Dutch colonial forts (Galle) and British hill-station architecture in the central highlands.",
+    "wall_color_palette": "White and pastel tones on houses and temples; brightly painted shopfronts and Hindu kovil temples in Tamil areas.",
+    "distinctive_building_types": "White dome-shaped dagobas (stupas) topped with a conical spire; Buddhist viharas; brightly coloured Hindu kovil temples with tiered gopuram-style towers in Tamil regions; Dutch-era Galle Fort; colonial-era tea-estate bungalows in the hill country."
+  },
+
+  "nature": {
+    "vegetation": "Coconut palms line the coastal lowlands; tea plantations blanket the central highlands (Nuwara Eliya, Kandy region); rice paddies fill the wet-zone lowlands; dry-zone scrub in the north and east.",
+    "terrain": "A tropical island with a flat coastal belt, a mountainous central highland region with tea-covered hills and waterfalls, and a drier northern/eastern plain; ancient man-made irrigation reservoirs ('tanks') dot the dry zone.",
+    "climate_signature": "Hot and humid tropical climate with two monsoons — lush green in the wet southwest, drier in the north and east."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Suzuki", "Bajaj (three-wheelers)", "Tata"],
+    "plate_color": "Rear plates are yellow with black text while front plates are white — one of the few countries with this yellow-rear/white-front split.",
+    "plate_format": "Province code letters + digits (e.g. 'CAB-1234'), historically with Sinhala letters in older formats.",
+    "distinctive_vehicles": "Three-wheeler tuk-tuks (typically Bajaj, often painted in bright colours) are extremely common; buses are colourful and heavily decorated; Suzuki kei-style small cars and vans widespread."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 official coverage; the car uses a lower camera mount that produces a distinctive larger visible blur at the bottom of the frame, a look shared with only a few countries (Japan, Switzerland, parts of India).",
+    "blur_style": "Standard Google blurring plus the distinctive large low-mounted car blur.",
+    "coverage_notes": "Dense coverage across most of the island, including the tea-covered central highlands and coastal belt."
+  },
+
+  "confusion_set": [
+    {
+      "country": "India (Tamil Nadu / Kerala)",
+      "shared_traits": "Shared Tamil script in the north of Sri Lanka, similar tropical coastal palm vegetation and tuk-tuk culture, both drive on the left",
+      "tiebreaker": "Sinhala script is unique to Sri Lanka and settles it instantly; Sri Lanka's yellow-rear/white-front plates, black-and-white curb blocks and small stone bollards also differ from India's road furniture and plate formats."
+    },
+    {
+      "country": "Maldives",
+      "shared_traits": "Nearby South Asian island nation with similar tropical coastal vegetation",
+      "tiebreaker": "Maldives uses Dhivehi (Thaana) script and is composed of tiny low-lying coral islands with almost no roads by comparison; Sri Lanka's larger island geography and road network are very different."
+    },
+    {
+      "country": "Thailand",
+      "shared_traits": "Shared Theravada Buddhist temples with white stupas, similar tropical vegetation and tuk-tuk transport, both drive on the left",
+      "tiebreaker": "Sinhala script and dagobas (bell-shaped stupas) vs. Thai script and ornate multi-tiered Thai wat roofs; Sri Lanka's yellow rear plates are a distinctive tell absent in Thailand."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "gt",
+  "name": "Guatemala",
+  "aliases": ["Republic of Guatemala", "República de Guatemala"],
+  "continent": "North America",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/guatemala/",
+    "https://lacgeo.com/cultural-landscape-guatemala",
+    "https://www.touropia.com/best-places-to-visit-in-guatemala/",
+    "https://geotips.net/north-america/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇬🇹",
+    "capital": "Guatemala City"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Spanish nationwide; over 20 Mayan languages are spoken locally (K'iche', Kaqchikel and others), rarely appearing on formal signage. City streets are gridded, with one-way streets marked 'Una Vía' and two-way streets marked 'Doble Vía'.",
+    "false_friends": ["Mexico (southern Chiapas)", "Honduras", "El Salvador", "Belize"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Yellow-and-black striped bollards where present, but bollards are extremely rare overall.",
+    "bollard_shape": "Simple striped post.",
+    "guardrail_type": "Minimal on most roads.",
+    "line_paint": "White outside/yellow inside lines.",
+    "curb_style": "Cobblestone streets in colonial towns such as Antigua; painted kerbs in cities.",
+    "km_marker_style": "Utility poles are most often painted red at the bottom — a useful Guatemala tell. Texaco, Puma and Uno are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "Red clay tile pitched roofs in colonial towns; flat concrete roofs on much modern construction; corrugated metal common in rural areas.",
+    "roof_material": "Red clay tile in colonial areas, corrugated metal and flat concrete elsewhere.",
+    "wall_construction": "Spanish colonial Baroque architecture with colourful facades and cobblestone streets in Antigua (UNESCO World Heritage site, set against three volcanoes); concrete-block construction in Guatemala City and most towns; traditional adobe and simple block houses in the highland Maya villages.",
+    "wall_color_palette": "Vivid yellow, ochre, blue and terracotta colonial facades in Antigua; brightly painted concrete shopfronts; earthy tones in rural highland villages.",
+    "distinctive_building_types": "Colonial churches and ruins (Antigua); ancient Maya temples and pyramids in the Petén rainforest (Tikal); brightly painted 'chicken buses' (converted US school buses) as an iconic moving landmark; dense concrete Guatemala City neighbourhoods."
+  },
+
+  "nature": {
+    "vegetation": "Dense tropical rainforest in the northern Petén lowlands; cool pine and oak highland forest in the central mountains; tropical lowland farmland, banana and sugar cane on the Pacific plain.",
+    "terrain": "Mountainous and volcanic — the country has around 37 volcanoes, several of them active — with a fertile highland core, a hot Pacific coastal plain, and flat, jungle-covered lowlands in the north.",
+    "climate_signature": "Tropical but with a cooler 'eternal spring' feel at highland elevations; a wet, humid, dense-green look in the lowlands."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Suzuki", "Hyundai", "Honda (motorbikes)"],
+    "plate_color": "Small plates (roughly 15cm × 30cm) that don't fill the plate area on the car, in various colours by vehicle class.",
+    "plate_format": "Letter prefix indicating vehicle type followed by digits and letters (e.g. 'P 123ABC').",
+    "distinctive_vehicles": "Chicken buses — brightly painted, converted US school buses — are Guatemala's iconic vehicle; tuk-tuks in smaller towns; the Google Street View car carries a roof rack across the whole country, a very reliable Guatemala tell."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed official Gen 3 coverage with the distinctive roof-rack car; the same car style (with a snorkel-like front fitting) is shared with a few other countries.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage in the central highlands and main highways; sparser in the northern Petén and remote mountain areas."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Mexico (southern Chiapas)",
+      "shared_traits": "Shared Maya highland culture and terrain, similar colonial architecture and colourful facades near the border",
+      "tiebreaker": "Guatemala's roof-rack Google car appears across the entire country and is a very reliable tell; small Guatemalan plates and red-painted pole bases also help separate it from Mexico."
+    },
+    {
+      "country": "Honduras / El Salvador",
+      "shared_traits": "Shared Central American tropical vegetation, Spanish signage, similar concrete-block architecture and chicken-bus-style transport",
+      "tiebreaker": "Guatemala's roof-rack Google car and its 'Una Vía'/'Doble Vía' street signage are strong tells; plate formats and road furniture also differ once compared directly."
+    },
+    {
+      "country": "Belize",
+      "shared_traits": "Shared northern jungle border region and Maya heritage sites",
+      "tiebreaker": "Belize is English-speaking and drives on the right with different plates and Caribbean-influenced architecture, whereas Guatemala's signage is in Spanish."
+    }
+  ]
+}

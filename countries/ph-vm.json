@@ -1,0 +1,83 @@
+{
+  "id": "ph-vm",
+  "name": "Visayas & Mindanao (Central and Southern Philippines)",
+  "aliases": ["Visayas", "Mindanao", "Cebu"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "parent": "ph",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mindanao%E2%80%93Eastern_Visayas_rain_forests",
+    "https://en.wikipedia.org/wiki/List_of_mosques_in_the_Philippines",
+    "https://www.windowseat.ph/beautiful-mosques-in-the-philippines/",
+    "https://geometas.com/metas/countries/philippines/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇵🇭",
+    "capital": "Cebu City / Davao City"
+  },
+
+  "language": {
+    "official_languages": ["Filipino", "English", "Cebuano (regional)"],
+    "script": "Latin",
+    "sample_text": "PAALALA — GINAGAWANG KALSADA",
+    "script_notes": "Filipino and English on official signage, but Cebuano/Bisaya is the dominant local language across the Visayas and much of Mindanao; Arabic script appears at mosques and Islamic institutions in parts of Mindanao.",
+    "false_friends": ["Indonesia (Sulawesi/Maluku, near the southern sea border)", "Malaysia (Sabah)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national; more open roadside drainage and less formal infrastructure than Metro Manila.",
+    "km_marker_style": "Square concrete poles with an indent on both sides appear in and around Bacolod on Negros; square metal mesh poles are found on Mindanao, mainly on the Zamboanga peninsula."
+  },
+
+  "architecture": {
+    "roof_style": "Corrugated metal dominant as national; Spanish colonial stone-and-timber ancestral houses and neo-Gothic churches in Visayan towns; traditional pagoda-style roofs on vernacular Mindanao mosques.",
+    "roof_material": "Corrugated metal; traditional nipa thatch in rural areas.",
+    "wall_construction": "Concrete hollow-block construction as national; Spanish colonial heritage (bahay na bato, Molo Church in Iloilo) is strong in the Visayas; Mindanao shows a fusion of indigenous and Islamic influence, including Maranao torogan houses with carved elevated floors and mosques such as the Golden Mosque in Cotabato City.",
+    "wall_color_palette": "Bright painted shopfronts and grey concrete as national; golden domes and green-and-white detailing on Mindanao mosques.",
+    "distinctive_building_types": "Spanish colonial churches and forts (Cebu's Basilica del Santo Niño, Fort San Pedro); Mindanao mosques with domes and minarets, including pagoda-style vernacular mosques; Maranao torogan houses; sari-sari stores and covered basketball courts as national."
+  },
+
+  "nature": {
+    "vegetation": "Coconut plantations are extremely widespread, especially across the Visayas and Mindanao; lush lowland rainforest across Mindanao and the eastern Visayas; banana and pineapple plantations in Mindanao.",
+    "terrain": "A chain of hundreds of islands (the Visayas) with narrow coastal plains and hilly interiors, and the large, mountainous island of Mindanao with rainforest, highlands and Mount Apo, the country's highest peak.",
+    "climate_signature": "Hot, humid tropical climate; Mindanao lies south of the main typhoon belt and is generally less typhoon-prone than Luzon and the Visayas."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Mitsubishi", "Honda (motorbikes)", "Suzuki"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Jeepneys as national; motorcycles with sidecars (habal-habal and tricycles) are especially dominant in towns and rural areas."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed Gen 3/4 official coverage plus Trekker in remote areas.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Patchier than Luzon — reasonable in Cebu, Bacolod, Iloilo, Davao and Zamboanga, with gaps across smaller islands and the interior of Mindanao."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Luzon (Philippines)",
+      "shared_traits": "Same country, same national plate and bollard base style",
+      "tiebreaker": "Visayas & Mindanao lack Manila's ladder-style pole-tops and Bicol's striped guardrails; Mindanao adds mosques and Islamic architecture and the Zamboanga peninsula's square metal mesh poles."
+    },
+    {
+      "country": "Indonesia",
+      "shared_traits": "Nearby tropical archipelago with similar coconut palms, corrugated-roof concrete towns and motorbike culture",
+      "tiebreaker": "The Philippines drives on the RIGHT while Indonesia drives on the LEFT; jeepneys, tricycles and Filipino/English signage are distinctly Philippine."
+    },
+    {
+      "country": "Malaysia (Sabah)",
+      "shared_traits": "Nearby tropical region with similar vegetation and Muslim communities on the Sulu Sea's edges",
+      "tiebreaker": "Malaysia drives on the LEFT while the Philippines drives on the right; Malaysian black-and-white guardrails and two-section plates differ from Philippine road furniture."
+    }
+  ]
+}

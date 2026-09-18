@@ -1,0 +1,77 @@
+{
+  "id": "ph-l",
+  "name": "Luzon (Manila · Northern Luzon)",
+  "aliases": ["Luzon Island", "Metro Manila"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "ph",
+  "sources": [
+    "https://geometas.com/metas/countries/philippines/",
+    "https://www.plonkit.net/philippines",
+    "https://en.wikipedia.org/wiki/Bahay_kubo"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇵🇭",
+    "capital": "Manila"
+  },
+
+  "language": {
+    "official_languages": ["Filipino", "English"],
+    "script": "Latin",
+    "sample_text": "PAALALA — GINAGAWANG KALSADA",
+    "script_notes": "Filipino (Tagalog-based) and English, with Tagalog the dominant local language around Manila and Ilocano in the northwest — the region where Filipino is most heard in daily use.",
+    "false_friends": ["Taiwan (across the Luzon Strait)", "Vietnam"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "Yellow-and-black striped concrete guardrails in the Cordillera mountains of the north; white guardrails with three recurring black stripes are unique to the Bicol region in southern Luzon.",
+    "line_paint": "As national.",
+    "curb_style": "As national; dense formal infrastructure in Metro Manila with elevated expressways and rail.",
+    "km_marker_style": "A pole-top made of two tall vertical L-shaped metal bars connected by thin wires, resembling a ladder, is unique to Manila and the surrounding area. Square concrete poles with an indent on both sides are mainly found north of Manila."
+  },
+
+  "architecture": {
+    "roof_style": "Corrugated metal roofing dominates; nipa thatch on traditional bahay kubo houses in rural areas.",
+    "roof_material": "Corrugated metal.",
+    "wall_construction": "Dense concrete hollow-block construction in Metro Manila; Spanish colonial stone churches ('earthquake Baroque') and bahay na bato houses in old towns such as Vigan; Ifugao stilt houses and granaries in the northern mountains.",
+    "wall_color_palette": "Bare and painted grey concrete, layered with advertising signage.",
+    "distinctive_building_types": "Manila's dense high-rise and informal-settlement mix; Vigan's preserved Spanish colonial streets (UNESCO); the 2,000-year-old Ifugao rice terraces in Banaue and stilted Ifugao houses; Spanish colonial churches and jeepney-choked boulevards."
+  },
+
+  "nature": {
+    "vegetation": "Rice paddies dominate the central Luzon plain; terraced rice fields and pine forest in the northern Cordillera highlands; coconut palms along coasts and southern Luzon.",
+    "terrain": "The largest island — a flat central plain around Manila and Pampanga, the Cordillera and Sierra Madre mountain ranges to the north and east, and active volcanoes such as Mayon and Taal.",
+    "climate_signature": "Hot and humid tropical, with a marked wet and dry season and frequent typhoons — cooler and pine-covered in the northern highlands around Baguio."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Mitsubishi", "Honda (motorbikes)", "Suzuki"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Jeepneys and tricycles as national; Metro Manila also has heavy bus, UV Express van and motorbike traffic."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 official coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "The densest and most complete coverage in the Philippines, concentrated in and around Metro Manila and along Luzon's main highways."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Visayas & Mindanao (Philippines)",
+      "shared_traits": "Same country, same national plate and bollard base style",
+      "tiebreaker": "Luzon's Manila ladder-style pole-tops, Bicol's three-black-stripe white guardrails and northern Cordillera rice terraces are Luzon-specific; Mindanao's Zamboanga peninsula has square metal mesh poles, and mosques and Islamic architecture appear in the south."
+    },
+    {
+      "country": "Vietnam",
+      "shared_traits": "Similar tropical rice-paddy landscape, concrete shophouse towns and motorbike traffic, both drive on the right",
+      "tiebreaker": "Vietnamese signage uses Latin script with heavy diacritics, while Luzon signage is plain English/Tagalog; jeepneys, tricycles and Spanish-colonial churches are strong Philippines tells."
+    }
+  ]
+}
