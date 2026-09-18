@@ -1,0 +1,77 @@
+{
+  "id": "id-bali",
+  "name": "Bali & Nusa Tenggara",
+  "aliases": ["Bali", "Lesser Sunda Islands", "Nusa Tenggara"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "id",
+  "sources": [
+    "https://factsanddetails.com/indonesia/Minorities_and_Regions/sub6_3h/entry-9754.html",
+    "https://en.wikipedia.org/wiki/Lesser_Sundas_deciduous_forests",
+    "https://en.wikipedia.org/wiki/Subak_(irrigation)"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇮🇩",
+    "capital": "Denpasar"
+  },
+
+  "language": {
+    "official_languages": ["Indonesian", "Balinese"],
+    "script": "Latin",
+    "sample_text": "AWAS — ADA PERBAIKAN JALAN",
+    "script_notes": "Indonesian as national; Balinese script appears decoratively on temple gates and cultural signage in Bali specifically — a strong regional tell where visible.",
+    "false_friends": ["Java (shares volcanic terrain and Javanese-descended Hindu temple architectural roots)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national; small stone/woven offering baskets (canang sari) placed on the ground outside doorways and shopfronts are a near-unique Bali-specific tell.",
+    "km_marker_style": "As national; small roadside Hindu shrines are common in Bali specifically."
+  },
+
+  "architecture": {
+    "roof_style": "Multi-tiered thatched meru towers (pagoda-like shrine roofs) are Bali's single strongest architectural tell; elsewhere in Nusa Tenggara, simpler vernacular construction predominates.",
+    "roof_material": "Layered black palm-fiber thatch (ijuk) on meru towers and temple roofs in Bali; corrugated metal more common further east in Nusa Tenggara's poorer, drier islands.",
+    "wall_construction": "Balinese pura (Hindu temples) built as a series of walled courtyards with an iconic split gate (candi bentar) entrance; carved volcanic-stone temple facades; simpler, more sparsely developed villages further east on Lombok, Flores, Sumba and Timor.",
+    "wall_color_palette": "Grey-black volcanic stone temple carving in Bali; simpler earth-toned village construction further east.",
+    "distinctive_building_types": "Balinese Hindu temples (pura) with split gates and tiered meru towers; terraced rice paddies (subak irrigation system) with small shrines beside them; the Komodo dragon habitat and dry savanna landscape further east on Flores/Komodo."
+  },
+
+  "nature": {
+    "vegetation": "Lush, intensively irrigated terraced rice paddies and tropical vegetation in Bali; increasingly dry monsoon forest and open savanna woodland moving east through Lombok, Sumbawa, Flores, Sumba and Timor — among the driest, most seasonal landscapes in Indonesia.",
+    "terrain": "Volcanic peaks and terraced hillsides in Bali (Mount Agung, Mount Batur); a chain of smaller volcanic islands continuing east, becoming progressively drier and less forested, home to Komodo National Park's savanna landscape.",
+    "climate_signature": "Bali itself is lush and humid; the islands further east (Nusa Tenggara proper) are noticeably drier and browner with savanna rather than rainforest — a strong within-region gradient worth knowing."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Daihatsu", "Mitsubishi"],
+    "plate_color": "As national — Bali uses the 'DK' area code.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Very heavy scooter/motorbike traffic in Bali's tourist areas; simpler, sparser vehicle presence further east in rural Nusa Tenggara."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Good coverage in Bali (a major tourist destination); much sparser across Lombok, Flores, Sumba and Timor.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Bali is well covered; the rest of Nusa Tenggara has real, significant coverage gaps."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Java",
+      "shared_traits": "Volcanic terrain, rice terraces, shared Hindu-influenced temple architectural roots",
+      "tiebreaker": "Bali's temples have the distinctive split gate (candi bentar) and tiered meru towers of Hindu architecture; Java is predominantly Muslim with pyramidal-roofed mosques instead, and Balinese canang sari offering baskets are absent in Java."
+    },
+    {
+      "country": "Thailand/mainland Southeast Asia",
+      "shared_traits": "Tropical Buddhist/Hindu temple imagery can superficially resemble Balinese architecture to an untrained eye",
+      "tiebreaker": "Bali drives on the left with Indonesian plates and Balinese-script temple signage; Thailand's temple architecture (wat, chedi) and script are entirely different, and Thailand also drives on the left but with completely different plate and signage conventions."
+    }
+  ]
+}

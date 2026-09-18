@@ -1,0 +1,82 @@
+{
+  "id": "au",
+  "name": "Australia",
+  "aliases": ["Commonwealth of Australia"],
+  "continent": "Oceania",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/australia/",
+    "https://www.plonkit.net/australia",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Australia",
+    "https://geopinning.space/en/rule/oceania/australia/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇦🇺",
+    "capital": "Canberra"
+  },
+
+  "language": {
+    "official_languages": ["English"],
+    "script": "Latin",
+    "sample_text": "CAUTION — ROAD WORK AHEAD",
+    "script_notes": "English as national; Aboriginal place names common throughout, especially in less urban areas.",
+    "false_friends": ["New Zealand", "South Africa", "United Kingdom"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White posts with a red reflector on the front that stops partway (doesn't wrap fully around) and a grey reflector on the back — the red-stopping-at-the-middle detail is what distinguishes Australia from New Zealand, whose red reflector wraps all the way around.",
+    "bollard_shape": "Slim rounded post.",
+    "guardrail_type": "Varies distinctly by state: NSW/ACT guardrails often end with a yellow background and black diagonal dash.",
+    "line_paint": "Yellow outside/white inside lines common on many roads, alongside yellow outside/yellow inside.",
+    "curb_style": "White street name signs nationwide; give-way signs use black text.",
+    "km_marker_style": "Utility pole style varies meaningfully by state — see regional profiles (Victoria's circular concrete poles, South Australia's part-steel/part-concrete Stobie poles, Northern Territory's holed metal poles, Western Australia's yellow signposts)."
+  },
+
+  "architecture": {
+    "roof_style": "Single-story detached houses with simple pitched roofs dominate suburban Australia nationwide; corrugated metal roofing extremely common.",
+    "roof_material": "Corrugated metal (Colorbond-style) roofing is a strong national tell, alongside terracotta tile in older suburbs.",
+    "wall_construction": "Brick veneer or weatherboard single-story houses on individual suburban lots are the default nationwide; elevated 'Queenslander' style houses on stilts in the tropical north.",
+    "wall_color_palette": "Muted brick and pale weatherboard tones; corrugated metal roofing in silver/grey or earth tones.",
+    "distinctive_building_types": "Single-story brick veneer or weatherboard suburban houses with corrugated metal roofs; elevated Queenslander houses in the tropical north; utilitarian roadhouse buildings in remote areas."
+  },
+
+  "nature": {
+    "vegetation": "Eucalyptus (gum tree) forest and scrub dominate nationwide — a very strong general Australia tell; vegetation density and colour vary sharply by region, from lush coastal forest to sparse red-dirt Outback scrub. See regional profiles.",
+    "terrain": "An enormous, mostly flat and arid continent — a densely populated eastern coastal strip, a vast arid interior (the Outback), and a sparsely populated west.",
+    "climate_signature": "Extremely varied — humid subtropical on the east coast, arid desert in the interior, Mediterranean in the southwest — bright, high-contrast sunlight is common nationwide."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Ford", "Mitsubishi", "Isuzu"],
+    "plate_color": "Varies distinctly by state: NSW plates commonly yellow, Queensland maroon/white, Victoria/Tasmania/Western Australia blue/white, South Australia black/white, Northern Territory sometimes red-tinged text on white — state plate colour is one of the single best in-country location clues.",
+    "plate_format": "Varies by state; commonly a letter/digit mix around 6 characters.",
+    "distinctive_vehicles": "Dual-cab 'utes' (pickup trucks — Ford Ranger, Toyota HiLux, Isuzu D-Max, Mitsubishi Triton) are disproportionately common — a strong national/regional tell versus most of the rest of the world."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Full range including notable Gen 1 coverage (alongside the US and New Zealand) in some areas; otherwise mostly Gen 3/4 in populated areas.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very dense along the populated east coast; large genuine gaps across the sparsely populated Outback interior."
+  },
+
+  "confusion_set": [
+    {
+      "country": "New Zealand",
+      "shared_traits": "Left-hand traffic, English signage, similar bollard base style, similar suburban house construction",
+      "tiebreaker": "Australia's bollard red reflector stops partway around the post; New Zealand's wraps fully around the back — a reliable close-up tiebreaker. Australia is also flatter and drier overall than New Zealand's more mountainous, green terrain."
+    },
+    {
+      "country": "South Africa",
+      "shared_traits": "Left-hand traffic, English signage, similarly dry scrub/savanna vegetation in parts",
+      "tiebreaker": "Australian eucalyptus forest/scrub looks distinct from South African acacia savanna once compared directly; plate formats and road furniture differ substantially between the two."
+    },
+    {
+      "country": "United Kingdom",
+      "shared_traits": "Left-hand traffic, English signage and language",
+      "tiebreaker": "UK terrain, architecture (dense terraced housing, stone construction) and much greener, cooler climate look nothing like Australia's brick-veneer suburbs and eucalyptus scrub once any landscape is visible."
+    }
+  ]
+}

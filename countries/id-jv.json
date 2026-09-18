@@ -1,0 +1,77 @@
+{
+  "id": "id-jv",
+  "name": "Java",
+  "aliases": ["Jawa"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "id",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Volcanism_of_Java",
+    "https://en.wikipedia.org/wiki/Mosque_architecture_in_Indonesia",
+    "https://en.wikipedia.org/wiki/Geography_of_Indonesia"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇮🇩",
+    "capital": "Jakarta"
+  },
+
+  "language": {
+    "official_languages": ["Indonesian", "Javanese"],
+    "script": "Latin",
+    "sample_text": "AWAS — ADA PERBAIKAN JALAN",
+    "script_notes": "Indonesian as national; Javanese is the dominant regional language, occasionally appearing decoratively in its own script on cultural signage though rarely on road signs.",
+    "false_friends": ["Bali (shares some volcanic terrain and Javanese-origin temple architecture)", "Sumatra"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; more substantial on the dense Java-wide highway network (the most developed in Indonesia).",
+    "line_paint": "As national.",
+    "curb_style": "As national; denser, more developed urban infrastructure than most of the rest of the archipelago given Java holds the majority of Indonesia's population.",
+    "km_marker_style": "As national. Toll road (tol) signage is far more extensive here than elsewhere in Indonesia."
+  },
+
+  "architecture": {
+    "roof_style": "Steep, multi-tiered pyramidal roofs on traditional Javanese mosques — a strong regional architectural signature.",
+    "roof_material": "Clay tile and corrugated metal.",
+    "wall_construction": "Dense, often informal urban development in and around Jakarta/Surabaya/Bandung; traditional joglo (Javanese pendopo-style) wooden houses with pyramidal roofs in rural/cultural areas.",
+    "wall_color_palette": "Muted concrete/painted-block tones in cities; natural wood tones on traditional joglo houses.",
+    "distinctive_building_types": "Multi-tiered pyramidal-roofed mosques with ceremonial gateways; joglo traditional houses; dense informal Jakarta/Surabaya urban sprawl; ancient Hindu-Buddhist temple complexes (Borobudur, Prambanan)."
+  },
+
+  "nature": {
+    "vegetation": "Rice paddies terracing volcanic slopes; tropical vegetation intermixed with dense agricultural land — Java is Indonesia's most intensively farmed and populated island.",
+    "terrain": "Almost entirely of volcanic origin, with numerous active volcanoes forming a spine down the island; the most densely populated and developed island in the archipelago.",
+    "climate_signature": "Tropical, with volcanic peaks frequently visible on the horizon — Java's volcano-and-rice-terrace combination is a strong regional signature."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Daihatsu", "Mitsubishi"],
+    "plate_color": "As national — Jakarta uses the 'B' area code.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Extremely heavy motorbike traffic, especially in Jakarta; the highest vehicle density in Indonesia given the population concentration."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Best and most complete coverage in Indonesia, concentrated around Jakarta, Surabaya, Bandung and Yogyakarta.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "By far the densest Street View coverage of any Indonesian island — most 'generic Indonesia' imagery is actually Java."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Bali",
+      "shared_traits": "Volcanic terrain, rice terraces, shared Hindu-influenced temple architectural roots (Bali's temples descend from Javanese Hindu tradition)",
+      "tiebreaker": "Java is predominantly Muslim with pyramidal-roofed mosques as the dominant religious architecture; Bali is predominantly Hindu with distinctive split-gate temples and meru towers — a strong differentiator."
+    },
+    {
+      "country": "Sumatra",
+      "shared_traits": "Same country, same script/plate/language base",
+      "tiebreaker": "Java is denser, more developed and volcano-studded with rice terraces; Sumatra is dominated by dense rainforest and has the distinctive curved-roof rumah gadang architecture Java lacks."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "id-sm",
+  "name": "Sumatra",
+  "aliases": ["Sumatera"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "parent": "id",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Architecture_of_Sumatra",
+    "https://en.wikipedia.org/wiki/Sunda_Arc",
+    "https://en.wikipedia.org/wiki/Geography_of_Indonesia"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇮🇩",
+    "capital": "Medan / Palembang"
+  },
+
+  "language": {
+    "official_languages": ["Indonesian", "Minangkabau", "Batak"],
+    "script": "Latin",
+    "sample_text": "AWAS — ADA PERBAIKAN JALAN",
+    "script_notes": "Indonesian as national; strong regional ethnic identity (Minangkabau in West Sumatra, Batak around Lake Toba, Acehnese in the north — Aceh applies elements of Sharia law and has more visible Islamic dress/signage conventions than elsewhere in Indonesia).",
+    "false_friends": ["Java", "Malaysia (shares the Strait of Malacca coastline and similar rainforest)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; less consistently maintained than Java's more developed network.",
+    "line_paint": "As national.",
+    "curb_style": "As national; more rural/less developed infrastructure outside major cities (Medan, Palembang, Padang) than Java.",
+    "km_marker_style": "As national."
+  },
+
+  "architecture": {
+    "roof_style": "The dramatically curved, upward-swept buffalo-horn roof of the rumah gadang is Sumatra's single strongest architectural tell, found in West Sumatra's Minangkabau region.",
+    "roof_material": "Traditional palm-fiber thatch (ijuk) on rumah gadang roofs; corrugated metal common elsewhere.",
+    "wall_construction": "Traditional stilt houses widespread given flooding and humidity; the distinctive multi-peaked rumah gadang longhouses in Minangkabau areas; simpler concrete-block construction in cities.",
+    "wall_color_palette": "Natural wood tones with carved decorative panels on traditional houses.",
+    "distinctive_building_types": "Rumah gadang with dramatic curved, multi-peaked buffalo-horn roofs; Batak traditional houses around Lake Toba; mosques with more visibly conservative Islamic architectural influence in Aceh."
+  },
+
+  "nature": {
+    "vegetation": "Dense tropical rainforest dominates much of the island, among the most biodiverse (and most threatened by deforestation/palm oil plantations) in Indonesia; oil palm plantations increasingly widespread.",
+    "terrain": "A mountainous volcanic spine (the Bukit Barisan range) runs the length of the island along the Sunda Arc fault system; Lake Toba, a vast volcanic caldera lake, is a distinctive landmark.",
+    "climate_signature": "Hot, humid, densely forested — a noticeably wilder, less developed look than Java in most non-urban imagery."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Daihatsu", "Mitsubishi"],
+    "plate_color": "As national — area codes differ from Java (e.g. 'BK' for North Sumatra/Medan).",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Heavy motorbike traffic as national; more logging/palm-oil trucks visible on rural roads than in Java."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Sparser than Java; concentrated around Medan, Palembang and Padang.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Noticeably thinner rural coverage than Java, with real gaps across the interior rainforest."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Java",
+      "shared_traits": "Same country, same script/plate/language base",
+      "tiebreaker": "Sumatra is dominated by dense rainforest with the unmistakable curved rumah gadang roofline in Minangkabau areas; Java is more developed with volcano-studded rice terraces and pyramidal mosque roofs instead."
+    },
+    {
+      "country": "Malaysia (Peninsular)",
+      "shared_traits": "Shares the Strait of Malacca coastline, similar dense rainforest and palm-oil plantation landscape",
+      "tiebreaker": "Indonesia and Malaysia both drive on the left, so plate format (Indonesia's three-white-section plate vs. Malaysia's two-section) and language/signage conventions are the more reliable tiebreakers."
+    }
+  ]
+}

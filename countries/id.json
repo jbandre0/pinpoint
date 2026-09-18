@@ -1,0 +1,77 @@
+{
+  "id": "id",
+  "name": "Indonesia",
+  "aliases": ["Republic of Indonesia", "Republik Indonesia"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/indonesia/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Indonesia",
+    "https://en.wikipedia.org/wiki/Geography_of_Indonesia",
+    "https://en.wikipedia.org/wiki/Mosque_architecture_in_Indonesia"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇮🇩",
+    "capital": "Jakarta"
+  },
+
+  "language": {
+    "official_languages": ["Indonesian"],
+    "script": "Latin",
+    "sample_text": "AWAS — ADA PERBAIKAN JALAN",
+    "script_notes": "Indonesian (Bahasa Indonesia) written in Latin script; 'Jl.' is the ubiquitous abbreviation for 'Jalan' (street) on signage — a strong national tell. Regional scripts (Balinese, Javanese) sometimes appear decoratively but rarely on functional road signs.",
+    "false_friends": ["Malaysia", "Philippines"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Varies; red-and-white striped poles/markers are a recognizable Indonesia-region tell.",
+    "bollard_shape": "Varies by region.",
+    "guardrail_type": "Simple steel guardrail on major roads; often absent on rural/village roads.",
+    "line_paint": "White outside/white inside is common; white outside/yellow inside also seen.",
+    "curb_style": "Minimal in rural/village areas; open roadside drainage channels common.",
+    "km_marker_style": "'Jl.' street-name signage nationwide. Pertamina (the state oil company) is the dominant fuel-station brand, alongside Shell/Caltex."
+  },
+
+  "architecture": {
+    "roof_style": "Steep, multi-tiered pyramidal roofs on traditional mosques and Javanese buildings; varies sharply by region (Balinese temple architecture, Sumatran curved rumah gadang roofs) — see regional profiles.",
+    "roof_material": "Corrugated metal and clay tile common nationwide; thatch in more traditional/rural buildings.",
+    "wall_construction": "Highly varied by island and ethnic group — traditional stilt houses in many regions given flooding/humidity; concrete block construction common in denser cities.",
+    "wall_color_palette": "Varies by region.",
+    "distinctive_building_types": "Multi-tiered pyramidal-roofed mosques (Javanese Islamic style); traditional stilt houses; dense, informal urban development in major cities (Jakarta, Surabaya, Medan)."
+  },
+
+  "nature": {
+    "vegetation": "Extremely varied across the archipelago — dense rainforest in Sumatra/Kalimantan, volcanic terrain and rice paddies in Java/Bali, dry savanna in the Lesser Sunda Islands (Nusa Tenggara). See regional profiles.",
+    "terrain": "The world's largest archipelago, straddling the volcanically active 'Ring of Fire' — active volcanoes are common across Java, Sumatra and Bali specifically.",
+    "climate_signature": "Tropical and humid across most of the archipelago, though rainfall and vegetation density vary sharply by island — see regional profiles for specifics."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Daihatsu", "Mitsubishi"],
+    "plate_color": "White background with black dividers splitting the plate into three white sections (vs. Malaysia's two-section black-divided plates) is the standard civilian format; yellow plates mark public transport, red plates mark government vehicles, green plates mark free-trade-zone vehicles.",
+    "plate_format": "Letter area code + digits + letters (e.g. 'B 1234 ABC' for Jakarta).",
+    "distinctive_vehicles": "Motorbikes vastly outnumber cars on most roads — a strong Southeast Asia/Indonesia tell; Toyota, Honda and Daihatsu dominate the car segment."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed — official Google car coverage in and around major cities, supplemented by Trekker (backpack-mounted 360° camera) coverage in harder-to-reach areas.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Coverage concentrated on Java and Bali; much sparser across Sumatra, Kalimantan and the eastern islands."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Malaysia",
+      "shared_traits": "Similar tropical Southeast Asian vegetation, similar Latin-script Malay/Indonesian language (mutually intelligible in places), similar motorbike-heavy traffic",
+      "tiebreaker": "Indonesia drives on the LEFT as does Malaysia, so driving side doesn't separate them; Indonesian plates split into three white sections vs. Malaysia's two-section format, and Indonesia's 'Jl.' street prefix differs from Malaysia's 'Jalan' spelled out more often without the abbreviation."
+    },
+    {
+      "country": "Philippines",
+      "shared_traits": "Tropical Southeast Asian archipelago, similarly dense informal urban development, motorbike/jeepney-heavy traffic",
+      "tiebreaker": "The Philippines drives on the RIGHT while Indonesia drives on the LEFT; Filipino signage mixes English extensively while Indonesian signage stays in Bahasa Indonesia."
+    }
+  ]
+}

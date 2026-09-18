@@ -1,0 +1,77 @@
+{
+  "id": "au-out",
+  "name": "Outback & Central Australia",
+  "aliases": ["The Outback", "Red Centre", "Northern Territory"],
+  "continent": "Oceania",
+  "tier": 2,
+  "status": "draft",
+  "parent": "au",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Outback",
+    "https://www.plonkit.net/australia",
+    "https://geomastr.com/country/australia/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇦🇺",
+    "capital": "Alice Springs / Darwin"
+  },
+
+  "language": {
+    "official_languages": ["English"],
+    "script": "Latin",
+    "sample_text": "CAUTION — ROAD WORK AHEAD",
+    "script_notes": "English as national; a higher proportion of Aboriginal place names and community signage than the coastal cities.",
+    "false_friends": ["Sub-Saharan Africa (Sahel region — similarly red soil, sparse thorny scrub, flat terrain)", "Western Australia's own outback stretches"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "Often minimal or entirely absent on remote highways.",
+    "line_paint": "As national, though many roads are a single unmarked lane in each direction with wide dirt shoulders.",
+    "curb_style": "Essentially absent; isolated roadhouses serve as the only 'infrastructure' for long stretches.",
+    "km_marker_style": "Northern Territory utility poles are distinctively metal with holes in them, unlike poles further south and east. The Stuart Highway (Alice Springs to Darwin/Pimba) is a strong geographic anchor — long, straight, orange-dirt roads with sparse short trees."
+  },
+
+  "architecture": {
+    "roof_style": "Simple, utilitarian low buildings; almost no dense urban development outside a handful of towns (Alice Springs, Darwin).",
+    "roof_material": "Corrugated metal roofing, built to withstand extreme heat.",
+    "wall_construction": "Isolated roadhouses and simple demountable/prefab buildings are the dominant built form across vast, empty stretches.",
+    "wall_color_palette": "Sun-faded, dust-covered tones matching the surrounding red earth.",
+    "distinctive_building_types": "Isolated roadhouses along long empty highways; almost no continuous urban development; Uluru and other iconic red-rock formations as unmistakable landmarks where visible."
+  },
+
+  "nature": {
+    "vegetation": "Sparse spinifex grass, desert oak and low thorny scrub dominate; vegetation thins dramatically compared to the coastal regions.",
+    "terrain": "Vast, flat, arid interior dominated by red/orange dirt and sand, including the Simpson Desert; famous red-rock landmarks (Uluru, Kata Tjuta) rise abruptly from the flat desert.",
+    "climate_signature": "The single strongest Outback tell is the vivid orange-red dirt beside the road, combined with sparse short vegetation and an enormous, empty horizon — hot, dry and intensely sunny."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Ford", "Isuzu", "Nissan"],
+    "plate_color": "Northern Territory plates sometimes show red-tinged text on white.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Heavy-duty 4WD utes and road trains (multi-trailer trucks) are disproportionately common given the vast distances and remote conditions."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Sparse; where present, often older coverage along the handful of major highways (Stuart Highway).",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Huge coverage gaps — Street View exists mainly along the very limited highway network connecting isolated towns."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Sub-Saharan Africa (Sahel)",
+      "shared_traits": "Similar red/orange soil, sparse thorny scrub, flat arid terrain",
+      "tiebreaker": "Australia's Outback combines its red dirt with left-hand traffic, English road signage and eucalyptus/spinifex-specific vegetation; the Sahel has completely different road furniture, often French-influenced signage, and different vegetation species."
+    },
+    {
+      "country": "East Coast Australia",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The Outback is red-dirt, sparsely vegetated and largely empty of buildings; the East Coast is green, densely developed and suburban."
+    }
+  ]
+}

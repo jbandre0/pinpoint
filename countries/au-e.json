@@ -1,0 +1,76 @@
+{
+  "id": "au-e",
+  "name": "East Coast Australia (NSW · Victoria · Queensland)",
+  "aliases": ["Eastern Seaboard"],
+  "continent": "Oceania",
+  "tier": 1,
+  "status": "draft",
+  "parent": "au",
+  "sources": [
+    "https://geomastr.com/country/australia/",
+    "https://www.plonkit.net/australia"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇦🇺",
+    "capital": "Sydney / Melbourne / Brisbane"
+  },
+
+  "language": {
+    "official_languages": ["English"],
+    "script": "Latin",
+    "sample_text": "CAUTION — ROAD WORK AHEAD",
+    "script_notes": "English as national — this is the most densely populated and most-covered part of Australia.",
+    "false_friends": ["New Zealand's North Island (similar suburban development)", "South Africa's coastal cities"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "NSW/ACT guardrails often end with a yellow background and black diagonal dash — a useful sub-regional tell within this profile.",
+    "line_paint": "As national.",
+    "curb_style": "As national; denser, more formal suburban infrastructure than the Outback or remote WA.",
+    "km_marker_style": "Victoria uses circular concrete utility poles with a distinctive 'mountain-shaped' bracket structure that looks vaguely European; Queensland's tropical north has elevated Queenslander-style housing visible along many roads."
+  },
+
+  "architecture": {
+    "roof_style": "Single-story pitched-roof suburban houses dominate; elevated stilt-house 'Queenslander' architecture appears in tropical Queensland specifically.",
+    "roof_material": "Corrugated metal roofing widespread; terracotta tile common in older Sydney/Melbourne suburbs.",
+    "wall_construction": "Brick veneer suburban houses dominate NSW/Victoria; timber Queenslander houses raised on stilts (for flood/heat/ventilation) common in Queensland.",
+    "wall_color_palette": "Warm brick and pale weatherboard in the south; light timber tones on elevated Queenslander houses further north.",
+    "distinctive_building_types": "Dense brick-veneer suburban housing around Sydney/Melbourne; elevated timber Queenslander houses in Brisbane and further north; the Sydney Harbour/CBD skyline as an unmistakable landmark where visible."
+  },
+
+  "nature": {
+    "vegetation": "Lush eucalyptus forest and subtropical/tropical rainforest increasingly further north into Queensland; well-watered green suburban lawns and street trees in the cities.",
+    "terrain": "A relatively narrow, densely populated coastal strip backed by the Great Dividing Range; the terrain and vegetation become noticeably greener and more tropical moving from Melbourne north to Brisbane/Cairns.",
+    "climate_signature": "Temperate in Victoria/southern NSW, increasingly humid subtropical/tropical toward Queensland — the greenest, most developed part of the country."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Ford", "Mitsubishi", "Holden (legacy)"],
+    "plate_color": "NSW commonly yellow plates; Victoria blue/white; Queensland maroon/white — plate colour alone often identifies the specific state within this region.",
+    "plate_format": "As national, varying by state.",
+    "distinctive_vehicles": "As national; heaviest overall vehicle density given this region holds most of Australia's population."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Best and most current coverage in the country, concentrated around Sydney, Melbourne and Brisbane.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very dense, near-complete coverage — most 'generic Australia' Street View imagery comes from this region."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Outback/Central Australia",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The East Coast is green, densely developed and suburban; the Outback is red-dirt, sparsely vegetated and largely empty of buildings."
+    },
+    {
+      "country": "New Zealand",
+      "shared_traits": "Left-hand traffic, similar suburban brick/weatherboard housing, English signage",
+      "tiebreaker": "Australia's bollard red reflector stops partway around the post vs. New Zealand's full wrap; New Zealand's terrain is hillier and greener with more visible mountains."
+    }
+  ]
+}

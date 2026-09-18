@@ -1,0 +1,77 @@
+{
+  "id": "au-w",
+  "name": "Western Australia",
+  "aliases": ["WA"],
+  "continent": "Oceania",
+  "tier": 2,
+  "status": "draft",
+  "parent": "au",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Swan_Coastal_Plain",
+    "https://geomastr.com/country/australia/",
+    "https://www.plonkit.net/australia"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇦🇺",
+    "capital": "Perth"
+  },
+
+  "language": {
+    "official_languages": ["English"],
+    "script": "Latin",
+    "sample_text": "CAUTION — ROAD WORK AHEAD",
+    "script_notes": "English as national.",
+    "false_friends": ["South Australia (similar dry scrub/dirt terrain in remote areas)", "Outback/Northern Territory"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national.",
+    "km_marker_style": "Yellow sign posts are the single strongest Western Australia-specific tell, distinct from the rest of the country. Utility poles here (and in Victoria) sometimes carry a distinctive 'mountain-shaped' support bracket."
+  },
+
+  "architecture": {
+    "roof_style": "Single-story suburban houses in and around Perth, similar to the national default.",
+    "roof_material": "Corrugated metal roofing as national default.",
+    "wall_construction": "Brick veneer suburban housing around Perth on the sandy Swan Coastal Plain; isolated mining-town and roadhouse construction across the vast, sparsely populated remainder of the state.",
+    "wall_color_palette": "Pale coastal tones around Perth; sun-faded dusty tones in the remote interior/Pilbara mining region.",
+    "distinctive_building_types": "Perth's coastal suburban sprawl on sandy, dune-backed terrain; remote mining infrastructure in the Pilbara/Kalgoorlie region; isolated roadhouses along the vast, empty Eyre Highway toward South Australia."
+  },
+
+  "nature": {
+    "vegetation": "Sandy coastal plain vegetation and wetlands around Perth; increasingly sparse, reddish-orange-dirt desert scrub moving inland and north into the Pilbara and toward the Northern Territory border; unique and highly diverse wildflower regions in the southwest.",
+    "terrain": "An enormous, sparsely populated state — Perth and the fertile Swan Coastal Plain in the southwest corner, vast red-dirt desert and the Nullarbor Plain's dead-flat, treeless expanse further east toward South Australia.",
+    "climate_signature": "Mediterranean climate around Perth; hot, dry desert further inland and north — the slightly reddish-orange dirt tone is a recognized WA-specific clue distinct from the Red Centre's more saturated orange."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Ford", "Isuzu", "Nissan"],
+    "plate_color": "Western Australia plates are blue/white — one of the more reliable state-plate-colour tells (shared visually with Victoria/Tasmania, but geography narrows it further).",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Heavy-duty mining and 4WD vehicles common given the Pilbara mining industry and vast remote distances."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Good coverage around Perth; sparse and patchy across the vast remainder of the state.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Perth is well covered; enormous gaps across the remote Pilbara, Kimberley and Nullarbor regions."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Outback/Central Australia",
+      "shared_traits": "Both feature vast, sparsely populated red-dirt desert terrain",
+      "tiebreaker": "Western Australia's yellow signposts are a specific state tell absent in the Northern Territory/Central Australia; WA's dirt tone trends more reddish-orange rather than the Red Centre's deeper saturated orange, though this is a subtle distinction best combined with pole/signage details."
+    },
+    {
+      "country": "East Coast Australia",
+      "shared_traits": "Same country, same national plate/bollard base style",
+      "tiebreaker": "Western Australia is far more sparsely populated overall with yellow signposts and long empty highways; the East Coast is denser, greener and far more developed."
+    }
+  ]
+}
