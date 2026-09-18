@@ -1,0 +1,77 @@
+{
+  "id": "in-s",
+  "name": "South India (Tamil Nadu · Kerala · Karnataka · Telangana)",
+  "aliases": ["Dravidian India", "Deccan South"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "in",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vimana_(architectural_feature)",
+    "https://en.wikipedia.org/wiki/Geography_of_South_India",
+    "https://en.wikipedia.org/wiki/South_Western_Ghats_montane_rain_forests"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇮🇳",
+    "capital": "Chennai / Bengaluru"
+  },
+
+  "language": {
+    "official_languages": ["Tamil", "Telugu", "Kannada", "Malayalam"],
+    "script": "Dravidian scripts — Tamil, Telugu, Kannada, Malayalam (each visually distinct)",
+    "sample_text": "எச்சரிக்கை — சாலை பணி நடைபெறுகிறது",
+    "script_notes": "Four distinct Dravidian scripts, each rounded and visually different both from Devanagari and from each other once you learn their basic letterforms — a strong, reliable regional tell.",
+    "false_friends": ["Sri Lanka (shares Tamil script/language in the north of the island)", "North India (same country, very different script/architecture)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; more consistent maintenance in tech-hub cities (Bengaluru, Hyderabad).",
+    "line_paint": "As national.",
+    "curb_style": "As national.",
+    "km_marker_style": "As national."
+  },
+
+  "architecture": {
+    "roof_style": "Flat concrete roofs as national default in cities; the towering, intricately carved gopuram gateway tower is the defining South Indian Dravidian temple signature, visible from a distance.",
+    "roof_material": "Flat poured concrete as national default; traditional sloped clay-tile roofs more common in Kerala given higher rainfall.",
+    "wall_construction": "Dravidian-style temple complexes with multiple concentric walled courtyards and soaring carved gopurams; colonial-era architecture along the coast (Kochi, Chennai); modern tech-park glass architecture in Bengaluru/Hyderabad.",
+    "wall_color_palette": "Brightly painted, intricately carved gopuram towers (often multicoloured) are the strongest single visual tell; whitewashed or red-tile Keralan houses.",
+    "distinctive_building_types": "Dravidian temple complexes with towering carved gopurams; Kerala's backwater houseboats and sloped-roof houses; colonial Portuguese/Dutch/British-era coastal architecture; modern IT-park development in Bengaluru/Hyderabad."
+  },
+
+  "nature": {
+    "vegetation": "Dense, biodiverse tropical evergreen rainforest along the Western Ghats (among the wettest regions in India); coconut palm groves and backwaters along the Kerala coast; drier scrub on the Deccan Plateau interior (Karnataka/Telangana).",
+    "terrain": "The Western Ghats mountain range runs along the west coast, with a narrow, lush coastal plain (Kerala/coastal Karnataka) below it; the Deccan Plateau covers the interior; the Eastern Ghats and Bay of Bengal coastline lie to the east (Tamil Nadu/Andhra Pradesh).",
+    "climate_signature": "Noticeably greener and more consistently humid than North India, especially near the Western Ghats and Kerala coast; strong monsoon influence."
+  },
+
+  "vehicles": {
+    "common_brands": ["Maruti Suzuki", "Tata", "Mahindra", "Hyundai"],
+    "plate_color": "As national — Tamil Nadu ('TN'), Karnataka ('KA'), Kerala ('KL'), Telangana ('TS') state codes.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national; heavier IT-sector commuter traffic in Bengaluru/Hyderabad."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Better official Google coverage in tech-hub cities (Bengaluru, Hyderabad, Chennai) than much of the north.",
+    "blur_style": "Standard Google blurring where official.",
+    "coverage_notes": "Generally denser and more consistently modern coverage than rural North India, reflecting the region's tech-sector development."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Sri Lanka",
+      "shared_traits": "Shared Tamil language/script presence, similar tropical coastal palm vegetation and Dravidian-influenced temple architecture in Sri Lanka's north",
+      "tiebreaker": "Sri Lanka is an island using Sinhala script predominantly (with Tamil in the north/east only); South Indian coverage is denser and includes the mainland's clearly continental road network and Indian plate formats."
+    },
+    {
+      "country": "North India",
+      "shared_traits": "Same country, same general road furniture and flat-concrete-roof default",
+      "tiebreaker": "South India uses Dravidian scripts with towering carved gopuram temple gateways; North India uses Devanagari/Gurmukhi script with curved Nagara-style shikhara towers instead — an unmistakable difference once either is visible."
+    }
+  ]
+}

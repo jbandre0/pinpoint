@@ -1,0 +1,82 @@
+{
+  "id": "in-ne",
+  "name": "Northeast India (Assam · Hill States)",
+  "aliases": ["Seven Sisters", "Assam", "Northeastern States"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "parent": "in",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Northeast_India",
+    "https://en.wikipedia.org/wiki/People_of_Assam",
+    "https://thegeopolitics.com/northeast-india-southeast-asia-revisiting-the-shared-cultural-past-while-paving-the-way-forward/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇮🇳",
+    "capital": "Guwahati"
+  },
+
+  "language": {
+    "official_languages": ["Assamese", "English", "many local languages"],
+    "script": "Assamese-Bengali script (Assam); Latin script common in several hill states",
+    "sample_text": "সাৱধান — বাটৰ নিৰ্মাণ কাম চলি আছে",
+    "script_notes": "Assamese uses a script very close to Bengali; several of the hill states (Nagaland, Mizoram, Meghalaya) use Latin-script local languages due to Christian missionary influence, unlike almost anywhere else in India — a strong regional tell.",
+    "false_friends": ["Myanmar/mainland Southeast Asia (shared hill/forest terrain and some ethnic ties)", "Bangladesh (shared Bengali-adjacent script and Brahmaputra/Ganges delta geography)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; more essential given steep hill roads in the hill states.",
+    "line_paint": "As national.",
+    "curb_style": "As national; generally less dense/chaotic traffic than the Gangetic Plain's major cities.",
+    "km_marker_style": "As national."
+  },
+
+  "architecture": {
+    "roof_style": "Steeper pitched roofs more common than the flat-concrete national default, reflecting heavier rainfall; elevated stilt construction common in flood-prone Assam.",
+    "roof_material": "Corrugated metal roofing widespread, reflecting both rainfall and a lighter-construction tradition than the rest of India.",
+    "wall_construction": "Bamboo and other light materials are far more common in traditional construction than the brick/concrete of the rest of India, given the region's earthquake and flood exposure; stilt houses common in Assam's flood-prone areas.",
+    "wall_color_palette": "Natural bamboo/timber tones; church architecture (often white, simple, steepled) common in the Christian-majority hill states — a strong visual departure from Hindu-temple-dominant imagery elsewhere in India.",
+    "distinctive_building_types": "Stilt houses in flood-prone Assam; simple steepled Christian churches in Nagaland/Mizoram/Meghalaya (majority-Christian states, unusual within India); tea plantation architecture in Assam."
+  },
+
+  "nature": {
+    "vegetation": "Lush, dense subtropical and montane forest across the hill states; the vast Brahmaputra river valley and its tea plantations in Assam; among the wettest regions on Earth (Meghalaya's Cherrapunji/Mawsynram).",
+    "terrain": "Rugged, forested hill country forms most of the region — the only part of India that geographically forms a land bridge to Southeast Asia; the wide, flood-prone Brahmaputra valley cuts through Assam.",
+    "climate_signature": "Consistently humid and green, among the highest rainfall in the world in parts of Meghalaya — a visually lush, misty, hilly look distinct from the rest of India."
+  },
+
+  "vehicles": {
+    "common_brands": ["Maruti Suzuki", "Tata", "Mahindra", "Hyundai"],
+    "plate_color": "As national — Assam ('AS'), Nagaland ('NL'), Meghalaya ('ML') and other state codes distinct from the rest of India.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national; generally lighter, less congested traffic than the major Gangetic Plain or South Indian cities."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Sparser than the rest of India, with real gaps in the more remote hill states.",
+    "blur_style": "Standard Google blurring where present.",
+    "coverage_notes": "Among the least-covered parts of India — genuine gaps across the hill states outside Guwahati and a handful of other towns."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Myanmar/mainland Southeast Asia",
+      "shared_traits": "Shared hilly forested terrain and some ethnic/cultural ties given the region's role as a land bridge",
+      "tiebreaker": "India drives on the left as does Myanmar, but Indian plate formats, Latin-script Naga/Mizo/Khasi signage (rather than Burmese script) and continued use of Hindi/English alongside local languages separate Northeast India from Myanmar."
+    },
+    {
+      "country": "Bangladesh",
+      "shared_traits": "Shared Bengali-adjacent script (Assamese is closely related to Bengali) and shared Brahmaputra/Ganges delta lowland geography",
+      "tiebreaker": "Bangladesh uses Bengali script specifically and drives on the left with its own distinct plate format; Assam's script differs subtly from Bengali, and India's national plate format (state code + RTO + series) differs from Bangladesh's."
+    },
+    {
+      "country": "Rest of India",
+      "shared_traits": "Same country, same national plate format",
+      "tiebreaker": "Northeast India's Christian churches, bamboo/stilt construction and Latin-script hill-state languages are unlike anywhere else in Hindu-temple-dominant mainland India."
+    }
+  ]
+}

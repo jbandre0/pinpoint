@@ -1,0 +1,82 @@
+{
+  "id": "sn",
+  "name": "Senegal",
+  "aliases": ["Republic of Senegal", "République du Sénégal"],
+  "continent": "Africa",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/senegal/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Senegal",
+    "https://senegal-suites.com/the-colonial-architectural-heritage-of-senegal/",
+    "https://ericrossacademic.wordpress.com/2012/01/25/historic-baobab-trees-of-senegal/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇸🇳",
+    "capital": "Dakar"
+  },
+
+  "language": {
+    "official_languages": ["French"],
+    "script": "Latin",
+    "sample_text": "ATTENTION — TRAVAUX",
+    "script_notes": "French as the official/signage language, a legacy of French colonial rule; Wolof is the widely spoken lingua franca in daily life though rarely on formal signage. Street suffixes: Rue, Avenue, Boulevard, Place, Quartier.",
+    "false_friends": ["Mali", "Mauritania", "Gambia (a country entirely surrounded by Senegal)", "Guinea-Bissau"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Bollards are rare overall; where present, some resemble standard French-style posts, with a distinct pattern occasionally seen around curves in the southeast.",
+    "bollard_shape": "Inconsistent/rare — absence of bollards is itself a mild tell versus France.",
+    "guardrail_type": "Minimal; often absent on rural roads.",
+    "line_paint": "White outside/white inside lines, often faded from heat and wear.",
+    "curb_style": "Minimal formal curbing outside central Dakar/Saint-Louis; open sandy/dirt shoulders common.",
+    "km_marker_style": "Yellow-capped kilometer markers. Ladder-style utility poles, a legacy of French colonial infrastructure shared with parts of France. Total, Puma, Elton and Petrosen are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "Simple flat or low-pitch roofs on most buildings; French colonial-era buildings in Dakar and Saint-Louis carry ornate wrought-iron balconies and large ventilation windows.",
+    "roof_material": "Corrugated metal roofing widespread; colonial-era buildings sometimes carry tile.",
+    "wall_construction": "Sun-dried mud brick construction traditional in the northern/central Sahel zone; laterite stone and colonial-style pastel-painted stucco in Saint-Louis and central Dakar; narrow-street courtyard housing with decorative wooden doors in Dakar's Medina district.",
+    "wall_color_palette": "Pastel-painted French colonial facades in Saint-Louis; earthy mud-brick tones in the rural Sahel interior; more modern concrete-block construction in expanding Dakar.",
+    "distinctive_building_types": "French colonial administrative buildings and pastel-facaded houses with wrought-iron balconies (Saint-Louis, central Dakar); mud-brick Sahelian village architecture; the Medina district's dense courtyard housing."
+  },
+
+  "nature": {
+    "vegetation": "Baobab trees are a strong, near-iconic Senegal/Sahel tell, often marking villages from a distance; arid Sahel scrub and savanna grassland in the north/center, transitioning to lush, greener Casamance forest in the south near Guinea-Bissau.",
+    "terrain": "Mostly flat to gently rolling, with a long Atlantic coastline; the Senegal River forms the northern border with Mauritania; the Gambia River cuts through, with the entire country of Gambia forming an enclave within Senegal's territory.",
+    "climate_signature": "Hot and dry Sahelian climate in the north, increasingly humid and green moving south into Casamance — a noticeable within-country vegetation gradient."
+  },
+
+  "vehicles": {
+    "common_brands": ["Renault", "Peugeot", "Toyota", "Mercedes-Benz"],
+    "plate_color": "Since 2019, black text on white with a blue country strip; older pre-2019 plates were white text on blue background.",
+    "plate_format": "Two-letter regional code plus digits (older format); current format follows a broadly similar regional-plus-serial structure.",
+    "distinctive_vehicles": "Older French-brand vehicles (Renault, Peugeot) and shared 'car rapide' brightly painted minibus taxis are a strong Dakar-area tell."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed — official Google coverage supplemented by Trekker imagery in less accessible areas.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Concentrated in and around Dakar and major towns; sparse coverage in rural/interior areas."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Gambia",
+      "shared_traits": "Gambia is a narrow country entirely surrounded by Senegal on three sides, sharing near-identical vegetation, architecture and climate",
+      "tiebreaker": "Gambia is a former British colony and uses English on signage rather than Senegal's French, and Gambia drives on the right same as Senegal, so language/signage is the most reliable distinguishing detail."
+    },
+    {
+      "country": "Mali",
+      "shared_traits": "Shared Sahel vegetation and mud-brick Sahelian architectural tradition, French colonial administrative language",
+      "tiebreaker": "Mali is landlocked with no coastline, while Senegal has a long Atlantic coast; distinguishing them inland often comes down to plate format and subtler road-furniture details."
+    },
+    {
+      "country": "Mauritania",
+      "shared_traits": "Shared Sahel/Sahara transitional vegetation and climate, shared Senegal River border",
+      "tiebreaker": "Mauritania's official language is Arabic (with French also used), and Arabic script appears on Mauritanian signage — absent in Senegal, which uses French/Latin script only."
+    }
+  ]
+}

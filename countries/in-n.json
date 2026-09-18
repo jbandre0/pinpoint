@@ -1,0 +1,77 @@
+{
+  "id": "in-n",
+  "name": "North India (Hindi Belt · Rajasthan · Punjab)",
+  "aliases": ["Hindi Belt", "Gangetic Plain"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "in",
+  "sources": [
+    "https://en.wikipedia.org/wiki/North_India",
+    "https://www.indiaunbound.com.au/blog/the-differences-between-north-and-south-india",
+    "https://en.wikipedia.org/wiki/Vimana_(architectural_feature)"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇮🇳",
+    "capital": "New Delhi"
+  },
+
+  "language": {
+    "official_languages": ["Hindi", "Punjabi", "English"],
+    "script": "Devanagari (Hindi) · Gurmukhi (Punjabi in Punjab)",
+    "sample_text": "सावधान — सड़क निर्माण कार्य",
+    "script_notes": "Devanagari script dominates across the Hindi Belt (UP, Bihar, MP, Rajasthan, Delhi, Haryana); Gurmukhi script appears in Punjab specifically. Both are visually distinct from the South's Dravidian scripts.",
+    "false_friends": ["Pakistan (shared Punjab region, split by partition)", "South India (same country, very different script/architecture)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national; dense, chaotic mixed traffic especially pronounced in the Delhi-NCR region.",
+    "km_marker_style": "As national, including the distinctive unofficial low-quality camera coverage in many areas."
+  },
+
+  "architecture": {
+    "roof_style": "Flat concrete roofs as national default; Nagara-style Hindu temples feature a curved, beehive-shaped shikhara tower over the sanctum — the defining North Indian temple architectural signature.",
+    "roof_material": "Flat poured concrete as national default.",
+    "wall_construction": "Sandstone and marble palace/fort architecture historic in Rajasthan (Jaipur, Jodhpur, Udaipur); dense concrete urban construction in Delhi and the Gangetic cities; Sikh gurdwara architecture with white domes in Punjab.",
+    "wall_color_palette": "Rajasthan's 'Pink City' (Jaipur) and 'Blue City' (Jodhpur) carry distinctive painted old-town palettes; otherwise mixed grey concrete and painted shopfronts nationwide.",
+    "distinctive_building_types": "Nagara-style Hindu temples with curved shikhara towers; Mughal-era architecture (domes, minarets, red sandstone forts — Taj Mahal, Red Fort); Rajasthani palace and fort architecture; white-domed Sikh gurdwaras in Punjab."
+  },
+
+  "nature": {
+    "vegetation": "The fertile Indo-Gangetic Plain supports intensive agriculture (wheat, rice, sugarcane) with subtropical deciduous trees (sal, neem, peepal, banyan); the Thar Desert in western Rajasthan brings sandy dunes and sparse thorn-forest vegetation (babool, ber).",
+    "terrain": "Overwhelmingly flat, intensively farmed alluvial plain fed by the Ganges and its tributaries; the Thar Desert in the west; the Himalayan foothills rise abruptly along the northern edge.",
+    "climate_signature": "Hot, dry and dusty for much of the year with a hazy quality to much outdoor imagery; intensely green during and after the monsoon; noticeably drier and sandier in Rajasthan specifically."
+  },
+
+  "vehicles": {
+    "common_brands": ["Maruti Suzuki", "Tata", "Mahindra", "Hyundai"],
+    "plate_color": "As national — Delhi ('DL'), Punjab ('PB'), Rajasthan ('RJ'), Uttar Pradesh ('UP') state codes.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national; camel and bullock carts still visible on rural Rajasthani roads."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of official Google coverage in Delhi/major cities and the distinctive unofficial 'foggy' camera elsewhere, as national.",
+    "blur_style": "Standard Google blurring where official.",
+    "coverage_notes": "Dense around Delhi-NCR; more variable quality across rural Rajasthan/UP/Bihar."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Pakistan",
+      "shared_traits": "Shared Punjab region geography and culture straddling the partition-era border, similar Indo-Gangetic terrain",
+      "tiebreaker": "Pakistan uses Urdu in Perso-Arabic script and drives on the left same as India, but Pakistani plates and road signage differ; Indian Punjab uses Gurmukhi script (for Sikh Punjabi) which doesn't appear in Pakistani Punjab's Urdu-dominant signage."
+    },
+    {
+      "country": "South India",
+      "shared_traits": "Same country, same general road furniture and flat-concrete-roof default",
+      "tiebreaker": "North India uses Devanagari/Gurmukhi script with Nagara-style curved-tower temples; South India uses Dravidian scripts with distinctive pyramid-shaped gopuram temple gateways — an unmistakable difference once either is visible."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "in",
+  "name": "India",
+  "aliases": ["Republic of India", "Bharat"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/india/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_India",
+    "https://www.pinpointme.net/learn/countries/india",
+    "https://en.wikipedia.org/wiki/North_India"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇮🇳",
+    "capital": "New Delhi"
+  },
+
+  "language": {
+    "official_languages": ["Hindi", "English"],
+    "script": "Varies by region — Devanagari (north), Dravidian scripts (south)",
+    "sample_text": "सावधान — सड़क निर्माण कार्य",
+    "script_notes": "Hindi/Devanagari script dominates the north; the four major Dravidian scripts (Tamil, Telugu, Kannada, Malayalam) dominate the south — each visually distinct and a strong regional tell. English appears widely alongside local scripts nationwide.",
+    "false_friends": ["Pakistan/Bangladesh (Devanagari-adjacent regions)", "Sri Lanka (southern coastal similarity)", "Nepal"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Inconsistent nationally; several bollard designs documented without one dominant standard.",
+    "bollard_shape": "Varies.",
+    "guardrail_type": "Simple steel guardrail on major highways; often minimal or absent on rural/local roads.",
+    "line_paint": "Yellow outside/white inside, white outside/white inside, and yellow outside/yellow inside all seen depending on road type and state.",
+    "curb_style": "Minimal formal curbing outside major cities; extremely dense, chaotic mixed traffic (pedestrians, animals, rickshaws, vehicles sharing the same space) is itself a strong national tell.",
+    "km_marker_style": "The single most reliable India-specific tell is the Street View imagery itself: much of India's coverage comes from an unofficial, low-quality third-party camera that renders everything with a distinctive soft, slightly 'foggy' look unlike Google's own Gen 2-4 cameras."
+  },
+
+  "architecture": {
+    "roof_style": "Flat concrete roofs are the default on most urban/suburban construction nationwide (used as usable rooftop space); temple architecture diverges sharply by region — see North/South profiles.",
+    "roof_material": "Flat poured concrete overwhelmingly dominant nationwide, a strong general India/South Asia tell versus pitched-roof-dominant countries.",
+    "wall_construction": "Concrete-frame construction with brick infill is standard in cities; painted or exposed brick/concrete-block low-rise buildings; ornate temple architecture (Nagara-style in the north, Dravidian-style in the south) is the most visually distinctive built element nationwide.",
+    "wall_color_palette": "Often unpainted grey concrete or a mix of bright, varied paint colours on shopfronts and houses; densely layered with overhead wiring and signage.",
+    "distinctive_building_types": "Flat-roofed multi-story concrete buildings with rooftop water tanks; Hindu temples (Nagara shikhara towers in the north, Dravidian gopuram gateway towers in the south); dense, colourful market streets."
+  },
+
+  "nature": {
+    "vegetation": "Extremely varied by region — the fertile Indo-Gangetic Plain and Thar Desert in the north/northwest, lush tropical Western Ghats forest and coastal palm groves in the south, distinct Southeast Asian-influenced hill/forest terrain in the northeast. See regional profiles.",
+    "terrain": "The Himalayas form the northern border; the vast Indo-Gangetic Plain dominates the north; the Deccan Plateau and Western/Eastern Ghats define the south; a long coastline on both the Arabian Sea and Bay of Bengal.",
+    "climate_signature": "Overwhelmingly varied by region and monsoon season — hazy and dusty in the north's dry season, lush and green in the south and during monsoon."
+  },
+
+  "vehicles": {
+    "common_brands": ["Maruti Suzuki", "Tata", "Mahindra", "Hyundai"],
+    "plate_color": "White with black text for private vehicles, yellow with black text for commercial vehicles, black with yellow text for self-drive rentals, green for electric vehicles.",
+    "plate_format": "Two-letter state code + two-digit RTO code + up to two series letters + four-digit number (e.g. 'DL 01 AB 1234'); a small 'IND' text with an Ashoka Chakra emblem appears on newer plates.",
+    "distinctive_vehicles": "Auto rickshaws ('tuk-tuks', commonly green-and-yellow) are a near-universal, unmistakable India/South Asia tell; Maruti Suzuki, Tata and Mahindra dominate the car market; extremely dense, mixed traffic including bicycles, motorbikes, and sometimes animals sharing the road."
+  },
+
+  "google_coverage": {
+    "camera_generation": "A mix of standard Google Gen 2-4 coverage in major cities and a distinctive unofficial third-party camera elsewhere, which produces noticeably lower-quality, softer/'foggy' imagery unlike anywhere else in the world.",
+    "blur_style": "Standard Google blurring where official coverage exists; the unofficial camera imagery has its own distinct visual signature.",
+    "coverage_notes": "Coverage concentrated in and around major cities; the unofficial camera's distinctive look is itself one of the most reliable ways to identify India at a glance."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Pakistan/Bangladesh",
+      "shared_traits": "Shared Indo-Gangetic Plain geography and vegetation in border regions, similar dense traffic and architecture in parts of North India",
+      "tiebreaker": "Pakistan and Bangladesh use Urdu (Perso-Arabic script) and Bengali (its own script) respectively, both visually distinct from India's Devanagari/Dravidian scripts; India's plate format and auto-rickshaw colour schemes also differ."
+    },
+    {
+      "country": "Nepal",
+      "shared_traits": "Shares Devanagari script and Hindi-adjacent language roots, similar Himalayan foothill terrain in the north",
+      "tiebreaker": "Nepal's plates and flag/signage differ from India's; Nepal drives on the left as India does, so terrain and specific temple architecture (more Newari/Nepali pagoda-style) are the more reliable separator in border regions."
+    },
+    {
+      "country": "Sri Lanka",
+      "shared_traits": "Shared Dravidian-adjacent (Tamil) language presence in the south, similar tropical coastal palm vegetation",
+      "tiebreaker": "Sri Lanka uses Sinhala script predominantly alongside Tamil, distinct from South India's Tamil/Telugu/Kannada/Malayalam-only signage; Sri Lanka is an island with no land border, so context alone often resolves it."
+    }
+  ]
+}
