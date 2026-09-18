@@ -1,0 +1,82 @@
+{
+  "id": "tr-e",
+  "name": "Eastern Anatolia (Erzurum · Van · Kars · Ararat)",
+  "aliases": ["Doğu Anadolu"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "parent": "tr",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Eastern_Anatolia_region",
+    "https://www.advantour.com/turkey/eastern-anatolia-region.htm",
+    "https://www.ktb.gov.tr/EN-99763/eastern-and-southeastern-anatolia.html"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇹🇷",
+    "capital": "Erzurum"
+  },
+
+  "language": {
+    "official_languages": ["Turkish", "Kurdish (spoken)"],
+    "script": "Latin",
+    "sample_text": "DİKKAT — YOL ÇALIŞMASI",
+    "script_notes": "Turkish signage with ı, İ, ş and ğ; Kurdish is the mother tongue for most people in the southern and eastern parts, and Kurdish warnings have appeared on some traffic signs in cities such as Van, though such signs have been defaced or removed in places. Armenian- and Azerbaijani-related place names occur near the borders.",
+    "false_friends": ["Georgia", "Armenia", "Iran", "Azerbaijan"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national, with the rare yellow version used in the heaviest snowfall areas.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; heavy use on winding mountain roads.",
+    "line_paint": "As national; roads often snow-covered for months.",
+    "curb_style": "Wide roads with minimal shoulder infrastructure; snow-poles and tall markers along mountain roads.",
+    "km_marker_style": "As national — red-and-white corner arrows and large-holed metal utility poles."
+  },
+
+  "architecture": {
+    "roof_style": "Flat, earth-covered or metal roofs on village houses; low-pitched roofs on newer buildings.",
+    "roof_material": "Corrugated metal and flat concrete or earth.",
+    "wall_construction": "Concrete apartment blocks in the cities; stone and mud-brick village houses in the highlands; dung-fuel (tezek) stacks against walls in some villages; Seljuk and Armenian medieval stone monuments in Kars and Erzurum, and the Ishak Pasha Palace near Ağrı.",
+    "wall_color_palette": "Grey and brown stone and concrete, muted against a barren landscape.",
+    "distinctive_building_types": "Seljuk-era tombs and madrasas in Erzurum; Ottoman and Russian-era buildings in Kars; the Armenian Akdamar church on Lake Van; small stone villages beneath snow-covered peaks."
+  },
+
+  "nature": {
+    "vegetation": "Sparse mountain steppe with few trees, snowy alpine meadows and scattered poplar and willow near rivers; the eastern Black Sea slopes, on the northern edge, are lush with tea and hazelnut groves.",
+    "terrain": "The highest and most rugged part of the country — high plateaus above 1,500m and towering volcanic peaks such as Mount Ararat, with the large alkaline Lake Van and the sources of the Euphrates and Tigris.",
+    "climate_signature": "Harsh continental — long, bitterly cold and snowy winters and short, dry summers, with clear, bright mountain light."
+  },
+
+  "vehicles": {
+    "common_brands": ["Fiat", "Renault", "Ford", "Hyundai"],
+    "plate_color": "As national — province codes such as 25 (Erzurum), 65 (Van), 36 (Kars).",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Tractors, minibuses and 4WD pickups; snow ploughs in winter."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3, with some older imagery.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Coverage follows the main highways and larger cities and is thinner than in the west."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Georgia / Armenia",
+      "shared_traits": "Shared Caucasus highlands, stone churches and monasteries, and mountain steppe",
+      "tiebreaker": "Latin-script Turkish signs with ı and ş, mosques with pencil minarets and TR plates with a province number differ from Georgian and Armenian scripts and plates."
+    },
+    {
+      "country": "Iran",
+      "shared_traits": "Shared high plateau and mountain steppe across the border",
+      "tiebreaker": "Persian script and Iranian plates versus Latin-script signs and TR plates here."
+    },
+    {
+      "country": "Western / Southeastern Turkey (same country)",
+      "shared_traits": "Same country, same national road furniture and plates",
+      "tiebreaker": "The east is high, rugged and snow-bound; the west is greener and denser, and the southeast is a hot, flat stone-built plain."
+    }
+  ]
+}

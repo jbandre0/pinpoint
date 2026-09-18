@@ -1,0 +1,82 @@
+{
+  "id": "uy",
+  "name": "Uruguay",
+  "aliases": ["Oriental Republic of Uruguay", "República Oriental del Uruguay"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/cs_america/uruguay/",
+    "https://geometas.com/metas/countries/uruguay/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Uruguay",
+    "https://www.guruguay.com/montevideo-architecture-guide/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇺🇾",
+    "capital": "Montevideo"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "PRECAUCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Rioplatense Spanish, shared with neighbouring Argentina, with Portuguese-influenced speech near the Brazilian border. Street suffixes: Calle, Avenida, Ruta, Camino.",
+    "false_friends": ["Argentina", "Brazil", "Paraguay"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Bollards are usually white with a rectangular reflector near the top; even yellow ones typically have white sides.",
+    "bollard_shape": "White planks or posts, often with square holes in them.",
+    "guardrail_type": "Standard steel guardrail, minimal on rural roads.",
+    "line_paint": "Triple center lines — double yellow lines with evenly spaced white dashes between them — are found nowhere else in the Americas.",
+    "curb_style": "Painted kerbs in towns; gravel shoulders on rural roads.",
+    "km_marker_style": "Signs are mounted on white-painted wooden posts. The most common utility pole has three upward-facing bulbs and looks like a trident. Traffic lights often sit on poles with black-and-white or black-and-yellow stripes. ANCAP, the state oil company, operates most of the fuel network, so its stations are everywhere."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs are widespread on city houses and apartment blocks; low-pitched tile or corrugated roofs on country houses.",
+    "roof_material": "Flat concrete, clay tile and corrugated metal.",
+    "wall_construction": "Art Deco buildings from the 1920s and 1930s — curved, colourless and voluminous — fill the capital's center; Spanish colonial buildings in the historic quarters and the old riverside town of Colonia; long-established estancia (ranch) houses on the plains; whitewashed, curving Mediterranean-style buildings on the resort coast.",
+    "wall_color_palette": "Cream, grey and white, with painted pastel colours on colonial houses.",
+    "distinctive_building_types": "Art Deco apartment blocks and palaces in Montevideo; Colonial-era stone streets and lighthouse in Colonia; ranch houses (cascos) near the river; whitewashed resort architecture on the eastern coast."
+  },
+
+  "nature": {
+    "vegetation": "Nearly the whole country is pampas grassland used for cattle and sheep ranching; straight rows of identical trees (eucalyptus and pine) planted as windbreaks; barley, soybean and corn fields in the southwest; palm groves and dunes in the east.",
+    "terrain": "Gently rolling to flat grassland with low hills; long Atlantic and river coasts with sandy beaches and dunes; no real mountains.",
+    "climate_signature": "Mild, humid temperate climate with big skies and green, open, treeless countryside."
+  },
+
+  "vehicles": {
+    "common_brands": ["Chevrolet", "Volkswagen", "Renault", "Fiat"],
+    "plate_color": "Mercosur plate (since 2016) with a blue band at the top showing the country name, flag and Mercosur logo; plates look almost white in Street View, unlike the darker-centred plates of the neighbouring country.",
+    "plate_format": "Three letters and four digits on the Mercosur plate.",
+    "distinctive_vehicles": "High import taxes keep many vintage cars on the road — classic Ford Falcons, Chevrolet Bel Airs and Volkswagen Beetles — with old Chevrolet pickups seen in the country."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Gen 3 imagery captured by a black Google car whose front looks ghostly pale — the same black-car pattern as a few other South American countries — except near Cabo Polonio.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage of the main routes and towns across the whole country."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Argentina",
+      "shared_traits": "Same Río de la Plata region, flat pampas grassland, Rioplatense Spanish and similar black Gen 3 car",
+      "tiebreaker": "Plates look almost white here versus the darker centre on the other side; triple center lines, the trident-shaped pole and ANCAP stations are found only here, whereas YPF stations are Argentine."
+    },
+    {
+      "country": "Brazil (Rio Grande do Sul)",
+      "shared_traits": "Shared northern border pampas and cattle-ranching landscape",
+      "tiebreaker": "Portuguese signage and Brazil's different utility poles versus Spanish signage, triple center lines and white wooden sign posts here."
+    },
+    {
+      "country": "Paraguay",
+      "shared_traits": "Shared Mercosur plates and Spanish signage",
+      "tiebreaker": "Paraguay's arch-shaped road signboards and red soil differ; triple center lines and the trident pole are here."
+    }
+  ]
+}

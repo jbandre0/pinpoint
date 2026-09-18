@@ -1,0 +1,82 @@
+{
+  "id": "tr-w",
+  "name": "Western & Central (Marmara · Aegean · Mediterranean · Black Sea · Anatolian Plateau)",
+  "aliases": ["Western Anatolia"],
+  "continent": "Europe/Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "tr",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Geographical_regions_of_Turkey",
+    "https://www.chasingthedonkey.com/7-regions-in-turkey-explore-geographical-regions-of-turkey/",
+    "https://geometas.com/metas/countries/turkey/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇹🇷",
+    "capital": "Istanbul / Ankara / Izmir"
+  },
+
+  "language": {
+    "official_languages": ["Turkish"],
+    "script": "Latin",
+    "sample_text": "DİKKAT — YOL ÇALIŞMASI",
+    "script_notes": "Turkish with ı, İ, ş, ğ and ç; the country's most homogeneous Turkish-speaking heartland, with English and German widely used on tourist coast signage.",
+    "false_friends": ["Greece (Aegean coast)", "Bulgaria (Thrace)", "Georgia (eastern Black Sea)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "Painted kerbs in towns; wide divided highways and huge urban interchanges in Istanbul and Ankara.",
+    "km_marker_style": "As national; curved-top street signs are found only in Ankara."
+  },
+
+  "architecture": {
+    "roof_style": "Red-tiled pitched roofs on houses along the western and Mediterranean coasts; flat concrete roofs with water tanks on apartment blocks; wooden gabled houses on the Black Sea.",
+    "roof_material": "Red clay tile and flat concrete.",
+    "wall_construction": "Whitewashed and pastel houses with tile roofs along the Aegean and Mediterranean; dense concrete apartment blocks in Istanbul, Ankara and Izmir; Ottoman timber houses in historic towns; the fairy-chimney rock dwellings of Cappadocia; timber-and-stone highland houses on the wet Black Sea slopes.",
+    "wall_color_palette": "White, cream and pastel on the coast, grey concrete in cities, and warm honey-coloured tuff in Cappadocia.",
+    "distinctive_building_types": "Istanbul's skyline of domes and pencil minarets; Ottoman timber houses; ancient Greek and Roman ruins on the Aegean and Mediterranean coasts; holiday villas and resort hotels; cone-shaped rock houses in Cappadocia."
+  },
+
+  "nature": {
+    "vegetation": "Olive groves, vineyards and pines on the Aegean and Mediterranean coasts; dry, open steppe across the high central plateau; lush forests, tea plantations and hazelnut groves along the rainy Black Sea coast.",
+    "terrain": "Coastal plains and hills on the Aegean and Mediterranean, a high plateau of about 900m ringed by mountains in the interior with steppe and volcanic landscapes, and steep, green mountain slopes dropping to the Black Sea.",
+    "climate_signature": "Mediterranean on the west and south coasts, dry continental steppe on the plateau, and wet, misty and very green along the Black Sea coast."
+  },
+
+  "vehicles": {
+    "common_brands": ["Fiat", "Renault", "Ford", "Hyundai"],
+    "plate_color": "As national — province codes like 34 (Istanbul), 35 (Izmir), 06 (Ankara), 07 (Antalya).",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Yellow taxis in Istanbul, dolmuş minibuses, tractors on farms, and heavy tourist traffic on the coast."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "The densest coverage in the country, across the coasts, the plateau and the cities."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Greece",
+      "shared_traits": "Aegean olive groves, whitewashed houses and red tile roofs",
+      "tiebreaker": "Turkish letters (ı, ş, ğ), mosques with pencil minarets, white-and-red-reflector bollards and TR plates with a province number distinguish it from Greece's Greek script and churches."
+    },
+    {
+      "country": "Bulgaria",
+      "shared_traits": "Shared Thrace border region farmland and similar apartment blocks",
+      "tiebreaker": "Cyrillic versus Latin script with Turkish diacritics, and TR plates, decide it."
+    },
+    {
+      "country": "Eastern / Southeastern Turkey (same country)",
+      "shared_traits": "Same country, same national road furniture and plates",
+      "tiebreaker": "The west and center are greener, denser and better covered; the east is high, snowy and rugged, and the southeast has flat stone-built plains towns."
+    }
+  ]
+}

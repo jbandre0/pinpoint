@@ -1,0 +1,77 @@
+{
+  "id": "ng-n",
+  "name": "Northern Region (Kano · Kaduna · Sokoto · Sahel)",
+  "aliases": ["Hausaland", "Arewa"],
+  "continent": "Africa",
+  "tier": 2,
+  "status": "draft",
+  "parent": "ng",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hausa_architecture",
+    "https://en.wikipedia.org/wiki/Great_Mosque_of_Kano",
+    "https://geopinning.space/en/rule/africa/nigeria/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇳🇬",
+    "capital": "Kano"
+  },
+
+  "language": {
+    "official_languages": ["English", "Hausa"],
+    "script": "Latin",
+    "sample_text": "HANKALI — AIKIN TITI",
+    "script_notes": "English signage with Hausa spoken by the majority, and Arabic script appearing on mosques, Quranic schools and some shopfronts.",
+    "false_friends": ["Niger", "Chad", "Mali (Sahel belt)", "Cameroon (far north)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Rare.",
+    "bollard_shape": "Rare.",
+    "guardrail_type": "Minimal.",
+    "line_paint": "As national; long, straight roads across dry plains with few markings.",
+    "curb_style": "As national; wide dusty shoulders.",
+    "km_marker_style": "As national — segmented utility poles; state names such as Kano, Yobe and Sokoto appear on shop signs."
+  },
+
+  "architecture": {
+    "roof_style": "Flat mud roofs and corrugated metal on modern buildings; domed and tower forms on mosques.",
+    "roof_material": "Corrugated metal on newer buildings; traditional thatch and mud on older ones.",
+    "wall_construction": "Sun-dried mud brick (tubali) walls plastered with mud and straw are the classic Hausa building material, with rectilinear courses laid in thick mud mortar; walled family compounds; mosques with mud towers and projecting timber or palm sticks; newer concrete construction in cities.",
+    "wall_color_palette": "Earthy tan and ochre mud walls, with white-painted mosque minarets and concrete.",
+    "distinctive_building_types": "Mosques with minarets in every town; ancient mud-walled cities and compounds (Kano's old city); Emir's palaces; walled family compounds and compound gates with decorative facades."
+  },
+
+  "nature": {
+    "vegetation": "Grassland savanna in the middle belt fading into sparse Sahel scrub in the north; millet fields around Kaduna; few trees and almost no grass in the far-north Sudan zone, with minimal vegetation outside towns.",
+    "terrain": "Flat, dry plains and rocky outcrops, with the higher granite hills and rocky plateau around Jos; harmattan dust haze during the dry season.",
+    "climate_signature": "Hot, dry and dusty with a long dry season — a pale, sandy, sparsely vegetated look far from the lush south."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Peugeot", "Honda", "Mercedes-Benz"],
+    "plate_color": "As national.",
+    "plate_format": "As national, with a northern state name such as Kano or Kaduna along the top.",
+    "distinctive_vehicles": "Motorcycles and keke-napep tricycles are ubiquitous; heavy trucks on long-haul routes; donkey and camel carts in some areas."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Gen 3.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Coverage exists along main highways and around major cities such as Kano, Kaduna and Abuja's surroundings; the far north is sparser."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Niger / Chad / Mali",
+      "shared_traits": "Shared Sahel landscape, mud-brick architecture and mosques",
+      "tiebreaker": "English signage, keke-napep tricycles and segmented utility poles are found here; those neighbours use French signage."
+    },
+    {
+      "country": "Southern region (same country)",
+      "shared_traits": "Same country, same national road furniture and plates",
+      "tiebreaker": "The north has mud-brick compounds, mosques and dry savanna; the south has rainforest, oil palms and dense churches and corrugated-roof towns."
+    }
+  ]
+}

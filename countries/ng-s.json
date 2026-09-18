@@ -1,0 +1,81 @@
+{
+  "id": "ng-s",
+  "name": "Southern Region (Lagos · Yoruba & Igbo Lands · Niger Delta)",
+  "aliases": ["Southwest and Southeast"],
+  "continent": "Africa",
+  "tier": 1,
+  "status": "draft",
+  "parent": "ng",
+  "sources": [
+    "https://geopinning.space/en/rule/africa/nigeria/",
+    "https://geometas.com/metas/countries/nigeria/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇳🇬",
+    "capital": "Lagos"
+  },
+
+  "language": {
+    "official_languages": ["English", "Yoruba", "Igbo"],
+    "script": "Latin",
+    "sample_text": "CAUTION — ROAD WORKS AHEAD",
+    "script_notes": "English signage, with Yoruba (with its tone marks and dotted letters ẹ, ọ, ṣ) in the southwest and Igbo in the southeast, and Pidgin English widely written on ads and signs.",
+    "false_friends": ["Ghana", "Benin", "Togo", "Cameroon"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Rare.",
+    "bollard_shape": "Rare.",
+    "guardrail_type": "Minimal.",
+    "line_paint": "As national; heavy congestion and pot-holes, with few markings.",
+    "curb_style": "Open drainage channels, often clogged and overflowing in the rainy season.",
+    "km_marker_style": "As national; filling stations are extremely dense — Ibadan is famous for them — and segmented and broken utility poles are common."
+  },
+
+  "architecture": {
+    "roof_style": "Corrugated metal (zinc) roofs on nearly every house; flat concrete roofs and tall towers in Lagos.",
+    "roof_material": "Corrugated metal.",
+    "wall_construction": "Single-storey block houses with zinc roofs, often unpainted and unfinished; multi-storey block apartments in dense Lagos neighbourhoods; churches everywhere; stilt houses over water in Lagos lagoon communities and the Niger Delta.",
+    "wall_color_palette": "Grey block and faded paint, plastered with bright hand-painted commercial signs.",
+    "distinctive_building_types": "Churches and prayer camps of many denominations; dense Lagos apartment blocks; stilted lagoon and delta communities; walled compounds with iron gates."
+  },
+
+  "nature": {
+    "vegetation": "Dense rainforest and tall trees with limited visibility in the southwest; oil palm plantations widespread in the southeast and coast; swamp and mangrove in the Niger Delta; rainforest near the eastern border.",
+    "terrain": "Low, flat coastal plain crossed by lagoons and creeks, with the vast Niger Delta of swamps and channels; gently rolling forested land inland.",
+    "climate_signature": "Hot, humid and rainy — lush, green, and often overcast."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Peugeot", "Mercedes-Benz"],
+    "plate_color": "As national.",
+    "plate_format": "As national, with a state name such as Lagos along the top.",
+    "distinctive_vehicles": "Yellow-and-black danfo minibuses in Lagos, keke-napep tricycles and okada motorcycle taxis; heavy traffic congestion."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Gen 3.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage of Lagos, Ibadan, Port Harcourt and the main highways of the south."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Ghana",
+      "shared_traits": "Shared Gulf of Guinea tropical vegetation, English signage and similar corrugated-roof block houses",
+      "tiebreaker": "Keke-napep tricycles, segmented utility poles and a pickup-truck Street View car with a yellow-and-black rack point here."
+    },
+    {
+      "country": "Benin / Togo / Cameroon",
+      "shared_traits": "Shared West African coastal and forest landscape",
+      "tiebreaker": "Those countries use French signage (Cameroon's west is English), whereas English is used here; danfo minibuses and keke tricycles are distinctive."
+    },
+    {
+      "country": "Northern region (same country)",
+      "shared_traits": "Same country, same national road furniture and plates",
+      "tiebreaker": "The south is lush forest and oil palm with churches; the north is dry savanna and Sahel with mud-brick compounds and mosques."
+    }
+  ]
+}

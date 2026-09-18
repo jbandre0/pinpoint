@@ -1,0 +1,82 @@
+{
+  "id": "tr",
+  "name": "Turkey",
+  "aliases": ["Türkiye", "Republic of Türkiye"],
+  "continent": "Europe/Asia",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geometas.com/metas/countries/turkey/",
+    "https://geomastr.com/country/turkey/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Turkey",
+    "https://en.wikipedia.org/wiki/Geographical_regions_of_Turkey"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇹🇷",
+    "capital": "Ankara"
+  },
+
+  "language": {
+    "official_languages": ["Turkish"],
+    "script": "Latin",
+    "sample_text": "DİKKAT — YOL ÇALIŞMASI",
+    "script_notes": "Latin alphabet with the distinctive letters ı (dotless i), İ (dotted capital), ş, ğ, ç, ö and ü. Kurdish appears on some signs in the southeast, and Syriac on a few in Mardin.",
+    "false_friends": ["Greece", "Bulgaria", "Georgia", "Azerbaijan", "Iran"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Plain white rectangular bollards with a red reflector on the front, slightly fatter than the Australian or Dutch types; a rare yellow version appears in high-snowfall areas.",
+    "bollard_shape": "Thin in profile from the side, rectangular from the front.",
+    "guardrail_type": "Standard steel guardrail on main roads.",
+    "line_paint": "White edge lines and center lines; yellow used at some works zones.",
+    "curb_style": "Painted black-and-white or red-and-white kerbs in towns; wide roads with undulating terrain even in urban areas.",
+    "km_marker_style": "Distinctive red-and-white arrows mark corners. Directional signs are either blue or green. Kilometre markers show a number (sometimes a letter) in the top-left corner giving the road number. Many utility poles are metal with large holes, larger than the holes on Romanian, Hungarian or Polish poles. Ankara alone has street signs with a curved top-middle section."
+  },
+
+  "architecture": {
+    "roof_style": "Flat concrete roofs with rooftop water tanks and solar water heaters on apartment blocks; red-tiled pitched roofs on houses in the west and south.",
+    "roof_material": "Red clay tile on pitched roofs; flat concrete and corrugated metal elsewhere.",
+    "wall_construction": "Concrete-frame apartment blocks of five or more storeys fill towns and cities; stone houses in the east and southeast; timber and stone traditional houses in some historic towns. Mosques with slim pencil-shaped minarets and a central dome stand in every settlement.",
+    "wall_color_palette": "White, cream and pastel apartment blocks with satellite dishes and balcony enclosures; honey-coloured or dark basalt stone in the southeast.",
+    "distinctive_building_types": "Mosques with one or more slender minarets in every town; concrete apartment blocks; Ottoman-era stone bridges, hamams and caravanserais; Atatürk statues and Turkish flags in squares."
+  },
+
+  "nature": {
+    "vegetation": "Olive groves, vineyards and pines along the Aegean and Mediterranean coasts; dry steppe on the central plateau; verdant forest, tea and hazelnut plantations along the wet Black Sea coast; sparse mountain steppe in the east.",
+    "terrain": "A large peninsula of great variety — coastal plains ringed by mountains, a high central plateau (Anatolia), rugged and snow-bound eastern mountains including Mount Ararat, and the Mesopotamian plain in the southeast.",
+    "climate_signature": "Mediterranean along the coasts, dry continental on the plateau, wet and green on the Black Sea coast, and harsh with long snowy winters in the east."
+  },
+
+  "vehicles": {
+    "common_brands": ["Fiat", "Renault", "Ford", "Hyundai"],
+    "plate_color": "White plate with black text and a blue strip on the left carrying 'TR'.",
+    "plate_format": "A two-digit province code, then up to three letters and up to four digits (e.g. '34 ABC 123', where 34 is Istanbul and 06 is Ankara).",
+    "distinctive_vehicles": "Many Fiats, Renaults and Fords are built locally; yellow taxis and dolmuş minibuses; tractors and small trucks on rural roads."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 official coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense across the west and centre and along main highways; coverage in the far east and southeast is thinner and older."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Greece / Bulgaria",
+      "shared_traits": "Neighbouring Mediterranean and Balkan landscapes and similar concrete-block towns",
+      "tiebreaker": "Latin letters such as ı, İ, ş and ğ, TR plates with a province number, plain white red-reflector bollards and mosques with pencil minarets differ from Greek and Bulgarian scripts, plates and churches."
+    },
+    {
+      "country": "Georgia / Azerbaijan",
+      "shared_traits": "Shared Caucasus mountains and green Black Sea coastal landscape near the northeast border",
+      "tiebreaker": "Georgian and Azerbaijani scripts and plates differ; the Turkish province-number plate and red-and-white corner arrows are found here."
+    },
+    {
+      "country": "Iran",
+      "shared_traits": "Shared eastern mountains and steppe near the border",
+      "tiebreaker": "Persian script and Iranian plates versus Latin-script Turkish signs and the TR plate with province number."
+    }
+  ]
+}

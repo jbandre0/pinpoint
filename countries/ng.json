@@ -1,0 +1,82 @@
+{
+  "id": "ng",
+  "name": "Nigeria",
+  "aliases": ["Federal Republic of Nigeria"],
+  "continent": "Africa",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/africa/nigeria/",
+    "https://geometas.com/metas/countries/nigeria/",
+    "https://en.wikipedia.org/wiki/Hausa_architecture",
+    "https://en.wikipedia.org/wiki/West_African_mosques"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇳🇬",
+    "capital": "Abuja"
+  },
+
+  "language": {
+    "official_languages": ["English"],
+    "script": "Latin",
+    "sample_text": "CAUTION — ROAD WORKS AHEAD",
+    "script_notes": "English is the official and signage language, with major local languages — Hausa in the north, Yoruba in the southwest and Igbo in the southeast — widely spoken and appearing on shop signs and church and mosque banners. Shop signs often carry a full address and the name of the state, such as Abuja, Kano, Yobe or Sokoto.",
+    "false_friends": ["Ghana", "Kenya", "Uganda", "Cameroon", "Benin", "Senegal"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Bollards are rare and not a useful national tell.",
+    "bollard_shape": "Rare.",
+    "guardrail_type": "Minimal; often absent or damaged on rural roads.",
+    "line_paint": "Faded white and yellow markings where present; many roads have none and are rutted or pot-holed.",
+    "curb_style": "Open drainage ditches beside the road, often overgrown or with rubbish; minimal curbing outside major cities.",
+    "km_marker_style": "Segmented utility poles (also seen in São Tomé and Príncipe) are common, and 'broken' or leaning poles appear frequently. Filling stations are extremely dense, with Ibadan famously packed with them."
+  },
+
+  "architecture": {
+    "roof_style": "Low-pitched or gabled roofs of corrugated metal (zinc) on most single-storey buildings; flat concrete roofs on larger urban buildings.",
+    "roof_material": "Corrugated metal sheeting is the dominant roof material nationwide.",
+    "wall_construction": "Single-storey concrete-block houses with metal roofs are prevalent; sun-dried mud brick in the far north; unfinished, unplastered block buildings are common.",
+    "wall_color_palette": "Bare grey block, often painted with bright commercial and political ads and shop-front lettering.",
+    "distinctive_building_types": "Single-storey block houses with metal roofs; mosques in the north and churches everywhere in the south; roadside market stalls; walled family compounds; high-rise towers in Lagos and Abuja."
+  },
+
+  "nature": {
+    "vegetation": "Varies from oil palms and dense rainforest in the south, through rice, corn and grassland in the middle belt, to millet fields and sparse thorn scrub in the far north. See regional profiles.",
+    "terrain": "Mostly flat lowland, with hills and rocky plateaus only around Abuja and the Jos Plateau; a low, swampy coast and the Niger Delta in the south.",
+    "climate_signature": "Hot and humid in the south, drier and hazier with harmattan dust in the north."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Peugeot", "Mercedes-Benz"],
+    "plate_color": "White plates that look faintly green or blue through the blur.",
+    "plate_format": "Three letters, three digits and two letters, with the state name shown along the top of the plate.",
+    "distinctive_vehicles": "Yellow three-wheeled keke-napep tricycle taxis are a strong tell; motorcycle taxis (okadas) are everywhere; the Street View car is a large pickup with a yellow-and-black striped rack, sometimes followed by a police car."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Gen 3, with a pickup-truck capture vehicle that often shows its cab and bed, plus a distinctive yellow-and-black striped roof rack.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Coverage spans much of the country including major highways, with a police car often visible following the capture vehicle in older captures."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Ghana",
+      "shared_traits": "Shared West African tropical vegetation, English signage, similar corrugated-roof block houses",
+      "tiebreaker": "Yellow keke-napep tricycles and the segmented utility pole are distinctive here, and the Street View car is a pickup with a yellow-and-black rack, whereas Ghana's road furniture and taxis differ."
+    },
+    {
+      "country": "Kenya / Uganda",
+      "shared_traits": "English signage and corrugated-metal roofs, similar minibus and motorcycle-taxi culture",
+      "tiebreaker": "These East African countries drive on the left while this one drives on the right; the Kenyan car has a front snorkel and Uganda a boxy white SUV, unlike a pickup with a striped rack."
+    },
+    {
+      "country": "Cameroon / Benin",
+      "shared_traits": "Neighbouring West and Central African tropical landscapes",
+      "tiebreaker": "Benin signs are in French and most of Cameroon's are too (only its west is English-speaking), whereas English is used throughout here; keke-napep tricycles and the segmented poles point here."
+    }
+  ]
+}

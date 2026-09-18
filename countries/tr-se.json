@@ -1,0 +1,82 @@
+{
+  "id": "tr-se",
+  "name": "Southeastern Anatolia (Gaziantep · Şanlıurfa · Diyarbakır · Mardin)",
+  "aliases": ["Güneydoğu Anadolu", "Upper Mesopotamia"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "parent": "tr",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Southeastern_Anatolia_region",
+    "https://www.nomadicniko.com/turkey/mardin/",
+    "https://en.wikipedia.org/wiki/Diyarbak%C4%B1r_Fortress"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇹🇷",
+    "capital": "Gaziantep / Diyarbakır"
+  },
+
+  "language": {
+    "official_languages": ["Turkish", "Kurdish (spoken)", "Arabic (spoken)"],
+    "script": "Latin",
+    "sample_text": "DİKKAT — YOL ÇALIŞMASI",
+    "script_notes": "Turkish signage; Kurdish is the mother tongue for most people east of the Euphrates and Arabic is spoken in border areas; Kurdish warnings have been added on some pedestrian-crossing signs in Diyarbakır and Mardin, and bilingual Syriac and Turkish signs appear at monasteries around Mardin.",
+    "false_friends": ["Syria", "Iraq", "Iran"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national; wide highways across open plains.",
+    "km_marker_style": "As national; large-holed metal utility poles and red-and-white corner arrows."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs are standard on traditional stone houses, often used as terraces in the hot summer nights.",
+    "roof_material": "Flat stone and earth on old houses; concrete slab on modern ones.",
+    "wall_construction": "Heavy, thick-walled stone construction built around a central courtyard with an iwan (open vaulted hall) — creamy white-yellow limestone in Mardin, cascading in terraces down a hillside above the Mesopotamian plain, and dark grey-black basalt in Diyarbakır, whose mighty basalt city walls loom over the Tigris; concrete apartment blocks in the modern cities.",
+    "wall_color_palette": "Honey-yellow limestone in Mardin, dark basalt in Diyarbakır, and sun-bleached tan concrete elsewhere.",
+    "distinctive_building_types": "Terraced limestone towns above the plain (Mardin); Diyarbakır's black basalt walls and mosques with striped stonework; the Balıklıgöl sacred pools and mosques in Şanlıurfa; Roman mosaics and citadels in Gaziantep."
+  },
+
+  "nature": {
+    "vegetation": "Open cotton, wheat and lentil fields and pistachio orchards on the plain; almost treeless rolling steppe outside irrigated valleys, turning brown and dusty by mid-summer.",
+    "terrain": "A broad, hot plain in the northern Mesopotamian basin drained by the Euphrates and Tigris, with rolling limestone hills, plateaus and dammed reservoirs.",
+    "climate_signature": "Hot, dry and dusty summers and mild winters; a sun-bleached tan-and-gold look far from the green Black Sea or snowy east."
+  },
+
+  "vehicles": {
+    "common_brands": ["Fiat", "Renault", "Ford", "Hyundai"],
+    "plate_color": "As national — province codes such as 27 (Gaziantep), 21 (Diyarbakır), 47 (Mardin), 63 (Şanlıurfa).",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Tractors and pickup trucks; motorbikes, minibuses and heavy trucks on the highways to the border."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3, with some older imagery.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Coverage follows main highways and city centres; border areas are thin or missing."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Syria / Iraq",
+      "shared_traits": "Shared northern Mesopotamian plain, similar stone architecture and dry landscapes across the border",
+      "tiebreaker": "Latin-script signs with ı and ş, TR plates and orderly national road furniture; Syria and Iraq have essentially no official Street View coverage, so coverage here is almost certainly Turkish."
+    },
+    {
+      "country": "Iran",
+      "shared_traits": "Similar dry steppe and stone settlements in border districts",
+      "tiebreaker": "Persian script and plates differ from Latin-script signs and TR plates."
+    },
+    {
+      "country": "Western / Eastern Turkey (same country)",
+      "shared_traits": "Same country, same national road furniture and plates",
+      "tiebreaker": "The southeast is hot, flat and stone-built with limestone and basalt cities; the west is greener and denser, and the east is high and snowy."
+    }
+  ]
+}
