@@ -1,0 +1,77 @@
+{
+  "id": "th-n",
+  "name": "Northern Thailand (Chiang Mai · Lanna)",
+  "aliases": ["Lanna", "Lan Na"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "th",
+  "sources": [
+    "https://www.globalsecurity.org/military/world/thailand/regions-north.htm",
+    "https://en.wikipedia.org/wiki/Lan_Na",
+    "https://en.wikipedia.org/wiki/Northern_Thailand"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇹🇭",
+    "capital": "Chiang Mai"
+  },
+
+  "language": {
+    "official_languages": ["Thai", "Northern Thai (Kham Mueang)"],
+    "script": "Thai (with occasional Lanna/Tai Tham script on cultural signage)",
+    "sample_text": "ระวัง — งานก่อสร้างถนน",
+    "script_notes": "Standard Thai script nationally; the historic Lanna (Tai Tham) script appears decoratively on temple signage and cultural sites in Chiang Mai, visually distinct from standard Thai.",
+    "false_friends": ["Laos (shared northern mountains and Buddhist architecture)", "Myanmar's Shan State", "Northern Vietnam"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; more common on winding mountain roads.",
+    "line_paint": "As national.",
+    "curb_style": "As national.",
+    "km_marker_style": "As national; dramatic switchback mountain roads are common."
+  },
+
+  "architecture": {
+    "roof_style": "Distinctive Lanna-style temple roofs — multi-tiered, steeply pitched, with elaborately carved wooden gables and 'kalae' crossed-horn decorations on rooftops.",
+    "roof_material": "Wood-shingle or clay tile on traditional Lanna buildings; corrugated metal on modern houses.",
+    "wall_construction": "Traditional Lanna wooden houses on stilts with crossed 'kalae' decorative gable finials; Chiang Mai's old city retains a walled, moated layout with numerous temples.",
+    "wall_color_palette": "Dark carved teak wood tones on traditional Lanna buildings; gold and white on Lanna temples.",
+    "distinctive_building_types": "Lanna-style temples with carved wooden roofs and naga (serpent) staircases; the walled and moated Chiang Mai old city; hill-tribe villages on the surrounding mountains; Doi Suthep hilltop temple."
+  },
+
+  "nature": {
+    "vegetation": "Dense tropical monsoon and montane forest covers the mountainous terrain, with terraced rice paddies and increasingly cooler-climate crops at higher elevation.",
+    "terrain": "Thailand's most mountainous region — high mountains and narrow valleys, including Doi Inthanon (2,565m, Thailand's highest peak) near Chiang Mai; steep, dissected ridges trending north-northeast to south-southwest.",
+    "climate_signature": "Noticeably cooler and more misty than the rest of Thailand at elevation; seasonal burning haze (dry season) is a recognizable regional atmospheric feature."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Isuzu", "Honda", "Mitsubishi"],
+    "plate_color": "As national; province names such as Chiang Mai (เชียงใหม่) and Chiang Rai (เชียงราย) appear on the plate.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Red songthaews (shared pickup-truck taxis) are the iconic Chiang Mai transport — a distinctive regional tell."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4, very dense.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage around Chiang Mai and along main mountain highways; sparser in remote hill-tribe areas."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Laos",
+      "shared_traits": "Similar northern mountain terrain, Buddhist temple architecture, related Thai/Lao script families",
+      "tiebreaker": "Thailand drives on the LEFT while Laos drives on the right; Thailand's infrastructure and road density are much more developed."
+    },
+    {
+      "country": "Central/Southern Thailand",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The north is mountainous with Lanna-style carved temples; central Thailand is flat rice-paddy plains, and the south is a rubber/palm-covered peninsula with visible mosques in the deep south."
+    }
+  ]
+}

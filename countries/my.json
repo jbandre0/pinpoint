@@ -1,0 +1,82 @@
+{
+  "id": "my",
+  "name": "Malaysia",
+  "aliases": ["Federation of Malaysia"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/malaysia/",
+    "https://geopinning.space/en/rule/asia/malaysia/",
+    "https://geometas.com/metas/countries/malaysia/",
+    "https://en.wikipedia.org/wiki/Malaysian_Federal_Roads_System"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇲🇾",
+    "capital": "Kuala Lumpur"
+  },
+
+  "language": {
+    "official_languages": ["Malay", "English"],
+    "script": "Latin",
+    "sample_text": "AWAS — KERJA JALAN",
+    "script_notes": "Malay (Bahasa Malaysia) in Latin script, very close to Indonesian but with some spelling/vocabulary differences; English widely used alongside. Street suffixes: Jalan, Lorong, Persiaran, Lebuh, Taman, Kampung. Chinese and Tamil script also visible on signage due to the country's large Chinese and Indian communities.",
+    "false_friends": ["Indonesia", "Singapore", "Brunei", "Thailand (southern border)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Often black, white, grey and red — Malaysian bollards commonly carry two red rectangles.",
+    "bollard_shape": "Simple post with two red reflective rectangles.",
+    "guardrail_type": "Black-and-white painted guardrails are common — a strong Malaysia tell.",
+    "line_paint": "White outside/white inside lines; occasionally thick yellow lines running perpendicular to the road (rumble-style) and double solid white center lines, both relatively rare elsewhere in the world.",
+    "curb_style": "Black-and-white painted kerbs common in towns and cities.",
+    "km_marker_style": "Street signs are often mounted on black-and-white striped poles. Petronas (the national oil company), Caltex, Petron and BHPetrol are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "Varies — traditional Malay houses have steeply pitched roofs on stilts; mosques with domes and minarets are extremely common; multi-tiered roofs on older wooden mosques; Chinese temples with curved ornate roofs; modern high-rises in urban areas.",
+    "roof_material": "Corrugated metal and clay tile; domed concrete roofing on mosques.",
+    "wall_construction": "Concrete-block terrace houses and shophouses dominate towns and cities; traditional Malay stilt houses (kampung houses) in rural areas; colonial-era buildings in KL and Georgetown blend Mughal, Tudor and neo-Gothic influences.",
+    "wall_color_palette": "Pastel-painted terraced houses and shophouses; white and green on mosques.",
+    "distinctive_building_types": "Mosques with domes and minarets in every town; Chinese temples and clan houses; colonial-era civic buildings; the Petronas Twin Towers in Kuala Lumpur as an unmistakable landmark; kampung stilt houses."
+  },
+
+  "nature": {
+    "vegetation": "Oil palm and rubber plantations cover enormous stretches of the countryside — long regular rows of trees are a defining national tell; dense tropical rainforest in the interior, especially on Borneo.",
+    "terrain": "Peninsular Malaysia has a mountainous spine (Titiwangsa Range) between flat coastal plains; Malaysian Borneo (Sabah and Sarawak) is mountainous in Sabah and flatter/riverine in Sarawak, with vast rainforest.",
+    "climate_signature": "Hot, humid tropical rainforest climate year-round; lush green vegetation nationwide."
+  },
+
+  "vehicles": {
+    "common_brands": ["Perodua", "Proton", "Toyota", "Honda"],
+    "plate_color": "White plates with black text; black areas divide the plate into TWO white sections (distinguishing it from Indonesia's three-section plates).",
+    "plate_format": "Letters followed by digits (e.g. 'WXX 1234'); the letter prefix indicates the state of registration (W = Kuala Lumpur, Q = Sarawak, S = Sabah).",
+    "distinctive_vehicles": "Perodua and Proton (Malaysia's national car brands) are disproportionately common and a strong national tell; motorbikes are widespread."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 in Peninsular Malaysia; more variable in Borneo.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense across Peninsular Malaysia; Sabah's coverage is largely mountain roads, and Sarawak's coverage is flatter but sparser."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Indonesia",
+      "shared_traits": "Shared left-hand traffic, similar Latin-script Malay/Indonesian language, similar tropical vegetation and plantations",
+      "tiebreaker": "Malaysian plates split into TWO white sections vs. Indonesia's three; Malaysia's black-and-white painted guardrails/kerbs and Perodua/Proton cars are strong tells; Indonesian signage commonly uses the abbreviated 'Jl.' for street."
+    },
+    {
+      "country": "Thailand",
+      "shared_traits": "Shared left-hand traffic and tropical peninsula vegetation near the border",
+      "tiebreaker": "Malaysian Latin-script Malay/English signage and mosques vs. Thailand's Thai script and Buddhist temples; plate formats also differ."
+    },
+    {
+      "country": "Singapore",
+      "shared_traits": "Shared left-hand traffic, Malay place names, similar tropical climate and shophouse/HDB-style architecture near Johor",
+      "tiebreaker": "Singapore's road furniture and plates differ sharply (much tidier and more regulated); Singapore is a tiny city-state so any rural or plantation landscape is almost certainly Malaysia."
+    }
+  ]
+}

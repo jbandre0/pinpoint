@@ -1,0 +1,82 @@
+{
+  "id": "kh",
+  "name": "Cambodia",
+  "aliases": ["Kingdom of Cambodia", "Kampuchea"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/cambodia/",
+    "https://www.plonkit.net/cambodia",
+    "https://reverseimagelocation.com/blog/identify-cambodia-ai-guide",
+    "https://en.wikipedia.org/wiki/Traditional_Khmer_housing"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇰🇭",
+    "capital": "Phnom Penh"
+  },
+
+  "language": {
+    "official_languages": ["Khmer"],
+    "script": "Khmer",
+    "sample_text": "ប្រយ័ត្ន — ការងារជួសជុលផ្លូវ",
+    "script_notes": "Khmer script features distinctive right-pointing hooks and curls, distinguishing it from Thai script (which has an abundance of circles) and Lao script. Administrative terms like 'Sangkat' and 'Phum' appear in place names.",
+    "false_friends": ["Thailand", "Laos", "Vietnam"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Red-and-white — most commonly a stone bollard with a red top and white base (often with a reflector in the red part), or striped red-and-white; the red pyramid-shaped top is a distinctive Cambodia tell.",
+    "bollard_shape": "Stone posts with a rounded or pyramidal red top.",
+    "guardrail_type": "Minimal on most roads.",
+    "line_paint": "White outside/yellow inside lines.",
+    "curb_style": "Minimal outside towns; wide dusty shoulders and open roadside space.",
+    "km_marker_style": "Cambodian road markers are stone with a white base and rounded red top, showing the road number on the narrow side and a town name plus distance on the main face. Chevron curve signs are black with yellow arrows — the reverse of the yellow-with-black-arrows convention used elsewhere in Southeast Asia."
+  },
+
+  "architecture": {
+    "roof_style": "Sloped roofs on traditional stilt houses; ornate multi-tiered roofs on Buddhist temple (wat) buildings.",
+    "roof_material": "Corrugated metal widespread on modern houses; tile on temples; thatch/palm on more traditional rural homes.",
+    "wall_construction": "Traditional Khmer stilt houses (raised on wooden poles to avoid seasonal flooding) are the defining vernacular form, often made of wood, bamboo or thatch with open sides for airflow; concrete-block and stucco construction increasingly common in towns and cities.",
+    "wall_color_palette": "Natural wood tones on traditional houses; brightly painted concrete shophouses in towns; gold and ornate colour on Buddhist temple architecture.",
+    "distinctive_building_types": "Stilt houses; Buddhist wats with ornate multi-tiered roofs and gold detailing; the ancient Angkor Wat and Angkor temple complex as an unmistakable landmark; floating villages on Tonle Sap lake."
+  },
+
+  "nature": {
+    "vegetation": "Flat rice paddies dominate the central plains; dense tropical forest surrounds the Angkor temples; sugar palm trees dotting the paddy landscape are a classic Cambodia tell.",
+    "terrain": "Mostly flat, low-lying central plain built around the Tonle Sap lake and the Mekong River basin; highlands and forest in the southwest (Cardamom Mountains) and northeast.",
+    "climate_signature": "Hot, humid tropical monsoon climate; dusty red laterite roads in the dry season, green flooded landscape in the rainy season."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Lexus", "Honda (motorbikes)", "Ford"],
+    "plate_color": "White plate with blue text, showing the province name in Khmer script at the top and in English at the bottom.",
+    "plate_format": "One class number, one or two Latin letters, then four digits (e.g. '2D-0888') with the province name — Phnom Penh, Siem Reap, etc.",
+    "distinctive_vehicles": "Tuk-tuks (motorbike-drawn carriages) are a ubiquitous Cambodian tell; motorbikes vastly outnumber cars; luxury SUVs (Lexus, Toyota Land Cruiser) are disproportionately visible in Phnom Penh reflecting sharp wealth contrasts."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed — official Google coverage in cities and main highways, supplemented by Trekker imagery near temple sites.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Concentrated around Phnom Penh, Siem Reap and main highways; sparser in rural and forested areas."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Thailand",
+      "shared_traits": "Shared Buddhist temple architecture, similar Southeast Asian tropical vegetation and motorbike-heavy traffic",
+      "tiebreaker": "Cambodia drives on the RIGHT while Thailand drives on the LEFT; Khmer script with right-pointing hooks differs from Thai's abundance of circles; Cambodia's black-with-yellow-arrows chevron signs are the reverse of Thailand's convention."
+    },
+    {
+      "country": "Laos",
+      "shared_traits": "Shared Mekong basin geography, similar Buddhist temples, both drive on the right",
+      "tiebreaker": "Cambodia's distinctive stone red-topped bollards and red-and-white stone road markers, plus its Khmer (rather than Lao) script, distinguish it; Cambodia is also flatter overall than mountainous Laos."
+    },
+    {
+      "country": "Vietnam",
+      "shared_traits": "Shared Mekong Delta geography in the south, similar rice-paddy landscape and motorbike culture",
+      "tiebreaker": "Vietnam uses Latin-script Vietnamese with heavy diacritics; Cambodia uses Khmer script; Vietnam's more densely built, narrow tube-house urban architecture differs from Cambodia's stilt houses and lower density."
+    }
+  ]
+}

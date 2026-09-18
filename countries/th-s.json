@@ -1,0 +1,77 @@
+{
+  "id": "th-s",
+  "name": "Southern Thailand (Peninsula · Phuket · Deep South)",
+  "aliases": ["Isthmus of Kra", "Deep South"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "th",
+  "sources": [
+    "https://thailandcorner.com/provinces/pattani",
+    "https://www.roughguides.com/thailand/deep-south/",
+    "https://www.worldplacesexplained.com/countries/thailand"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇹🇭",
+    "capital": "Phuket / Hat Yai"
+  },
+
+  "language": {
+    "official_languages": ["Thai", "Southern Thai", "Malay (Pattani Malay)"],
+    "script": "Thai (with Jawi/Malay Latin script appearing in the deep south)",
+    "sample_text": "ระวัง — งานก่อสร้างถนน",
+    "script_notes": "Standard Thai script nationally; in the Malay-Muslim deep south (Pattani, Yala, Narathiwat), Malay and Arabic-influenced Jawi script appear on mosque and community signage — a strong regional tell.",
+    "false_friends": ["Northern Malaysia (shared border, similar rubber/palm landscape, mosques)", "Myanmar's Tanintharyi coast"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national.",
+    "km_marker_style": "As national; long roads running the narrow peninsula's length are common."
+  },
+
+  "architecture": {
+    "roof_style": "Buddhist temple roofs as national in the upper peninsula/Phuket; green-domed mosques with minarets in the deep south (Pattani, Yala, Narathiwat) — a strong departure from Buddhist Thailand's temple architecture.",
+    "roof_material": "Corrugated metal and tile on houses; domed mosque roofing in the deep south.",
+    "wall_construction": "Sino-Portuguese shophouses in Phuket Old Town and Trang; Islamic architecture with domes and minarets in the Malay-Muslim deep south, including Pattani's Central Mosque (nicknamed the 'Thai Taj Mahal', with a cream-and-orange facade and green domes).",
+    "wall_color_palette": "Pastel-painted Sino-Portuguese shophouses in Phuket; cream, orange and green on Islamic architecture in the deep south.",
+    "distinctive_building_types": "Sino-Portuguese shophouses (Phuket Old Town); green-domed mosques and minarets in Pattani/Yala/Narathiwat; fishing villages and beach resort architecture along the Andaman and Gulf coasts; Krue Se Mosque (16th-century, Pattani)."
+  },
+
+  "nature": {
+    "vegetation": "Rubber and oil palm plantations dominate much of the peninsula's interior — regular rows of trees are a strong southern tell; coconut palms and tropical rainforest along the coasts; limestone karst cliffs and mangroves around Phang Nga Bay.",
+    "terrain": "A narrow peninsula (the Isthmus of Kra) with mountains running down its spine, coastlines on both the Andaman Sea and Gulf of Thailand, and dramatic limestone karst islands and cliffs in the Krabi/Phang Nga area.",
+    "climate_signature": "Hot, humid, and wetter year-round than the rest of Thailand, with rainforest closer to the coast — lush and green."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Isuzu", "Honda", "Mitsubishi"],
+    "plate_color": "As national; province names such as Phuket (ภูเก็ต) or Songkhla (สงขลา) appear on the plate.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Longtail boats along the coast; songthaews and tuk-tuks in tourist areas like Phuket; rubber-plantation trucks."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4, very dense.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage across most of the south; coverage is reduced in the far southern deep-south provinces due to security concerns."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Northern Malaysia",
+      "shared_traits": "Shared peninsula, similar rubber/palm plantations, both drive on the left, mosques appear in the deep south",
+      "tiebreaker": "Thai script and Buddhist temples (even in the south) vs. Malaysia's Latin-script Malay/English signage; Malaysian plates and road furniture differ from Thailand's."
+    },
+    {
+      "country": "Northern/Central Thailand",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The south is a narrow, rubber/palm-planted peninsula with visible mosques in the deep south and limestone karst scenery near Krabi; the north is mountainous and the center is flat rice-paddy plain."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "th",
+  "name": "Thailand",
+  "aliases": ["Kingdom of Thailand", "Siam", "ประเทศไทย"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/thailand/",
+    "https://geopinning.space/en/rule/asia/thai/",
+    "https://www.globalsecurity.org/military/world/thailand/terrain.htm",
+    "https://www.worldplacesexplained.com/countries/thailand"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇹🇭",
+    "capital": "Bangkok"
+  },
+
+  "language": {
+    "official_languages": ["Thai"],
+    "script": "Thai",
+    "sample_text": "ระวัง — งานก่อสร้างถนน",
+    "script_notes": "Thai script has a distinctive abundance of circles and loops, unlike Khmer (right-pointing hooks) or Lao. The baht symbol (฿) appears on pricing. Regional languages/dialects (Northern Thai, Southern Thai, Malay in the deep south) exist but Thai script dominates signage nationwide.",
+    "false_friends": ["Cambodia", "Laos", "Myanmar", "Malaysia (southern border)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Alternating black-and-white segments.",
+    "bollard_shape": "Square/angular obelisk-shaped posts — similar angular bollards also appear in Laos.",
+    "guardrail_type": "Standard steel guardrail on major highways.",
+    "line_paint": "White outside/yellow inside center lines, sometimes striped or solid; white middle lines also common.",
+    "curb_style": "Painted kerbs in cities; open roadside space elsewhere.",
+    "km_marker_style": "Concrete utility poles with small vertical rows of holes running up the pole are a strong Thailand tell; street-light poles often carry black-and-red or black-and-white paint at the base. PTT, Caltex, Esso, Bangchak and PTG are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "Multi-tiered, steeply pitched, ornate roofs with upswept ends (chofa) on Buddhist temple (wat) buildings; simple corrugated metal or tile roofs on typical houses.",
+    "roof_material": "Corrugated metal widespread on houses; glazed orange/green tile on temple roofs.",
+    "wall_construction": "Concrete-block and stucco shophouses in towns and cities; traditional wooden stilt houses in rural areas; gilded, ornate Buddhist temple architecture with gold leaf and mosaic detailing is Thailand's most visually distinctive built form.",
+    "wall_color_palette": "Brightly coloured shopfronts and signage; gold, white and vivid orange/red on temples.",
+    "distinctive_building_types": "Buddhist wats with gilded chedis (stupas) and ornate multi-tiered roofs; small roadside spirit houses (san phra phum) in front of homes and businesses — a strong, near-universal Thailand tell; 7-Eleven convenience stores on nearly every block."
+  },
+
+  "nature": {
+    "vegetation": "Varies sharply by region — see regional profiles for northern hill forest, central rice paddies and southern rubber/palm plantations.",
+    "terrain": "Mountainous in the north (Doi Inthanon at 2,565m), a flat, fertile central plain around Bangkok, a rugged northeastern plateau (Isan), and a narrow peninsula in the south.",
+    "climate_signature": "Hot, humid tropical monsoon climate nationwide; lush green vegetation year-round, with regional variation in terrain and crops."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Isuzu", "Honda", "Mitsubishi"],
+    "plate_color": "White plates with black text for private cars, yellow plates for taxis and commercial vehicles.",
+    "plate_format": "A digit, two Thai letters, then up to four digits (e.g. '1กก 1234'), with the province name in Thai script beneath.",
+    "distinctive_vehicles": "Toyota Hilux and Isuzu D-Max pickup trucks are ubiquitous; tuk-tuks (three-wheeled taxis) and songthaews (converted pickup-truck shared taxis) are strong Thailand tells; motorbikes are extremely common."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 official coverage, very dense.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense, near-complete coverage nationwide including most rural roads — one of the best-covered countries in Southeast Asia."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Cambodia",
+      "shared_traits": "Shared Buddhist temple architecture, similar tropical Southeast Asian vegetation and motorbike-heavy traffic",
+      "tiebreaker": "Thailand drives on the LEFT while Cambodia drives on the right; Thai script's abundance of circles differs from Khmer's right-pointing hooks."
+    },
+    {
+      "country": "Laos",
+      "shared_traits": "Shared Buddhist temple architecture, similar angular bollards and road furniture, related script family",
+      "tiebreaker": "Thailand drives on the LEFT while Laos drives on the right; Thailand's road network and infrastructure are much denser and more developed."
+    },
+    {
+      "country": "Malaysia",
+      "shared_traits": "Shared left-hand traffic, similar tropical peninsula vegetation and rubber/palm plantations near the southern border",
+      "tiebreaker": "Thai script and Buddhist temples vs. Malaysia's Latin-script Malay/English signage and predominance of mosques in the north; Malaysia's plates and road furniture also differ."
+    }
+  ]
+}

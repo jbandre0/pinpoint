@@ -1,0 +1,82 @@
+{
+  "id": "my-p",
+  "name": "Peninsular Malaysia (Kuala Lumpur · West Coast)",
+  "aliases": ["West Malaysia", "Semenanjung Malaysia"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "my",
+  "sources": [
+    "https://geopinning.space/en/rule/asia/malaysia/",
+    "https://en.wikipedia.org/wiki/Architecture_of_Kuala_Lumpur",
+    "https://www.thenationalnews.com/lifestyle/travel/a-tour-of-malaysia-s-multifaceted-mosques-1.810929"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇲🇾",
+    "capital": "Kuala Lumpur"
+  },
+
+  "language": {
+    "official_languages": ["Malay", "English"],
+    "script": "Latin",
+    "sample_text": "AWAS — KERJA JALAN",
+    "script_notes": "Malay in Latin script with English widely used; Chinese and Tamil scripts appear on shopfront signage reflecting the peninsula's large Chinese and Indian communities.",
+    "false_friends": ["Singapore (adjacent to Johor)", "Southern Thailand", "Sumatra, Indonesia (across the Malacca Strait)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "Black-and-white painted kerbs as national.",
+    "km_marker_style": "Utility poles on the peninsula often carry black rectangular labels with white lettering — this black pole sticker distinguishes the peninsula from Borneo, where the stickers are white."
+  },
+
+  "architecture": {
+    "roof_style": "Domed and minareted mosques everywhere; older wooden mosques with triple-tiered stilted roofs; colonial-era buildings in Kuala Lumpur and Georgetown blend Mughal, Tudor and neo-Gothic influences.",
+    "roof_material": "Corrugated metal and clay tile; domed concrete on mosques.",
+    "wall_construction": "Terraced concrete shophouses and row houses dominate towns and cities; traditional Malay stilt houses in rural kampungs; Chinese clan houses and temples; the Petronas Twin Towers and KL Tower in Kuala Lumpur.",
+    "wall_color_palette": "Pastel-painted terraces and shophouses; white and green on mosques.",
+    "distinctive_building_types": "Colonial and Mughal-influenced civic buildings (Sultan Abdul Samad Building); the National Mosque; the Petronas Twin Towers; shophouse streetscapes in Georgetown and Malacca (UNESCO-listed); rubber and oil palm plantation estates."
+  },
+
+  "nature": {
+    "vegetation": "Endless rows of oil palm and rubber trees blanket the lowlands — plantation monoculture is a defining peninsular tell; dense rainforest in the mountainous interior (Titiwangsa Range); mangroves along the west coast.",
+    "terrain": "A mountainous central spine (Titiwangsa Range, including the Cameron Highlands' tea plantations) flanked by flat coastal plains, with a heavily developed west coast (Kuala Lumpur–Penang corridor) and quieter east coast.",
+    "climate_signature": "Hot, humid tropical rainforest climate; highland areas (Cameron Highlands, Genting) are noticeably cooler and misty."
+  },
+
+  "vehicles": {
+    "common_brands": ["Perodua", "Proton", "Toyota", "Honda"],
+    "plate_color": "As national — W prefix for Kuala Lumpur, and prefixes such as B (Selangor), P (Penang), J (Johor) identify state.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Perodua and Proton dominate — especially the Perodua Myvi, a hugely common small hatchback."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4, very dense.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense, near-complete coverage across the peninsula — one of the best-covered parts of Southeast Asia."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Sumatra, Indonesia",
+      "shared_traits": "Shared Malacca Strait coastline, similar rainforest and oil palm plantations, both drive on the left",
+      "tiebreaker": "Malaysian plates split into TWO white sections vs. Indonesia's three; Malaysian black-and-white kerbs and Perodua/Proton cars are strong tells; the black pole sticker also marks Peninsular Malaysia."
+    },
+    {
+      "country": "Malaysian Borneo",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The peninsula uses black pole stickers and numeric federal route codes; Borneo uses white pole stickers (in Sarawak) and Sabah's 'A'-prefixed route codes."
+    },
+    {
+      "country": "Southern Thailand",
+      "shared_traits": "Shared peninsula, similar rubber/palm plantation landscape, both drive on the left",
+      "tiebreaker": "Malaysian Latin-script signage and mosques vs. Thai script and Buddhist temples."
+    }
+  ]
+}

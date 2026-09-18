@@ -1,0 +1,76 @@
+{
+  "id": "th-c",
+  "name": "Central Thailand (Bangkok · Central Plains)",
+  "aliases": ["Chao Phraya Basin", "Central Plains"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "parent": "th",
+  "sources": [
+    "https://www.worldplacesexplained.com/countries/thailand",
+    "https://www.globalsecurity.org/military/world/thailand/terrain.htm"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇹🇭",
+    "capital": "Bangkok"
+  },
+
+  "language": {
+    "official_languages": ["Thai"],
+    "script": "Thai",
+    "sample_text": "ระวัง — งานก่อสร้างถนน",
+    "script_notes": "Standard Thai script — Central Thai is the national standard, spoken and written throughout.",
+    "false_friends": ["Cambodia's central plains", "Vietnam's Mekong Delta"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national; dense formal infrastructure in Bangkok including extensive elevated expressways and Skytrain lines.",
+    "km_marker_style": "As national; dense overhead cable clutter on Bangkok's streets is a strong urban tell."
+  },
+
+  "architecture": {
+    "roof_style": "Multi-tiered ornate Buddhist temple roofs with glazed orange and green tiles dominate; flat-roofed concrete shophouses and high-rises fill Bangkok.",
+    "roof_material": "Glazed orange/green ceramic tile on temples; flat concrete on urban buildings.",
+    "wall_construction": "Dense concrete shophouse and high-rise construction in Bangkok; traditional Thai stilt houses (often teak) survive in canal-side and rural central-plains villages; ornate, gilded royal and temple architecture (Grand Palace, Wat Arun).",
+    "wall_color_palette": "Bright, varied shopfront colours overlaid with dense signage in urban areas; gold, white, and glazed orange/green on temples.",
+    "distinctive_building_types": "Bangkok's skyline mixing modern skyscrapers and ornate gilded temples (Wat Arun, Grand Palace); canal-side stilt houses; elevated BTS Skytrain and expressway structures; ubiquitous roadside spirit houses; Ayutthaya's ancient ruined brick temples."
+  },
+
+  "nature": {
+    "vegetation": "Flat, intensively irrigated rice paddies dominate the countryside, with scattered coconut and sugar palms and fruit orchards along canals.",
+    "terrain": "The fertile, flat Chao Phraya river delta and central plain — Thailand's agricultural heartland — with an extensive network of canals (khlongs).",
+    "climate_signature": "Hot, humid, and flat — a much less mountainous look than the north; frequent monsoon flooding across low-lying plains."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Isuzu", "Honda", "Mitsubishi"],
+    "plate_color": "As national; Bangkok plates carry 'กรุงเทพมหานคร' (Bangkok Metropolis) beneath the number.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Tuk-tuks and pink/green/blue metered taxis (Bangkok's taxi colours) are iconic; extremely heavy motorbike and traffic density in Bangkok."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4, the densest coverage in Thailand.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very dense, near-complete coverage in Bangkok and the surrounding plains."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Vietnam's Mekong Delta",
+      "shared_traits": "Similar flat, canal-laced rice-paddy delta terrain and tropical humid climate",
+      "tiebreaker": "Thailand drives on the LEFT while Vietnam drives on the right; Thai script differs sharply from Vietnamese Latin-with-diacritics."
+    },
+    {
+      "country": "Northern/Southern Thailand",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "Central Thailand is flat rice-paddy plains and dense Bangkok urbanity; the north is mountainous with carved Lanna temples, and the south is a rubber/palm-covered peninsula."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "my-b",
+  "name": "Malaysian Borneo (Sabah · Sarawak)",
+  "aliases": ["East Malaysia", "Borneo"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "parent": "my",
+  "sources": [
+    "https://geopinning.space/en/rule/asia/malaysia/",
+    "https://en.wikipedia.org/wiki/Malaysian_Federal_Roads_System",
+    "https://geo-guide.vercel.app/countries/MYS"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇲🇾",
+    "capital": "Kota Kinabalu / Kuching"
+  },
+
+  "language": {
+    "official_languages": ["Malay", "English"],
+    "script": "Latin",
+    "sample_text": "AWAS — KERJA JALAN",
+    "script_notes": "Malay in Latin script with English widely used; a wide range of indigenous languages (Iban, Kadazan-Dusun) spoken locally though rarely on road signage.",
+    "false_friends": ["Indonesian Kalimantan (same island, shares border)", "Brunei (enclaved between Sarawak and Sabah)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national.",
+    "km_marker_style": "Sabah federal routes carry an 'A' prefix before the route number, unlike the numeric-only codes on the peninsula. In Sarawak, electricity poles carry WHITE stickers (peninsular poles carry black), often with a distinctive 2-1 insulator configuration and a long diagonal wooden support brace."
+  },
+
+  "architecture": {
+    "roof_style": "Traditional longhouses on stilts with long shared roofs (Iban/Bidayuh communities) alongside standard Malaysian mosque domes and terraced-house roofs in towns.",
+    "roof_material": "Corrugated metal and traditional thatch/shingle on longhouses.",
+    "wall_construction": "Indigenous longhouses — long communal stilted buildings housing many families — are a distinctive Borneo signature; concrete terraced shophouses in Kuching, Kota Kinabalu and Miri; colonial-era architecture in Kuching.",
+    "wall_color_palette": "Natural wood tones on longhouses; pastel terraced shophouses in towns.",
+    "distinctive_building_types": "Iban and Bidayuh longhouses on stilts; Kuching's Chinese shophouses and colonial waterfront; mosques and Chinese temples as on the peninsula; oil palm estate housing."
+  },
+
+  "nature": {
+    "vegetation": "Vast stretches of dense tropical rainforest with some of the world's oldest rainforest; increasing oil palm plantation coverage replacing forest; mangroves along the coast.",
+    "terrain": "Sabah is very mountainous — Mount Kinabalu (4,095m) dominates and much of its coverage is on winding mountain roads; Sarawak is generally flatter and more riverine, with rivers serving as major transport routes.",
+    "climate_signature": "Hot, humid, very wet tropical rainforest climate — lush, dense and often cloud-shrouded in Sabah's mountains."
+  },
+
+  "vehicles": {
+    "common_brands": ["Perodua", "Proton", "Toyota", "Isuzu"],
+    "plate_color": "As national — 'Q' prefix for Sarawak, 'S' prefix for Sabah.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "4WD pickups more common given rougher roads; longboats on Sarawak's rivers."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed generations; coverage is notably sparser than the peninsula.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Sabah's coverage is largely on mountain roads; Sarawak's is flatter but patchier; significant gaps in the interior rainforest."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Indonesian Kalimantan",
+      "shared_traits": "Same island, shared rainforest terrain, similar oil palm plantations and stilt architecture",
+      "tiebreaker": "Malaysian plates split into TWO white sections vs. Indonesia's three; Malaysia's black-and-white painted guardrails and Perodua/Proton cars are strong tells."
+    },
+    {
+      "country": "Brunei",
+      "shared_traits": "Enclaved between Sarawak and Sabah, shared Borneo rainforest and Malay-language signage",
+      "tiebreaker": "Brunei's plates and road furniture differ from Malaysia's; Brunei is a tiny, wealthy state with noticeably better-maintained infrastructure and an ornate golden-domed mosque skyline in its capital."
+    },
+    {
+      "country": "Peninsular Malaysia",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "Borneo uses white pole stickers (Sarawak) vs. the peninsula's black, and Sabah's 'A'-prefixed route codes differ from the peninsula's numeric-only codes; Borneo is also more forested and less densely developed."
+    }
+  ]
+}
