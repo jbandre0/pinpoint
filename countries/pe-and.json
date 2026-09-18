@@ -1,0 +1,77 @@
+{
+  "id": "pe-and",
+  "name": "Andean Highlands (Cusco · Sierra)",
+  "aliases": ["Sierra", "Andes"],
+  "continent": "South America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "pe",
+  "sources": [
+    "https://www.metropolitan-touring.com/blog/culture/regions-of-peru/",
+    "https://lacgeo.com/cultural-landscape-peru",
+    "https://geopinning.space/en/rule/cs_america/peru/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇵🇪",
+    "capital": "Cusco"
+  },
+
+  "language": {
+    "official_languages": ["Spanish", "Quechua"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Spanish as national; Quechua is widely spoken day-to-day and appears on cultural/tourism signage far more than on the coast — a strong regional tell alongside visible Indigenous dress and market culture.",
+    "false_friends": ["Bolivian altiplano (shares the same high-Andean landscape and Quechua/Aymara culture)", "highland Ecuador"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "Black-and-yellow striped guardrails especially prominent on winding mountain roads.",
+    "line_paint": "As national, though many roads are unpaved at higher/more remote altitudes.",
+    "curb_style": "Cobbled streets in colonial Andean town centers (Cusco).",
+    "km_marker_style": "As national; dramatic switchback mountain roads common given the terrain."
+  },
+
+  "architecture": {
+    "roof_style": "Red clay tile pitched roofs are the standard in colonial highland towns; some flat-roofed unfinished concrete construction as national default in expanding areas.",
+    "roof_material": "Red clay tile is a strong regional tell in colonial towns, contrasting with the coast's flat concrete roofs.",
+    "wall_construction": "Spanish colonial buildings built directly atop precise Inca stone foundations (most famously in Cusco) — massive, perfectly fitted stone blocks are a unique and unmistakable Peru/Andes tell; adobe construction common in smaller highland villages.",
+    "wall_color_palette": "Whitewashed colonial upper stories atop dark grey Inca stone lower walls in Cusco; earthy adobe tones in rural villages.",
+    "distinctive_building_types": "Cusco's Spanish colonial buildings sitting on precisely cut Inca stone foundations; Machu Picchu and other Inca archaeological sites; red-tile-roofed colonial town centers; terraced hillside agriculture."
+  },
+
+  "nature": {
+    "vegetation": "High-altitude puna grassland dominates above the tree line; cloud forest and terraced agriculture (potatoes, corn) on lower mountain slopes; eucalyptus (introduced) common around highland towns.",
+    "terrain": "Some of the highest mountains in the Andes, with deep valleys, dramatic peaks and high-altitude plains (puna); Cusco sits in a valley surrounded by mountains on all sides.",
+    "climate_signature": "Cold, thin, high-altitude air with intense sun and dramatic light; a visually rugged, mountainous look completely unlike the coast's flat desert or the Amazon's dense green jungle."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Hyundai", "Kia", "Nissan"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national; 4WD vehicles more common given mountain roads; llamas/alpacas visible alongside rural roads."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Good coverage around Cusco given its tourism importance; sparser in more remote highland villages.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Concentrated on the main tourist routes (Cusco, Sacred Valley, the road to Machu Picchu); real gaps in remote rural highlands."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Bolivian Altiplano",
+      "shared_traits": "Shares the same high-Andean puna landscape, Quechua/Aymara cultural presence and Indigenous dress right across the border",
+      "tiebreaker": "Peru's guardrail stripe uses a black outer edge vs. Bolivia's yellow; Peru's Inca stone-foundation architecture (especially in Cusco) is distinctly Peruvian, and Peru's plates/road furniture differ from Bolivia's once compared directly."
+    },
+    {
+      "country": "Coast/Amazon (Peru)",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The highlands are cold, mountainous, and culturally Quechua/Indigenous with Inca-stone architecture; the coast is flat barren desert, and the Amazon is dense green rainforest — all visually distinct."
+    }
+  ]
+}

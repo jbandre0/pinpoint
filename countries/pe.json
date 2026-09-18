@@ -1,0 +1,82 @@
+{
+  "id": "pe",
+  "name": "Peru",
+  "aliases": ["Republic of Peru", "República del Perú"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/peru/",
+    "https://geopinning.space/en/rule/cs_america/peru/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Peru",
+    "https://www.metropolitan-touring.com/blog/culture/regions-of-peru/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇵🇪",
+    "capital": "Lima"
+  },
+
+  "language": {
+    "official_languages": ["Spanish", "Quechua", "Aymara"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Spanish as the primary official/signage language nationwide; Quechua and Aymara are co-official and spoken widely in the Andean highlands, occasionally appearing on cultural/tourism signage.",
+    "false_friends": ["Bolivia", "Ecuador", "Chile (northern desert)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Slim, 'cigarette-shaped' bollards, often white with yellow stripes — rarely seen outside Peru, making this a strong national tell.",
+    "bollard_shape": "Slim cylindrical post, sometimes with black stripes; also triangular-shaped concrete bollards.",
+    "guardrail_type": "Black-and-yellow diagonally striped guardrails on sharp curves — Peru's stripe uses a black outer edge, distinguishing it from Bolivia's similar-looking yellow-outer-edge striping.",
+    "line_paint": "White outside/white inside or white outside/yellow inside lines.",
+    "curb_style": "Orange-and-black diagonal stripes also appear on curbs at sharp curves. Lima features long, straight boulevard-style streets divided by a concrete or grassy median, unusual within Peru.",
+    "km_marker_style": "Distinctive black-and-white striped sign poles with a concrete block base are one of the best Peru-specific visual tells in South America. Repsol, Primax, PetroPeru and Pecsa are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs common on unfinished/informal concrete buildings nationwide (rebar often left exposed for future additions); red-tile pitched roofs in colonial-era highland towns.",
+    "roof_material": "Flat poured concrete widespread; red clay tile in colonial Andean towns like Cusco.",
+    "wall_construction": "Highly regional — see Coast/Andean Highlands/Amazon profiles for specifics; unfinished exposed-brick and rebar construction extremely common nationwide as a general Peru/Andean-region tell.",
+    "wall_color_palette": "Varies by region; unpainted brick/concrete is common nationwide alongside occasional brightly painted buildings.",
+    "distinctive_building_types": "Spanish colonial architecture built atop Inca stone foundations in the highlands; unfinished multi-story concrete/brick buildings nationwide; ancient Inca sites (Machu Picchu, Sacsayhuamán) as unique landmarks."
+  },
+
+  "nature": {
+    "vegetation": "Three starkly different zones — a narrow, mostly barren coastal desert; high Andean grassland (puna) and cloud forest in the highlands; dense equatorial Amazon rainforest to the east. See regional profiles.",
+    "terrain": "The Andes run the length of the country, dividing the arid Pacific coastal strip from the Amazon basin to the east — Peru contains some of the world's highest mountains alongside vast lowland rainforest.",
+    "climate_signature": "Extremely varied by region — desert coast, cold high-altitude Andes, hot humid Amazon — regional identification is essential in Peru."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Hyundai", "Kia", "Nissan"],
+    "plate_color": "White plates for private vehicles, yellow for commercial/taxi.",
+    "plate_format": "Three letters + three digits (e.g. 'ABC-123').",
+    "distinctive_vehicles": "Tuktuks (three-wheeled auto rickshaws) are common in Peru and essentially absent from the rest of Latin America — a near-unique, highly reliable Peru tell."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed Gen 3/4 official coverage supplemented by Trekker imagery in the Amazon and remote highlands.",
+    "blur_style": "Standard Google blurring; some coverage sourced from unofficial/third-party cameras in remote areas.",
+    "coverage_notes": "Dense around Lima and major highland cities; sparse and patchy in the Amazon basin."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Bolivia",
+      "shared_traits": "Shared Andean altiplano terrain and Quechua/Aymara cultural presence, similar striped guardrails on mountain roads",
+      "tiebreaker": "Peru's guardrail stripe has a black outer edge vs. Bolivia's yellow outer edge; Peru's tuktuks are common while Bolivia has few; Bolivia is landlocked while Peru has a long Pacific coastline."
+    },
+    {
+      "country": "Ecuador",
+      "shared_traits": "Shared Andean highland terrain and some Amazon rainforest overlap to the east",
+      "tiebreaker": "Peru's black-and-white striped sign poles with concrete bases and cigarette-shaped bollards are distinctive versus Ecuador's road furniture; plate formats also differ."
+    },
+    {
+      "country": "Chile (Norte Grande)",
+      "shared_traits": "Shared Atacama-adjacent coastal desert stretching across the shared border",
+      "tiebreaker": "Peruvian road furniture (striped poles, cigarette bollards) differs from Chile's yellow-reflector bollards; Peru shows more visible Andean/Quechua cultural presence than northern Chile."
+    }
+  ]
+}

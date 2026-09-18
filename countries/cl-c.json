@@ -1,0 +1,77 @@
+{
+  "id": "cl-c",
+  "name": "Central Chile (Santiago · Valparaíso · Wine Valleys)",
+  "aliases": ["Zona Central"],
+  "continent": "South America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "cl",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chilean_Central_Valley",
+    "https://www.cellartours.com/chile/wine-regions/central-valley",
+    "https://www.tripwhisperer.co/travelblog/chilean-wine-road-guide-santiago-valparaso-amp-the-best-wine-valleys"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇱",
+    "capital": "Santiago"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Chilean Spanish as national — this is the country's demographic and cultural core.",
+    "false_friends": ["Central Argentina (across the Andes)", "coastal Peru/Ecuador (similar Pacific climate in parts)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national; dense formal urban infrastructure in Santiago.",
+    "km_marker_style": "As national; extensive vineyard/farm road network through the Central Valley."
+  },
+
+  "architecture": {
+    "roof_style": "Pitched roofs on French-influenced 19th-century wine estate buildings; modern high-rise architecture in Santiago's business district; colourful corrugated-metal hillside houses in Valparaíso.",
+    "roof_material": "Varied — tile on formal estate buildings, corrugated metal on Valparaíso's hillside houses.",
+    "wall_construction": "French-inspired stone/stucco wine estate architecture throughout the Central Valley (Maipo, Rapel, Maule); modern glass-and-concrete Santiago skyline; brightly painted, densely packed hillside houses in Valparaíso's historic port.",
+    "wall_color_palette": "Elegant cream/stone tones on wine estates; a famously colourful, jumbled palette of paint on Valparaíso's steep hillside houses.",
+    "distinctive_building_types": "French-style 19th-century wine estates (Concha y Toro, Santa Rita) alongside modern gravity-fed winery architecture; Santiago's modern skyline framed by the Andes; Valparaíso's UNESCO-listed colourful hillside cityscape with funicular lifts."
+  },
+
+  "nature": {
+    "vegetation": "Mediterranean climate supports extensive vineyards and farmland across the Central Valley, running roughly 400km north-south between the Andes and the Pacific; the Andes rise dramatically to the east of Santiago, often snow-capped.",
+    "terrain": "A fertile valley squeezed between the Coastal Range and the high Andes, with Santiago sitting in a basin often visibly hazy/smoggy against the mountain backdrop.",
+    "climate_signature": "Mediterranean — dry, sunny summers and mild, wetter winters; golden late-summer hillsides and green vineyard rows are a strong regional signature."
+  },
+
+  "vehicles": {
+    "common_brands": ["Chevrolet", "Hyundai", "Kia", "Toyota"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "As national; heaviest vehicle density given Santiago's population."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Best and most current coverage in the country, concentrated around Santiago and the wine valleys.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very dense, near-complete coverage — most 'generic Chile' imagery is actually this region."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Central Argentina (Mendoza)",
+      "shared_traits": "Shares the Andes as a backdrop, similar wine-valley agriculture and Mediterranean-adjacent climate just across the border",
+      "tiebreaker": "Chilean plates and yellow-reflector bollards differ from Argentine plates; Chile sits on the wetter Pacific side of the Andes while Mendoza sits on the drier eastern side, giving subtly different vegetation."
+    },
+    {
+      "country": "Norte Grande/Patagonia (Chile)",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "Central Chile is green vineyard and farmland with a Mediterranean climate; the north is barren desert, and the south is lush temperate rainforest and glaciers — both look nothing like the Central Valley."
+    }
+  ]
+}

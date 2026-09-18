@@ -1,0 +1,77 @@
+{
+  "id": "cl-n",
+  "name": "Norte Grande (Atacama Desert)",
+  "aliases": ["Atacama", "Far North"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "parent": "cl",
+  "sources": [
+    "https://lacgeo.com/norte-grande-region-chile",
+    "https://en.wikipedia.org/wiki/Norte_Grande",
+    "https://en.wikipedia.org/wiki/Atacama_Desert"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇱",
+    "capital": "Antofagasta / Iquique"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Chilean Spanish as national; some Aymara/Andean Indigenous cultural presence near the Bolivian/Peruvian border.",
+    "false_friends": ["Southern Peru (shares the same Atacama-adjacent coastal desert)", "Bolivian altiplano near the border"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; often minimal on remote desert highways.",
+    "line_paint": "As national; long, straight desert roads with wide shoulders.",
+    "curb_style": "Minimal to absent outside towns; vast stretches of unmarked open desert.",
+    "km_marker_style": "As national; mining company signage common given the region's copper mining industry."
+  },
+
+  "architecture": {
+    "roof_style": "Flat or very low-pitch roofs, suited to the near-total absence of rain.",
+    "roof_material": "Simple corrugated metal or flat construction, reflecting minimal weather protection needs.",
+    "wall_construction": "Utilitarian mining-town construction dominates; colourful port-city architecture in Iquique and Antofagasta; adobe/Andean-influenced construction near the Bolivian border (San Pedro de Atacama).",
+    "wall_color_palette": "Dusty, sun-bleached tones matching the surrounding desert; some brightly painted port-city buildings.",
+    "distinctive_building_types": "Large-scale copper mining infrastructure; sparse desert towns; adobe Andean-style architecture near San Pedro de Atacama; nitrate ghost towns (Humberstone) as unique regional landmarks."
+  },
+
+  "nature": {
+    "vegetation": "Almost entirely devoid of vegetation across the hyper-arid Atacama core — among the driest, most vegetation-free landscapes on Earth; sparse cacti and hardy shrubs appear only at higher altitude near the Andes.",
+    "terrain": "The Atacama Desert, the driest non-polar desert on Earth (some areas have never recorded rainfall), dominates the region; salt flats, geysers and volcanic peaks appear at higher elevation near the Bolivian border.",
+    "climate_signature": "Stark, barren, reddish-brown desert terrain with almost no vegetation — one of the most visually distinctive, empty landscapes anywhere, unmistakable once recognized."
+  },
+
+  "vehicles": {
+    "common_brands": ["Chevrolet", "Hyundai", "Kia", "Toyota"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Heavy mining trucks and 4WD vehicles common given the region's copper mining industry and rugged desert terrain."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Coverage concentrated along the Pan-American Highway and mining towns.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Sparse outside the main highway and towns, with vast uncovered desert stretches in between."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Southern Peru",
+      "shared_traits": "Shares the same Atacama-adjacent coastal desert stretching across the border, similarly barren terrain",
+      "tiebreaker": "Chilean plates and yellow-reflector bollards differ from Peru's road furniture; Peru's coastal desert cities generally show more visible Andean cultural influence and different architecture."
+    },
+    {
+      "country": "Central/Southern Chile",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "Norte Grande is stark, barren desert with almost no vegetation; Central Chile is green farmland and vineyards, and southern Chile is lush temperate rainforest and glaciers — both look nothing like the Atacama."
+    }
+  ]
+}

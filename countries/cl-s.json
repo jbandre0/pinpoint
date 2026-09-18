@@ -1,0 +1,82 @@
+{
+  "id": "cl-s",
+  "name": "Chilean Patagonia & Lake District",
+  "aliases": ["Patagonia", "Zona Sur", "Lake District"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "parent": "cl",
+  "sources": [
+    "https://www.swoop-patagonia.com/chile",
+    "https://www.gochile.cl/en/articles/these-are-the-fjords-of-the-southern-patagonia-that-you-have-to-know.htm",
+    "https://www.expeditions.com/expeditions/best-of-chilean-patagonia-from-torres-del-paine-to-cape-horn"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇱",
+    "capital": "Puerto Montt / Punta Arenas"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Chilean Spanish as national; German-immigrant heritage visible in place names and some architecture around the Lake District (Puerto Varas, Frutillar), similar to Argentina's Bariloche.",
+    "false_friends": ["Argentine Patagonia (same mountains/glaciers, opposite side of the Andes)", "Norway's fjords (visually, glacier-carved coastline)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; more common on winding mountain/coastal roads.",
+    "line_paint": "As national, though many roads are unpaved (ripio) in the remote far south.",
+    "curb_style": "Minimal outside towns; the Carretera Austral is a famous, partly unpaved long-distance route through the region.",
+    "km_marker_style": "As national; ferry terminal signage common given the fjord-broken coastline requires boat travel between road sections."
+  },
+
+  "architecture": {
+    "roof_style": "Steep-pitched roofs in the German-influenced Lake District towns (Puerto Varas, Frutillar), reflecting both climate and heritage; simple utilitarian buildings further south.",
+    "roof_material": "Wood shingle and metal roofing in the Lake District; corrugated metal on remote southern buildings.",
+    "wall_construction": "Alpine/German-influenced timber chalet architecture around the Lake District's volcanic lakes; isolated sheep estancias further south toward the Strait of Magellan; minimal development in the fjord-cut far south.",
+    "wall_color_palette": "Warm wood tones in the Lake District's German-heritage towns; weathered, muted tones on remote southern buildings.",
+    "distinctive_building_types": "German-influenced Lake District architecture with volcanic-lake backdrops (Osorno Volcano); isolated Patagonian sheep estancias; almost no dense urban development south of Puerto Montt; glacier and national park infrastructure (Torres del Paine)."
+  },
+
+  "nature": {
+    "vegetation": "Lush temperate (Valdivian) rainforest around the Lake District, transitioning to sparser subantarctic vegetation and eventually near-treeless terrain in the far south; forest gives way to ice fields and glaciers.",
+    "terrain": "A dramatic, deeply fjord-cut Pacific coastline, snow-capped volcanoes and lakes in the north of the region (Lake District), and vast glaciers, ice fields and jagged peaks (Torres del Paine) further south; the Andes narrow and merge with the coast.",
+    "climate_signature": "Cool, wet, and green in the Lake District; increasingly cold, windswept and glacier-dominated further south — a visually dramatic, often overcast look throughout."
+  },
+
+  "vehicles": {
+    "common_brands": ["Chevrolet", "Hyundai", "Kia", "Toyota"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "4WD vehicles more common given unpaved roads (ripio) and rugged terrain, especially along the Carretera Austral."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Coverage concentrated along the Pan-American Highway north of Puerto Montt and the partial Carretera Austral further south.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Sparse south of Puerto Montt — the fjord-broken geography limits road (and therefore Street View) coverage significantly."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Argentine Patagonia",
+      "shared_traits": "Shared Andes mountains, glaciers and Lake District terrain straddling the same border region",
+      "tiebreaker": "Chilean Patagonia sits on the wetter Pacific side with denser rainforest and dramatic fjords; Argentine Patagonia sits on the drier eastern steppe side with Ruta 40's long straight gravel stretches and its own black-car Gen 3 coverage."
+    },
+    {
+      "country": "Norway (fjords)",
+      "shared_traits": "Visually similar glacier-carved fjord coastline and mountain scenery",
+      "tiebreaker": "Chile has Spanish signage and right-hand traffic with Chilean plates; Norway has Norwegian signage and different road furniture entirely — context and any visible text resolve this quickly."
+    },
+    {
+      "country": "Central/Norte Grande Chile",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The south is lush temperate rainforest, fjords and glaciers; the north is barren desert, and Central Chile is Mediterranean vineyard country — all visually distinct."
+    }
+  ]
+}

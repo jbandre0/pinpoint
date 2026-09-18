@@ -1,0 +1,82 @@
+{
+  "id": "cl",
+  "name": "Chile",
+  "aliases": ["Republic of Chile", "República de Chile"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/chile/",
+    "https://geopinning.space/en/rule/cs_america/chile/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Chile",
+    "https://en.wikipedia.org/wiki/Norte_Grande"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇱",
+    "capital": "Santiago"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Chilean Spanish as national — distinctive vocabulary/slang, though signage vocabulary is broadly standard Latin American Spanish. Street suffixes: Calle, Avenida, Pasaje, Camino.",
+    "false_friends": ["Argentina (shares much of the Andes border)", "Peru", "Bolivia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Yellow reflective panels on bollards and guardrails — a fairly reliable Chile tell.",
+    "bollard_shape": "Varies; often paired with grooved sign poles that resemble telephone poles.",
+    "guardrail_type": "Standard steel guardrail with yellow reflectors as noted above.",
+    "line_paint": "All four combinations (white/yellow outside and inside) are seen depending on road type.",
+    "curb_style": "Painted kerbs in cities; minimal shoulders on remote desert/mountain roads.",
+    "km_marker_style": "Terpel, COPEC, Petrobras and ENEX are common fuel-station brands. No border/background panel behind speed-limit numbers is a subtle Chile tell shared with Spain."
+  },
+
+  "architecture": {
+    "roof_style": "Varies enormously by region given the country's extreme north-south length — flat-roofed desert buildings in the north, French-influenced pitched-roof wine estates in the center, and Alpine-style lodges further south. See regional profiles.",
+    "roof_material": "Varies by region.",
+    "wall_construction": "Highly regional — see North/Central/Patagonia profiles for specifics.",
+    "wall_color_palette": "Varies by region.",
+    "distinctive_building_types": "Colourful hillside houses in Valparaíso; French-inspired 19th-century wine estates in the Central Valley; stark mining infrastructure in the northern desert; Alpine-style lodges and estancias in the south."
+  },
+
+  "nature": {
+    "vegetation": "Extraordinarily varied given the country's 4,300km north-south length — the hyper-arid, nearly vegetation-free Atacama Desert in the north, Mediterranean vineyards and farmland in the Central Valley, and temperate rainforest, fjords and glaciers in the south. See regional profiles.",
+    "terrain": "A narrow strip squeezed between the Pacific Ocean and the Andes for its entire length — the driest non-polar desert on Earth in the north, fertile central valley, and a fjord-and-glacier-carved southern coast.",
+    "climate_signature": "Climate changes dramatically by latitude — desert in the north, Mediterranean in the center, cold and wet in Patagonia. Chile's extreme length makes regional identification essential."
+  },
+
+  "vehicles": {
+    "common_brands": ["Chevrolet", "Hyundai", "Kia", "Toyota"],
+    "plate_color": "White plate with black text; taxi plates can be orange, red, white or green depending on type.",
+    "plate_format": "AB CD 12 (two letters, two letters, two digits).",
+    "distinctive_vehicles": "Standard mixed Latin American fleet; mining trucks common in the northern desert."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mixed Gen 3/4; part of Chile's coverage is recognizable by showing the white rear of the Google car.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense around Santiago and the Central Valley; progressively sparser moving into the Atacama and Patagonia."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Argentina",
+      "shared_traits": "Shares the Andes mountain border for nearly the entire length of both countries, overlapping Patagonian terrain in the far south",
+      "tiebreaker": "Chile sits on the Pacific (wetter, western) side of the Andes with a white-rear Google car look in parts; Argentina sits on the drier eastern steppe side with its own black-car Gen 3 coverage — Chile is also a much narrower north-south strip than Argentina's broader territory."
+    },
+    {
+      "country": "Peru",
+      "shared_traits": "Shared Atacama-adjacent desert coastline and Pacific-side geography in the north",
+      "tiebreaker": "Chile's yellow-reflector bollards and plate format differ from Peru's; Peruvian architecture and Andean cultural presence (Quechua influence) is generally more visible than in northern Chile."
+    },
+    {
+      "country": "Bolivia",
+      "shared_traits": "Shared Andean altiplano terrain and border region in the north",
+      "tiebreaker": "Bolivia is landlocked with a much larger Indigenous Andean cultural presence visible in architecture and dress; Chile's Pacific coastline and national road furniture differ once compared directly."
+    }
+  ]
+}

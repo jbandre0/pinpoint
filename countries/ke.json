@@ -1,0 +1,77 @@
+{
+  "id": "ke",
+  "name": "Kenya",
+  "aliases": ["Republic of Kenya"],
+  "continent": "Africa",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/kenya/",
+    "https://geopinning.space/en/rule/africa/kenya/",
+    "https://bluegreenatlas.com/kenya.html",
+    "https://en.wikipedia.org/wiki/Kenya%E2%80%93Uganda_relations"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇰🇪",
+    "capital": "Nairobi"
+  },
+
+  "language": {
+    "official_languages": ["Swahili", "English"],
+    "script": "Latin",
+    "sample_text": "TAHADHARI — KAZI ZA BARABARANI",
+    "script_notes": "English and Swahili both appear on official signage, a legacy of British colonial rule; road signage style closely resembles the UK's given that history.",
+    "false_friends": ["Uganda", "Tanzania"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Black-and-white striped bollards found near intersections in Nairobi and Mombasa; largely absent outside large towns/cities.",
+    "bollard_shape": "Simple striped post where present.",
+    "guardrail_type": "Standard steel guardrail on major roads; often minimal on rural roads.",
+    "line_paint": "White outside/yellow inside center lines, often dashed.",
+    "curb_style": "Painted kerbs in city centers; minimal shoulder definition on rural roads.",
+    "km_marker_style": "Total, OiLibya, VivoEnergy and KenolKobil are common fuel-station brands. Safaricom (Kenya's dominant telecom brand, green-and-white) signage is extremely visible nationwide — a strong Kenya-specific tell."
+  },
+
+  "architecture": {
+    "roof_style": "Simple pitched roofs, very commonly rusted corrugated metal — a strong visible national tell.",
+    "roof_material": "Rusty corrugated metal roofing is disproportionately common and visible from a distance nationwide.",
+    "wall_construction": "Concrete-block and painted-brick construction common in towns; ornate carved wooden doors on Swahili coastal architecture near Mombasa.",
+    "wall_color_palette": "Often brightly painted shopfronts advertising Safaricom/mobile-money and consumer brands; muted concrete-block tones elsewhere.",
+    "distinctive_building_types": "Swahili coastal architecture with ornate carved doors near Mombasa; Nairobi's modern skyline set directly against open savanna on its eastern edge (Nairobi National Park); simple rural shops and roadside stalls."
+  },
+
+  "nature": {
+    "vegetation": "Flat-topped acacia trees are a defining East African savanna tell; open grassland dotted with acacia across the highlands and Athi Plains; denser vegetation near Mount Kenya and the coast.",
+    "terrain": "The Great Rift Valley runs north-south, dividing highland plateau from lower plains; Mount Kenya (Africa's second-highest peak) rises as a glaciated volcanic massif; a stretch of Indian Ocean coastline in the southeast.",
+    "climate_signature": "Warm and dry across much of the savanna interior; cooler and more temperate in the highlands around Nairobi and the Rift Valley; humid tropical along the coast."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Nissan", "Isuzu", "Mitsubishi"],
+    "plate_color": "A long white plate on the front and a short, stubby yellow plate on the back is a distinctive and reliable Kenya-specific format.",
+    "plate_format": "Newer format: three letters, three digits, then a final letter (e.g. 'KXX 123A').",
+    "distinctive_vehicles": "Matatus (brightly decorated shared minibus taxis) are a strong East Africa tell; the Google Street View car in Kenya is notable for a visible black snorkel on the front, shared with only a few other countries (Guatemala, Senegal)."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of official Google coverage and Trekker imagery outside major cities.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Denser around Nairobi and Mombasa; sparser in rural/interior areas."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Uganda",
+      "shared_traits": "Shared East African Community membership, similar matatu/van culture, similar Swahili/English signage conventions in parts",
+      "tiebreaker": "Uganda is landlocked with no coastline, unlike Kenya's Indian Ocean coast; Uganda's shared-taxi van livery patterns differ subtly from Kenya's, and Uganda lacks Kenya's Safaricom-branded signage density (MTN is more dominant there)."
+    },
+    {
+      "country": "Tanzania",
+      "shared_traits": "Shared Swahili-English bilingual signage, similar savanna vegetation and East African coastal architecture, both have Indian Ocean coastlines",
+      "tiebreaker": "Kenya's Google car has a distinctive visible snorkel on the front, a detail not present the same way in Tanzania's coverage; Safaricom's green-and-white branding dominates Kenya specifically, while Tanzania's mobile brands differ."
+    }
+  ]
+}

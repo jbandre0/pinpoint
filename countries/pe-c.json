@@ -1,0 +1,77 @@
+{
+  "id": "pe-c",
+  "name": "Peruvian Coast (Lima · Desert Coast)",
+  "aliases": ["Costa"],
+  "continent": "South America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "pe",
+  "sources": [
+    "https://www.metropolitan-touring.com/blog/culture/regions-of-peru/",
+    "https://www.dosmanosperu.com/en/travel/peru-facts/geography/",
+    "https://geopinning.space/en/rule/cs_america/peru/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇵🇪",
+    "capital": "Lima"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Spanish as national — the coastal cities are the most linguistically homogeneous part of Peru, with less day-to-day Quechua than the highlands.",
+    "false_friends": ["Northern Chile (same coastal desert continuing south)", "coastal Ecuador"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "Lima specifically features long, straight boulevard-style streets divided by a concrete or grassy median — unusual within Peru and a useful Lima-specific tell.",
+    "km_marker_style": "As national; the Pan-American Highway runs the length of the coastal strip."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs dominate given the near-total absence of rain; unfinished concrete/exposed rebar construction extremely common.",
+    "roof_material": "Flat poured concrete is standard.",
+    "wall_construction": "Dense informal multi-story concrete/brick construction in Lima's sprawling outer districts; more formal colonial-era architecture in Lima's historic center; desert oasis towns (Ica/Huacachina) further south.",
+    "wall_color_palette": "Unpainted grey concrete/brick widely visible in newer districts; colonial pastel facades in central Lima.",
+    "distinctive_building_types": "Lima's colonial historic center (Plaza de Armas, balconied colonial buildings); dense unfinished concrete housing climbing the desert hillsides around Lima; desert oasis towns further south (Huacachina's sand dunes)."
+  },
+
+  "nature": {
+    "vegetation": "A narrow, mostly barren desert strip runs the length of the coast, green only in irrigated river valleys; almost no natural vegetation elsewhere.",
+    "terrain": "A flat-to-hilly coastal desert squeezed between the Pacific Ocean and the rising Andes foothills; Lima itself sits in a river valley oasis within this desert.",
+    "climate_signature": "Arid desert climate with a distinctive persistent grey coastal fog/overcast ('garúa') in Lima for much of the year despite almost no rainfall — a recognizable Lima-specific atmospheric signature."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Hyundai", "Kia", "Nissan"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Tuktuks common as national; heaviest overall traffic density given Lima's population."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Best and most current coverage in the country, concentrated in and around Lima.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Very dense in Lima; good coverage along the Pan-American Highway corridor."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Northern Chile",
+      "shared_traits": "Shares the same coastal desert stretching continuously across the border, similarly barren terrain",
+      "tiebreaker": "Peru's striped sign poles and cigarette-shaped bollards differ from Chile's yellow-reflector road furniture; Peru's plates and tuktuks are absent in Chile."
+    },
+    {
+      "country": "Andean Highlands/Amazon (Peru)",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The coast is flat, barren desert with Lima's persistent grey overcast; the highlands are cold and mountainous with visible Andean/Quechua culture, and the Amazon is dense green rainforest — all visually distinct."
+    }
+  ]
+}

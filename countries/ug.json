@@ -1,0 +1,82 @@
+{
+  "id": "ug",
+  "name": "Uganda",
+  "aliases": ["Republic of Uganda"],
+  "continent": "Africa",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/uganda/",
+    "https://www.nkuringosafaris.com/flora-fauna-uganda/",
+    "https://en.wikipedia.org/wiki/Kenya%E2%80%93Uganda_relations",
+    "https://en.wikipedia.org/wiki/Boda_boda"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇺🇬",
+    "capital": "Kampala"
+  },
+
+  "language": {
+    "official_languages": ["English", "Swahili"],
+    "script": "Latin",
+    "sample_text": "TAHADHARI — KAZI ZA BARABARANI",
+    "script_notes": "English is the dominant official/signage language, a legacy of British colonial rule; Swahili also official though less dominant in daily signage than in Kenya/Tanzania. Luganda and other local languages common in speech.",
+    "false_friends": ["Kenya", "Rwanda", "Tanzania"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Red-and-white bollards documented.",
+    "bollard_shape": "Simple striped post.",
+    "guardrail_type": "Standard steel guardrail on major roads; minimal on rural roads.",
+    "line_paint": "White outside lines with white or yellow inside lines.",
+    "curb_style": "Minimal formal curbing outside Kampala; red laterite soil frequently visible on unpaved shoulders and roads.",
+    "km_marker_style": "Total, OiLibya, VivoEnergy, Oryx Energies and Hass Petroleum are common fuel-station brands. The Google Street View car in Uganda is a boxy white SUV with square side mirrors, and carries a distinctive black security bar on the front specifically inside national parks."
+  },
+
+  "architecture": {
+    "roof_style": "Simple pitched roofs, commonly corrugated metal.",
+    "roof_material": "Corrugated metal roofing widespread.",
+    "wall_construction": "Concrete-block and painted-brick construction in towns; simpler mud-brick construction in rural areas.",
+    "wall_color_palette": "Often brightly painted shopfronts and small businesses; muted concrete-block tones elsewhere; red laterite soil visible around many buildings.",
+    "distinctive_building_types": "Small roadside shops and markets; Kampala's hilly, densely built urban core; simple rural homesteads amid banana plantations."
+  },
+
+  "nature": {
+    "vegetation": "Banana plantations are a defining feature of the Lake Victoria basin in southern Uganda; lowland rainforest grades into montane forest at higher elevation; savanna woodland and grassland in drier northern areas.",
+    "terrain": "Landlocked, part of the East African Great Lakes region — Lake Victoria (Africa's largest lake) forms the southern border area; generally hilly and green, especially compared to drier parts of Kenya.",
+    "climate_signature": "Stable, humid tropical climate nationwide, supporting lush year-round vegetation — noticeably greener overall than much of Kenya's drier savanna."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Nissan", "Isuzu", "Bajaj (motorcycles)"],
+    "plate_color": "White plate on the front, yellow plate on the back (the back plate can be square or long format).",
+    "plate_format": "Letter-digit combinations similar in style to other former British East African territories.",
+    "distinctive_vehicles": "Boda boda motorcycle taxis (Bajaj, Honda, Suzuki, TVS, Yamaha) are extremely common and a strong East Africa/Uganda tell, alongside shared taxi vans."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mix of official coverage and Trekker imagery.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Concentrated around Kampala and major towns; sparser in rural areas."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Kenya",
+      "shared_traits": "Shared East African Community membership, similar English/Swahili bilingual signage, similar boda boda/matatu transport culture",
+      "tiebreaker": "Uganda is landlocked with no ocean coastline, unlike Kenya's Indian Ocean coast; Uganda is generally greener and hillier (Lake Victoria basin, banana plantations) versus Kenya's drier acacia savanna in much of the interior; Kenya's Google car has a visible front snorkel that Uganda's boxy white SUV lacks."
+    },
+    {
+      "country": "Rwanda",
+      "shared_traits": "Shared Great Lakes region geography, similar hilly green terrain and banana cultivation",
+      "tiebreaker": "Rwanda's official languages include French and Kinyarwanda alongside English, with different road signage conventions; Rwanda is also considerably smaller and hillier throughout ('Land of a Thousand Hills') than Uganda's more varied terrain."
+    },
+    {
+      "country": "Tanzania",
+      "shared_traits": "Shared Lake Victoria shoreline, similar East African savanna/lake-basin vegetation",
+      "tiebreaker": "Tanzania has an Indian Ocean coastline that landlocked Uganda lacks; Tanzania's Swahili-first signage is more dominant than Uganda's English-first convention."
+    }
+  ]
+}

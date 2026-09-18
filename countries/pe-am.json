@@ -1,0 +1,77 @@
+{
+  "id": "pe-am",
+  "name": "Peruvian Amazon (Iquitos · Jungle)",
+  "aliases": ["Selva", "Amazonia"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "parent": "pe",
+  "sources": [
+    "https://www.discover-peru.org/peru-geography-amazon-jungle-rainforest/",
+    "https://en.wikipedia.org/wiki/Iquitos_v%C3%A1rzea",
+    "https://www.metropolitan-touring.com/blog/culture/regions-of-peru/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇵🇪",
+    "capital": "Iquitos"
+  },
+
+  "language": {
+    "official_languages": ["Spanish"],
+    "script": "Latin",
+    "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
+    "script_notes": "Spanish as national; numerous Indigenous Amazonian languages spoken locally, rarely appearing on formal signage.",
+    "false_friends": ["Brazilian Amazon (same rainforest biome, shares much of the border)", "Ecuadorian/Colombian Amazon"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national, where roads exist.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "Minimal; the road network is extremely limited in this region.",
+    "line_paint": "As national where paved roads exist, which is rare.",
+    "curb_style": "Largely absent — Iquitos itself is famously unreachable by road, accessible only by river or air.",
+    "km_marker_style": "As national on the limited road network that does exist near jungle cities."
+  },
+
+  "architecture": {
+    "roof_style": "Simple pitched or flat roofs on stilted riverside buildings, built to handle seasonal flooding.",
+    "roof_material": "Corrugated metal and thatch common.",
+    "wall_construction": "Stilt houses built above the seasonal flood line are the defining architectural feature along the region's rivers; simple wood-frame construction in jungle towns; Iquitos itself has a distinctive riverboat-and-floating-market culture.",
+    "wall_color_palette": "Natural wood tones; brightly painted riverboats and floating structures in Iquitos.",
+    "distinctive_building_types": "Stilt houses along riverbanks; Iquitos' floating neighborhoods (Belén) and riverboats; jungle lodges deep in the rainforest; motokar (motorcycle taxi) traffic filling Iquitos' streets."
+  },
+
+  "nature": {
+    "vegetation": "Dense lowland equatorial rainforest — among the most biodiverse regions on Earth; seasonally flooded várzea forest along whitewater rivers carrying nutrient-rich Andean sediment; oxbow lakes and meandering river channels.",
+    "terrain": "Flat lowland Amazon basin, laced with wide, winding rivers (the Amazon's headwaters); no road connection to the rest of Peru in many areas — travel is by river or air.",
+    "climate_signature": "Hot, humid, and consistently rainy — lush green vegetation year-round, a stark contrast to both the coastal desert and the high Andes."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Hyundai", "Honda (motorcycles)"],
+    "plate_color": "As national, where vehicles/roads exist.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Motokars (motorcycle taxis) dominate Iquitos' streets given the near-total absence of a road connection to the rest of the country; river boats are the primary long-distance transport."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Very limited official coverage; where present, often Trekker or boat-mounted imagery given the lack of roads.",
+    "blur_style": "Standard Google blurring where present.",
+    "coverage_notes": "Among the sparsest coverage in Peru — Iquitos itself has some street-level coverage, but the surrounding rainforest is largely uncovered."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Brazilian Amazon",
+      "shared_traits": "Same Amazon rainforest biome, similar stilt-house river architecture and dense vegetation right across the border",
+      "tiebreaker": "Peru's signage and plates are Spanish-language, right-hand traffic; Brazil's Amazon signage is in Portuguese with its own distinct plate format (Mercosur-style)."
+    },
+    {
+      "country": "Coast/Andean Highlands (Peru)",
+      "shared_traits": "Same country, same plate/bollard base style",
+      "tiebreaker": "The Amazon is dense green lowland rainforest with stilt houses and river transport; the coast is flat barren desert, and the highlands are cold mountainous terrain with Inca-stone architecture — all visually distinct."
+    }
+  ]
+}
