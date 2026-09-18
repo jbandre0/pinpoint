@@ -1,0 +1,77 @@
+{
+  "id": "nz-n",
+  "name": "North Island (Auckland · Waikato · Rotorua · Wellington)",
+  "aliases": ["Te Ika-a-Māui"],
+  "continent": "Oceania",
+  "tier": 1,
+  "status": "draft",
+  "parent": "nz",
+  "sources": [
+    "https://geopinning.space/en/rule/oceania/new-zealand/",
+    "https://www.newzealand.com/int/feature/new-zealand-geography-and-geology/",
+    "https://en.wikipedia.org/wiki/Auckland_volcanic_field"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇳🇿",
+    "capital": "Wellington / Auckland"
+  },
+
+  "language": {
+    "official_languages": ["English", "Māori"],
+    "script": "Latin",
+    "sample_text": "SLOW — ROADWORKS AHEAD",
+    "script_notes": "English with Māori place names; this island has the highest concentration of Māori place names and marae (meeting houses) and the largest Māori population.",
+    "false_friends": ["Eastern Australia", "Hawaii (volcanic cones and lush greenery)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national — the red band wraps fully around the white post.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national; dense motorway and suburban infrastructure around Auckland.",
+    "km_marker_style": "As national; telephone area codes 09 to 07 cover Auckland and points north, and 06 and 04 the southern half of the island."
+  },
+
+  "architecture": {
+    "roof_style": "Simple pitched corrugated-iron roofs as national; Art Deco buildings with flat roofs in Napier and Hastings.",
+    "roof_material": "Corrugated iron and profiled steel.",
+    "wall_construction": "Timber villas and bungalows on suburban lots; Art Deco town centres rebuilt after the 1931 Hawke's Bay earthquake; Māori carved meeting houses (wharenui) with steep gabled fronts and elaborate carving.",
+    "wall_color_palette": "White and pastel weatherboard, with the bright reds and blacks of Māori carving.",
+    "distinctive_building_types": "Timber villas; Art Deco streets in Napier; carved Māori meeting houses; geothermal-area spa towns like Rotorua; Auckland's high-rise skyline and harbour bridge."
+  },
+
+  "nature": {
+    "vegetation": "Lush rolling pasture, pōhutukawa trees on northern coasts, tall tree ferns and subtropical bush in the north, giant reeds along some Auckland-area shores, and windbreak forests in the Bay of Plenty.",
+    "terrain": "A volcanic island — Auckland sits on a field of small volcanic cones, and the central plateau has the caldera lakes of Taupō and Rotorua and the snow-capped volcanoes Tongariro, Ngauruhoe and Ruapehu; Mount Taranaki's symmetrical cone rises alone on the west coast; a central spine of ranges is flanked by rolling farmland.",
+    "climate_signature": "Warmer and more humid than the south, with subtropical greenery in the far north and geothermal steam around Rotorua."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Ford", "Mazda", "Nissan"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Heavier city traffic in Auckland; ute pickups and farm vehicles in the countryside."
+  },
+
+  "google_coverage": {
+    "camera_generation": "A mix of Gen 3 and Gen 4.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage around Auckland, Wellington and the main highways; some gravel back roads in the north are covered."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Australia (east coast)",
+      "shared_traits": "Left-hand traffic, English signage, similar suburbs",
+      "tiebreaker": "Volcanic cones and geothermal steam, tree ferns, the fully wrapped red bollard band, red give-way text and possum-guard poles differ from Australia."
+    },
+    {
+      "country": "South Island (same country)",
+      "shared_traits": "Same country, same national road furniture",
+      "tiebreaker": "The North has volcanoes, subtropical greenery and rolling farmland; the South has the Southern Alps, the Canterbury Plains and the fiords."
+    }
+  ]
+}

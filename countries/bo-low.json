@@ -1,0 +1,82 @@
+{
+  "id": "bo-low",
+  "name": "Eastern Lowlands (Santa Cruz · Chaco · Amazon Basin)",
+  "aliases": ["Oriente", "Tierras Bajas"],
+  "continent": "South America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "bo",
+  "sources": [
+    "https://geopinning.space/en/rule/cs_america/bolivia/",
+    "https://www.bolivia-travels.com/blog/geography",
+    "https://lacgeo.com/natural-landscape-bolivia"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇧🇴",
+    "capital": "Santa Cruz de la Sierra"
+  },
+
+  "language": {
+    "official_languages": ["Spanish", "Guaraní"],
+    "script": "Latin",
+    "sample_text": "PRECAUCIÓN — TRABAJOS EN LA VÍA",
+    "script_notes": "Spanish signage; Guaraní is spoken in the southeast and other lowland Indigenous languages in the north. Cruceño Spanish and a less Andean cultural feel than the highlands.",
+    "false_friends": ["Paraguay", "Western Brazil", "Peruvian Amazon"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Red-and-white bollards on some routes, such as the north-south RN9.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national; far less needed on flat roads.",
+    "line_paint": "Orange center lines on some north-south routes.",
+    "curb_style": "Wide, planned ring roads in Santa Cruz; dirt roads in rural areas.",
+    "km_marker_style": "Thick lumber utility poles as national; the RN4 near Santa Cruz has distinctive paving through flat, green terrain."
+  },
+
+  "architecture": {
+    "roof_style": "Low-pitched or flat roofs of corrugated metal and concrete; roofs with wide overhangs against sun and rain.",
+    "roof_material": "Corrugated metal and clay tile.",
+    "wall_construction": "Cement-painted house walls are common at low altitude; colonial-era white-walled mission towns in the Chiquitania with carved wooden Jesuit churches; modern high-rise development in Santa Cruz.",
+    "wall_color_palette": "Painted cement in warm colours, and white colonial walls.",
+    "distinctive_building_types": "Jesuit mission churches in wood and adobe in the Chiquitania; Santa Cruz's modern skyline and ring roads; ranch buildings across the lowland plains."
+  },
+
+  "nature": {
+    "vegetation": "Flat, green and extensively forested — dry tropical forest in the Chiquitania, dense rainforest in the north, thorny scrub in the southern Chaco, and large soy and sugar cane farms around the main city.",
+    "terrain": "Flat lowlands from the foot of the Andes to the Amazon basin and Chaco plain, at only a few hundred metres above sea level — Santa Cruz sits at 416m.",
+    "climate_signature": "Hot, humid and green, with a wet season — a complete contrast to the cold, treeless highlands."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Suzuki", "Nissan", "Hyundai"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Mototaxis and motorcycles are far more common than in the highlands; pickups on farms and ranches."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Concentrated on Santa Cruz and the main highways; big gaps in the Chaco and the northern Amazon."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Paraguay",
+      "shared_traits": "Shared Chaco plain and flat green farmland",
+      "tiebreaker": "Paraguayan plates and road furniture differ, and signage there has Guaraní alongside Spanish more widely; thick lumber poles and the white-backed Street View car point here."
+    },
+    {
+      "country": "Brazil (Rondônia / Mato Grosso)",
+      "shared_traits": "Shared Amazon-edge farmland and rainforest along the border",
+      "tiebreaker": "Portuguese signage and Brazilian yellow centre lines and Mercosul plates differ from Spanish signage here."
+    },
+    {
+      "country": "Altiplano & Andes (same country)",
+      "shared_traits": "Same country, same national road furniture",
+      "tiebreaker": "The east is flat, green and hot; the west is high, cold and treeless."
+    }
+  ]
+}

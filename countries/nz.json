@@ -1,0 +1,82 @@
+{
+  "id": "nz",
+  "name": "New Zealand",
+  "aliases": ["Aotearoa"],
+  "continent": "Oceania",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geometas.com/metas/countries/new_zealand/",
+    "https://geopinning.space/en/rule/oceania/new-zealand/",
+    "https://www.plonkit.net/new-zealand",
+    "https://teara.govt.nz/en/natural-environment/page-1"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇳🇿",
+    "capital": "Wellington"
+  },
+
+  "language": {
+    "official_languages": ["English", "Māori", "Sign Language"],
+    "script": "Latin",
+    "sample_text": "SLOW — ROADWORKS AHEAD",
+    "script_notes": "English signage with Māori place names everywhere (words beginning Te, Wai-, Whanga-, Rotu-, and macron marks like ā and ō); road signs and official documents often show Māori and English side by side.",
+    "false_friends": ["Australia", "United Kingdom", "South Africa"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "A thin white plastic post with a red reflective band wrapping fully around it, so the red shows on both sides — the fastest way to separate it from Australia, whose red reflector stops partway around. Some southern areas (southern Canterbury and pockets of eastern Southland) have a green stripe instead.",
+    "bollard_shape": "Thin, round white post.",
+    "guardrail_type": "Standard steel guardrail; chevron signs are mounted on white posts.",
+    "line_paint": "White edge lines, with yellow center lines marking no-passing zones.",
+    "curb_style": "Well-kept painted kerbs in towns; narrow winding roads with bridges signed 'one lane' in rural areas.",
+    "km_marker_style": "Green direction signs carry unique red highway-number shields; give-way signs have a white border and red 'GIVE WAY' text (Australia's is black). Most utility poles are concrete with one long indent running most of the way up and small silver possum guards, with a lone strip of silver or white metal wrapped around; some poles show drilled holes."
+  },
+
+  "architecture": {
+    "roof_style": "Simple pitched gable and hip roofs on single-storey houses, usually of corrugated metal.",
+    "roof_material": "Corrugated iron or profiled steel is the classic roof; asphalt and tile on newer suburban houses.",
+    "wall_construction": "Timber weatherboard bungalows and villas are the traditional house, with brick and stucco on later homes; homes usually sit on generous suburban sections with lawns and hedges.",
+    "wall_color_palette": "White, cream and pastel weatherboard with coloured roofs, and later more muted modern tones.",
+    "distinctive_building_types": "Timber villas with bay windows and verandahs; wool sheds and woolshed-style farm buildings; Art Deco town centres (Napier, Hastings); corrugated-iron farm buildings; rural halls."
+  },
+
+  "nature": {
+    "vegetation": "Native bush of tree ferns, beech and podocarp forest; introduced pine plantations and windbreak lines of pines and macrocarpa on farmland; lush green sheep and dairy pasture.",
+    "terrain": "Two main islands on the Pacific 'Ring of Fire' — a volcanic North Island with a central mountain spine and rolling farmland, and a mountainous South Island backed by the Southern Alps, with fiords and glaciers in the southwest.",
+    "climate_signature": "Mild, changeable, often windy and green year-round — verdant and hilly rather than dry."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Ford", "Mazda", "Nissan"],
+    "plate_color": "White plate with black text, which looks almost entirely white through the blur.",
+    "plate_format": "Three letters followed by three digits (e.g. 'ABC123').",
+    "distinctive_vehicles": "Ute pickups and used Japanese imports are very common; campervans on tourist routes."
+  },
+
+  "google_coverage": {
+    "camera_generation": "A mix of Gen 3 and Gen 4 coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense along the main highways and towns of both islands, with gaps in remote national park interiors."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Australia",
+      "shared_traits": "Left-hand traffic, English signage, similar suburban houses and bollard base style",
+      "tiebreaker": "The red reflector wraps fully around this side's bollard while Australia's stops partway; give-way text is red here versus black there; the hillier, greener terrain and red highway shields also help."
+    },
+    {
+      "country": "United Kingdom / Ireland",
+      "shared_traits": "Left-hand traffic, English signage, green pasture",
+      "tiebreaker": "Māori place names, silver possum guards on concrete poles, the fully wrapped red bollard band and corrugated-iron roofs are absent from those countries."
+    },
+    {
+      "country": "South Africa",
+      "shared_traits": "Left-hand traffic and English signage",
+      "tiebreaker": "The green, temperate, pine-and-pasture landscape and Māori place names differ from South Africa's dry savanna and Afrikaans signs."
+    }
+  ]
+}

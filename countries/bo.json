@@ -1,0 +1,82 @@
+{
+  "id": "bo",
+  "name": "Bolivia",
+  "aliases": ["Plurinational State of Bolivia", "Estado Plurinacional de Bolivia"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/cs_america/bolivia/",
+    "https://geomastr.com/country/bolivia/",
+    "https://lacgeo.com/natural-landscape-bolivia",
+    "https://sah.org/2023/08/25/neo-andean-architecture-in-el-alto-bolivia/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇧🇴",
+    "capital": "Sucre (constitutional) / La Paz (seat of government)"
+  },
+
+  "language": {
+    "official_languages": ["Spanish", "Quechua", "Aymara", "Guaraní", "and 33 other Indigenous languages"],
+    "script": "Latin",
+    "sample_text": "PRECAUCIÓN — TRABAJOS EN LA VÍA",
+    "script_notes": "Spanish dominates signage, with Quechua and Aymara spoken widely across the highlands and Guaraní in the southeast. The multicoloured checkered Wiphala flag, a symbol of Andean Indigenous peoples, flies widely and is a strong national tell.",
+    "false_friends": ["Peru", "Ecuador", "Chile", "Argentina", "Paraguay"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Rounded-top posts in varied colours; some lack white reflectors and sit on corners, working like a chevron. Red-and-white bollards appear on some routes.",
+    "bollard_shape": "Rounded-top posts.",
+    "guardrail_type": "Striped guardrails with a yellow outer stripe (Peru's uses a black outer stripe instead).",
+    "line_paint": "Orange or yellow center lines are common, alongside white edge lines.",
+    "curb_style": "Cobblestone and large stone paving in some towns; many roads are unpaved dirt.",
+    "km_marker_style": "Utility poles are thick square lumber (sometimes metal) and often curvy; road signs are frequently mounted on thick, unpainted posts. Dolls hung on poles as anti-theft warnings appear in La Paz. YPFB (state oil) diamond-shaped logos are a strong fuel-station tell."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs of concrete or corrugated metal; simple pitched roofs on rural buildings.",
+    "roof_material": "Corrugated metal and flat concrete, with red clay tile in colonial towns.",
+    "wall_construction": "Mostly brick and cement construction, rarely wood; simpler brick buildings at high altitude, cement-painted walls in the lowlands; blue-and-white painted buildings often mark the state telecom (Entel) or a political party; La Paz–El Alto has the flamboyant neo-Andean 'cholet' buildings; Sucre requires whitewashed walls in its historic district.",
+    "wall_color_palette": "Unpainted brick and grey cement, with vividly painted cholets and whitewashed colonial walls.",
+    "distinctive_building_types": "Brightly coloured neo-Andean cholets with event halls topped by a rooftop residence; unfinished brick buildings; whitewashed colonial churches and plazas; adobe villages on the Altiplano."
+  },
+
+  "nature": {
+    "vegetation": "Treeless Altiplano grassland with ichu grass and thola shrubs in the west; cloud forest on the eastern Andean slopes; flat, green, extensively forested and farmed lowlands in the east.",
+    "terrain": "A landlocked country of extremes — the high Andean plateau (Altiplano) with the world's largest salt flat, volcanic peaks, and steep fog-prone mountain roads in the west, dropping to flat Amazon and Chaco lowlands in the east.",
+    "climate_signature": "Cold, thin-aired and sunny at altitude; hot and humid in the lowlands — the country's two halves look nothing alike."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Suzuki", "Nissan", "Hyundai"],
+    "plate_color": "White plates that look faintly blue in Street View.",
+    "plate_format": "Three or four digits followed by three letters (e.g. '1234-ABC').",
+    "distinctive_vehicles": "Minibuses (micros) and shared taxis are common in La Paz; used Japanese imports dominate; the Street View car has a white back and no antenna."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3 with a white-backed car without an antenna.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Concentrated on the main national routes and around La Paz, Cochabamba and Santa Cruz; large gaps in remote parts including Sajama National Park."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Peru",
+      "shared_traits": "Shared Andean altiplano, Quechua and Aymara culture and striped mountain guardrails",
+      "tiebreaker": "Peruvian guardrails use a black outer stripe versus a yellow one here; tuktuks and Peru's black-and-white striped sign poles are absent; the country here is landlocked."
+    },
+    {
+      "country": "Chile / Argentina",
+      "shared_traits": "Shared high-Andean plateau, salt flats and volcanoes in the southwest",
+      "tiebreaker": "Chilean bollards carry yellow reflectors and Argentina uses a black Gen 3 car; thick unpainted lumber poles, cholet buildings and the Wiphala flag are found here."
+    },
+    {
+      "country": "Paraguay",
+      "shared_traits": "Shared Chaco lowlands in the southeast, similar flat green farmland",
+      "tiebreaker": "Paraguayan plates and Guaraní-influenced signage differ; the highlands and their distinctive road furniture are only here."
+    }
+  ]
+}

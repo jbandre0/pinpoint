@@ -1,0 +1,82 @@
+{
+  "id": "ec",
+  "name": "Ecuador",
+  "aliases": ["Republic of Ecuador", "República del Ecuador"],
+  "continent": "South America",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/cs_america/ecuador/",
+    "https://geometas.com/metas/countries/ecuador/",
+    "https://www.wildfoottravel.com/destinations/ecuador/about/regions",
+    "https://lacgeo.com/cultural-landscape-ecuador"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇪🇨",
+    "capital": "Quito"
+  },
+
+  "language": {
+    "official_languages": ["Spanish", "Kichwa", "Shuar"],
+    "script": "Latin",
+    "sample_text": "PRECAUCIÓN — TRABAJOS EN LA VÍA",
+    "script_notes": "Spanish nationwide, with Kichwa widely spoken in the Andean highlands and other Indigenous languages in the east, rarely on formal signage. Street suffixes: Calle, Avenida, Pasaje, Camino.",
+    "false_friends": ["Colombia", "Peru", "Bolivia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Bollards are quite common, unusual for Latin America — either round with two red stripes wrapped around, or flat with two red reflectors on a black background.",
+    "bollard_shape": "Round with wrapped-around red bands, or flat black with two reflectors.",
+    "guardrail_type": "Doubled guardrails (two rails) are common — much rarer elsewhere in South America.",
+    "line_paint": "White outside/yellow inside lines; chevron (><) curve signs appear throughout.",
+    "curb_style": "Painted kerbs in towns; narrow mountain roads with sharp drops in the highlands.",
+    "km_marker_style": "The 'ladder pole' — a concrete utility pole with many small indents like ladder steps, or with small partitions and holes — is essentially unique in Latin America. Sign supports are simple steel pipes with dents. Poles lack Peru's thick black-and-white stripes and Colombia's white crosses, and do not use thick lumber the way Bolivian ones do."
+  },
+
+  "architecture": {
+    "roof_style": "Red clay tile pitched roofs on colonial buildings; flat concrete roofs, often with rebar left exposed, on much new construction.",
+    "roof_material": "Red clay tile in colonial towns; corrugated metal and flat concrete elsewhere.",
+    "wall_construction": "Bare grey concrete-block exteriors are a common sight on buildings; UNESCO-listed colonial architecture in Quito and Cuenca blends European, Moorish and Indigenous styles; adobe and stucco in highland villages.",
+    "wall_color_palette": "Grey unpainted block, with whitewash and bright colours on colonial and market-town buildings.",
+    "distinctive_building_types": "Colonial churches and plazas with white-walled buildings and balconies; unfinished concrete houses with rebar sprouting from the roof; volcano-framed highland villages; stilt houses in the Amazon."
+  },
+
+  "nature": {
+    "vegetation": "Banana plantations dominate the Pacific lowlands (the country is the world's leading banana exporter), with rice fields along rivers; oil palm plantations in the north; cloud forest and páramo grassland in the highlands; dense Amazon rainforest in the east.",
+    "terrain": "A small country with three continental zones — a low Pacific coastal plain, a high central Andean 'Avenue of Volcanoes' running through the middle, and the Amazon basin to the east — plus the Galápagos Islands far offshore.",
+    "climate_signature": "Hot and humid on the coast and in the Amazon; cool, thin-aired and often misty in the highlands, where tree lines and volcano slopes appear at altitude."
+  },
+
+  "vehicles": {
+    "common_brands": ["Chevrolet", "Kia", "Hyundai", "Toyota"],
+    "plate_color": "Plain white plates with black text; commercial vehicles such as taxis, trucks and buses carry orange on the top half or across the whole plate.",
+    "plate_format": "Three letters followed by three or four digits, where the first letter indicates the province of registration (for example P for Pichincha).",
+    "distinctive_vehicles": "Chevrolet is the leading brand, with a General Motors assembly history since the 1970s; colourful buses and small pickup trucks are common."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 official coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense along the main highways and around Quito, Guayaquil and Cuenca; thinner in the Amazon and remote mountain areas."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Colombia",
+      "shared_traits": "Shared Andean terrain and tropical coastal and Amazon vegetation to the north",
+      "tiebreaker": "Yellow license plates and white-cross poles are Colombian; here plates are white and the ladder-style pole and double guardrail appear."
+    },
+    {
+      "country": "Peru",
+      "shared_traits": "Shared Andean highlands, coastal plain and Amazon basin to the south",
+      "tiebreaker": "Peru's thick black-and-white striped poles and cigarette-shaped bollards are absent; here bollards are common and wrapped with red bands."
+    },
+    {
+      "country": "Bolivia",
+      "shared_traits": "Andean highland scenery and Indigenous cultural presence",
+      "tiebreaker": "Bolivian poles use thick lumber and its guardrails differ; the ladder pole, common bollards and orange commercial plates point here instead."
+    }
+  ]
+}

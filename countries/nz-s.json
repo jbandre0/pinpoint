@@ -1,0 +1,82 @@
+{
+  "id": "nz-s",
+  "name": "South Island (Canterbury · Otago · Southland · Fiordland)",
+  "aliases": ["Te Waipounamu"],
+  "continent": "Oceania",
+  "tier": 1,
+  "status": "draft",
+  "parent": "nz",
+  "sources": [
+    "https://geopinning.space/en/rule/oceania/new-zealand/",
+    "https://www.fiordland.org.nz/explore/natural-wonder/",
+    "https://www.doc.govt.nz/nature/native-plants/canterbury-native-plants/native-plants-natural-to-the-canterbury-plains/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇳🇿",
+    "capital": "Christchurch"
+  },
+
+  "language": {
+    "official_languages": ["English", "Māori"],
+    "script": "Latin",
+    "sample_text": "SLOW — ROADWORKS AHEAD",
+    "script_notes": "English with Māori place names, and many Scottish-derived place names in Otago and Southland (Dunedin, Invercargill) reflecting settlement history.",
+    "false_friends": ["Scotland (glens and lochs)", "Norway and Chile (fiords)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national, but a bollard with a green stripe is common in southern Canterbury and pockets of eastern Southland.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national; long, quiet, single-lane bridges and gravel roads in remote areas.",
+    "km_marker_style": "As national; the whole island shares the 03 area code. Wooden utility poles appear in the snowy mountains and hollowed-out poles with sheep near them in the far south."
+  },
+
+  "architecture": {
+    "roof_style": "Steeper roofs for snow and rain, in corrugated iron; Gothic Revival stone buildings with steep roofs in Christchurch and Dunedin.",
+    "roof_material": "Corrugated iron, plus stone and slate on historic buildings.",
+    "wall_construction": "Timber weatherboard villas as national; Victorian and Edwardian stone and brick buildings in Dunedin and Oamaru (Oamaru has a Victorian-era white limestone precinct); simple huts and lodges in the mountains.",
+    "wall_color_palette": "Cream limestone and grey stone in the historic towns, and muted weatherboard elsewhere.",
+    "distinctive_building_types": "Gothic Revival stone churches and university buildings; alpine lodges and ski villages around Queenstown and Wānaka; sheep station woolsheds; high-country farm huts."
+  },
+
+  "nature": {
+    "vegetation": "Windbreak lines of pines and macrocarpa across the flat Canterbury Plains; tussock grassland and scrub in the high country; dense silver and mountain beech and podocarp rainforest (rimu, miro, Hall's tōtara) in Fiordland and on the west coast.",
+    "terrain": "A mountainous island backed by the Southern Alps, with braided rivers, glaciers and turquoise lakes; the vast, flat Canterbury Plains to the east; rolling farmland in Otago and Southland; deep glacier-carved fiords in the southwest.",
+    "climate_signature": "Cooler and drier in the east and wetter on the west coast and Fiordland; snowy peaks, big skies and sheep-covered high country."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Ford", "Mazda", "Nissan"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Many campervans and tourist rentals around Queenstown and Milford Sound; 4WD utes on farms."
+  },
+
+  "google_coverage": {
+    "camera_generation": "A mix of Gen 3 and Gen 4.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage of the main highways and towns, thinning in remote mountain and Fiordland areas; Stewart Island's dark-sand beaches are covered."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Scotland",
+      "shared_traits": "Highland-like mountains and lochs, Scottish place names and stone buildings in Dunedin",
+      "tiebreaker": "The red bollard band wrapped fully around the post, red give-way text, corrugated-iron roofs, possum guards and Māori place names are not Scottish."
+    },
+    {
+      "country": "Chile / Norway",
+      "shared_traits": "Glacier-carved fiords and beech-forest rainforest scenery in the southwest",
+      "tiebreaker": "Left-hand traffic, English signage and the New-Zealand-style bollard settle it; Chile and Norway drive on the right."
+    },
+    {
+      "country": "North Island (same country)",
+      "shared_traits": "Same country, same national road furniture",
+      "tiebreaker": "The South has the Southern Alps, the Canterbury Plains and fiords; the North has volcanoes, subtropical bush and rolling farmland."
+    }
+  ]
+}

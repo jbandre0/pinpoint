@@ -1,0 +1,82 @@
+{
+  "id": "bo-alt",
+  "name": "Altiplano & Andes (La Paz · El Alto · Potosí · Salt Flats)",
+  "aliases": ["Occidente"],
+  "continent": "South America",
+  "tier": 1,
+  "status": "draft",
+  "parent": "bo",
+  "sources": [
+    "https://trans-americas.com/cholets-architecture-in-el-alto-bolivia/",
+    "https://lacgeo.com/natural-landscape-bolivia",
+    "https://geopinning.space/en/rule/cs_america/bolivia/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇧🇴",
+    "capital": "La Paz / Sucre"
+  },
+
+  "language": {
+    "official_languages": ["Spanish", "Quechua", "Aymara"],
+    "script": "Latin",
+    "sample_text": "PRECAUCIÓN — TRABAJOS EN LA VÍA",
+    "script_notes": "Spanish signage with Aymara dominant around La Paz and Lake Titicaca and Quechua around Sucre, Potosí and Cochabamba; the Wiphala flag is everywhere.",
+    "false_friends": ["Southern Peru", "Northern Chile and Argentina (shared plateau)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "Striped guardrails with a yellow outer stripe, common on dramatic mountain roads.",
+    "line_paint": "As national.",
+    "curb_style": "Steep cobbled streets in La Paz; large stone paving in some towns.",
+    "km_marker_style": "Thick square lumber utility poles and thick unpainted sign posts; dolls hung on poles as anti-theft warnings in La Paz; the RN3 climbs steep, fog-prone mountains near the capital."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs of concrete and corrugated metal; rooftop chalet-style top floors on cholets.",
+    "roof_material": "Corrugated metal and flat concrete.",
+    "wall_construction": "Simple brick and cement construction at altitude, mostly unpainted; El Alto's neo-Andean cholets — flamboyant multi-storey buildings with geometric Andean-patterned facades, a shop below, an event hall above and an owner's chalet on the roof; whitewashed colonial buildings in Sucre.",
+    "wall_color_palette": "Grey and orange brick, with dazzling multicolour cholets and blue-and-white painted telecom or party buildings.",
+    "distinctive_building_types": "Cholets in El Alto and La Paz; steep hillside barrios climbing La Paz's canyon; colonial plazas in Sucre and Potosí; adobe villages around Lake Titicaca; the Cerro Rico mining hill at Potosí."
+  },
+
+  "nature": {
+    "vegetation": "A largely treeless landscape of ichu grass, thola bushes, quinoa fields and queñua shrubs; llamas and alpacas grazing on peat bogs; almost no trees at the highest altitudes.",
+    "terrain": "The Altiplano, a vast high plateau at 3,500–4,000m, ringed by snow-capped peaks, with Lake Titicaca and the world's largest salt flat, the Salar de Uyuni, and volcanoes in the southwest.",
+    "climate_signature": "Cold, dry and intensely sunny at altitude with thin air, a stark, wide-open look — in the rainy season a thin film of water turns the salt flat into a mirror."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Suzuki", "Nissan", "Hyundai"],
+    "plate_color": "As national.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Crowded minibuses (micros) and cable-car gondolas linking La Paz and El Alto; 4x4 Toyotas ferry tourists across the salt flats."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage around La Paz and the main highways; limited coverage in remote areas such as Sajama National Park."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Peru",
+      "shared_traits": "Same Altiplano, Lake Titicaca shoreline, Quechua and Aymara culture and striped mountain guardrails",
+      "tiebreaker": "Peru's guardrail stripe has a black outer edge versus a yellow one here; tuktuks and the black-and-white striped sign poles are Peruvian; thick lumber poles and cholets point here."
+    },
+    {
+      "country": "Northern Chile / Argentina",
+      "shared_traits": "Same high plateau, salt flats and volcanoes across the border",
+      "tiebreaker": "Chile's yellow-reflector bollards and Argentina's chevrons and black Gen 3 car are missing; white-backed Street View car and unpainted lumber poles are found here."
+    },
+    {
+      "country": "Eastern Lowlands (same country)",
+      "shared_traits": "Same country, same national road furniture",
+      "tiebreaker": "The west is cold, treeless and mountainous; the east is flat, green and forested."
+    }
+  ]
+}
