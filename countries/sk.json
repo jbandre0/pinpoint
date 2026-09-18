@@ -1,0 +1,82 @@
+{
+  "id": "sk",
+  "name": "Slovakia",
+  "aliases": ["Slovak Republic", "Slovensko"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/slovakia/",
+    "https://www.plonkit.net/slovakia",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Slovakia",
+    "https://slovakia.travel/en/wooden-churches-of-unesco-world-heritage"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇸🇰",
+    "capital": "Bratislava"
+  },
+
+  "language": {
+    "official_languages": ["Slovak"],
+    "script": "Latin",
+    "sample_text": "POZOR — CESTNÉ PRÁCE",
+    "script_notes": "Latin alphabet with its own diacritics. The letter Ľ (with a soft mark) occurs almost only here, while the letters Ř, Ě and Ů belong to the neighbouring Czech language and never appear. Sign borders sit right on the edge of the plate, without a coloured gap.",
+    "false_friends": ["Czech Republic", "Hungary", "Poland", "Austria", "Ukraine"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Black bollards with orange double reflectors on the front and a single white reflector on the back; rarer blue and red variants exist. Only the Czech Republic shares this design.",
+    "bollard_shape": "Angular post with a wide recess down the middle and two reflectors set in the black area.",
+    "guardrail_type": "A wide 'thin-B' guardrail profile, angular with a central recess, used in only two European countries.",
+    "line_paint": "White edge lines with a center line on most roads; thick, bold lettering appears on some circular signs.",
+    "curb_style": "Tree-lined streets and avenues are common in the flat lowlands, occasionally with trees on one side only.",
+    "km_marker_style": "House numbers are white on a black plate — the opposite of the neighbouring country's red plate. Wide round concrete utility poles, often paired, are common, with wooden poles and white concrete supports seen more often than next door. Poles in some cities are painted in local colours: yellow and light blue in Košice, red in Bratislava, yellow and green in Žilina, blue in Nitra."
+  },
+
+  "architecture": {
+    "roof_style": "Steeply pitched roofs on village houses; flat roofs on the huge panel apartment blocks.",
+    "roof_material": "Clay tile and corrugated or profiled metal on houses; flat concrete on apartment blocks.",
+    "wall_construction": "Prefabricated concrete panel apartment blocks (paneláky) up to a dozen storeys tall — the largest concentration is in Bratislava's Petržalka district, home to more than 130,000 people — often repainted in bright colours; plastered family houses in villages; unique timber churches in the northern Carpathians.",
+    "wall_color_palette": "Pastel and bright repainted panel blocks; cream and pale plaster on houses; dark timber on churches.",
+    "distinctive_building_types": "Panel-block housing estates; hilltop castles (Bratislava Castle above the Danube, and Spiš Castle); eight UNESCO-listed wooden churches in Carpathian villages; rural villages with a single long main street."
+  },
+
+  "nature": {
+    "vegetation": "About two-fifths of the land is forested — oak groves in the southern Danube lowland, beech forest on lower slopes and spruce on higher slopes; farmland and vineyards in the southwest.",
+    "terrain": "Overall mountainous, with the High and Low Tatras and other Carpathian ranges across the north and center, and flat lowlands along the Danube in the southwest and the southeastern plain.",
+    "climate_signature": "Temperate continental, with snowy mountain winters and warm lowland summers."
+  },
+
+  "vehicles": {
+    "common_brands": ["Škoda", "Volkswagen", "Kia", "Hyundai"],
+    "plate_color": "White plate with black text and a blue EU strip on the left carrying 'SK'.",
+    "plate_format": "Two letters, three digits, two letters (e.g. 'AB 123 CD'); since 2023 plates no longer include a district abbreviation.",
+    "distinctive_vehicles": "Škoda and Volkswagen dominate — several Volkswagen Group models are assembled in Bratislava, and older Škodas are common."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 with dense coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage of roads including villages and mountain areas."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Czech Republic",
+      "shared_traits": "Shared bollards, thin-B guardrails, wide paired concrete poles and Central European architecture from their common history",
+      "tiebreaker": "House numbers are white on black here but red with white text in the Czech Republic; the letter Ľ belongs here while Ř, Ě and Ů belong to Czech; this side has more wooden poles and often lacks a coloured gap inside sign borders."
+    },
+    {
+      "country": "Hungary",
+      "shared_traits": "Shared border, Danube plain in the south and similar concrete-block houses",
+      "tiebreaker": "Hungarian signage has its own letters such as ő and ű and different bollards and poles; the mountainous north and the Tatras are far more prominent here."
+    },
+    {
+      "country": "Poland / Ukraine",
+      "shared_traits": "Shared Carpathian border terrain and wooden church traditions",
+      "tiebreaker": "Poland's red-striped one-sided bollard and Ukraine's Cyrillic script are absent; the double-reflector black bollard and thin-B guardrail point here."
+    }
+  ]
+}

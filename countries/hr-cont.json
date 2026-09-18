@@ -1,0 +1,82 @@
+{
+  "id": "hr-cont",
+  "name": "Continental Interior (Zagreb · Slavonia · Pannonian Plain)",
+  "aliases": ["Slavonia", "Inland"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "parent": "hr",
+  "sources": [
+    "https://www.britannica.com/place/Slavonia",
+    "https://total-croatia-news.com/lifestyle/architecture-zagreb/",
+    "https://en.wikipedia.org/wiki/Slavonia"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇭🇷",
+    "capital": "Zagreb"
+  },
+
+  "language": {
+    "official_languages": ["Croatian"],
+    "script": "Latin",
+    "sample_text": "OPREZ — RADOVI NA CESTI",
+    "script_notes": "Latin script with č, ć, š, ž and đ; near the eastern border some places also have Serbian-speaking minorities, with Cyrillic appearing on a few bilingual signs.",
+    "false_friends": ["Northern Serbia (Vojvodina)", "Hungary", "Slovenia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national.",
+    "line_paint": "As national.",
+    "curb_style": "As national; dense formal infrastructure in the capital, with trams.",
+    "km_marker_style": "As national; long straight roads between fields in the east."
+  },
+
+  "architecture": {
+    "roof_style": "Steeper pitched tile roofs than on the coast.",
+    "roof_material": "Clay tile, often orange or brown, and corrugated metal on farm buildings.",
+    "wall_construction": "Nineteenth-century Habsburg-era masonry in the capital's center, with Art Nouveau and modernist landmarks; single-storey plastered village houses with long narrow plots in the east; socialist-era apartment blocks.",
+    "wall_color_palette": "Yellow, ochre and cream plaster in Habsburg-style buildings, with white or pastel village houses.",
+    "distinctive_building_types": "Austro-Hungarian civic buildings and coffee-house streets; blue trams; Baroque churches and small manor houses; long single-storey village houses."
+  },
+
+  "nature": {
+    "vegetation": "Corn, wheat, sugar beet, soybean, sunflower and barley fields across the plains; oak and beech forest on the hills; vineyards on slopes.",
+    "terrain": "Flat Pannonian plain bordered by the Sava, Drava and Danube rivers in the east, and rolling hills and low mountains around the capital and toward the west.",
+    "climate_signature": "Continental — hot summers, cold snowy winters, and a green, farmed look with none of the coast's bare rock."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Škoda", "Opel", "Renault"],
+    "plate_color": "As national — 'ZG' for the capital, 'OS' for Osijek.",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Trams in the capital; farm machinery in the east; fewer tourist rental cars than on the coast."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage across the capital and main roads; good coverage of the eastern plains."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Serbia (Vojvodina)",
+      "shared_traits": "Same Pannonian plain, sunflower and maize fields, similar villages",
+      "tiebreaker": "Here the bollard's red rectangle is centered on the front with a white one on the back, while the Serbian one is off to one side; Cyrillic and the letters Ђ and Ћ are absent."
+    },
+    {
+      "country": "Hungary / Slovenia",
+      "shared_traits": "Neighbouring Habsburg-era towns and farmland",
+      "tiebreaker": "Blue signs with white lettering, the checkerboard shield and Croatian diacritics differ from neighbouring signage and bollard styles."
+    },
+    {
+      "country": "Adriatic Coast (same country)",
+      "shared_traits": "Same country, same national road furniture",
+      "tiebreaker": "The interior has continental farmland, yellow Habsburg-style buildings and steeper roofs; the coast has red tile roofs, olive groves and bare karst."
+    }
+  ]
+}

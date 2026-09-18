@@ -1,0 +1,82 @@
+{
+  "id": "hr",
+  "name": "Croatia",
+  "aliases": ["Republic of Croatia", "Hrvatska"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/croatia/",
+    "https://geometas.com/metas/countries/croatia/",
+    "https://geomastr.com/country/croatia/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Croatia"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇭🇷",
+    "capital": "Zagreb"
+  },
+
+  "language": {
+    "official_languages": ["Croatian"],
+    "script": "Latin",
+    "sample_text": "OPREZ — RADOVI NA CESTI",
+    "script_notes": "Latin alphabet with the diacritic letters č, ć, š, ž and đ. Road signs are blue with white lettering; the national flag's red-and-white checkerboard appears on municipal logos and crests. Serbian in Latin script looks similar, but Cyrillic is absent here.",
+    "false_friends": ["Serbia", "Bosnia and Herzegovina", "Slovenia", "Montenegro", "Italy"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White post with a red rectangle on the front and the same rectangle in white on the back.",
+    "bollard_shape": "Flat, slim post with a rectangular reflector.",
+    "guardrail_type": "Angular guardrails, sometimes painted in red-and-white stripes (a look shared with Serbia, Montenegro, Turkey and Poland).",
+    "line_paint": "White edge and center lines; black-and-red chevrons mark curves.",
+    "curb_style": "Painted kerbs in towns.",
+    "km_marker_style": "Direction signs have a yellow background with a black outline, often with a pencil-shaped tip; pedestrian crossings show five stripes; narrow grey or blue fire hydrants are a common sight. Konzum supermarkets, Tisak kiosks and Plodine stores are common brands."
+  },
+
+  "architecture": {
+    "roof_style": "Red terracotta tile roofs on the coast; steeper roofs on houses in the inland north.",
+    "roof_material": "Clay tile is standard nationwide, with corrugated metal on utility buildings.",
+    "wall_construction": "Light stone and plaster houses with shutters near the sea; Habsburg-era masonry in the continental north; plastered family houses with tile roofs across the interior. See regional profiles for the coast/continental split.",
+    "wall_color_palette": "Pale stone and white on the coast, yellow and ochre plaster inland.",
+    "distinctive_building_types": "Stone villages and walled towns on the Adriatic; Austro-Hungarian civic buildings in the north; socialist-era apartment blocks and holiday hotels; churches with bell towers."
+  },
+
+  "nature": {
+    "vegetation": "Mediterranean scrub, olive groves and pines on the coast and islands; deciduous and beech forest in the mountains; corn, wheat and sunflower fields on the northeastern plains.",
+    "terrain": "A crescent-shaped country — a long, rocky karst coast with over a thousand islands, a mountainous Dinaric spine, and flat, fertile Pannonian plains in the northeast.",
+    "climate_signature": "Mediterranean along the coast, continental inland — bright, dry summers by the sea and colder winters in the north."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Škoda", "Renault", "Opel"],
+    "plate_color": "White plate with black text; since 2016 with a blue EU strip on the left carrying 'HR', though older white plates without the strip are still seen in older Street View coverage.",
+    "plate_format": "Two-letter city code, then digits and letters (e.g. 'ZG 1234-AB'), with the code marking the town of registration.",
+    "distinctive_vehicles": "A standard Central European mix, with many tourist rental cars on the coast in summer."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 with dense coverage; some older imagery still shows the pre-2016 plates.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense along the coast and main roads; good coverage of the interior."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Serbia",
+      "shared_traits": "Similar angular guardrails, related languages and Balkan architecture",
+      "tiebreaker": "The bollard's red rectangle is centered on the front with a white one on the back, whereas the Serbian one sits off to one side; Cyrillic Ђ and Ћ appear only across the border; the checkerboard shield is a strong tell."
+    },
+    {
+      "country": "Slovenia",
+      "shared_traits": "Neighbouring Central European look, similar flat slim bollards",
+      "tiebreaker": "Different bollard and signage details, and Slovenian plates and letters; the coast's karst and red tile roofs are more typical here."
+    },
+    {
+      "country": "Italy",
+      "shared_traits": "Adriatic stone architecture with terracotta roofs, especially in Istria",
+      "tiebreaker": "Italian bollards have a red-diagonal front and street names use 'Via' and 'Piazza'; the coast's blue signage and centered red rectangle bollard point here."
+    }
+  ]
+}

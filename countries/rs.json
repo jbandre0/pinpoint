@@ -1,0 +1,82 @@
+{
+  "id": "rs",
+  "name": "Serbia",
+  "aliases": ["Republic of Serbia", "Srbija", "Србија"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/serbia/",
+    "https://geometas.com/metas/countries/serbia/",
+    "https://geomastr.com/country/serbia/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Serbia"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇷🇸",
+    "capital": "Belgrade"
+  },
+
+  "language": {
+    "official_languages": ["Serbian"],
+    "script": "Cyrillic and Latin (both used)",
+    "sample_text": "ПАЖЊА — РАДОВИ НА ПУТУ",
+    "script_notes": "Both Cyrillic and Latin are used, often side by side on the same sign, with yellow signs carrying black lettering. The Cyrillic letters Ђ/ђ and Ћ/ћ appear only in this language's Street View. Chevron curve signs use black arrows on a white background.",
+    "false_friends": ["Montenegro", "Bosnia and Herzegovina", "Croatia", "North Macedonia", "Bulgaria", "Kosovo"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White post with a narrow red reflector set to one side rather than in the center; almost always flat with no depth.",
+    "bollard_shape": "Flat, slim post resembling those in Slovenia and Montenegro, but with the off-center reflector.",
+    "guardrail_type": "Only the angular thin-B guardrail profile is used, which it shares with Bosnia and Herzegovina.",
+    "line_paint": "White center and edge lines on main roads; many rural roads are worn or unmarked.",
+    "curb_style": "Painted kerbs in towns; open shoulders on rural roads.",
+    "km_marker_style": "Utility poles are most often round concrete or rusty metal, rounder than in Hungary or Romania. MAXI (Delhaize) supermarkets are found only here, alongside IDEA and Frikom/Jelen logos."
+  },
+
+  "architecture": {
+    "roof_style": "Pitched tile roofs on family houses; flat roofs on the huge socialist-era blocks.",
+    "roof_material": "Clay tile and corrugated metal.",
+    "wall_construction": "Family houses of red brick or plaster, very often left unfinished with exposed brick or bare concrete; enormous socialist-era concrete housing blocks and monumental brutalist civic buildings, especially in Belgrade's Novi Beograd district; Orthodox churches with domes and bell towers.",
+    "wall_color_palette": "Bare red brick and grey concrete, with pastel plaster on finished houses.",
+    "distinctive_building_types": "Brutalist landmarks such as the Genex Tower and the Palace of the Federation; unfinished multi-storey family houses; Orthodox churches; Zastava-built cars parked outside blocks."
+  },
+
+  "nature": {
+    "vegetation": "Sunflower and maize fields across the flat north; forested hills and fruit orchards in the center; mountain forest and limited arable land in the south.",
+    "terrain": "Flat Pannonian plain in the north along the Danube and Sava rivers, rolling hills in the center, and mountainous terrain in the south and east.",
+    "climate_signature": "Temperate continental — hot summers, cold winters, with the northern plains looking much like neighbouring Hungary."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Opel", "Fiat", "Zastava"],
+    "plate_color": "White plate with black text and a blue strip on the left carrying 'SRB'.",
+    "plate_format": "Two-letter regional code, then three or four digits, separated by a shield emblem from a Cyrillic letter combination for the region.",
+    "distinctive_vehicles": "Older Zastava cars (including the Yugo, a Yugoslav-era classic) and used Western European imports; the Street View car usually lacks the roof antenna seen on most neighbouring countries' cars."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3, with the capture car usually lacking an antenna.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Good coverage of main roads and towns; occasional ferries appear on the Romanian border."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Montenegro / Slovenia",
+      "shared_traits": "Similar flat slim bollard and black-arrow-on-white chevron signs",
+      "tiebreaker": "The bollard's red reflector sits to one side here, always off-center; only the thin-B guardrail is used; Ђ and Ћ letters are decisive."
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "shared_traits": "Shared thin-B guardrail, Cyrillic in one entity, similar hilly terrain and architecture",
+      "tiebreaker": "Utility poles and bollards differ; the offset red reflector and MAXI supermarkets point here."
+    },
+    {
+      "country": "Bulgaria / North Macedonia",
+      "shared_traits": "Cyrillic script, similar Balkan architecture and farmland",
+      "tiebreaker": "Bulgaria uses Cyrillic only on official signs, while both scripts appear side by side here; letters Ђ and Ћ appear only in Serbian."
+    }
+  ]
+}
