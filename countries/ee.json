@@ -1,0 +1,81 @@
+{
+  "id": "ee",
+  "name": "Estonia",
+  "aliases": ["Republic of Estonia", "Eesti"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/estonia/",
+    "https://geometas.com/metas/countries/estonia/",
+    "https://geometas.com/metas/regions/baltics/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Estonia"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇪🇪",
+    "capital": "Tallinn"
+  },
+
+  "language": {
+    "official_languages": ["Estonian"],
+    "script": "Latin",
+    "sample_text": "TÄHELEPANU — TEETÖÖD",
+    "script_notes": "A Finnic language, closely related to Finnish and Hungarian but not to its Baltic neighbours. The letter Õ is found in no other European Latin spelling and is the surest tell; Ä, Ö and Ü also appear, and doubled vowels (aa, ee, oo, uu) are frequent.",
+    "false_friends": ["Latvia", "Lithuania", "Finland", "Russia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Cylindrical bollards with a rectangular reflector on the front and two circular reflectors on the back.",
+    "bollard_shape": "Round cylindrical post.",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Warning signs have a thin red border with no extra outline; chevrons are red with white arrows; kilometre markers stand perpendicular to the road, and some sign posts are wrapped at the base in blue-and-white wrappers."
+  },
+
+  "architecture": {
+    "roof_style": "Steeply pitched roofs on wooden farmhouses and villas; flat roofs on Soviet apartment blocks; steep spires in the medieval capital.",
+    "roof_material": "Corrugated metal and tile on houses, and flat roofing on blocks.",
+    "wall_construction": "Timber houses and villas; white or grey Soviet panel blocks (khrushchyovka) at the centre of many villages, from three to five storeys; Hanseatic medieval stone in Tallinn's old town.",
+    "wall_color_palette": "Painted timber in muted red, yellow and green, grey and white block housing.",
+    "distinctive_building_types": "Timber farmhouses; Soviet blocks and cultural halls in rural centres; Tallinn's walled medieval old town; windmills and stone farm buildings on the islands."
+  },
+  "nature": {
+    "vegetation": "Boreal forest of pine, spruce and birch, wet bogs and meadows, and open fields; a good bet when on a dirt road through open European-style fields with no other clue.",
+    "terrain": "Low-lying, flat to gently rolling land with many lakes, bogs and a long, indented Baltic coast with islands; the highest ground barely exceeds 300m.",
+    "climate_signature": "Cool, damp, often overcast, with long winters and very long summer evenings."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Volkswagen", "Škoda", "Volvo"],
+    "plate_color": "White plate with black text and a blue EU strip on the left carrying 'EST'.",
+    "plate_format": "Three digits followed by three letters (e.g. '123 ABC').",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Dense coverage of roads, including many gravel roads."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Latvia",
+      "shared_traits": "Neighbouring Baltic landscape, Soviet blocks and timber houses",
+      "tiebreaker": "Bollards here are cylindrical with round reflectors on the back, and Õ and Ä letters appear in Estonian only; Latvian signs use long-mark vowels and have thicker red borders on warning signs."
+    },
+    {
+      "country": "Finland",
+      "shared_traits": "A related Finnic language with Ä and Ö, similar forests, lakes and timber houses",
+      "tiebreaker": "The letter Õ exists only in Estonian; Finnish signs are bilingual with Swedish and Finnish plates differ."
+    },
+    {
+      "country": "Russia",
+      "shared_traits": "Soviet blocks, birch forest and dirt roads near the eastern border",
+      "tiebreaker": "Latin script with Õ and EU plates versus Cyrillic and Russian plates."
+    }
+  ]
+}

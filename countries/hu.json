@@ -1,0 +1,82 @@
+{
+  "id": "hu",
+  "name": "Hungary",
+  "aliases": ["Magyarország"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/hungary/",
+    "https://geometas.com/metas/countries/hungary/",
+    "https://en.wikipedia.org/wiki/Puszta",
+    "https://en.mandadb.hu/cikk/1285342/Kadar_cubes_blocks_of_houses_in_the_countryside"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇭🇺",
+    "capital": "Budapest"
+  },
+
+  "language": {
+    "official_languages": ["Hungarian"],
+    "script": "Latin",
+    "sample_text": "FIGYELEM — ÚTÉPÍTÉS",
+    "script_notes": "Latin alphabet with the double-acute letters ő and ű, found in no other language's spelling, plus many acute accents (á, é, í, ó, ú). Street signs read 'utca' (street), 'út' (road) and 'tér' (square). It is unrelated to its Slavic and Romance neighbours, so words look strange to them.",
+    "false_friends": ["Romania", "Slovakia", "Serbia", "Croatia", "Austria", "Slovenia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White bollard with a red rectangle on the front and the same rectangle in white on the back; its discrete red reflector separates it from the neighbouring country whose red band wraps fully around the cap.",
+    "bollard_shape": "Slim white post with a small rectangular reflector.",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "The most common utility pole is a concrete 'holey pole' with relatively thin holes running all the way down to the ground, with a distinctive profile. Sign posts show bolts passing through the sign face, and green route shields have a distinctive shape. Pedestrian crossing signs show a figure wearing a belt, and fire hydrants are red."
+  },
+
+  "architecture": {
+    "roof_style": "Steep tent roofs on the square 'cube' houses; reddish tile pitched roofs on suburban houses.",
+    "roof_material": "Red clay tile is the standard roofing.",
+    "wall_construction": "Single-storey houses with light-coloured plaster walls and reddish roof tiles fill the suburbs; the square, tent-roofed 'Kádár cube' (built mainly in the 1960s and 1970s — around 800,000 of them, sometimes with vivid geometric facades) dominates almost every village and town; Art Nouveau and Habsburg-era masonry in Budapest.",
+    "wall_color_palette": "Cream, pastel and vividly patterned plaster on the cubes, and ochre and grey on historic facades.",
+    "distinctive_building_types": "Kádár cube houses; Budapest's Art Nouveau buildings and Parliament; one-storey village houses with long narrow yards; sparse farm buildings such as well-sweeps on the open plain."
+  },
+
+  "nature": {
+    "vegetation": "Open arable farmland of wheat, sunflower and maize; alkaline grassland and scattered poplar lines on the puszta; vineyards around Lake Balaton, Tokaj and Eger.",
+    "terrain": "Largely flat with very few mountains — the Great Plain (the puszta) covers most of the east, and the highest peaks in the north are under 1,000m; Lake Balaton is Central Europe's largest lake.",
+    "climate_signature": "Continental — hot summers and cold winters, with huge open skies over the plain."
+  },
+
+  "vehicles": {
+    "common_brands": ["Suzuki", "Škoda", "Toyota", "Opel"],
+    "plate_color": "White plate with black text and a blue EU strip on the left carrying 'H'.",
+    "plate_format": "",
+    "distinctive_vehicles": "Suzukis (built locally in Esztergom) and Škoda Octavias top sales; older Soviet-era cars and horse carts survive in the east."
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Dense coverage of roads and villages across the country."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Romania",
+      "shared_traits": "Both have concrete holey poles running to the ground and similar farmland; Hungarian-speaking towns border the neighbouring plain",
+      "tiebreaker": "The letters ő and ű exist only in Hungarian, while Romanian has ș and ț; Romanian holey poles often have white-painted bases or yellow marks and Romanian guardrails are rounded, so check those details."
+    },
+    {
+      "country": "Slovakia / Serbia / Croatia",
+      "shared_traits": "Shared Pannonian plain, similar villages and farmland along the borders",
+      "tiebreaker": "The double-acute letters, belted pedestrian figure and holey poles here differ from the black double-reflector bollards and thin-B guardrails of Slovakia and the offset reflector of Serbia."
+    },
+    {
+      "country": "Austria / Slovenia",
+      "shared_traits": "Neighbouring Central European towns and Habsburg-era architecture in the west",
+      "tiebreaker": "Hungarian language and its ő and ű letters, the cube houses and concrete holey poles distinguish it."
+    }
+  ]
+}

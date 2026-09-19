@@ -1,0 +1,82 @@
+{
+  "id": "lv",
+  "name": "Latvia",
+  "aliases": ["Republic of Latvia", "Latvija"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geometas.com/metas/countries/latvia/",
+    "https://geometas.com/metas/regions/baltics/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Latvia",
+    "https://www.onlatvia.com/topics/lifestyle/architecture"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇱🇻",
+    "capital": "Riga"
+  },
+
+  "language": {
+    "official_languages": ["Latvian"],
+    "script": "Latin",
+    "sample_text": "UZMANĪBU — CEĻA DARBI",
+    "script_notes": "A Baltic language with long-mark (macron) vowels — ā, ē, ī, ū and ō — and the consonants š, ž, č, ģ, ķ, ļ and ņ; many words end in -s or -is. The macron-marked vowels are a quick separator from Estonian and Lithuanian. Russian is widely spoken, especially in Riga.",
+    "false_friends": ["Lithuania", "Estonia", "Russia", "Belarus"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Thin bollards with a white rectangle on the front and two white circles on the back.",
+    "bollard_shape": "Slim white post.",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Utility poles have curvy, bulbous insulator fittings alternating from side to side. Warning signs have a much thicker red border than those in neighbouring countries, and kilometre markers run parallel to the road. A flagpole near a home or farm is a Latvian habit."
+  },
+
+  "architecture": {
+    "roof_style": "Steep gabled roofs on wooden village houses; flat roofs on Soviet blocks.",
+    "roof_material": "Corrugated metal, tile and timber shingle.",
+    "wall_construction": "Timber-built vernacular houses, historically made of logs collected from nearby forests, with iconic gabled roofs; Soviet white- and grey-brick blocks three to five storeys tall in village centres; Riga's Art Nouveau and medieval Hanseatic quarters.",
+    "wall_color_palette": "Painted timber in muted colours, and grey or white block housing.",
+    "distinctive_building_types": "Wooden houses with gable ornament; Soviet apartment blocks and cultural houses; Riga's Art Nouveau facades and old town; castles and manor houses in the Gauja valley."
+  },
+
+  "nature": {
+    "vegetation": "Pine and birch forest covers about half the land, with meadows, farmland and peat bogs; sandy pine-fringed beaches along the Baltic.",
+    "terrain": "Low, flat to gently rolling land with hills reaching only about 300m, many lakes, and a long white-sand Baltic coastline.",
+    "climate_signature": "Cool, damp and often overcast, with long winters."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Toyota", "Audi", "Opel"],
+    "plate_color": "White plate with black text and a blue EU strip on the left carrying 'LV'.",
+    "plate_format": "Two letters and four digits (e.g. 'AB-1234').",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Dense coverage of roads and towns."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Lithuania",
+      "shared_traits": "Neighbouring Baltic language family, flat landscape and similar villages",
+      "tiebreaker": "Bollards here have a white rectangle front and two white circles back, whereas Lithuanian wedge bollards have orange rectangular reflectors; poles here have alternating curvy bulbs; letters ļ, ķ, ņ and macron-marked vowels appear here, while Lithuanian has ė and many -ai and -as endings."
+    },
+    {
+      "country": "Estonia",
+      "shared_traits": "Same Baltic coast, forests and Soviet blocks",
+      "tiebreaker": "Estonian uses Õ and its cylindrical bollards and perpendicular kilometre markers differ; warning signs are thicker-bordered here."
+    },
+    {
+      "country": "Russia / Belarus",
+      "shared_traits": "Soviet blocks, birch forest and timber houses",
+      "tiebreaker": "Latin script with macrons and EU plates versus Cyrillic and Russian or Belarusian plates."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "lt",
+  "name": "Lithuania",
+  "aliases": ["Republic of Lithuania", "Lietuva"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geometas.com/metas/countries/lithuania/",
+    "https://geometas.com/metas/regions/baltics/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Lithuania",
+    "https://geodummy.com/lithuania"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇱🇹",
+    "capital": "Vilnius"
+  },
+
+  "language": {
+    "official_languages": ["Lithuanian"],
+    "script": "Latin",
+    "sample_text": "DĖMESIO — KELIO DARBAI",
+    "script_notes": "A Baltic language with the letters ė, š, ž, č, ą, ę, į, ų and ū, and words that commonly end in -as, -is, -ai or -us. The letter ė and the ogonek marks (ą, ę, į, ų) are quick separators from Latvian and Polish.",
+    "false_friends": ["Latvia", "Estonia", "Poland", "Belarus"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Wedge-style bollards with orange rectangular reflectors on the front and white ones on the back.",
+    "bollard_shape": "Wedge-shaped post, similar to many others in Europe.",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Concrete utility poles carry insulator bulbs in a 1×1, 2×2 or 3×3 arrangement, sometimes an odd number, but not alternating from side to side as in the neighbouring country. Warning signs have a thin red border with a thin white outline."
+  },
+
+  "architecture": {
+    "roof_style": "Steeply pitched roofs on timber and brick houses; flat roofs on Soviet blocks; Baroque towers and domes in the capital.",
+    "roof_material": "Tile, slate and corrugated metal.",
+    "wall_construction": "Timber and brick village houses; grey Soviet panel blocks; Baroque and Gothic brick churches and a large baroque old town in the capital.",
+    "wall_color_palette": "Painted timber, red brick and pastel Baroque plaster.",
+    "distinctive_building_types": "Roadside wooden crosses and carved shrines; brick Gothic and Baroque churches; white stork nests on utility poles and roofs; Soviet blocks and monuments."
+  },
+
+  "nature": {
+    "vegetation": "Pine and mixed forest, farmland and meadows, many lakes; sandy dunes and pine forest on the Baltic coast.",
+    "terrain": "Low, flat to gently rolling land with the highest hills only around 300m, and a coast that includes the Curonian Spit's shifting sand dunes.",
+    "climate_signature": "Cool, damp and often overcast, with long winters."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Toyota", "Opel", "Audi"],
+    "plate_color": "White plate with black text and a blue EU strip on the left carrying 'LT'.",
+    "plate_format": "Three letters followed by three digits with no space (e.g. 'ABC123').",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Dense coverage of roads and towns."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Latvia",
+      "shared_traits": "Neighbouring Baltic language family, flat landscape and similar villages",
+      "tiebreaker": "Lithuanian wedge bollards with orange reflectors and non-alternating pole bulbs differ from Latvia's thin white bollards and alternating bulbs; the letter ė and endings like -ai and -as appear here."
+    },
+    {
+      "country": "Poland",
+      "shared_traits": "Shared border region, Catholic roadside shrines and similar farmland",
+      "tiebreaker": "Polish red-striped bollards and diacritics (ł, ż) differ from Lithuanian ė, š and ogonek letters."
+    },
+    {
+      "country": "Belarus / Estonia",
+      "shared_traits": "Flat forest and farmland, Soviet blocks",
+      "tiebreaker": "Latin script with ė and Lithuanian plates versus Belarusian Cyrillic or Estonia's Õ."
+    }
+  ]
+}
