@@ -1,0 +1,82 @@
+{
+  "id": "is",
+  "name": "Iceland",
+  "aliases": ["Ísland", "Republic of Iceland"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/iceland/",
+    "https://geometas.com/metas/countries/iceland/",
+    "https://geometas.com/learn/nordics",
+    "https://guidetoiceland.is/history-culture/the-ultimate-guide-to-turf-houses-in-iceland"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇮🇸",
+    "capital": "Reykjavík"
+  },
+
+  "language": {
+    "official_languages": ["Icelandic"],
+    "script": "Latin",
+    "sample_text": "ATHUGIÐ — VEGAVINNA",
+    "script_notes": "Latin alphabet with the special letters þ (thorn) and ð (eth), plus á, é, í, ó, ú, ý, æ and ö. The letter ð appears in only one other European language, Faroese, so it is a strong tell but not a complete one. The internet domain is .is.",
+    "false_friends": ["Faroe Islands", "Norway", "Greenland"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Yellow bollards, recognisable by their colour and their distinct top edge, are characteristic throughout the country.",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "Some roads have white dashed edge markings, with grass often running right up to the road edge.",
+    "curb_style": "",
+    "km_marker_style": "Yellow pedestrian-crossing signs appear, mainly in urban centres."
+  },
+
+  "architecture": {
+    "roof_style": "Grass-covered turf roofs on traditional shelters (torfbæir), which protected people from the harsh climate for over a thousand years.",
+    "roof_material": "Corrugated metal on houses; turf on traditional farmhouses.",
+    "wall_construction": "Modern buildings have large windows to maximise natural light and use little wood, because forestry resources are limited; classic timber lodges with small windows are absent; concrete and corrugated-metal-clad houses are common.",
+    "wall_color_palette": "",
+    "distinctive_building_types": "Turf-roofed farmhouses; brightly painted corrugated-metal houses; geothermal power plants and swimming pools; small white churches with red roofs."
+  },
+
+  "nature": {
+    "vegetation": "Almost no vegetation other than grass — moss and needle grass dominate, and trees are scarce; only about 1% of the land is arable.",
+    "terrain": "Formed by lava and glaciers: the soil is black throughout, roads are mostly flat with undulating terrain and mountains in the distance, and rivers are irregular and braided with wetlands rather than straight-banked waterways.",
+    "climate_signature": "Cool, windy and often overcast, with long winters, glaciers and black volcanic sand."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "White plates with no blue EU strip on the left.",
+    "plate_format": "",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "The Street View truck does not have the roof antenna seen on the Faroe Islands' vehicles."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Faroe Islands",
+      "shared_traits": "The letter ð, similar Nordic North Atlantic landscapes, treeless green hills and sheep",
+      "tiebreaker": "Faroese guardrails have yellow reflectors, found on no other northern European guardrails; the Faroes have long fjords with jagged green mountains rising straight out of the water, greener and more imposing than Iceland's; extra Faroese letters like Ø and Æ appear there."
+    },
+    {
+      "country": "Norway",
+      "shared_traits": "Nordic language family, mountains and coast",
+      "tiebreaker": "The letters þ and ð, yellow bollards and plates with no EU strip separate it; Norwegian uses å, ø and æ."
+    },
+    {
+      "country": "Greenland",
+      "shared_traits": "Arctic and subarctic scenery, glaciers and volcanic rock",
+      "tiebreaker": "Icelandic text and road furniture with a much denser road network than Greenland's few connected towns."
+    }
+  ]
+}

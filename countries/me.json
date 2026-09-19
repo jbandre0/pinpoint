@@ -1,0 +1,82 @@
+{
+  "id": "me",
+  "name": "Montenegro",
+  "aliases": ["Crna Gora", "Црна Гора"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/montenegro/",
+    "https://geometas.com/metas/detail/fdc4a63b-709a-4608-89b7-5c4f0d762aa5/",
+    "https://en.wikipedia.org/wiki/Bay_of_Kotor",
+    "https://geotips.net/europe/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇲🇪",
+    "capital": "Podgorica"
+  },
+
+  "language": {
+    "official_languages": ["Montenegrin"],
+    "script": "Latin and Cyrillic (both used)",
+    "sample_text": "OPREZ — RADOVI NA PUTU",
+    "script_notes": "Both Latin and Cyrillic appear on signs, with Latin more common in daily use and Cyrillic on some official and older signs; the mixture helps separate it from purely Latin-script Croatia, Bosnia and Slovenia. The internet domain is .me.",
+    "false_friends": ["Serbia", "Croatia", "Bosnia and Herzegovina", "Albania", "Slovenia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White bollards with black caps and red rectangular sections.",
+    "bollard_shape": "Slim white posts; stone blocks also mark curves in the mountains.",
+    "guardrail_type": "Guardrails in mountainous areas are often black or yellow-painted and many look rusty; angular rails may appear near the border with Bosnia.",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "EKO fuel stations (shared with Greece and the Balkans) and IDEA supermarkets (shared with Serbia) are common."
+  },
+
+  "architecture": {
+    "roof_style": "Low-pitched red clay tile roofs on stone houses along the coast.",
+    "roof_material": "Red clay tile.",
+    "wall_construction": "Whitewashed and stone houses against pale rocky hillsides; well-preserved medieval walled towns around the Bay of Kotor, including Kotor, Perast, Risan and Herceg Novi.",
+    "wall_color_palette": "White and pale stone with red tile roofs.",
+    "distinctive_building_types": "Walled medieval towns and Venetian-era stone palaces on the bay; stone houses on steep hillsides; Orthodox monasteries built into cliffs and hills."
+  },
+
+  "nature": {
+    "vegetation": "Mediterranean scrub, olive and pine on the coast, dense beech and pine forest in the mountains, and bare limestone in the karst uplands.",
+    "terrain": "Very mountainous, with white, jagged rock faces, deep canyons and a rugged Adriatic coast; the Bay of Kotor is a winding fjord-like inlet unique to the country.",
+    "climate_signature": "Mediterranean on the coast, alpine and snowy in the mountains, with bright limestone light."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "White plate with a blue strip on the left and the national crest in the centre, giving a subtle red accent; some older plain white plates survive.",
+    "plate_format": "",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "Image tiles often show visible cracks.",
+    "coverage_notes": "Coverage follows the main roads, the coast and the mountain passes."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Serbia",
+      "shared_traits": "Cyrillic and Latin script, similar slim white bollards and Balkan architecture",
+      "tiebreaker": "The red accent on the plate crest, black-capped bollards and rusty guardrails point here; Serbian bollards have an off-centre red reflector."
+    },
+    {
+      "country": "Croatia / Bosnia / Slovenia",
+      "shared_traits": "Neighbouring Adriatic karst coast and mountains",
+      "tiebreaker": "The Cyrillic in the mix and the Bay of Kotor fjord landscape separate it from mostly Latin-script neighbours; Bosnian guardrails are angular."
+    },
+    {
+      "country": "Albania / North Macedonia",
+      "shared_traits": "Similar mountain terrain and concrete-and-stone architecture",
+      "tiebreaker": "The red accent on this country's plates distinguishes it from Albania's and North Macedonia's plates."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "bw",
+  "name": "Botswana",
+  "aliases": ["Republic of Botswana"],
+  "continent": "Africa",
+  "tier": 3,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/africa/botswana/",
+    "https://geoguessr.fandom.com/wiki/Botswana",
+    "https://gisgeography.com/botswana-map/"
+  ],
+
+  "quick_id": {
+    "driving_side": "left",
+    "flag_emoji": "🇧🇼",
+    "capital": "Gaborone"
+  },
+
+  "language": {
+    "official_languages": ["English", "Setswana"],
+    "script": "Latin",
+    "sample_text": "CAUTION — ROAD WORKS AHEAD",
+    "script_notes": "English is the signage language, with Setswana widely spoken. The internet domain is .bw. The country is very sparsely populated.",
+    "false_friends": ["South Africa", "Namibia", "Zimbabwe", "Zambia", "Lesotho"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Yellow-and-black striped guardrails are common.",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Road numbers carry the initials A or B (an 'A' road is the main route type); yellow-and-black striped poles are common. Older signs have blue backgrounds. The road surface looks rough in texture, with orange roadsides."
+  },
+
+  "architecture": {
+    "roof_style": "",
+    "roof_material": "",
+    "wall_construction": "",
+    "wall_color_palette": "",
+    "distinctive_building_types": "Remote cattle posts and small villages far apart along endless straight roads, with wildlife crossing signs."
+  },
+
+  "nature": {
+    "vegetation": "Sparse shrubs and grasses with few trees beside the roads; further north the vegetation becomes taller, with non-needle grasses and more plants, and the lush Okavango Delta lies in the north.",
+    "terrain": "Predominantly flat — around 70% of the land overlaps the Kalahari Desert — and notably flatter with fewer trees than neighbouring countries; there is no mountain terrain.",
+    "climate_signature": "Tropical in the north and desert climate across the rest, with semi-arid savanna and big open skies."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "Yellow plates for ordinary vehicles, blue for public-service vehicles and taxis, and some white plates.",
+    "plate_format": "",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Coverage follows the main paved roads; the country is sparsely populated and huge areas are uncovered."
+  },
+
+  "confusion_set": [
+    {
+      "country": "South Africa / Namibia",
+      "shared_traits": "Left-hand traffic, English signage, similar dry savanna and Kalahari edge landscapes",
+      "tiebreaker": "The country here is notably flatter with fewer trees, plates are yellow, and yellow-and-black striped guardrails and poles are common."
+    },
+    {
+      "country": "Zimbabwe / Zambia",
+      "shared_traits": "Shared northern savanna and Okavango-region woodland",
+      "tiebreaker": "The desert flatness, A- and B-numbered roads and yellow plates help separate it; compare directly."
+    },
+    {
+      "country": "Lesotho",
+      "shared_traits": "Similar road numbering conventions",
+      "tiebreaker": "Lesotho is mountainous, whereas this country has no mountain terrain."
+    }
+  ]
+}
