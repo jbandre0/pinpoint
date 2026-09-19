@@ -1,0 +1,82 @@
+{
+  "id": "kg",
+  "name": "Kyrgyzstan",
+  "aliases": ["Kyrgyz Republic", "Кыргызстан"],
+  "continent": "Asia",
+  "tier": 3,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/asia/kyrgyzstan/",
+    "https://geometas.com/metas/detail/f6634802-7f86-45c7-888c-d6893be5312d/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Kyrgyzstan",
+    "https://eurasia.travel/kyrgyzstan/nature/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇰🇬",
+    "capital": "Bishkek"
+  },
+
+  "language": {
+    "official_languages": ["Kyrgyz", "Russian"],
+    "script": "Cyrillic (with extra Kyrgyz letters)",
+    "sample_text": "КӨҢҮЛ БУРУҢУЗ — ЖОЛ ИШТЕРИ",
+    "script_notes": "The Cyrillic used for Kyrgyz looks like Russian but adds letters not found in Russian, notably ң, ө and ү. Russian remains widely used alongside it. The internet domain is .kg.",
+    "false_friends": ["Kazakhstan", "Tajikistan", "Uzbekistan", "Mongolia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Simple white bollards with a diagonal black stripe near the top.",
+    "bollard_shape": "Plain white post.",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Kilometre markers with a red-and-white triangle pattern are unique to this country. Concrete utility poles are often painted white at the bottom, and trees and poles are commonly seen together along roadsides."
+  },
+
+  "architecture": {
+    "roof_style": "Yurts — round felt tents on a wooden lattice — dot the high summer pastures.",
+    "roof_material": "",
+    "wall_construction": "",
+    "wall_color_palette": "",
+    "distinctive_building_types": "Yurts on the high summer pastures (jailoo) used by semi-nomadic herders; a landscape of deep gorges, alpine lakes and rushing rivers rather than dense towns."
+  },
+
+  "nature": {
+    "vegetation": "Alpine meadow and summer pasture (jailoo) on the high plateaus, spruce forest on mountain slopes, walnut forest in the south around Arslanbob, and dry steppe in the valleys.",
+    "terrain": "One of the most mountainous countries in the world — over 90% of the land is mountains of the Tian Shan range, with snow-capped peaks, deep valleys and high plateaus, and Lake Issyk-Kul, one of the largest alpine lakes on Earth.",
+    "climate_signature": "Coverage was captured in winter, so many trees are bare, the landscape looks drab and snow is visible across much of the country."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "White plate with a red vertical stripe or rectangle carrying a yellow symbol on the left, with the national flag in a narrow band.",
+    "plate_format": "Modern plates use Latin letters rather than Cyrillic.",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "The Street View car is distinctive and is often seen surrounded by mountains, sometimes with snow.",
+    "blur_style": "",
+    "coverage_notes": "All of the country was captured during the winter months, so the imagery is bare and drab, with snow common."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Kazakhstan",
+      "shared_traits": "Shared Tien Shan mountains near Almaty, Cyrillic signage with extra letters, and Soviet-era architecture",
+      "tiebreaker": "Plates with a red stripe or rectangle carrying a yellow symbol and Latin letters, red-and-white triangle kilometre markers, and bollards with a diagonal black stripe near the top point here."
+    },
+    {
+      "country": "Tajikistan / Uzbekistan",
+      "shared_traits": "Shared Central Asian mountain and valley landscapes",
+      "tiebreaker": "The distinctive red-and-white kilometre markers and plate design differ; compare plates and script directly."
+    },
+    {
+      "country": "Mongolia",
+      "shared_traits": "Yurts, herding culture and open grassland",
+      "tiebreaker": "Kyrgyz Cyrillic letters ң, ө and ү and the mountain terrain differ from Mongolian signage and plains."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "ch",
+  "name": "Switzerland",
+  "aliases": ["Swiss Confederation", "Schweiz", "Suisse", "Svizzera"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/switzerland/",
+    "https://geometas.com/metas/countries/switzerland/",
+    "https://geomastr.com/country/switzerland/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Switzerland"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇨🇭",
+    "capital": "Bern"
+  },
+
+  "language": {
+    "official_languages": ["German", "French", "Italian", "Romansh"],
+    "script": "Latin",
+    "sample_text": "ACHTUNG — BAUSTELLE",
+    "script_notes": "Four national languages by region: German in the north and center (a general speed-limit sign reads 'GENERELL'), French in the west ('limite générale'), Italian in Ticino in the south, and rare Romansh in the southeast ('limita generala'). Swiss German spelling uses 'ss' instead of 'ß'.",
+    "false_friends": ["Austria", "Germany", "France", "Italy", "Liechtenstein"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Black-and-white bollards with white or grey reflectors.",
+    "bollard_shape": "Either wedge-shaped or cylindrical with a rounded top; angular and diagonally cut variants also exist.",
+    "guardrail_type": "",
+    "line_paint": "Pedestrian crossings and some road features are marked in yellow.",
+    "curb_style": "",
+    "km_marker_style": "Fire hydrants have grey bodies with red tops. Signs are often surrounded by protective piping. Directional signs are blue on main roads and white on side roads."
+  },
+
+  "architecture": {
+    "roof_style": "Wooden, steeply pitched triangular gabled roofs are common throughout the Alpine regions.",
+    "roof_material": "",
+    "wall_construction": "",
+    "wall_color_palette": "",
+    "distinctive_building_types": "Wooden Alpine chalets with broad, low eaves in the mountains."
+  },
+
+  "nature": {
+    "vegetation": "High-altitude flowering meadow plants on the mountain pastures; conifer forest on the slopes.",
+    "terrain": "Dominated by the Alps in the south and center, with the Jura in the northwest and a rolling central plateau between them holding most of the towns and lakes.",
+    "climate_signature": "Cool and often changeable, with snow on the high ground for much of the year."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "Fully white plates with no blue EU strip; on rear plates the red country emblem sits on the left and the canton emblem on the right. Plates look like a mosaic in Street View.",
+    "plate_format": "",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "The camera is mounted low on the car, giving a lower viewpoint and a larger blur of the car — shared with only Japan among major countries.",
+    "blur_style": "Larger car blur at the bottom of the frame from the low-mounted camera.",
+    "coverage_notes": "Dense coverage across the whole country including mountain roads."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Austria",
+      "shared_traits": "German-speaking Alpine landscape, wooden chalets and similar signage",
+      "tiebreaker": "Plates here are fully white with no blue EU strip, whereas Austrian plates have an EU strip and red-white-red bands; Swiss bollards have white or grey reflectors and Austrian ones are black-capped with red; 'ss' instead of 'ß'; the low camera shows a large car blur."
+    },
+    {
+      "country": "Germany / France / Italy",
+      "shared_traits": "Neighbouring languages spoken across the border regions",
+      "tiebreaker": "Plates without an EU strip, grey-and-red fire hydrants and the large low-camera car blur point here."
+    },
+    {
+      "country": "Liechtenstein",
+      "shared_traits": "Shared crosswalk designs and Alpine setting",
+      "tiebreaker": "A tiny neighbour; compare plates and canton or country emblems."
+    }
+  ]
+}

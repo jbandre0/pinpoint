@@ -1,0 +1,82 @@
+{
+  "id": "at",
+  "name": "Austria",
+  "aliases": ["Republic of Austria", "Österreich"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/austria/",
+    "https://geometas.com/metas/countries/austria/",
+    "https://geomastr.com/country/austria/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Austria"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇦🇹",
+    "capital": "Vienna"
+  },
+
+  "language": {
+    "official_languages": ["German"],
+    "script": "Latin",
+    "sample_text": "ACHTUNG — BAUSTELLE",
+    "script_notes": "German with umlauts (ä, ö, ü) and the ß letter; transit stops read 'Haltestelle'. One-way streets are marked 'EINBAHN' on red-and-white poles, with 'ANFANG' and 'ENDE' at the start and end. Vienna's street signs carry the district number at the top, low numbers near the center.",
+    "false_friends": ["Germany", "Switzerland", "Slovenia", "Czech Republic", "Hungary", "Italy"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White bollard with a black cap, a red reflective rectangle on the front and a white reflector on the back; the black cap is one of the easiest Austrian tells, though Slovenia and Montenegro share black caps.",
+    "bollard_shape": "Slim white post with a black cap.",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Utility poles may be painted red and white. Road signs often have grey borders and are held by metal clips. Commercial signboards have blue backgrounds, a contrast with the darker boards in Germany and Slovenia. Vienna's navy district-number street signs appear on almost every street."
+  },
+
+  "architecture": {
+    "roof_style": "Steeply pitched gable roofs and wooden chalet-style roofs in the mountains; small onion-domed church spires across the countryside.",
+    "roof_material": "",
+    "wall_construction": "",
+    "wall_color_palette": "",
+    "distinctive_building_types": "Baroque churches topped with onion domes in villages; timber Alpine chalets; grand Habsburg-era buildings and coffee houses in Vienna."
+  },
+
+  "nature": {
+    "vegetation": "Alpine meadows, spruce and pine forest on the slopes, and farmland and vineyards in the east and Danube valley.",
+    "terrain": "Mountainous in the west and south, with the jagged peaks of the Alps visible from Innsbruck to Bregenz, opening into hills and the Danube plain in the east.",
+    "climate_signature": "Cool, snowy Alpine winters and mild green summers."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "White plate with black text and a blue EU strip on the left carrying 'A', with red-white-red bands along the top and bottom of the plate.",
+    "plate_format": "",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Dense coverage of roads including mountain passes."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Switzerland",
+      "shared_traits": "German-speaking Alpine landscape, wooden chalets and tidy roads",
+      "tiebreaker": "Austrian plates have an EU strip and red-white-red bands, whereas Swiss plates are fully white; the black-capped bollard with a dark red reflector is Austrian; 'ß' is used here where Swiss German uses 'ss'; no low-camera car blur."
+    },
+    {
+      "country": "Germany",
+      "shared_traits": "Same language, Alpine architecture in Bavaria, similar signs",
+      "tiebreaker": "The black-capped bollard, blue commercial signs, 'EINBAHN' one-way markings and grey-bordered road signs are Austrian; German plates carry a city-code system."
+    },
+    {
+      "country": "Slovenia",
+      "shared_traits": "Alpine landscape and a similar black-capped bollard style near the southern border",
+      "tiebreaker": "Slovenian signage and darker commercial boards; German-language signs and blue commercial boards are Austrian."
+    }
+  ]
+}
