@@ -1,0 +1,82 @@
+{
+  "id": "ba",
+  "name": "Bosnia and Herzegovina",
+  "aliases": ["Bosna i Hercegovina", "BiH"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/bosnah/",
+    "https://geomastr.com/alphabets/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Bosnia_and_Herzegovina",
+    "https://geometas.com/metas/regions/eastern_europe/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇧🇦",
+    "capital": "Sarajevo"
+  },
+
+  "language": {
+    "official_languages": ["Bosnian", "Croatian", "Serbian"],
+    "script": "Latin and Cyrillic (both used)",
+    "sample_text": "OPREZ — RADOVI NA PUTU",
+    "script_notes": "Both scripts appear, varying by entity: house nameplates are mainly in Latin script in the Federation, where Bosniaks and Croats are the majority, and mainly in Cyrillic in Republika Srpska, which also flies a red-blue-white tricolour. The internet domain is .ba.",
+    "false_friends": ["Serbia", "Croatia", "Montenegro", "Slovenia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "Boxy, angular bollards, similar to those of neighbouring countries.",
+    "guardrail_type": "Boxy, angular guardrails shared with neighbouring countries.",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Milepost-style signs with printed road numbers resemble Slovenia's. Yellow arrow signs have black backs, and blue fire hydrants are common, which separates it from the neighbouring country to the west."
+  },
+
+  "architecture": {
+    "roof_style": "",
+    "roof_material": "",
+    "wall_construction": "Brick houses like those on the plains to the north are common, alongside Ottoman-era mosques with slender minarets and stone bridges in the old towns.",
+    "wall_color_palette": "",
+    "distinctive_building_types": "Mosques with minarets in Bosniak areas and Orthodox churches in Serb areas; unfinished brick family houses; the old Ottoman stone bridge at Mostar."
+  },
+
+  "nature": {
+    "vegetation": "Dense beech and pine forest on the mountains, farmland on the northern plains, and an alpine tundra zone above about 1,500m on peaks such as Bjelašnica.",
+    "terrain": "Flat plains in the north give way to the mountainous Dinaric Alps in the south; steep karst terrain forces roads to wind along valleys beside green rivers; the country touches the Adriatic Sea only at the short coastline around Neum.",
+    "climate_signature": "Continental in the north and mountainous in the interior, with a Mediterranean touch only around Neum and the far south."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "White plates whose letters are limited to those written the same in Latin and Cyrillic (A, E, O, J, K, M and T), so the plate reads the same in either script.",
+    "plate_format": "",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Coverage follows the main valleys and towns; steep mountain areas are thinner."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Serbia",
+      "shared_traits": "Cyrillic signs in one entity, boxy thin-B-style guardrails, similar villages and Balkan architecture",
+      "tiebreaker": "Blue fire hydrants, milepost-style signs and plates limited to shared-script letters point here; Serbian bollards show an off-centre red reflector."
+    },
+    {
+      "country": "Croatia",
+      "shared_traits": "Latin-script towns in the Federation, similar red-brick houses on the northern plain and Adriatic coast at Neum",
+      "tiebreaker": "Blue fire hydrants are common here (sources describe Croatia's as grey or narrow blue, so treat this as a weak tell), Cyrillic appears in one entity, and Croatian signs carry the checkerboard shield."
+    },
+    {
+      "country": "Montenegro / Slovenia",
+      "shared_traits": "Shared mountain roads, similar bollards and milepost-style road signs",
+      "tiebreaker": "The mix of Latin and Cyrillic, blue fire hydrants and the neighbour-shared boxy guardrails; compare details directly."
+    }
+  ]
+}

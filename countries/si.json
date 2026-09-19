@@ -1,0 +1,82 @@
+{
+  "id": "si",
+  "name": "Slovenia",
+  "aliases": ["Republic of Slovenia", "Slovenija"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/slovenia/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Slovenia",
+    "https://en.wikipedia.org/wiki/Julian_Alps",
+    "https://en.wikipedia.org/wiki/Hayrack"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇸🇮",
+    "capital": "Ljubljana"
+  },
+
+  "language": {
+    "official_languages": ["Slovene"],
+    "script": "Latin",
+    "sample_text": "POZOR — CESTNA DELA",
+    "script_notes": "A Slavic language written in Latin script with the letters č, š and ž; the č distinguishes it from German-language Austria. Urban restriction signs read 'CONA' where neighbouring languages say 'ZONE'. The internet domain is .si.",
+    "false_friends": ["Austria", "Croatia", "Italy", "Hungary", "Serbia", "Montenegro"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White bollards nearly identical to Austria's, with black caps also seen on the same design; the style is shared with Montenegro too.",
+    "bollard_shape": "Slim white post.",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Small white roadside markers with route numbers are more frequent than in Croatia or Serbia. White chevrons mark curves and are newer than those in neighbouring countries, reflecting higher wealth. Signs often carry yellow stickers on the back, pedestrian-crossing signs show no belt or sash on the figure, and orange pencil-shaped tourist signs appear (shared with other former Yugoslav states)."
+  },
+
+  "architecture": {
+    "roof_style": "Steep gable roofs in the Alpine northwest; red tile roofs on limestone houses in the west and center; church steeples in nearly every alpine village.",
+    "roof_material": "Clay tile and stone-tile roofs.",
+    "wall_construction": "Houses decorated with bright red flowers in window boxes; limestone houses in the west and center; Alpine timber-and-stone architecture in the northwest mountains; wooden hayracks (kozolci) with slatted sides standing in fields.",
+    "wall_color_palette": "White and pastel plaster with red geraniums, and grey limestone.",
+    "distinctive_building_types": "Freestanding and double hayracks (kozolci) in fields; hilltop churches with pointed steeples; Karst stone farmhouses; Ljubljana's Art Nouveau and Baroque center."
+  },
+
+  "nature": {
+    "vegetation": "Dense forest covering over half the land, alpine meadows, karst scrub and pine in the southwest, vineyards and orchards on the hills, and maize fields on the eastern plains.",
+    "terrain": "A compact Alpine–Mediterranean country: the Julian Alps and glacier-carved valleys (Triglav, 2,864m, is the highest peak) in the northwest, the Karst limestone plateau in the southwest, a short Adriatic coastline, and Pannonian plains in the east with no surrounding mountains.",
+    "climate_signature": "Cool and green with snowy mountains, and drier and warmer toward the coast and eastern plains."
+  },
+
+  "vehicles": {
+    "common_brands": ["Renault", "Volkswagen", "Škoda", "Opel"],
+    "plate_color": "White plate with black text and a blue EU strip on the left; the two letters before the shield sticker denote the region of registration.",
+    "plate_format": "",
+    "distinctive_vehicles": "Renault is very common because Revoz, the country's only automaker, assembles Renaults in Novo Mesto."
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Dense coverage of roads including mountain passes such as Vršič."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Austria",
+      "shared_traits": "Alpine landscape, similar bollards and tidy villages",
+      "tiebreaker": "The letter č appears in Slovene but not in German; signs here have yellow stickers on the back while Austrian signs have black backs, and chevrons have no coloured background."
+    },
+    {
+      "country": "Croatia / Hungary",
+      "shared_traits": "Shared border regions and Pannonian plain in the east",
+      "tiebreaker": "Pedestrian-crossing figures without a belt or sash are found here, whereas Croatian and Hungarian ones have them; small white route-number markers are more frequent."
+    },
+    {
+      "country": "Italy",
+      "shared_traits": "Adriatic karst coast and Alpine northwest near the border",
+      "tiebreaker": "Slovene text with č, š and ž and 'CONA' signs versus Italian 'Via' streets and Italy's red-diagonal bollards."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "gr",
+  "name": "Greece",
+  "aliases": ["Hellenic Republic", "Ελλάδα", "Hellas"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/greece/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Greece",
+    "https://geometas.com/metas/regions/eastern_europe/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇬🇷",
+    "capital": "Athens"
+  },
+
+  "language": {
+    "official_languages": ["Greek"],
+    "script": "Greek",
+    "sample_text": "ΠΡΟΣΟΧΗ — ΕΡΓΑ ΣΤΟ ΟΔΟΣΤΡΩΜΑ",
+    "script_notes": "Greek alphabet with letters such as Σ, λ, Ω, Δ and Ψ; road signs are usually bilingual with a Latin transliteration beneath the Greek. Place names use endings like -άτα (common on Kefalonia) and -ανά or -ές (common on Crete and in the mountains). Telephone area codes begin with 2, such as 21 (Athens), 231 (Thessaloniki), 266 (Corfu) and 28 (Crete).",
+    "false_friends": ["Bulgaria", "Albania", "North Macedonia", "Turkey", "Cyprus", "Italy"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Bollards with a red reflector on a black background.",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "Almost all main roads have median strips with double white center lines, a very characteristic Greek look.",
+    "curb_style": "",
+    "km_marker_style": "Chevrons show white arrows on a black background (as in Albania). Telephone poles are often made of wood. Warning signs often have an orange background (also seen in Poland and North Macedonia), while speed-limit signs are on a white background, unlike North Macedonia's orange. Small chapel-like roadside shrines called kandylakia mark memorials."
+  },
+
+  "architecture": {
+    "roof_style": "Reddish-brown tile roofs on mainland houses; flat roofs on remote islands.",
+    "roof_material": "Red-brown clay tile on the mainland.",
+    "wall_construction": "White-plastered walls with reddish-brown roofs are the classic look; flat-roofed, whitewashed cubic houses on the Cycladic islands; concrete-frame apartment blocks in Athens and other cities.",
+    "wall_color_palette": "White walls with blue trim and doors, and reddish-brown tile.",
+    "distinctive_building_types": "Whitewashed churches with blue domes; roadside shrines (kandylakia); ancient temples and ruins; small island villages of stacked white houses (Hydra has no cars at all, and Sifnos has more than 300 churches)."
+  },
+
+  "nature": {
+    "vegetation": "Olive groves everywhere, vineyards throughout, cotton fields on the flatlands, pine and scrub on dry hillsides, and bare white limestone karst rock showing through in many areas.",
+    "terrain": "A mountainous mainland and thousands of islands, with rugged coastlines, dry hillsides and limestone karst; flat plains only in the north and center.",
+    "climate_signature": "Hot, dry, sun-bleached Mediterranean summers with bright light and a deep blue sea on the horizon."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "White plate with black text and, since 2004, a blue strip on the left with the EU stars and 'GR'.",
+    "plate_format": "Three letters, a hyphen and four digits from 1000 (e.g. 'ΑΒΓ-1234'); Athens and Thessaloniki are marked by just the first letter and other districts by the first two.",
+    "distinctive_vehicles": "Taxi colours vary by city — yellow in Athens, silver in Heraklion and dark blue in Thessaloniki; scooters and small trucks."
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Dense coverage of the mainland and the larger islands; some small islands are thin."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Albania / North Macedonia",
+      "shared_traits": "Neighbouring Balkan landscapes, similar chevrons (Albania) and orange warning signs (North Macedonia)",
+      "tiebreaker": "The Greek alphabet, double-white center lines and white speed-limit signs distinguish this country."
+    },
+    {
+      "country": "Turkey",
+      "shared_traits": "Aegean coast, olive groves, similar landscape and apartment blocks across the sea",
+      "tiebreaker": "Greek script and churches versus Turkish Latin script with ı and ş and mosques; Greek plates have three letters and four digits."
+    },
+    {
+      "country": "Cyprus / Italy",
+      "shared_traits": "Mediterranean architecture, olive groves and terracotta roofs",
+      "tiebreaker": "Cyprus drives on the left and uses British-style signs; Italy uses red-diagonal bollards and 'Via' street names, while Greek script appears here."
+    }
+  ]
+}
