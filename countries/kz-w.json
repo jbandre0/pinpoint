@@ -1,0 +1,81 @@
+{
+  "id": "kz-w",
+  "name": "West (Caspian · Mangystau · Atyrau · Aktobe)",
+  "aliases": ["Western Kazakh Steppe", "Caspian region"],
+  "continent": "Asia",
+  "tier": 3,
+  "status": "draft",
+  "parent": "kz",
+  "sources": [
+    "https://www.kazakh.travel/en/blog/regions-of-kazakhstan-travel-guide",
+    "https://en.wikipedia.org/wiki/Kazakh_Steppe"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇰🇿",
+    "capital": "Aktau / Atyrau"
+  },
+
+  "language": {
+    "official_languages": ["Kazakh", "Russian"],
+    "script": "Cyrillic (with extra Kazakh letters)",
+    "sample_text": "НАЗАР АУДАРЫҢЫЗ — ЖОЛ ЖҰМЫСТАРЫ",
+    "script_notes": "Kazakh and Russian, with English and other languages on some oil-industry and company signs.",
+    "false_friends": ["Turkmenistan", "Uzbekistan (Ustyurt plateau)", "Russia (Astrakhan and Orenburg)", "Azerbaijan (across the Caspian)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": ""
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs on Soviet blocks and low prefab buildings suited to the dry climate.",
+    "roof_material": "Flat concrete and corrugated metal.",
+    "wall_construction": "Oil-industry towns of Soviet-era panel blocks and modern glass buildings around Aktau and Atyrau; simple single-storey houses in dusty villages; underground mosques and necropolises carved into the Mangystau plateau.",
+    "wall_color_palette": "Sun-faded sand and grey tones.",
+    "distinctive_building_types": "Oil and gas facilities and pipelines; Soviet-planned Caspian port towns; rock-cut underground mosques; roadside cemeteries with stone mausoleum-like tombs."
+  },
+
+  "nature": {
+    "vegetation": "Semi-desert and desert with sparse thorny scrub and sagebrush; almost treeless and very dry.",
+    "terrain": "Flat clay and sand desert plains and the Ustyurt and Mangystau plateaus with chalk cliffs and canyons, dropping to the shore of the Caspian Sea, the world's largest inland body of water.",
+    "climate_signature": "Very hot, dry summers and cold winters, dusty and sun-bleached, far from the green north and snowy mountains."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Hyundai", "Lada", "Kia"],
+    "plate_color": "",
+    "plate_format": "Region codes such as 12 (Mangystau) and 06 (Atyrau) in the square on the right.",
+    "distinctive_vehicles": "Heavy oil-field trucks and 4x4s."
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Coverage follows the main roads and cities such as Aktau and Atyrau; huge stretches of desert have none."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Turkmenistan / Uzbekistan",
+      "shared_traits": "Shared Ustyurt desert plateau and Caspian shore landscape",
+      "tiebreaker": "Kazakh Cyrillic with the extra letters and KZ plates with a light-blue flag are the reliable tells; those countries have little or no official coverage in the same desert."
+    },
+    {
+      "country": "Russia (Astrakhan)",
+      "shared_traits": "Shared Caspian lowland and Cyrillic signage",
+      "tiebreaker": "The extra Kazakh letters and KZ plates differ from Russian signs and plates."
+    },
+    {
+      "country": "North & Central / South & East (same country)",
+      "shared_traits": "Same country, same plates and script",
+      "tiebreaker": "The west is dry desert and plateau by the Caspian; the north is cold steppe and the southeast has snowy mountains."
+    }
+  ]
+}

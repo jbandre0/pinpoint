@@ -1,0 +1,77 @@
+{
+  "id": "kz-n",
+  "name": "North & Central Steppe (Astana · Karaganda · Kostanay · Pavlodar)",
+  "aliases": ["Northern Kazakh Steppe"],
+  "continent": "Asia",
+  "tier": 3,
+  "status": "draft",
+  "parent": "kz",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kazakh_Steppe",
+    "https://en.wikipedia.org/wiki/Kazakh_Uplands",
+    "https://www.odysseytraveller.com/articles/kazakh-steppe/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇰🇿",
+    "capital": "Astana"
+  },
+
+  "language": {
+    "official_languages": ["Kazakh", "Russian"],
+    "script": "Cyrillic (with extra Kazakh letters)",
+    "sample_text": "НАЗАР АУДАРЫҢЫЗ — ЖОЛ ЖҰМЫСТАРЫ",
+    "script_notes": "Russian is especially dominant in the north, where a large ethnic Russian population lives, so signs are frequently bilingual and Russian may appear alone; the extra Kazakh letters appear on official signs.",
+    "false_friends": ["Southern Siberia (Russia)", "Omsk and Orenburg regions (Russia)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": ""
+  },
+
+  "architecture": {
+    "roof_style": "Metal roofs on village houses; flat roofs on Soviet blocks; a spiky modern skyline in the capital.",
+    "roof_material": "Corrugated metal and flat concrete.",
+    "wall_construction": "Soviet panel blocks and single-storey houses in the mining and industrial towns of the center (Karaganda); a planned capital of futuristic towers, gold-glass buildings and wide avenues built on a bare steppe.",
+    "wall_color_palette": "Grey concrete and glass, with gold and white on the capital's landmarks.",
+    "distinctive_building_types": "The capital's tower, pyramid and tent-shaped landmarks; Soviet mining towns and monuments; Russian-style wooden houses in the north."
+  },
+
+  "nature": {
+    "vegetation": "Endless grass steppe, with birch groves and pine forest in the northern lake-dotted areas and dry feather-grass steppe toward the center.",
+    "terrain": "Extremely flat, open steppe with low hills in the Kazakh Uplands; lakes and wetlands such as Korgalzhyn in the north; very low population density.",
+    "climate_signature": "Bitterly cold winters — the capital is among the coldest capitals on Earth — and hot dry summers, with huge skies."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Hyundai", "Lada", "Kia"],
+    "plate_color": "",
+    "plate_format": "Region codes such as 01 (Astana) and 09 (Karaganda) in the square on the right.",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Coverage centers on the capital, Karaganda and the main highways; between the towns it is very sparse."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Russia (Siberia)",
+      "shared_traits": "Flat steppe and birch forest, Soviet blocks, Cyrillic and Russian signage",
+      "tiebreaker": "The letters ә, ғ, қ, ң, ө, ұ, ү and һ and plates with a light-blue flag and 'KZ' set it apart from Russian signs and plates."
+    },
+    {
+      "country": "South & East / West (same country)",
+      "shared_traits": "Same country, same plates and script",
+      "tiebreaker": "The north and center is flat cold steppe and birch groves; the southeast has snowy mountains and the west has dry Caspian desert."
+    }
+  ]
+}

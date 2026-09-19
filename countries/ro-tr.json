@@ -1,0 +1,82 @@
+{
+  "id": "ro-tr",
+  "name": "Transylvania & the Carpathians (Cluj · Sibiu · Brașov)",
+  "aliases": ["Ardeal", "Maramureș and Banat"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "ro",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Villages_with_fortified_churches_in_Transylvania",
+    "https://www.wmf.org/blog/mighty-fortress-our-god-fortified-saxon-churches-southern-transylvania",
+    "https://geopinning.space/en/rule/europe/romania/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇷🇴",
+    "capital": "Cluj-Napoca / Sibiu"
+  },
+
+  "language": {
+    "official_languages": ["Romanian", "Hungarian (regional)", "German (regional)"],
+    "script": "Latin",
+    "sample_text": "ATENȚIE — LUCRĂRI PE DRUM",
+    "script_notes": "Romanian with ș and ț; bilingual Romanian–Hungarian signs are common in the Székely counties of the center-east, with Hungarian letters ő and ű, and German-language signs and names survive in old Saxon towns such as Sibiu and Brașov.",
+    "false_friends": ["Hungary", "Slovakia and Ukraine (Carpathian villages)", "Austria (Saxon architecture)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national, with more guardrails on winding mountain roads.",
+    "line_paint": "As national.",
+    "curb_style": "As national; cobbled town centers with Saxon and Habsburg buildings.",
+    "km_marker_style": "As national — holey poles with white-painted bases and thick black-backed warning triangles."
+  },
+
+  "architecture": {
+    "roof_style": "Steep red or orange clay tile roofs with dormers on Saxon houses; tall shingled or wooden roofs and steeples on mountain churches.",
+    "roof_material": "Red clay tile is specific to the area, alongside wood shingle in the mountains.",
+    "wall_construction": "Villages of Saxon rowhouses with courtyard gates set gable-end to the road, each centered on a fortified church with defensive walls and towers (over 150 survive, and seven villages are UNESCO-listed); carved wooden gates and wooden churches in the northern highlands; Habsburg-era towns with pastel baroque facades.",
+    "wall_color_palette": "White walls with red tile roofs, and pastel baroque plaster in the towns.",
+    "distinctive_building_types": "Fortified Saxon churches surrounded by walls; brightly painted Baroque town squares in Sibiu and Brașov; Bran-style hilltop castles; carved wooden gates and shingle-roofed churches; haystacks and shepherd huts on the high pastures."
+  },
+
+  "nature": {
+    "vegetation": "Dense spruce and beech forest, alpine meadows above the tree line, hay meadows dotted with haystacks, and orchards and vineyards on the hill slopes.",
+    "terrain": "A rolling plateau enclosed by the high arc of the Carpathian Mountains, with peaks over 2,500m, deep valleys, gorges and mountain passes.",
+    "climate_signature": "Cooler and wetter than the plains, with snowy mountain winters and misty green hills."
+  },
+
+  "vehicles": {
+    "common_brands": ["Dacia", "Volkswagen", "Skoda", "Renault"],
+    "plate_color": "As national — county codes such as CJ (Cluj), SB (Sibiu), BV (Brașov).",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Dacia dominates; horse-drawn carts are still used in villages, and hay wagons in summer."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage of towns, villages and the main mountain roads."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Hungary",
+      "shared_traits": "Bilingual Hungarian signs and towns in the center, plus similar baroque architecture",
+      "tiebreaker": "Letters Ș and Ț, holey poles with white bases and thick black-backed warning triangles are found here; Hungarian language dominates only in the Székely enclaves."
+    },
+    {
+      "country": "Slovakia / Ukraine (Carpathians)",
+      "shared_traits": "Shared Carpathian mountain villages and wooden church traditions",
+      "tiebreaker": "Slovak black bollards with double reflectors and Ukrainian Cyrillic are absent; the Romanian holey pole and comma-below letters appear here."
+    },
+    {
+      "country": "Southern & Eastern plains (same country)",
+      "shared_traits": "Same country, same national road furniture and plates",
+      "tiebreaker": "The center is mountainous and wooded with Saxon villages and red tile roofs; the south and east are flat farmland with metal roofs and Orthodox churches."
+    }
+  ]
+}

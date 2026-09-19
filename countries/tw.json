@@ -1,0 +1,82 @@
+{
+  "id": "tw",
+  "name": "Taiwan",
+  "aliases": ["Republic of China", "臺灣", "Formosa"],
+  "continent": "Asia",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://www.plonkit.net/taiwan",
+    "https://geometas.com/metas/regions/rest_of_asia/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Taiwan",
+    "https://www.taipeitimes.com/News/feat/archives/2021/08/21/2003762958"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇹🇼",
+    "capital": "Taipei"
+  },
+
+  "language": {
+    "official_languages": ["Mandarin Chinese"],
+    "script": "Traditional Chinese",
+    "sample_text": "注意 — 前方施工",
+    "script_notes": "Traditional Chinese characters (with their full, complex stroke forms) fill the signs — no hiragana or katakana as in Japan, and not the Simplified forms of mainland China. Phonetic Bopomofo symbols (ㄅㄆㄇㄈ) appear on some signs and in schools. Signs are often bilingual with English in cities.",
+    "false_friends": ["Japan", "China", "Hong Kong", "South Korea"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Black rectangular bollards with two or three circular reflectors, sometimes copied as lollipop-like round reflectors on guardrails.",
+    "bollard_shape": "Slim black rectangle carrying round reflectors.",
+    "guardrail_type": "Guardrails carry round lollipop-like reflectors, much like Japan's.",
+    "line_paint": "White and yellow lines; painted red or yellow kerbs mark no-parking zones.",
+    "curb_style": "Concrete drainage ditches run beside many roads; sidewalks are often blocked by parked scooters.",
+    "km_marker_style": "Diagonal yellow-and-black striped utility poles touching the ground are a strong tell that separates it from Japan and South Korea. Green freeway signs carry flower-shaped route numbers. Box-shaped dark green or grey transformers stand on the ground in many towns."
+  },
+
+  "architecture": {
+    "roof_style": "Flat concrete roofs crowded with rooftop additions, corrugated metal shelters and stainless steel water tanks on stands.",
+    "roof_material": "Flat concrete and corrugated metal or aluminum.",
+    "wall_construction": "Narrow, deep tube houses of concrete with tiled facades line city streets in long rows; illegal rooftop additions and iron-barred window cages (tiechuang) are extremely common; ornate Taoist and folk temples with curved, upswept, dragon-decked roofs stand among office towers.",
+    "wall_color_palette": "Weathered grey and white tile fronts, with vivid signs in fluorescent colours, and red and gold on temples.",
+    "distinctive_building_types": "Narrow tube houses with rooftop tanks; ornate temples with curved tiled roofs; betel nut stands — small glass booths lit in fluorescent green and pink — along roadsides; 7-Eleven and FamilyMart stores on almost every corner."
+  },
+
+  "nature": {
+    "vegetation": "Betel palms, banana and bamboo groves, rice paddies in the west, tea terraces in the hills, and dense subtropical forest in the mountains.",
+    "terrain": "A mountainous island — steep, forested central mountains run its whole length, with a crowded western plain and a narrow, dramatic east coast where a coastal highway runs between the Pacific Ocean and vegetation-covered slopes.",
+    "climate_signature": "Humid subtropical with heavy plum-rain and typhoon seasons — lush, green, hazy and often overcast."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Honda", "Yamaha (scooters)", "Kymco (scooters)"],
+    "plate_color": "White plates with black text.",
+    "plate_format": "Three letters, a hyphen and four digits for cars (e.g. 'ABC-1234'); scooters use a shorter format.",
+    "distinctive_vehicles": "Scooters and small motorcycles swarm the roads, often in dense waves at traffic lights; small Japanese-brand cars and trucks; buses and taxis in bright yellow."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 official coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage across the island, including mountain roads and the east coast."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Japan",
+      "shared_traits": "Similar overhead-wire streetscapes, convenience stores, lollipop reflectors and yellow-and-black striped poles",
+      "tiebreaker": "Left-hand traffic and hiragana or katakana mean Japan; right-hand traffic and Traditional Chinese characters only mean this side, whose striped poles also touch the ground."
+    },
+    {
+      "country": "China / Hong Kong",
+      "shared_traits": "Shared Chinese-character signage and dense urban tube-house streets",
+      "tiebreaker": "Mainland signs use Simplified characters, and Hong Kong drives on the left with British-style signs; here, Traditional characters and right-hand traffic go together."
+    },
+    {
+      "country": "South Korea",
+      "shared_traits": "East Asian convenience stores and dense urban signage, both drive on the right",
+      "tiebreaker": "Hangul blocks versus Chinese characters, and different bollards and poles."
+    }
+  ]
+}

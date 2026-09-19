@@ -1,0 +1,82 @@
+{
+  "id": "ro",
+  "name": "Romania",
+  "aliases": ["România"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/romania/",
+    "https://geometas.com/metas/countries/romania/",
+    "https://en.wikipedia.org/wiki/Villages_with_fortified_churches_in_Transylvania",
+    "https://learnablemeta.com/maps/66fda319b477f9e4abdd34fa"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇷🇴",
+    "capital": "Bucharest"
+  },
+
+  "language": {
+    "official_languages": ["Romanian"],
+    "script": "Latin",
+    "sample_text": "ATENȚIE — LUCRĂRI PE DRUM",
+    "script_notes": "A Latin-script Romance language with the special letters ă, â, î, ș and ț. The comma-below forms Ș/ș and Ț/ț appear in this language and in Moldova but nowhere else in the region. Hungarian appears bilingually in parts of the center.",
+    "false_friends": ["Hungary", "Bulgaria", "Moldova", "Ukraine", "Serbia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Bollards are rare and often highly decorative, with regional variations.",
+    "bollard_shape": "Varies; distinctive enough to avoid mistaking for neighbours'.",
+    "guardrail_type": "Rounded guardrails, unlike the angular square profile of Poland's.",
+    "line_paint": "White center and edge lines on main roads; many rural roads are worn or unmarked.",
+    "km_marker_style": "The 'holey pole' — a concrete utility pole with a large hole running all the way to the ground, the base often painted white or marked in yellow — is the classic tell (holes stop above the ground on Polish poles). Warning triangles are notably thick with black reverse sides, and road markers show the road number (DN or DJ) and distances to the next towns.",
+    "curb_style": "Painted or plain kerbs in towns; rural roads often lined with wooden fences and gates."
+  },
+
+  "architecture": {
+    "roof_style": "Steeply pitched roofs of red or orange clay tile in the northwest and center; corrugated or silver metal roofing across the east and south; onion-shaped and pointed towers on Orthodox churches.",
+    "roof_material": "Clay tile in the west and center, and profiled metal sheeting in the east and south.",
+    "wall_construction": "Plastered masonry houses standing gable-end to the road behind fences and gates; Soviet-era panel apartment blocks in every city; Saxon fortified churches and stone farm courtyards in the center.",
+    "wall_color_palette": "Pastel and bright plaster on villages, white walls on churches, and grey concrete on blocks.",
+    "distinctive_building_types": "Orthodox churches with pointed steeples and painted monasteries; fortified churches; roadside wooden crosses and shrines; Ceaușescu-era concrete apartment blocks; wells with wooden roofs in villages."
+  },
+
+  "nature": {
+    "vegetation": "Deciduous and spruce forest across the Carpathian arc; vast wheat, sunflower and maize plains in the south and east; vineyards and orchards on the hill slopes; reed and willow wetland in the Danube Delta.",
+    "terrain": "The Carpathian Mountains curve through the center of the country, enclosing the Transylvanian plateau, with lowland plains to the south and east and the marshy Danube Delta meeting the Black Sea.",
+    "climate_signature": "Temperate continental — hot summers, cold snowy winters, and a green rolling look in the hills."
+  },
+
+  "vehicles": {
+    "common_brands": ["Dacia", "Volkswagen", "Renault", "Opel"],
+    "plate_color": "White plate with black text and a blue EU strip on the left carrying 'RO'.",
+    "plate_format": "A one- or two-letter county code, two digits, then three letters (e.g. 'B 123 ABC'), where B stands for the capital.",
+    "distinctive_vehicles": "Dacia, the Renault-owned domestic brand, is by far the most common make; horse-drawn carts still appear in some villages."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4 with dense coverage.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage of roads including villages; the Danube Delta has sections reachable only by boat."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Hungary",
+      "shared_traits": "Concrete utility poles, Hungarian-speaking pockets in the center, similar farmland",
+      "tiebreaker": "Both have holes running to the ground, so look at the details: bases painted white or marked yellow, rounded guardrails and thick black-backed warning triangles here; the letters Ș and Ț and Romanian vocabulary also differ from Hungarian letters like ő and ű."
+    },
+    {
+      "country": "Bulgaria",
+      "shared_traits": "Southern plains look similar, with similar farmland and Balkan houses",
+      "tiebreaker": "Latin versus Cyrillic script decides it; poles, guardrails and architecture also differ."
+    },
+    {
+      "country": "Moldova / Ukraine",
+      "shared_traits": "Shared eastern border farmland, Orthodox churches, and (for Moldova) the same Ș and Ț letters",
+      "tiebreaker": "Moldova has essentially no official Street View coverage, so coverage with those letters is almost certainly here; Ukraine uses Cyrillic and white-based poles instead."
+    }
+  ]
+}

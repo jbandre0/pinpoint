@@ -1,0 +1,81 @@
+{
+  "id": "kz-se",
+  "name": "South & East (Almaty · Shymkent · Tien Shan · Altai)",
+  "aliases": ["Semirechye", "Zhetysu"],
+  "continent": "Asia",
+  "tier": 3,
+  "status": "draft",
+  "parent": "kz",
+  "sources": [
+    "https://www.kazakh.travel/en/blog/regions-of-kazakhstan-travel-guide",
+    "https://www.spun.earth/expeditions/kazakhstan"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇰🇿",
+    "capital": "Almaty"
+  },
+
+  "language": {
+    "official_languages": ["Kazakh", "Russian"],
+    "script": "Cyrillic (with extra Kazakh letters)",
+    "sample_text": "НАЗАР АУДАРЫҢЫЗ — ЖОЛ ЖҰМЫСТАРЫ",
+    "script_notes": "Kazakh is more widely used in signage and speech in the south than in the north, alongside Russian in the big cities; Uzbek and Uyghur communities live near the southern border and in the southeast.",
+    "false_friends": ["Kyrgyzstan", "Uzbekistan", "China (Xinjiang)"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": ""
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs on Soviet blocks; pitched metal roofs on houses; domes and minarets on mosques.",
+    "roof_material": "Corrugated metal and flat concrete.",
+    "wall_construction": "Soviet-era blocks with tree-lined avenues in Almaty; single-storey plastered houses behind fences with fruit orchards in the villages; Silk Road-style mausoleums and mosques in the south, including the mausoleum at Turkistan.",
+    "wall_color_palette": "Pastel plaster and grey concrete, with turquoise domes on the mausoleums.",
+    "distinctive_building_types": "Soviet blocks and monuments along broad, tree-lined streets; the Turkistan mausoleum; village houses with orchards and shaded courtyards; snow-capped mountain backdrops to the cities."
+  },
+
+  "nature": {
+    "vegetation": "Apple orchards and poplar-lined roads in the foothills, spruce forest and alpine meadows in the mountains, and dry steppe and semi-desert on the lowland plains of the south.",
+    "terrain": "The country's mountainous corner: the snow-capped Tien Shan and Zailiysky Alatau rise directly behind Almaty, with the Altai mountains in the far northeast and dry lowlands and deserts to the southwest.",
+    "climate_signature": "Warmer and greener than the north, with snow-capped peaks looming above the city."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Hyundai", "Lada", "Kia"],
+    "plate_color": "",
+    "plate_format": "Region codes such as 02 (Almaty city), 05 (Almaty region) and 17 (Shymkent) in the square on the right.",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "Coverage centers on Almaty, Shymkent and the main highways; both Google and Yandex imagery exist in Almaty."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Kyrgyzstan",
+      "shared_traits": "Shared Tien Shan mountain scenery, Soviet-era blocks and Cyrillic signage next to Almaty",
+      "tiebreaker": "The extra Kazakh letters, plates with a light-blue flag and 'KZ' and Kazakh-language signs help separate the two."
+    },
+    {
+      "country": "Uzbekistan / China (Xinjiang)",
+      "shared_traits": "Shared southern desert and mountain terrain and Central Asian culture",
+      "tiebreaker": "Cyrillic script and KZ plates here; Chinese signs and plates in Xinjiang, and different scripts and plates in Uzbekistan."
+    },
+    {
+      "country": "North & Central Steppe (same country)",
+      "shared_traits": "Same country, same plates and script",
+      "tiebreaker": "The southeast has snow-capped mountains, orchards and warmer weather; the north is flat cold steppe."
+    }
+  ]
+}

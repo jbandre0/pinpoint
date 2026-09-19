@@ -1,0 +1,81 @@
+{
+  "id": "ro-pl",
+  "name": "Southern & Eastern Plains (Wallachia · Moldavia · Dobruja · Danube Delta)",
+  "aliases": ["Muntenia"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "parent": "ro",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/romania/",
+    "https://geometas.com/metas/countries/romania/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇷🇴",
+    "capital": "Bucharest / Iași"
+  },
+
+  "language": {
+    "official_languages": ["Romanian"],
+    "script": "Latin",
+    "sample_text": "ATENȚIE — LUCRĂRI PE DRUM",
+    "script_notes": "Romanian with ă, â, î, ș and ț; the same language and letters continue across the eastern border in Moldova, which has no official Street View coverage. Some Turkish and Tatar names appear in Dobruja on the coast.",
+    "false_friends": ["Bulgaria (southern border)", "Ukraine (northeast)", "Moldova"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "As national.",
+    "bollard_shape": "As national.",
+    "guardrail_type": "As national — rounded.",
+    "line_paint": "As national; long straight roads across flat farmland.",
+    "curb_style": "As national.",
+    "km_marker_style": "As national — holey poles, often with a yellow marking near the base."
+  },
+
+  "architecture": {
+    "roof_style": "Silver corrugated metal roofs and ducts are especially common in the northeast; low pitched metal roofs in the south; Orthodox churches with pointed steeples.",
+    "roof_material": "Profiled metal sheeting, often silver, across the east and south.",
+    "wall_construction": "Plastered single-storey village houses with front fences and gates; Soviet-style panel apartment blocks in industrial towns; the capital mixes Belle Époque boulevards, communist blocks and Ceaușescu's huge palace.",
+    "wall_color_palette": "Pastel and bright plaster with metal roofs, and grey concrete blocks in towns.",
+    "distinctive_building_types": "Orthodox churches with painted interiors and monastery complexes in the northeast; village houses with front porches; the Danube Delta's reed-thatched fishing houses reached by boat; communist-era blocks and grand boulevards in the capital."
+  },
+
+  "nature": {
+    "vegetation": "Vast, open wheat, sunflower and maize fields (the southern plain looks much like the neighbouring country to the south), vineyards on the eastern hills, and reed beds, willows and pelicans in the marshy Danube Delta.",
+    "terrain": "Flat Danubian plain in the south, rolling hills in the north-east, dry Dobruja plateau near the Black Sea coast, and the vast, boat-accessible wetlands of the Danube Delta.",
+    "climate_signature": "Hot, dry summers and cold winters with little shelter from the wind — big skies over open fields."
+  },
+
+  "vehicles": {
+    "common_brands": ["Dacia", "Volkswagen", "Renault", "Opel"],
+    "plate_color": "As national — 'B' for the capital and county codes such as IS (Iași) and CT (Constanța).",
+    "plate_format": "As national.",
+    "distinctive_vehicles": "Dacia and older Soviet-era cars, horse-drawn carts in villages and tractors in the fields."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Mostly Gen 3/4.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage of roads and villages; the Danube Delta includes sections reachable only by boat."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Bulgaria",
+      "shared_traits": "Southern plains look similar to the northern Bulgarian plain, with similar farmland and houses",
+      "tiebreaker": "Latin versus Cyrillic script, holey concrete poles and thick black-backed warning triangles here."
+    },
+    {
+      "country": "Ukraine / Moldova",
+      "shared_traits": "Shared northeastern border farmland, silver metal roofs and Orthodox churches",
+      "tiebreaker": "Ukraine uses Cyrillic and white-based poles; Moldova has no official coverage, so Latin-script coverage with ș and ț here is almost certainly this country."
+    },
+    {
+      "country": "Transylvania & the Carpathians (same country)",
+      "shared_traits": "Same country, same national road furniture and plates",
+      "tiebreaker": "The south and east are flat farmland with metal roofs and open horizons; the center is mountainous with Saxon villages and red tile roofs."
+    }
+  ]
+}

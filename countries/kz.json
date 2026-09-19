@@ -1,0 +1,82 @@
+{
+  "id": "kz",
+  "name": "Kazakhstan",
+  "aliases": ["Republic of Kazakhstan", "Qazaqstan", "Казахстан"],
+  "continent": "Asia",
+  "tier": 3,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/asia/kazakhstan/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Kazakhstan",
+    "https://en.wikipedia.org/wiki/Kazakh_Steppe",
+    "https://www.kazakh.travel/en/blog/regions-of-kazakhstan-travel-guide"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇰🇿",
+    "capital": "Astana"
+  },
+
+  "language": {
+    "official_languages": ["Kazakh", "Russian"],
+    "script": "Cyrillic (with extra Kazakh letters); Latin is being introduced",
+    "sample_text": "НАЗАР АУДАРЫҢЫЗ — ЖОЛ ЖҰМЫСТАРЫ",
+    "script_notes": "Cyrillic is used with extra letters found in Kazakh — ә, ғ, қ, ң, ө, ұ, ү, һ and і — which do not appear in Russian; Russian is ubiquitous alongside Kazakh, so signs are often bilingual. A shift toward a Latin-based alphabet is under way, so some signs mix in Latin. Country calling code +7 is shared with Russia.",
+    "false_friends": ["Russia", "Kyrgyzstan", "Mongolia", "Uzbekistan"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "Line colours vary a great deal: major roads often have yellow shoulder lines, while most roads use an all-white scheme.",
+    "curb_style": "",
+    "km_marker_style": "Nearly all road signs are mounted on a white pole with a short black section painted at the base."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs on Soviet apartment blocks; pitched metal roofs on village houses; domes and minarets on mosques.",
+    "roof_material": "Corrugated metal on houses; flat concrete on blocks.",
+    "wall_construction": "Soviet-era prefabricated panel apartment blocks in nearly every town; single-storey brick or plastered houses behind fences in villages; futuristic glass-and-steel towers in the capital.",
+    "wall_color_palette": "Grey concrete with pastel repainting, and glass and gold in the modern capital.",
+    "distinctive_building_types": "Soviet apartment blocks and statues alongside national monuments; mosques; yurt-shaped monuments and buildings; the capital's landmark towers and pyramids."
+  },
+
+  "nature": {
+    "vegetation": "Vast dry steppe grassland across the north and center, semi-desert and desert in the south and west, and alpine forest and meadow in the southeastern mountains.",
+    "terrain": "Very flat over most of the country — the world's largest dry steppe and landlocked country — with the Kazakh Uplands in the center, high Tien Shan and Altai mountains in the southeast and east, and desert plateaus around the Caspian Sea in the west.",
+    "climate_signature": "Extreme continental climate — bitterly cold winters and hot dry summers, with huge open horizons and very sparse population."
+  },
+
+  "vehicles": {
+    "common_brands": ["Toyota", "Hyundai", "Lada", "Kia"],
+    "plate_color": "White plate with black text and the light-blue national flag with 'KZ' on the left.",
+    "plate_format": "Three digits, three letters, then a two-digit region code in a square on the right (e.g. '123 ABC 05'); the last two digits give the region.",
+    "distinctive_vehicles": "A mix of Soviet-era Ladas and used Japanese and Korean imports; trucks and minibuses on long steppe highways."
+  },
+
+  "google_coverage": {
+    "camera_generation": "New official coverage appeared around March 2024; Yandex imagery also covers Astana, Almaty and Karaganda.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Recent and still expanding; the country is enormous and sparsely populated, so coverage is thin outside the main cities and highways."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Russia",
+      "shared_traits": "Cyrillic script, Soviet apartment blocks, endless steppe and forest-steppe in the north, and the shared +7 calling code",
+      "tiebreaker": "The extra letters ә, ғ, қ, ң, ө, ұ, ү and һ appear only in Kazakh, and plates carry a light-blue flag and 'KZ' with a two-digit region code on the right."
+    },
+    {
+      "country": "Kyrgyzstan / Uzbekistan",
+      "shared_traits": "Shared Central Asian landscape, Soviet legacy and mountain and desert scenery in the south",
+      "tiebreaker": "Plates carry the light-blue flag and 'KZ', and the extra Kazakh Cyrillic letters and white sign poles with a black base help separate it; compare plate and script details directly."
+    },
+    {
+      "country": "Mongolia",
+      "shared_traits": "Similar open steppe and sparse population",
+      "tiebreaker": "Kazakh Cyrillic with the extra letters and Russian on signs appear here, and plates use the KZ and light-blue flag format."
+    }
+  ]
+}
