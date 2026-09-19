@@ -1,0 +1,82 @@
+{
+  "id": "ae",
+  "name": "United Arab Emirates",
+  "aliases": ["UAE"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/middle_east/united_arab_emirates/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_the_United_Arab_Emirates",
+    "https://magnav.ae/the-architecture-of-the-uae/",
+    "https://www.dubicars.com/news/why-toyota-land-cruiser-is-so-popular-uae.html"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇦🇪",
+    "capital": "Abu Dhabi"
+  },
+
+  "language": {
+    "official_languages": ["Arabic"],
+    "script": "Arabic",
+    "sample_text": "تنبيه — أعمال طريق",
+    "script_notes": "Arabic script, with English alongside: all official road signs are bilingual, with Arabic placed above English. Many shop and company signs are English-first, reflecting the large expatriate population.",
+    "false_friends": ["Oman", "Saudi Arabia", "Qatar", "Lebanon"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Route shields and directional signs have a distinctive style. Utility poles frequently show striped end sections, though plain silver poles also occur."
+  },
+
+  "architecture": {
+    "roof_style": "Flat roofs on villas and apartment towers.",
+    "roof_material": "Flat concrete, with glass and steel in modern towers.",
+    "wall_construction": "Beige and sand-coloured villas behind high walls; early buildings used coral stone, mud brick and palm fronds for insulation and airflow, until the oil boom brought steel and glass; Dubai's skyline of high-rise towers and construction sites is a strong tell.",
+    "wall_color_palette": "Sand, beige and cream, with mirrored glass on towers.",
+    "distinctive_building_types": "Skyscrapers and construction cranes in Dubai; mosques with domes and minarets; gated villa compounds; coral-stone forts and wind-towers in heritage areas."
+  },
+
+  "nature": {
+    "vegetation": "Flat sandy desert with sparse scrub, and date palms planted along streets and in oases for shade; irrigated green lawns in the cities.",
+    "terrain": "Sandy, dune-covered desert that is rarely perfectly flat, with rocky hills in the eastern suburbs and the Hajar Mountains running alongside the eastern border near Hatta; a low, sandy Gulf coastline.",
+    "climate_signature": "Extremely hot and hazy for much of the year, with bright light and very little rain."
+  },
+
+  "vehicles": {
+    "common_brands": ["Nissan", "Toyota"],
+    "plate_color": "Mainly white plates, sometimes with a red strip on the left; Oman, next door, uses yellow plates, and Qatar uses similar colouring.",
+    "plate_format": "Black text on a white plate of 520mm × 110mm, with serial formats that vary by emirate — letters such as D for Dubai and AD for Abu Dhabi — and Arabic and English characters.",
+    "distinctive_vehicles": "Large SUVs such as the Nissan Patrol and Toyota Land Cruiser dominate; the Street View car's white roof is sometimes visible, especially on Sir Bani Yas Island."
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "The Street View car's white roof appears occasionally, and on Sir Bani Yas Island it is visible in nearly every panorama."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Oman",
+      "shared_traits": "Shared Gulf desert, Arabic and English signage and the rocky Musandam and Hajar hills",
+      "tiebreaker": "White plates (sometimes with a red strip) here versus Oman's yellow plates; Oman's blue directional signs and all-red guardrail reflectors differ."
+    },
+    {
+      "country": "Qatar",
+      "shared_traits": "Similar plate colouring and Gulf desert scenery",
+      "tiebreaker": "The terrain here is rarely perfectly flat and has rocky hills in the east, while Qatar's is uniformly flat."
+    },
+    {
+      "country": "Saudi Arabia",
+      "shared_traits": "Shared Arabian desert and Arabic-script signs",
+      "tiebreaker": "Compare plates and signs directly; the tall Dubai skyline and bilingual Arabic-above-English signs are a strong tell for this country."
+    }
+  ]
+}

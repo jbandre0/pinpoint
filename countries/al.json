@@ -1,0 +1,76 @@
+{
+  "id": "al",
+  "name": "Albania",
+  "aliases": ["Republic of Albania", "Shqipëria"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/albania/",
+    "https://en.wikipedia.org/wiki/Bunkers_in_Albania",
+    "https://www.nationalgeographic.com/travel/article/repurposed-bunkers-and-urban-art-help-albania-move-beyond-communism"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇦🇱",
+    "capital": "Tirana"
+  },
+
+  "language": {
+    "official_languages": ["Albanian"],
+    "script": "Latin",
+    "sample_text": "KUJDES — PUNIME NË RRUGË",
+    "script_notes": "Albanian (Shqip) is written in Latin script with the letters ë and ç, and the letter Ë/ë appears very frequently — a unique tell among its Balkan neighbours. The internet domain is .al.",
+    "false_friends": ["Greece", "North Macedonia", "Montenegro", "Kosovo", "Italy"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "Similar to Italy's bollards.",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Chevron signs have white arrows on a black background, as in Greece and Italy. Street-name signs are Italian-style with dark backs."
+  },
+
+  "architecture": {
+    "roof_style": "Flat concrete roofs, often topped with water tanks mounted on rooftops for storage and pumping.",
+    "roof_material": "Flat concrete and red clay tile.",
+    "wall_construction": "Concrete and red-brick houses, many left unfinished; Soviet- and Fascist-style concrete housing blocks repainted in rainbow colours in Tirana; small mushroom-shaped concrete bunkers everywhere.",
+    "wall_color_palette": "Bright, sometimes clashing colours on repainted blocks, and bare brick and grey concrete elsewhere.",
+    "distinctive_building_types": "Concrete mushroom-shaped bunkers built between 1950 and 1985 — one for every four inhabitants, on the seashore, in front of houses, beside highways and on mountains, now turned into chicken coops, museums and cafés; colourful Tirana apartment blocks; the pyramid building in Tirana."
+  },
+
+  "nature": {
+    "vegetation": "Olive groves and citrus on the coast, Mediterranean scrub on dry hills, and beech and pine forest in the mountains.",
+    "terrain": "Mountainous almost everywhere, with the rugged Albanian Alps in the north, hill and valley country in the south, and a narrow coastal plain on the Adriatic and Ionian seas.",
+    "climate_signature": "Mediterranean along the coast and cooler and snowier in the mountains."
+  },
+
+  "vehicles": {
+    "common_brands": ["Mercedes-Benz", "Volkswagen", "Opel", "Audi"],
+    "plate_color": "White plates with blue bands on both sides, and red plates or red bands on taxis.",
+    "plate_format": "",
+    "distinctive_vehicles": "German-made cars, especially Mercedes-Benz, make up around a third of registered vehicles."
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "The Street View feed sometimes shows a thin black line across the image.",
+    "coverage_notes": ""
+  },
+
+  "confusion_set": [
+    {
+      "country": "Italy",
+      "shared_traits": "Blue-banded plates, Italian-style street signs, bollards and chevrons",
+      "tiebreaker": "The letter Ë/ë and Albanian text settle it; Italian text and street names like 'Via' do not appear here, and the bunkers are found only here."
+    },
+    {
+      "country": "Greece / North Macedonia / Kosovo / Montenegro",
+      "shared_traits": "Neighbouring Balkan mountains and coasts, similar concrete architecture",
+      "tiebreaker": "Latin-script Albanian with Ë/ë is unique among these neighbours, and the mushroom bunkers are found only here."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "il",
+  "name": "Israel",
+  "aliases": ["State of Israel", "ישראל"],
+  "continent": "Asia",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/middle_east/israel/",
+    "https://geometas.com/metas/countries/israel/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Israel",
+    "https://en.wikipedia.org/wiki/White_City_(Tel_Aviv)"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇮🇱",
+    "capital": "Jerusalem"
+  },
+
+  "language": {
+    "official_languages": ["Hebrew", "Arabic (special status)"],
+    "script": "Hebrew (with Arabic and Latin on many signs)",
+    "sample_text": "זהירות — עבודות בכביש",
+    "script_notes": "Hebrew letters — read right to left and mostly square and blocky — stand out at once and appear across the country; road signs are usually shown in Hebrew, Arabic and English together. Arabic script appears alone or alongside Hebrew in Arab towns and villages. The internet domain is .il.",
+    "false_friends": ["Jordan", "Lebanon", "Egypt", "Palestinian territories"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Kerbs and the bases of poles are painted black and white; kerbs can also alternate yellow and red, or white and red — a strong tell.",
+    "km_marker_style": "Tower-like utility structures are common in cities."
+  },
+
+  "architecture": {
+    "roof_style": "Flat concrete roofs crowded with rooftop solar water heaters and water tanks — rooftop solar collectors supply hot water to about 80% of households.",
+    "roof_material": "Flat concrete.",
+    "wall_construction": "White Bauhaus-style buildings in Tel Aviv's 'White City', painted white to reflect the sun; local Jerusalem limestone as the building stone of the capital; concrete apartment blocks in most towns.",
+    "wall_color_palette": "White, cream and pale limestone.",
+    "distinctive_building_types": "Bauhaus and International-style apartment blocks with curved balconies; Jerusalem-stone buildings; rooftops covered in solar water heaters; kibbutz and moshav villages; ancient walls and ruins."
+  },
+
+  "nature": {
+    "vegetation": "Mediterranean scrub, olive and pine in the rainy north, citrus groves on the coastal plain, and sparse desert and steppe vegetation in the south.",
+    "terrain": "A small country of great contrasts — a Mediterranean coastal plain, the hills around Jerusalem and Galilee, the Jordan Rift Valley and Dead Sea, and the arid Negev desert covering the south.",
+    "climate_signature": "Mediterranean with winter rain in the north, and hot, dry desert in the south."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "Yellow plates with black text — the main plate tell, shared in Europe only with the Netherlands and Luxembourg; Palestinian-registered vehicles have green or white plates.",
+    "plate_format": "Numerals separated by hyphens (two digits, three digits, two digits), in black on yellow.",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "The national hiking trail, running from the northernmost point to the southern tip, is covered by trekker imagery."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Palestinian territories",
+      "shared_traits": "Neighbouring landscapes, Arabic-script towns and similar terrain",
+      "tiebreaker": "Yellow plates and the black-and-white painted kerbs and pole bases are the reliable tells here; Palestinian-registered vehicles carry green or white plates."
+    },
+    {
+      "country": "Jordan / Lebanon",
+      "shared_traits": "Shared Levantine landscape, Arabic script and stone architecture",
+      "tiebreaker": "Hebrew signs, yellow plates and rooftop solar water heaters point here; Jordan and Lebanon use Arabic-first signage and different plates."
+    },
+    {
+      "country": "Egypt",
+      "shared_traits": "Shared Sinai and Negev desert terrain along the border",
+      "tiebreaker": "Hebrew signs and yellow plates versus Arabic signs and Egyptian plates."
+    }
+  ]
+}
