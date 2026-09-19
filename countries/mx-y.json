@@ -22,12 +22,12 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "PRECAUCIÓN — ZONA DE TOPES",
-    "script_notes": "Mexican Spanish as national. Yucatec Maya is widely spoken and appears on some signs and place names (x, dz and double vowels — Xcaret, Dzibilchaltún, Chicxulub).",
+    "script_notes": "Yucatec Maya is widely spoken and appears on some signs and place names (x, dz and double vowels — Xcaret, Dzibilchaltún, Chicxulub).",
     "false_friends": ["Belize", "Guatemala (Petén)", "Central Mexico"]
   },
 
   "road_furniture": {
-    "bollard_color": "White-and-orange highway bollards, as national.",
+    "bollard_color": "",
     "bollard_shape": "Slim post.",
     "guardrail_type": "Steel W-beam on the Mérida–Cancún toll road; little elsewhere — the terrain is flat and there is nothing to fall off.",
     "line_paint": "White and yellow lines on the main roads; long dead-straight roads through flat scrub jungle. 'Topes' at every village.",
@@ -59,7 +59,7 @@
   "google_coverage": {
     "camera_generation": "Mostly Gen 3 and Gen 4.",
     "blur_style": "Standard Google blurring.",
-    "coverage_notes": "Bar-and-mirror-free camera car as national. Good coverage on the highways and the tourist coast; long identical straight roads through flat jungle in between."
+    "coverage_notes": "Good coverage on the highways and the tourist coast; long identical straight roads through flat jungle in between."
   },
 
   "confusion_set": [

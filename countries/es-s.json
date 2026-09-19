@@ -22,22 +22,22 @@
     "official_languages": ["Spanish", "Catalan"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS",
-    "script_notes": "Spanish as national; Catalan appears bilingually (and often primarily) on signage in Catalonia/Valencia/the Balearics — visually distinct with doubled 'l·l' and accented vowels.",
+    "script_notes": "Catalan appears bilingually (and often primarily) on signage in Catalonia/Valencia/the Balearics — visually distinct with doubled 'l·l' and accented vowels.",
     "false_friends": ["Southern Italy/Sicily (similar whitewash/Mediterranean look)", "Morocco/North Africa (Moorish architectural influence in Andalusia)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; orange reflectors common on coastal highway guardrails.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense modernist street furniture in Barcelona specifically (distinctive tiled sidewalks, ornate lampposts).",
-    "km_marker_style": "As national."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Orange reflectors common on coastal highway guardrails.",
+    "line_paint": "",
+    "curb_style": "Dense modernist street furniture in Barcelona specifically (distinctive tiled sidewalks, ornate lampposts).",
+    "km_marker_style": ""
   },
 
   "architecture": {
     "roof_style": "Flat or very low-pitch roofs common in the arid Andalusian interior; standard terracotta pitched roofs along the Mediterranean coast and in Catalonia.",
-    "roof_material": "Terracotta tile as national default, though flat roofs increase toward the drier south.",
+    "roof_material": "Flat roofs increase toward the drier south.",
     "wall_construction": "Whitewashed masonry is the defining Andalusian look ('pueblos blancos'), often with Moorish/Mudéjar architectural details (horseshoe arches, tilework, courtyards) reflecting centuries of Islamic rule; Gaudí/Catalan modernist architecture and dense stucco apartment blocks in Barcelona.",
     "wall_color_palette": "Brilliant whitewash is the single strongest Andalusian tell; warm Mediterranean stucco tones along the Costa del Sol/Costa Brava; Barcelona's colourful modernist facades.",
     "distinctive_building_types": "Whitewashed pueblos blancos built into cliff faces (Setenil de las Bodegas); Moorish palace architecture (Alhambra-style arches and tilework); Gaudí's modernist Barcelona landmarks; dense Mediterranean resort development along the coast."
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["SEAT", "Renault", "Peugeot", "Volkswagen"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; heavy tourist/rental car presence along the Costa del Sol."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": "Heavy tourist/rental car presence along the Costa del Sol."
   },
 
   "google_coverage": {

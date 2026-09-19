@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national, with the rare yellow version used in the heaviest snowfall areas.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; heavy use on winding mountain roads.",
-    "line_paint": "As national; roads often snow-covered for months.",
+    "bollard_color": "The rare yellow version used in the heaviest snowfall areas.",
+    "bollard_shape": "",
+    "guardrail_type": "Heavy use on winding mountain roads.",
+    "line_paint": "Roads often snow-covered for months.",
     "curb_style": "Wide roads with minimal shoulder infrastructure; snow-poles and tall markers along mountain roads.",
-    "km_marker_style": "As national — red-and-white corner arrows and large-holed metal utility poles."
+    "km_marker_style": "Red-and-white corner arrows and large-holed metal utility poles."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Fiat", "Renault", "Ford", "Hyundai"],
-    "plate_color": "As national — province codes such as 25 (Erzurum), 65 (Van), 36 (Kars).",
-    "plate_format": "As national.",
+    "plate_color": "Province codes such as 25 (Erzurum), 65 (Van), 36 (Kars).",
+    "plate_format": "",
     "distinctive_vehicles": "Tractors, minibuses and 4WD pickups; snow ploughs in winter."
   },
 

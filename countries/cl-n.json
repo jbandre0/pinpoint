@@ -22,17 +22,17 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Chilean Spanish as national; some Aymara/Andean Indigenous cultural presence near the Bolivian/Peruvian border.",
+    "script_notes": "Some Aymara/Andean Indigenous cultural presence near the Bolivian/Peruvian border.",
     "false_friends": ["Southern Peru (shares the same Atacama-adjacent coastal desert)", "Bolivian altiplano near the border"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; often minimal on remote desert highways.",
-    "line_paint": "As national; long, straight desert roads with wide shoulders.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Often minimal on remote desert highways.",
+    "line_paint": "Long, straight desert roads with wide shoulders.",
     "curb_style": "Minimal to absent outside towns; vast stretches of unmarked open desert.",
-    "km_marker_style": "As national; mining company signage common given the region's copper mining industry."
+    "km_marker_style": "Mining company signage common given the region's copper mining industry."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Chevrolet", "Hyundai", "Kia", "Toyota"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
+    "plate_color": "",
+    "plate_format": "",
     "distinctive_vehicles": "Heavy mining trucks and 4WD vehicles common given the region's copper mining industry and rugged desert terrain."
   },
 

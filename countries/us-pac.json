@@ -22,22 +22,22 @@
     "official_languages": ["English"],
     "script": "Latin",
     "sample_text": "ROAD WORK AHEAD",
-    "script_notes": "English as national; Spanish signage common in California, especially in agricultural Central Valley and southern California.",
+    "script_notes": "Spanish signage common in California, especially in agricultural Central Valley and southern California.",
     "false_friends": ["British Columbia, Canada (same coastal conifer forest)", "Mountain West US (inland forest)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "N/A as national.",
-    "guardrail_type": "Steel W-beam as national, common on winding coastal/mountain roads (e.g. Highway 1).",
-    "line_paint": "Yellow center line as national. Botts' dots (raised round non-reflective lane markers) historically used instead of painted lane lines on California freeways are a state-specific tell where visible.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Common on winding coastal/mountain roads (e.g. Highway 1).",
+    "line_paint": "Botts' dots (raised round non-reflective lane markers) historically used instead of painted lane lines on California freeways are a state-specific tell where visible.",
     "curb_style": "Concrete curbs in dense coastal cities; open shoulders on rural coastal highways.",
-    "km_marker_style": "Wooden utility poles as national, often with dense overhead wiring in coastal California towns."
+    "km_marker_style": "Dense overhead wiring in coastal California towns."
   },
 
   "architecture": {
     "roof_style": "Low-pitch roofs on mid-century California suburban stock; steeper roofs further north in wetter Oregon/Washington to shed rain.",
-    "roof_material": "Asphalt shingle as national default; red clay tile roofing common on Spanish/Mission-revival houses in California.",
+    "roof_material": "Red clay tile roofing common on Spanish/Mission-revival houses in California.",
     "wall_construction": "Stucco construction very common in California (earthquake-country building style); wood-frame siding more common further north in Oregon/Washington.",
     "wall_color_palette": "Warm stucco tones and Mission-revival white/terracotta in California; muted greens/greys against dense evergreen backdrops further north.",
     "distinctive_building_types": "Spanish Mission-revival architecture with red tile roofs (California); redwood-country cabins and lodges; Pacific Northwest craftsman-style wood houses; tech-campus modern architecture in the Bay Area; vineyard architecture in Napa/Sonoma."
@@ -52,7 +52,7 @@
   "vehicles": {
     "common_brands": ["Toyota", "Honda", "Ford", "Tesla"],
     "plate_color": "California: white plate with red/blue script and yellow DMV lettering; Oregon: white/blue with a tree silhouette; Washington: white plate with a green mountain silhouette.",
-    "plate_format": "Varies by state as national (California uses 1ABC234).",
+    "plate_format": "",
     "distinctive_vehicles": "Noticeably higher EV/Tesla presence than the national average, especially in California; logging trucks common on rural Oregon/Washington roads."
   },
 

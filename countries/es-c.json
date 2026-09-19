@@ -22,21 +22,21 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS",
-    "script_notes": "Castilian Spanish as national, without the regional co-official languages of the north/east — this is the linguistic 'home' region of standard Spanish.",
+    "script_notes": "Without the regional co-official languages of the north/east — this is the linguistic 'home' region of standard Spanish.",
     "false_friends": ["Southern Spain (dry farmland can look similar)", "inland Portugal"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; long straight roads across open plateau farmland.",
-    "km_marker_style": "As national; noticeably long, flat, empty horizon-to-horizon roads."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Long straight roads across open plateau farmland.",
+    "km_marker_style": "Noticeably long, flat, empty horizon-to-horizon roads."
   },
 
   "architecture": {
-    "roof_style": "Low-pitch terracotta roofs as national default.",
+    "roof_style": "",
     "roof_material": "Terracotta tile.",
     "wall_construction": "Warm-toned stone and stucco farmhouses; grand imperial-era stone architecture and boulevards in Madrid; historic walled towns (Ávila, Toledo, Segovia) with Romanesque/Mudéjar influence.",
     "wall_color_palette": "Warm ochre and tan tones matching the dry plateau landscape; formal grey/cream stone in Madrid's historic core.",
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["SEAT", "Renault", "Peugeot", "Volkswagen"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; higher urban vehicle density in and around Madrid."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": "Higher urban vehicle density in and around Madrid."
   },
 
   "google_coverage": {

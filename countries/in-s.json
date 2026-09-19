@@ -27,17 +27,17 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; more consistent maintenance in tech-hub cities (Bengaluru, Hyderabad).",
-    "line_paint": "As national.",
-    "curb_style": "As national.",
-    "km_marker_style": "As national."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "More consistent maintenance in tech-hub cities (Bengaluru, Hyderabad).",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": ""
   },
 
   "architecture": {
-    "roof_style": "Flat concrete roofs as national default in cities; the towering, intricately carved gopuram gateway tower is the defining South Indian Dravidian temple signature, visible from a distance.",
-    "roof_material": "Flat poured concrete as national default; traditional sloped clay-tile roofs more common in Kerala given higher rainfall.",
+    "roof_style": "The towering, intricately carved gopuram gateway tower is the defining South Indian Dravidian temple signature, visible from a distance.",
+    "roof_material": "Traditional sloped clay-tile roofs more common in Kerala given higher rainfall.",
     "wall_construction": "Dravidian-style temple complexes with multiple concentric walled courtyards and soaring carved gopurams; colonial-era architecture along the coast (Kochi, Chennai); modern tech-park glass architecture in Bengaluru/Hyderabad.",
     "wall_color_palette": "Brightly painted, intricately carved gopuram towers (often multicoloured) are the strongest single visual tell; whitewashed or red-tile Keralan houses.",
     "distinctive_building_types": "Dravidian temple complexes with towering carved gopurams; Kerala's backwater houseboats and sloped-roof houses; colonial Portuguese/Dutch/British-era coastal architecture; modern IT-park development in Bengaluru/Hyderabad."
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Maruti Suzuki", "Tata", "Mahindra", "Hyundai"],
-    "plate_color": "As national — Tamil Nadu ('TN'), Karnataka ('KA'), Kerala ('KL'), Telangana ('TS') state codes.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; heavier IT-sector commuter traffic in Bengaluru/Hyderabad."
+    "plate_color": "Tamil Nadu ('TN'), Karnataka ('KA'), Kerala ('KL'), Telangana ('TS') state codes.",
+    "plate_format": "",
+    "distinctive_vehicles": "Heavier IT-sector commuter traffic in Bengaluru/Hyderabad."
   },
 
   "google_coverage": {

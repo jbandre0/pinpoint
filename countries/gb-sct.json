@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national; many single-track Highland roads use passing places marked with signs.",
-    "curb_style": "As national; minimal roadside infrastructure in the Highlands.",
-    "km_marker_style": "As national — mph signs and circular pole attachments; Highland single-track roads with diamond passing-place signs are a strong Scotland tell."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "Many single-track Highland roads use passing places marked with signs.",
+    "curb_style": "Minimal roadside infrastructure in the Highlands.",
+    "km_marker_style": "Mph speed signs and circular pole attachments; Highland single-track roads with diamond passing-place signs are a strong tell."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Ford", "Vauxhall", "Volkswagen", "Land Rover"],
-    "plate_color": "As national — white front, yellow rear.",
-    "plate_format": "As national.",
+    "plate_color": "White front, yellow rear.",
+    "plate_format": "",
     "distinctive_vehicles": "4x4 pickups and Land Rovers are common in rural areas; campervans on the North Coast 500 route."
   },
 

@@ -23,7 +23,7 @@
     "official_languages": ["Portuguese"],
     "script": "Latin",
     "sample_text": "ATENÇÃO — OBRAS NA PISTA",
-    "script_notes": "Brazilian Portuguese as national. Some German (Hunsrückisch) and Italian (Talian) village and business names survive in the colonial highland towns, alongside standard Portuguese signage.",
+    "script_notes": "Some German (Hunsrückisch) and Italian (Talian) village and business names survive in the colonial highland towns, alongside standard Portuguese signage.",
     "false_friends": ["Uruguay", "Argentina", "Southeast Brazil"]
   },
 
@@ -31,7 +31,7 @@
     "bollard_color": "No standard bollard, as elsewhere in Brazil.",
     "bollard_shape": "Not applicable.",
     "guardrail_type": "Steel W-beam; concrete barrier on the main highways (BR-101, BR-116, Free Way).",
-    "line_paint": "Yellow centre line, white edge lines; yellow-on-black hazard chevrons — same as national.",
+    "line_paint": "",
     "curb_style": "Painted kerbs in towns; tidy, well-kept streetscapes compared with much of Brazil.",
     "km_marker_style": "The national ladder-and-holes concrete pole. Roads and farms are noticeably more orderly and better-maintained than the national average."
   },

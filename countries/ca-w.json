@@ -27,18 +27,18 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; common on winding mountain/coastal highways.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense formal infrastructure in Vancouver/Victoria.",
-    "km_marker_style": "As national."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Common on winding mountain/coastal highways.",
+    "line_paint": "",
+    "curb_style": "Dense formal infrastructure in Vancouver/Victoria.",
+    "km_marker_style": ""
   },
 
   "architecture": {
     "roof_style": "Steeper roofs common given heavy coastal rainfall; low-pitch roofs on mid-century Vancouver-area suburban stock.",
     "roof_material": "Asphalt shingle and metal roofing widespread.",
-    "wall_construction": "Wood-frame construction as national default, often with a distinctly West Coast modern architectural style (large windows, natural wood, integration with forested/mountain surroundings) in and around Vancouver.",
+    "wall_construction": "Often with a distinctly West Coast modern architectural style (large windows, natural wood, integration with forested/mountain surroundings) in and around Vancouver.",
     "wall_color_palette": "Natural wood tones and muted greens/greys against a dense evergreen backdrop.",
     "distinctive_building_types": "Vancouver's modern glass-tower skyline set dramatically against the Coast Mountains and ocean; ferry terminals connecting Vancouver Island and the mainland; forestry industry infrastructure inland."
   },
@@ -52,8 +52,8 @@
   "vehicles": {
     "common_brands": ["Toyota", "Honda", "Ford", "Subaru"],
     "plate_color": "Blue-on-white with a screened provincial flag — a distinctive and reliable BC-specific plate design.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; higher EV/hybrid presence than the Prairies given BC's environmental policy and urban Vancouver population."
+    "plate_format": "",
+    "distinctive_vehicles": "Higher EV/hybrid presence than the Prairies given BC's environmental policy and urban Vancouver population."
   },
 
   "google_coverage": {

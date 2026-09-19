@@ -22,7 +22,7 @@
     "official_languages": ["Russian"],
     "script": "Cyrillic",
     "sample_text": "ВНИМАНИЕ — РЕМОНТ ДОРОГИ",
-    "script_notes": "Russian Cyrillic as national. White-with-black-base sign poles and big blue direction signs apply here too.",
+    "script_notes": "White-with-black-base sign poles and big blue direction signs apply here too.",
     "false_friends": ["Belarus", "Baltic states", "Ukraine"]
   },
 

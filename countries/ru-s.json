@@ -22,17 +22,17 @@
     "official_languages": ["Russian"],
     "script": "Cyrillic",
     "sample_text": "ВНИМАНИЕ — РЕМОНТ ДОРОГИ",
-    "script_notes": "Russian Cyrillic as national. In the North Caucasus republics (Dagestan, Chechnya, Ingushetia) local titular languages and Arabic religious script also appear on signs and buildings.",
+    "script_notes": "In the North Caucasus republics (Dagestan, Chechnya, Ingushetia) local titular languages and Arabic religious script also appear on signs and buildings.",
     "false_friends": ["Ukraine", "Kazakhstan", "Georgia"]
   },
 
   "road_furniture": {
-    "bollard_color": "Regional colour schemes as national.",
+    "bollard_color": "",
     "bollard_shape": "Plain post.",
     "guardrail_type": "Steel W-beam; mountain roads in the Caucasus have long exposed drops.",
     "line_paint": "White lines on the M4 'Don' highway and main routes; many steppe and mountain roads unmarked.",
     "curb_style": "Painted kerbs in towns.",
-    "km_marker_style": "White sign poles with a black base band. Utility poles as national. The M4 corridor carries heavy holiday traffic toward the Black Sea."
+    "km_marker_style": "White sign poles with a black base band. The M4 corridor carries heavy holiday traffic toward the Black Sea."
   },
 
   "architecture": {

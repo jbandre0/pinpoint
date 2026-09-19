@@ -22,15 +22,15 @@
     "official_languages": ["English"],
     "script": "Latin",
     "sample_text": "CAUTION — ROAD WORK AHEAD",
-    "script_notes": "English as national; a higher proportion of Aboriginal place names and community signage than the coastal cities.",
+    "script_notes": "A higher proportion of Aboriginal place names and community signage than the coastal cities.",
     "false_friends": ["Sub-Saharan Africa (Sahel region — similarly red soil, sparse thorny scrub, flat terrain)", "Western Australia's own outback stretches"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
     "guardrail_type": "Often minimal or entirely absent on remote highways.",
-    "line_paint": "As national, though many roads are a single unmarked lane in each direction with wide dirt shoulders.",
+    "line_paint": "Many roads are a single unmarked lane in each direction with wide dirt shoulders.",
     "curb_style": "Essentially absent; isolated roadhouses serve as the only 'infrastructure' for long stretches.",
     "km_marker_style": "Northern Territory utility poles are distinctively metal with holes in them, unlike poles further south and east. The Stuart Highway (Alice Springs to Darwin/Pimba) is a strong geographic anchor — long, straight, orange-dirt roads with sparse short trees."
   },
@@ -52,7 +52,7 @@
   "vehicles": {
     "common_brands": ["Toyota", "Ford", "Isuzu", "Nissan"],
     "plate_color": "Northern Territory plates sometimes show red-tinged text on white.",
-    "plate_format": "As national.",
+    "plate_format": "",
     "distinctive_vehicles": "Heavy-duty 4WD utes and road trains (multi-trailer trucks) are disproportionately common given the vast distances and remote conditions."
   },
 

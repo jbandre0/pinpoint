@@ -22,12 +22,12 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "PRECAUCIÓN — ZONA DE TOPES",
-    "script_notes": "Mexican Spanish as national — ALTO, 'topes', -MEX names, OXXO. Nahuatl-derived place names are dense here (Tlaxcala, Cuernavaca, Iztapalapa).",
+    "script_notes": "ALTO, 'topes', -MEX names, OXXO. Nahuatl-derived place names are dense here (Tlaxcala, Cuernavaca, Iztapalapa).",
     "false_friends": ["Southern Mexico", "Northern Mexico", "Andean South America"]
   },
 
   "road_furniture": {
-    "bollard_color": "White-and-orange highway bollards, as national.",
+    "bollard_color": "",
     "bollard_shape": "Slim post.",
     "guardrail_type": "Steel W-beam; concrete barrier on the busy toll roads radiating from Mexico City.",
     "line_paint": "White and yellow lines; heavy 'topes' at every town, plus painted crosswalks and speed tables in the colonial centres.",
@@ -59,7 +59,7 @@
   "google_coverage": {
     "camera_generation": "Mostly Gen 3 and Gen 4.",
     "blur_style": "Standard Google blurring.",
-    "coverage_notes": "Bar-and-mirror-free camera car as national. Very dense coverage across the Mexico City megalopolis and the Bajío."
+    "coverage_notes": "Very dense coverage across the Mexico City megalopolis and the Bajío."
   },
 
   "confusion_set": [

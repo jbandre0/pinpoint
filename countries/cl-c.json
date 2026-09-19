@@ -22,17 +22,17 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Chilean Spanish as national — this is the country's demographic and cultural core.",
+    "script_notes": "",
     "false_friends": ["Central Argentina (across the Andes)", "coastal Peru/Ecuador (similar Pacific climate in parts)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense formal urban infrastructure in Santiago.",
-    "km_marker_style": "As national; extensive vineyard/farm road network through the Central Valley."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Dense formal urban infrastructure in Santiago.",
+    "km_marker_style": "Extensive vineyard/farm road network through the Central Valley."
   },
 
   "architecture": {
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Chevrolet", "Hyundai", "Kia", "Toyota"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; heaviest vehicle density given Santiago's population."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": "Heaviest vehicle density given Santiago's population."
   },
 
   "google_coverage": {

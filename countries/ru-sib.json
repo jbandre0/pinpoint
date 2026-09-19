@@ -22,12 +22,12 @@
     "official_languages": ["Russian"],
     "script": "Cyrillic",
     "sample_text": "ВНИМАНИЕ — РЕМОНТ ДОРОГИ",
-    "script_notes": "Russian Cyrillic as national. Buryat (also Cyrillic) appears around Lake Baikal and Ulan-Ude, and Tuvan around Kyzyl.",
+    "script_notes": "Buryat (also Cyrillic) appears around Lake Baikal and Ulan-Ude, and Tuvan around Kyzyl.",
     "false_friends": ["Kazakhstan", "European Russia", "Mongolia"]
   },
 
   "road_furniture": {
-    "bollard_color": "Regional colour schemes as national.",
+    "bollard_color": "",
     "bollard_shape": "Plain post.",
     "guardrail_type": "Steel W-beam on the federal highway; long unprotected stretches elsewhere.",
     "line_paint": "Centre lines on the R254/R255 trans-Siberian highway and in towns; much of the network is unmarked or gravel.",

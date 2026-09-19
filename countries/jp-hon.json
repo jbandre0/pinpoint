@@ -21,7 +21,7 @@
     "official_languages": ["Japanese"],
     "script": "Japanese (kanji + hiragana + katakana)",
     "sample_text": "この先工事中 — 注意",
-    "script_notes": "Standard Japanese as national — this is the highest-density, highest-coverage part of the whole country, so most 'generic Japan' imagery is actually Honshu.",
+    "script_notes": "This is the highest-density, highest-coverage part of the whole country, so most 'generic Japan' imagery is actually Honshu.",
     "false_friends": ["Hokkaido (in winter)", "Kyushu"]
   },
 
@@ -29,7 +29,7 @@
     "bollard_color": "White, national standard.",
     "bollard_shape": "Slim posts, national standard.",
     "guardrail_type": "Plain white guardrail is the default; regional colour accents appear near prefecture borders (this file covers the un-accented central majority).",
-    "line_paint": "White/yellow center lines as national.",
+    "line_paint": "",
     "curb_style": "Low concrete kerb with narrow drainage gutter — extremely common on residential streets in this densely built region.",
     "km_marker_style": "Yellow-and-black striped poles nationwide; dense overhead wire clutter is especially pronounced here given how built-up the region is."
   },
@@ -50,14 +50,14 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Honda", "Suzuki", "Daihatsu"],
-    "plate_color": "White/yellow/green as national.",
-    "plate_format": "Two-line format as national; top line shows a Honshu regional office name — e.g. 品川/練馬 (Tokyo wards), なにわ/大阪 (Osaka), 名古屋 (Nagoya).",
+    "plate_color": "",
+    "plate_format": "Top line shows a Honshu regional office name — e.g. 品川/練馬 (Tokyo wards), なにわ/大阪 (Osaka), 名古屋 (Nagoya).",
     "distinctive_vehicles": "Kei cars everywhere given how narrow the streets are; heavy taxi and delivery-van presence in the big cities."
   },
 
   "google_coverage": {
     "camera_generation": "Mix of Gen 3 and Gen 4, with the newest coverage concentrated in and around the largest cities.",
-    "blur_style": "Standard Japan low-mounted-camera blur as national.",
+    "blur_style": "",
     "coverage_notes": "The densest and most complete coverage in the whole country — this is the 'default' Japan look most players see."
   },
 

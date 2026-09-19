@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national; long, straight steppe roads with sparse markings.",
-    "curb_style": "As national.",
-    "km_marker_style": "As national, including white-painted pole bases and roadside objects in national colours."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "Long, straight steppe roads with sparse markings.",
+    "curb_style": "",
+    "km_marker_style": "White-painted pole bases and roadside objects in national colours."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Lada", "Volkswagen", "Renault", "Daewoo"],
-    "plate_color": "As national — region letters such as 'BH' for Odesa Oblast.",
-    "plate_format": "As national.",
+    "plate_color": "Region letters such as 'BH' for Odesa Oblast.",
+    "plate_format": "",
     "distinctive_vehicles": "A high proportion of older Soviet-era cars and industrial and mining trucks; trams operate in several cities."
   },
 

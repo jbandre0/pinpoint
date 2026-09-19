@@ -29,16 +29,16 @@
   "road_furniture": {
     "bollard_color": "Quebec: long, thin white posts always attached to guardrails, with a red or green reflector at the top — a strong, reliable Quebec-specific tell, sometimes paired with yellow fire-hydrant markers on signposts (Quebec City's often carry a blue rectangle). Ontario: diamond-shaped roadside markers that vary in colour.",
     "bollard_shape": "Varies by province as described above.",
-    "guardrail_type": "As national, with Quebec's bollard-on-guardrail combination as a specific regional tell.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense formal infrastructure in Toronto, Montreal, Ottawa.",
+    "guardrail_type": "Quebec's bollard-on-guardrail combination as a specific regional tell.",
+    "line_paint": "",
+    "curb_style": "Dense formal infrastructure in Toronto, Montreal, Ottawa.",
     "km_marker_style": "Ontario's speed-limit signs explicitly include a 'km/h' label in white text on black at the bottom."
   },
 
   "architecture": {
     "roof_style": "The Ontario Style House (rectangular wood-frame with a gable over the short side, a smaller entrance gable) is a distinctive historic Ontario form; Quebec's French Catholic churches use a distinct architectural tradition that did not adopt the High Gothic Revival style common in Ontario/Maritime churches.",
-    "roof_material": "Asphalt shingle and metal roofing widespread, as national.",
-    "wall_construction": "Wood-frame siding as national default; Quebec's older towns carry a distinct French-Canadian architectural character (steep silver tin roofs, dormer windows); Maritime coastal towns feature lighthouses and clapboard fishing-village architecture.",
+    "roof_material": "",
+    "wall_construction": "Quebec's older towns carry a distinct French-Canadian architectural character (steep silver tin roofs, dormer windows); Maritime coastal towns feature lighthouses and clapboard fishing-village architecture.",
     "wall_color_palette": "Muted wood-frame tones nationally; Quebec's older buildings sometimes carry French colonial-era grey stone.",
     "distinctive_building_types": "Quebec's French Catholic churches and old-town architecture (Quebec City, Old Montreal); Ontario-style historic wood-frame farmhouses; Maritime lighthouses and clapboard fishing villages; Toronto's modern skyline."
   },
@@ -52,8 +52,8 @@
   "vehicles": {
     "common_brands": ["Ford", "Chevrolet", "Toyota", "Honda"],
     "plate_color": "Ontario white-with-blue-text ('Yours to Discover'), Quebec blue-on-white with a fleur-de-lis, Maritime provinces embossed red (New Brunswick) or blue (Nova Scotia) on white.",
-    "plate_format": "As national, varying by province.",
-    "distinctive_vehicles": "As national; heaviest overall vehicle density given this region holds most of Canada's population."
+    "plate_format": "",
+    "distinctive_vehicles": "Heaviest overall vehicle density given this region holds most of Canada's population."
   },
 
   "google_coverage": {

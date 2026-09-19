@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; more common on winding mountain roads.",
-    "line_paint": "As national.",
-    "curb_style": "As national.",
-    "km_marker_style": "As national; dramatic switchback mountain roads are common."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "More common on winding mountain roads.",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Dramatic switchback mountain roads are common."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Isuzu", "Honda", "Mitsubishi"],
-    "plate_color": "As national; province names such as Chiang Mai (เชียงใหม่) and Chiang Rai (เชียงราย) appear on the plate.",
-    "plate_format": "As national.",
+    "plate_color": "Province names such as Chiang Mai (เชียงใหม่) and Chiang Rai (เชียงราย) appear on the plate.",
+    "plate_format": "",
     "distinctive_vehicles": "Red songthaews (shared pickup-truck taxis) are the iconic Chiang Mai transport — a distinctive regional tell."
   },
 

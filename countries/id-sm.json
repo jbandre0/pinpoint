@@ -22,17 +22,17 @@
     "official_languages": ["Indonesian", "Minangkabau", "Batak"],
     "script": "Latin",
     "sample_text": "AWAS — ADA PERBAIKAN JALAN",
-    "script_notes": "Indonesian as national; strong regional ethnic identity (Minangkabau in West Sumatra, Batak around Lake Toba, Acehnese in the north — Aceh applies elements of Sharia law and has more visible Islamic dress/signage conventions than elsewhere in Indonesia).",
+    "script_notes": "Strong regional ethnic identity (Minangkabau in West Sumatra, Batak around Lake Toba, Acehnese in the north — Aceh applies elements of Sharia law and has more visible Islamic dress/signage conventions than elsewhere in Indonesia).",
     "false_friends": ["Java", "Malaysia (shares the Strait of Malacca coastline and similar rainforest)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; less consistently maintained than Java's more developed network.",
-    "line_paint": "As national.",
-    "curb_style": "As national; more rural/less developed infrastructure outside major cities (Medan, Palembang, Padang) than Java.",
-    "km_marker_style": "As national."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Less consistently maintained than Java's more developed network.",
+    "line_paint": "",
+    "curb_style": "More rural/less developed infrastructure outside major cities (Medan, Palembang, Padang) than Java.",
+    "km_marker_style": ""
   },
 
   "architecture": {
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Honda", "Daihatsu", "Mitsubishi"],
-    "plate_color": "As national — area codes differ from Java (e.g. 'BK' for North Sumatra/Medan).",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "Heavy motorbike traffic as national; more logging/palm-oil trucks visible on rural roads than in Java."
+    "plate_color": "Area codes differ from Java (e.g. 'BK' for North Sumatra/Medan).",
+    "plate_format": "",
+    "distinctive_vehicles": "More logging/palm-oil trucks visible on rural roads than in Java."
   },
 
   "google_coverage": {

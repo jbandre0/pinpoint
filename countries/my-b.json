@@ -27,11 +27,11 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
     "km_marker_style": "Sabah federal routes carry an 'A' prefix before the route number, unlike the numeric-only codes on the peninsula. In Sarawak, electricity poles carry WHITE stickers (peninsular poles carry black), often with a distinctive 2-1 insulator configuration and a long diagonal wooden support brace."
   },
 
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Perodua", "Proton", "Toyota", "Isuzu"],
-    "plate_color": "As national — 'Q' prefix for Sarawak, 'S' prefix for Sabah.",
-    "plate_format": "As national.",
+    "plate_color": "'Q' prefix for Sarawak, 'S' prefix for Sabah.",
+    "plate_format": "",
     "distinctive_vehicles": "4WD pickups more common given rougher roads; longboats on Sarawak's rivers."
   },
 

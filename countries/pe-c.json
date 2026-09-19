@@ -22,17 +22,17 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Spanish as national — the coastal cities are the most linguistically homogeneous part of Peru, with less day-to-day Quechua than the highlands.",
+    "script_notes": "The coastal cities are the most linguistically homogeneous part of Peru, with less day-to-day Quechua than the highlands.",
     "false_friends": ["Northern Chile (same coastal desert continuing south)", "coastal Ecuador"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
     "curb_style": "Lima specifically features long, straight boulevard-style streets divided by a concrete or grassy median — unusual within Peru and a useful Lima-specific tell.",
-    "km_marker_style": "As national; the Pan-American Highway runs the length of the coastal strip."
+    "km_marker_style": "The Pan-American Highway runs the length of the coastal strip."
   },
 
   "architecture": {
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Hyundai", "Kia", "Nissan"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "Tuktuks common as national; heaviest overall traffic density given Lima's population."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": "Heaviest overall traffic density given Lima's population."
   },
 
   "google_coverage": {

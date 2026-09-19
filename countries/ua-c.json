@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national — often painted black and white.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense Soviet-era boulevard infrastructure in Kyiv.",
-    "km_marker_style": "As national, including white-painted pole bases."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Often painted black and white.",
+    "line_paint": "",
+    "curb_style": "Dense Soviet-era boulevard infrastructure in Kyiv.",
+    "km_marker_style": "White-painted pole bases."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Lada", "Volkswagen", "Skoda", "Renault"],
-    "plate_color": "As national — 'AA' and 'KA' for Kyiv.",
-    "plate_format": "As national.",
+    "plate_color": "Kyiv uses the 'AA' and 'KA' codes.",
+    "plate_format": "",
     "distinctive_vehicles": "A mix of older Lada and Soviet-era cars with used Western imports; marshrutka minibuses; trams and the Kyiv metro."
   },
 

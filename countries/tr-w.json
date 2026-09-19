@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
     "curb_style": "Painted kerbs in towns; wide divided highways and huge urban interchanges in Istanbul and Ankara.",
-    "km_marker_style": "As national; curved-top street signs are found only in Ankara."
+    "km_marker_style": "Curved-top street signs are found only in Ankara."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Fiat", "Renault", "Ford", "Hyundai"],
-    "plate_color": "As national — province codes like 34 (Istanbul), 35 (Izmir), 06 (Ankara), 07 (Antalya).",
-    "plate_format": "As national.",
+    "plate_color": "Province codes like 34 (Istanbul), 35 (Izmir), 06 (Ankara), 07 (Antalya).",
+    "plate_format": "",
     "distinctive_vehicles": "Yellow taxis in Istanbul, dolmuş minibuses, tractors on farms, and heavy tourist traffic on the coast."
   },
 

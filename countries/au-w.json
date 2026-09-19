@@ -22,22 +22,22 @@
     "official_languages": ["English"],
     "script": "Latin",
     "sample_text": "CAUTION — ROAD WORK AHEAD",
-    "script_notes": "English as national.",
+    "script_notes": "",
     "false_friends": ["South Australia (similar dry scrub/dirt terrain in remote areas)", "Outback/Northern Territory"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
     "km_marker_style": "Yellow sign posts are the single strongest Western Australia-specific tell, distinct from the rest of the country. Utility poles here (and in Victoria) sometimes carry a distinctive 'mountain-shaped' support bracket."
   },
 
   "architecture": {
     "roof_style": "Single-story suburban houses in and around Perth, similar to the national default.",
-    "roof_material": "Corrugated metal roofing as national default.",
+    "roof_material": "",
     "wall_construction": "Brick veneer suburban housing around Perth on the sandy Swan Coastal Plain; isolated mining-town and roadhouse construction across the vast, sparsely populated remainder of the state.",
     "wall_color_palette": "Pale coastal tones around Perth; sun-faded dusty tones in the remote interior/Pilbara mining region.",
     "distinctive_building_types": "Perth's coastal suburban sprawl on sandy, dune-backed terrain; remote mining infrastructure in the Pilbara/Kalgoorlie region; isolated roadhouses along the vast, empty Eyre Highway toward South Australia."
@@ -52,7 +52,7 @@
   "vehicles": {
     "common_brands": ["Toyota", "Ford", "Isuzu", "Nissan"],
     "plate_color": "Western Australia plates are blue/white — one of the more reliable state-plate-colour tells (shared visually with Victoria/Tasmania, but geography narrows it further).",
-    "plate_format": "As national.",
+    "plate_format": "",
     "distinctive_vehicles": "Heavy-duty mining and 4WD vehicles common given the Pilbara mining industry and vast remote distances."
   },
 

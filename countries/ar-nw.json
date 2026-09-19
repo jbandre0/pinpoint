@@ -22,17 +22,17 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Rioplatense Spanish as national, but with a strong ongoing Andean/Indigenous (Quechua/Aymara-influenced) cultural presence reflected in place names and local vocabulary.",
+    "script_notes": "Strong ongoing Andean/Indigenous (Quechua/Aymara-influenced) cultural presence reflected in place names and local vocabulary.",
     "false_friends": ["Bolivia (shares the same Andean altiplano/puna landscape just across the border)", "Southern Peru"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
     "guardrail_type": "Present on winding mountain routes; often absent on high-altitude unpaved roads.",
-    "line_paint": "As national, though many roads are unpaved at higher altitude.",
+    "line_paint": "Many roads are unpaved at higher altitude.",
     "curb_style": "Cobbled streets in colonial Andean villages (Purmamarca, Humahuaca).",
-    "km_marker_style": "As national; roads climbing dramatic switchbacks are common given the terrain."
+    "km_marker_style": "Roads climbing dramatic switchbacks are common given the terrain."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Volkswagen", "Ford", "Chevrolet", "Toyota"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
+    "plate_color": "",
+    "plate_format": "",
     "distinctive_vehicles": "4WD vehicles more common given high-altitude unpaved mountain roads; llamas/alpacas frequently visible alongside roads rather than motor vehicles in the most remote areas."
   },
 

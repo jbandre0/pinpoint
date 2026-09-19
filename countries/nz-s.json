@@ -27,18 +27,18 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national, but a bollard with a green stripe is common in southern Canterbury and pockets of eastern Southland.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; long, quiet, single-lane bridges and gravel roads in remote areas.",
-    "km_marker_style": "As national; the whole island shares the 03 area code. Wooden utility poles appear in the snowy mountains and hollowed-out poles with sheep near them in the far south."
+    "bollard_color": "A bollard with a green stripe is common in southern Canterbury and pockets of eastern Southland.",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Long, quiet, single-lane bridges and gravel roads in remote areas.",
+    "km_marker_style": "The whole island shares the 03 area code. Wooden utility poles appear in the snowy mountains and hollowed-out poles with sheep near them in the far south."
   },
 
   "architecture": {
     "roof_style": "Steeper roofs for snow and rain, in corrugated iron; Gothic Revival stone buildings with steep roofs in Christchurch and Dunedin.",
     "roof_material": "Corrugated iron, plus stone and slate on historic buildings.",
-    "wall_construction": "Timber weatherboard villas as national; Victorian and Edwardian stone and brick buildings in Dunedin and Oamaru (Oamaru has a Victorian-era white limestone precinct); simple huts and lodges in the mountains.",
+    "wall_construction": "Victorian and Edwardian stone and brick buildings in Dunedin and Oamaru (Oamaru has a Victorian-era white limestone precinct); simple huts and lodges in the mountains.",
     "wall_color_palette": "Cream limestone and grey stone in the historic towns, and muted weatherboard elsewhere.",
     "distinctive_building_types": "Gothic Revival stone churches and university buildings; alpine lodges and ski villages around Queenstown and Wānaka; sheep station woolsheds; high-country farm huts."
   },
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Ford", "Mazda", "Nissan"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
+    "plate_color": "",
+    "plate_format": "",
     "distinctive_vehicles": "Many campervans and tourist rentals around Queenstown and Milford Sound; 4WD utes on farms."
   },
 

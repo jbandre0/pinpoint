@@ -21,16 +21,16 @@
     "official_languages": ["English"],
     "script": "Latin",
     "sample_text": "CAUTION — ROAD WORK AHEAD",
-    "script_notes": "English as national — this is the most densely populated and most-covered part of Australia.",
+    "script_notes": "",
     "false_friends": ["New Zealand's North Island (similar suburban development)", "South Africa's coastal cities"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
     "guardrail_type": "NSW/ACT guardrails often end with a yellow background and black diagonal dash — a useful sub-regional tell within this profile.",
-    "line_paint": "As national.",
-    "curb_style": "As national; denser, more formal suburban infrastructure than the Outback or remote WA.",
+    "line_paint": "",
+    "curb_style": "Denser, more formal suburban infrastructure than the Outback or remote WA.",
     "km_marker_style": "Victoria uses circular concrete utility poles with a distinctive 'mountain-shaped' bracket structure that looks vaguely European; Queensland's tropical north has elevated Queenslander-style housing visible along many roads."
   },
 
@@ -51,8 +51,8 @@
   "vehicles": {
     "common_brands": ["Toyota", "Ford", "Mitsubishi", "Holden (legacy)"],
     "plate_color": "NSW commonly yellow plates; Victoria blue/white; Queensland maroon/white — plate colour alone often identifies the specific state within this region.",
-    "plate_format": "As national, varying by state.",
-    "distinctive_vehicles": "As national; heaviest overall vehicle density given this region holds most of Australia's population."
+    "plate_format": "",
+    "distinctive_vehicles": "Heaviest overall vehicle density given this region holds most of Australia's population."
   },
 
   "google_coverage": {

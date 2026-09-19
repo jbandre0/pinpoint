@@ -27,10 +27,10 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
     "guardrail_type": "Striped guardrails with a yellow outer stripe, common on dramatic mountain roads.",
-    "line_paint": "As national.",
+    "line_paint": "",
     "curb_style": "Steep cobbled streets in La Paz; large stone paving in some towns.",
     "km_marker_style": "Thick square lumber utility poles and thick unpainted sign posts; dolls hung on poles as anti-theft warnings in La Paz; the RN3 climbs steep, fog-prone mountains near the capital."
   },
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Suzuki", "Nissan", "Hyundai"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
+    "plate_color": "",
+    "plate_format": "",
     "distinctive_vehicles": "Crowded minibuses (micros) and cable-car gondolas linking La Paz and El Alto; 4x4 Toyotas ferry tourists across the salt flats."
   },
 

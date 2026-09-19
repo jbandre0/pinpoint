@@ -22,12 +22,12 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "PRECAUCIÓN — ZONA DE TOPES",
-    "script_notes": "Mexican Spanish as national. This is Mexico's most indigenous region — Zapotec, Mixtec, Tzotzil, Tzeltal and other languages are widely spoken, and traditional dress is often visible. Teachers'-union (CNTE) political graffiti is common on walls.",
+    "script_notes": "This is Mexico's most indigenous region — Zapotec, Mixtec, Tzotzil, Tzeltal and other languages are widely spoken, and traditional dress is often visible. Teachers'-union (CNTE) political graffiti is common on walls.",
     "false_friends": ["Guatemala", "Central Mexico"]
   },
 
   "road_furniture": {
-    "bollard_color": "White-and-orange highway bollards where present, as national.",
+    "bollard_color": "",
     "bollard_shape": "Slim post.",
     "guardrail_type": "Steel W-beam on the main roads; many mountain roads have none, with frequent landslide scars and 'derrumbes' signs.",
     "line_paint": "Patchy — main highways marked, but many roads are narrow, winding and unmarked; 'topes' everywhere, often unmarked and severe.",
@@ -59,7 +59,7 @@
   "google_coverage": {
     "camera_generation": "Mostly Gen 3, some Gen 4.",
     "blur_style": "Standard Google blurring.",
-    "coverage_notes": "Bar-and-mirror-free camera car as national. Coverage thins out in the mountains; many minor roads unmapped."
+    "coverage_notes": "Coverage thins out in the mountains; many minor roads unmapped."
   },
 
   "confusion_set": [

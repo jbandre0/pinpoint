@@ -30,9 +30,9 @@
     "bollard_color": "Northwest Territories: black-and-white striped cylindrical bollards with two thick black bands — a distinctive regional tell.",
     "bollard_shape": "Cylindrical with thick black-and-white stripes in the NWT.",
     "guardrail_type": "Minimal to absent on the very limited road network.",
-    "line_paint": "As national where roads are paved; many stretches are unpaved gravel.",
+    "line_paint": "Many stretches are unpaved gravel.",
     "curb_style": "Essentially absent outside the handful of covered towns (Whitehorse, Yellowknife, Tuktoyaktuk, Iqaluit, Cambridge Bay).",
-    "km_marker_style": "As national on the very limited highway network — the Dempster Highway (Yukon to NWT) and the Top of the World Highway are among the only long-distance routes with coverage."
+    "km_marker_style": "The Dempster Highway (Yukon to NWT) and the Top of the World Highway are among the only long-distance routes with coverage."
   },
 
   "architecture": {
@@ -52,7 +52,7 @@
   "vehicles": {
     "common_brands": ["Ford", "Chevrolet", "Toyota", "Honda"],
     "plate_color": "The Northwest Territories' famous polar-bear-shaped license plate is a completely unique, instantly recognizable North American design.",
-    "plate_format": "As national elsewhere; NWT's plate shape itself is the identifier.",
+    "plate_format": "NWT's plate shape itself is the identifier.",
     "distinctive_vehicles": "4WD/AWD vehicles necessary given terrain and climate; snowmobiles common in winter."
   },
 

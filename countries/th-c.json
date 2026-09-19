@@ -26,12 +26,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense formal infrastructure in Bangkok including extensive elevated expressways and Skytrain lines.",
-    "km_marker_style": "As national; dense overhead cable clutter on Bangkok's streets is a strong urban tell."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Dense formal infrastructure in Bangkok including extensive elevated expressways and Skytrain lines.",
+    "km_marker_style": "Dense overhead cable clutter on Bangkok's streets is a strong urban tell."
   },
 
   "architecture": {
@@ -50,8 +50,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Isuzu", "Honda", "Mitsubishi"],
-    "plate_color": "As national; Bangkok plates carry 'กรุงเทพมหานคร' (Bangkok Metropolis) beneath the number.",
-    "plate_format": "As national.",
+    "plate_color": "Bangkok plates carry 'กรุงเทพมหานคร' (Bangkok Metropolis) beneath the number.",
+    "plate_format": "",
     "distinctive_vehicles": "Tuk-tuks and pink/green/blue metered taxis (Bangkok's taxi colours) are iconic; extremely heavy motorbike and traffic density in Bangkok."
   },
 

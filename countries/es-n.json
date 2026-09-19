@@ -22,17 +22,17 @@
     "official_languages": ["Spanish", "Galician", "Basque"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS",
-    "script_notes": "Spanish as national, but bilingual signage is extremely common — Galician in Galicia (close to Portuguese), Basque (Euskara, a language isolate with unmistakable non-Latin-derived words like 'kalea' for street) in the Basque Country/Navarre.",
+    "script_notes": "Bilingual signage is extremely common — Galician in Galicia (close to Portuguese), Basque (Euskara, a language isolate with unmistakable non-Latin-derived words like 'kalea' for street) in the Basque Country/Navarre.",
     "false_friends": ["Ireland/UK/Brittany (similar green Atlantic coast)", "Portugal (Galician is close to Portuguese)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national — wedge-shaped, orange front reflector, white rear reflectors — with a distinct flat-design, red-square-reflector variant on the AP-15 in Navarre.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; more common on winding coastal and mountain roads.",
-    "line_paint": "As national.",
-    "curb_style": "As national.",
-    "km_marker_style": "As national; Basque-language place-name signage is a strong regional tell where legible."
+    "bollard_color": "Wedge-shaped, orange front reflector, white rear reflectors — with a distinct flat-design, red-square-reflector variant on the AP-15 in Navarre.",
+    "bollard_shape": "",
+    "guardrail_type": "More common on winding coastal and mountain roads.",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Basque-language place-name signage is a strong regional tell where legible."
   },
 
   "architecture": {
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["SEAT", "Renault", "Peugeot", "Volkswagen"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": ""
   },
 
   "google_coverage": {

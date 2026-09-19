@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national; long, dead-straight rural section-line roads are extremely common given the flat terrain.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "Long, dead-straight rural section-line roads are extremely common given the flat terrain.",
     "curb_style": "Minimal outside towns; open roadside ditches in rural farmland.",
-    "km_marker_style": "As national; grain elevator silhouettes on the horizon near small towns are a defining regional tell."
+    "km_marker_style": "Grain elevator silhouettes on the horizon near small towns are a defining regional tell."
   },
 
   "architecture": {
@@ -52,7 +52,7 @@
   "vehicles": {
     "common_brands": ["Ford", "Chevrolet", "GMC", "Toyota"],
     "plate_color": "Alberta red-on-white ('Wild Rose Country'), Saskatchewan and Manitoba each with their own distinct provincial designs (Manitoba dark blue on white).",
-    "plate_format": "As national, varying by province.",
+    "plate_format": "",
     "distinctive_vehicles": "Farm equipment (tractors, combines) visible in season; pickup trucks especially common given the region's agricultural and oil/gas economy."
   },
 

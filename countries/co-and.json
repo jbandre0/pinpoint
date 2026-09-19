@@ -22,17 +22,17 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Colombian Spanish as national — this is the country's demographic, political and economic core.",
+    "script_notes": "",
     "false_friends": ["Andean Ecuador", "Andean Venezuela (Mérida/Táchira)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; heavily used on winding mountain roads given the terrain.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense formal infrastructure in Bogotá/Medellín.",
-    "km_marker_style": "As national; dramatic switchback mountain roads common between cities given the three parallel Andean ranges."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Heavily used on winding mountain roads given the terrain.",
+    "line_paint": "",
+    "curb_style": "Dense formal infrastructure in Bogotá/Medellín.",
+    "km_marker_style": "Dramatic switchback mountain roads common between cities given the three parallel Andean ranges."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Chevrolet", "Renault", "Mazda", "Kia"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
+    "plate_color": "",
+    "plate_format": "",
     "distinctive_vehicles": "Willys Jeeps are a beloved cultural icon specifically in the Eje Cafetero coffee region, used to transport coffee and passengers on steep mountain roads."
   },
 

@@ -27,11 +27,11 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "Black-and-white painted kerbs as national.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
     "km_marker_style": "Utility poles on the peninsula often carry black rectangular labels with white lettering — this black pole sticker distinguishes the peninsula from Borneo, where the stickers are white."
   },
 
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Perodua", "Proton", "Toyota", "Honda"],
-    "plate_color": "As national — W prefix for Kuala Lumpur, and prefixes such as B (Selangor), P (Penang), J (Johor) identify state.",
-    "plate_format": "As national.",
+    "plate_color": "W prefix for Kuala Lumpur, and prefixes such as B (Selangor), P (Penang), J (Johor) identify state.",
+    "plate_format": "",
     "distinctive_vehicles": "Perodua and Proton dominate — especially the Perodua Myvi, a hugely common small hatchback."
   },
 

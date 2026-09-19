@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national; double yellow lines along kerbs, white studs between dashes.",
-    "curb_style": "As national; dense formal infrastructure in London and the cities.",
-    "km_marker_style": "As national — mph signs, circular pole attachments, black-and-white striped crossing poles with yellow balls."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "Double yellow lines along kerbs, white studs between dashes.",
+    "curb_style": "Dense formal infrastructure in London and the cities.",
+    "km_marker_style": "Mph speed signs, circular pole attachments and black-and-white striped crossing poles with yellow balls."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Ford", "Vauxhall", "Volkswagen", "BMW"],
-    "plate_color": "As national — white front, yellow rear.",
-    "plate_format": "As national.",
+    "plate_color": "White front, yellow rear.",
+    "plate_format": "",
     "distinctive_vehicles": "London's red double-decker buses and black taxi cabs; otherwise the standard national mix."
   },
 

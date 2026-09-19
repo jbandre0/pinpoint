@@ -22,5 +22,7 @@ export default function CountryPage({ params }: { params: { id: string } }) {
     isNational: !r.parent,
   }));
 
-  return <CountryDetail country={record} family={family} />;
+  const parent = (record.parent ? getRecord(record.parent) : null) ?? undefined;
+
+  return <CountryDetail country={record} family={family} parent={parent} />;
 }

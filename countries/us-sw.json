@@ -22,22 +22,22 @@
     "official_languages": ["English"],
     "script": "Latin",
     "sample_text": "ROAD WORK AHEAD",
-    "script_notes": "English as national; Spanish appears bilingually on signage in Arizona/New Mexico/Texas border areas; Native American place names common (Navajo, Hopi, Pueblo).",
+    "script_notes": "Spanish appears bilingually on signage in Arizona/New Mexico/Texas border areas; Native American place names common (Navajo, Hopi, Pueblo).",
     "false_friends": ["Northern Mexico (desert border region)", "Central Asia/Middle East deserts in generic desert imagery"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "N/A as national.",
+    "bollard_color": "",
+    "bollard_shape": "",
     "guardrail_type": "Steel W-beam on mountain highways; wooden posts in National Parks, painted medium brown by park-service convention.",
-    "line_paint": "Yellow center line as national; long straight desert highways with wide gravel shoulders.",
+    "line_paint": "Long straight desert highways with wide gravel shoulders.",
     "curb_style": "Minimal or absent in rural desert areas; xeriscaped (rock/gravel, not grass) yards common in residential areas even where curbs exist.",
-    "km_marker_style": "Wooden utility poles as national, though taller/more widely spaced across open desert; wide, empty road shoulders."
+    "km_marker_style": "Taller, more widely spaced poles across open desert; wide, empty road shoulders."
   },
 
   "architecture": {
     "roof_style": "Flat or very low-pitch roofs on Southwest adobe/pueblo-style buildings; simple gable roofs on standard suburban stock in Denver/Phoenix.",
-    "roof_material": "Asphalt shingle as national default in newer suburbs; red clay tile in Spanish/Pueblo-revival architecture (especially New Mexico, southern Arizona).",
+    "roof_material": "Red clay tile in Spanish/Pueblo-revival architecture (especially New Mexico, southern Arizona).",
     "wall_construction": "Adobe or stucco construction with rounded corners and earth-tone colour is the signature Southwest look (especially Santa Fe/Taos style); standard wood-frame suburban stock elsewhere in the region.",
     "wall_color_palette": "Warm earth tones — tan, terracotta, dusty pink stucco — is the strongest single Southwest architectural tell.",
     "distinctive_building_types": "Flat-roofed adobe/pueblo-style buildings with rounded stucco corners and exposed roof beams (vigas); Spanish mission-style churches; ski-town architecture in Rocky Mountain resort areas; casino/resort architecture in Nevada."
@@ -52,7 +52,7 @@
   "vehicles": {
     "common_brands": ["Ford", "Chevrolet", "Ram", "Jeep"],
     "plate_color": "Varies by state — Arizona plate with a purple accent bottom-right, Colorado green mountain-themed plate, Utah red-rock-arch themed plate, New Mexico yellow-and-red 'zia symbol' plate, Nevada silver/blue.",
-    "plate_format": "Varies by state as national.",
+    "plate_format": "",
     "distinctive_vehicles": "Jeeps and off-road-capable SUVs more common given terrain; RVs common near National Parks."
   },
 

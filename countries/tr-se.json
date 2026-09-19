@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; wide highways across open plains.",
-    "km_marker_style": "As national; large-holed metal utility poles and red-and-white corner arrows."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Wide highways across open plains.",
+    "km_marker_style": "Large-holed metal utility poles and red-and-white corner arrows."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Fiat", "Renault", "Ford", "Hyundai"],
-    "plate_color": "As national — province codes such as 27 (Gaziantep), 21 (Diyarbakır), 47 (Mardin), 63 (Şanlıurfa).",
-    "plate_format": "As national.",
+    "plate_color": "Province codes such as 27 (Gaziantep), 21 (Diyarbakır), 47 (Mardin), 63 (Şanlıurfa).",
+    "plate_format": "",
     "distinctive_vehicles": "Tractors and pickup trucks; motorbikes, minibuses and heavy trucks on the highways to the border."
   },
 

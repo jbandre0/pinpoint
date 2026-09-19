@@ -22,17 +22,17 @@
     "official_languages": ["Italian"],
     "script": "Latin",
     "sample_text": "ATTENZIONE — LAVORI IN CORSO",
-    "script_notes": "Standard Italian as national; German appears bilingually alongside Italian in South Tyrol/Alto Adige near the Austrian border; French appears in Valle d'Aosta.",
+    "script_notes": "German appears bilingually alongside Italian in South Tyrol/Alto Adige near the Austrian border; French appears in Valle d'Aosta.",
     "false_friends": ["Austria/Switzerland (Alpine terrain)", "Southern France (similar farmland further west)"]
   },
 
   "road_furniture": {
-    "bollard_color": "White with red-diagonal-band front / white back, as national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "Steel W-beam as national; more common on Alpine mountain roads.",
-    "line_paint": "White lines as national.",
-    "curb_style": "As national; cobblestone historic centers in Milan/Turin/Venice.",
-    "km_marker_style": "As national. Autostrada (motorway) signage denser here than the south given the region's industrial road network."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "More common on Alpine mountain roads.",
+    "line_paint": "",
+    "curb_style": "Cobblestone historic centers in Milan/Turin/Venice.",
+    "km_marker_style": "Autostrada (motorway) signage is denser here than in the south, given the region's industrial road network."
   },
 
   "architecture": {
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Fiat", "Alfa Romeo", "Lancia"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; higher density of German-brand cars (BMW, Audi, VW) near the Austrian/Swiss border in the northeast."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": "Higher density of German-brand cars (BMW, Audi, VW) near the Austrian/Swiss border in the northeast."
   },
 
   "google_coverage": {

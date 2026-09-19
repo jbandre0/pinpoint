@@ -22,17 +22,17 @@
     "official_languages": ["German"],
     "script": "Latin",
     "sample_text": "ACHTUNG — BAUSTELLE",
-    "script_notes": "Standard German as national; Bavarian dialect appears informally. Blue-and-white Bavarian rhombus flag/livery visible on official signage and buildings in Bavaria specifically.",
+    "script_notes": "Bavarian dialect appears informally. Blue-and-white Bavarian rhombus flag/livery visible on official signage and buildings in Bavaria specifically.",
     "false_friends": ["Austria (near-identical Alpine architecture and dialect)", "Switzerland"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; more common on Alpine mountain roads.",
-    "line_paint": "As national.",
-    "curb_style": "As national.",
-    "km_marker_style": "As national."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "More common on Alpine mountain roads.",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": ""
   },
 
   "architecture": {
@@ -51,14 +51,14 @@
 
   "vehicles": {
     "common_brands": ["BMW", "Mercedes-Benz", "Audi", "Porsche"],
-    "plate_color": "As national — single-letter code for Munich (M).",
-    "plate_format": "As national.",
+    "plate_color": "Single-letter code for Munich (M).",
+    "plate_format": "",
     "distinctive_vehicles": "Heavier concentration of premium German brands (BMW is Bavarian, Mercedes/Porsche headquartered in Baden-Württemberg's Stuttgart) than the national average."
   },
 
   "google_coverage": {
     "camera_generation": "Mostly Gen 4, very dense around Munich and Stuttgart.",
-    "blur_style": "Standard Google blurring as national.",
+    "blur_style": "",
     "coverage_notes": "Dense urban and Alpine road coverage."
   },
 

@@ -22,17 +22,17 @@
     "official_languages": ["Japanese"],
     "script": "Japanese (kanji + hiragana + katakana)",
     "sample_text": "この先工事中 — 注意",
-    "script_notes": "Standard Japanese as national. Okinawa retains some Ryukyuan-language place names and cultural vocabulary distinct from mainland Japanese.",
+    "script_notes": "Okinawa retains some Ryukyuan-language place names and cultural vocabulary distinct from mainland Japanese.",
     "false_friends": ["Taiwan (Okinawa's subtropical look)", "mainland Honshu"]
   },
 
   "road_furniture": {
-    "bollard_color": "White as national.",
+    "bollard_color": "",
     "bollard_shape": "Slim posts, national standard.",
     "guardrail_type": "Green-banded guardrails are common across Kyushu (most concentrated in Oita and Miyazaki); a distinctive orange 'natsumikan' (summer-orange) coloured guardrail is unique to Yamaguchi Prefecture just north of Kyushu proper.",
-    "line_paint": "White/yellow center lines as national.",
-    "curb_style": "Low concrete kerb as national; open roadside drainage more common in rural Kyushu.",
-    "km_marker_style": "Yellow-and-black striped poles as national."
+    "line_paint": "",
+    "curb_style": "Open roadside drainage more common in rural Kyushu.",
+    "km_marker_style": ""
   },
 
   "architecture": {
@@ -51,14 +51,14 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Honda", "Suzuki", "Daihatsu"],
-    "plate_color": "White/yellow/green as national.",
-    "plate_format": "Two-line format as national; Okinawa plates read 沖縄 at the top.",
+    "plate_color": "",
+    "plate_format": "Okinawa plates read 沖縄 at the top.",
     "distinctive_vehicles": "Standard Japanese fleet; more scooters/mopeds in dense Okinawan towns."
   },
 
   "google_coverage": {
     "camera_generation": "Mix of Gen 3 and Gen 4, generally good along main roads.",
-    "blur_style": "Standard Japan low-mounted-camera blur as national.",
+    "blur_style": "",
     "coverage_notes": "Solid coverage in Kyushu's cities and coast roads; Okinawa's outer/smaller islands have thinner coverage than the main island."
   },
 

@@ -22,17 +22,17 @@
     "official_languages": ["German"],
     "script": "Latin",
     "sample_text": "ACHTUNG — BAUSTELLE",
-    "script_notes": "Standard German as national; Low German (Plattdeutsch) dialect and some Frisian appear on informal/cultural signage near the North Sea coast.",
+    "script_notes": "Low German (Plattdeutsch) dialect and some Frisian appear on informal/cultural signage near the North Sea coast.",
     "false_friends": ["Netherlands (flat coastal terrain)", "Denmark", "Poland (Baltic brick-Gothic towns)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; thatched roofs and low stone/rock walls appear in North Frisian and Baltic coastal resort towns.",
-    "km_marker_style": "As national."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Thatched roofs and low stone/rock walls appear in North Frisian and Baltic coastal resort towns.",
+    "km_marker_style": ""
   },
 
   "architecture": {
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Volkswagen", "BMW", "Mercedes-Benz", "Audi"],
-    "plate_color": "As national — single-letter city codes for the largest cities (B = Berlin, HH = Hamburg).",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national."
+    "plate_color": "Single-letter city codes for the largest cities (B = Berlin, HH = Hamburg).",
+    "plate_format": "",
+    "distinctive_vehicles": ""
   },
 
   "google_coverage": {

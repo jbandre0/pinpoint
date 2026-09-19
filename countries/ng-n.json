@@ -30,9 +30,9 @@
     "bollard_color": "Rare.",
     "bollard_shape": "Rare.",
     "guardrail_type": "Minimal.",
-    "line_paint": "As national; long, straight roads across dry plains with few markings.",
-    "curb_style": "As national; wide dusty shoulders.",
-    "km_marker_style": "As national — segmented utility poles; state names such as Kano, Yobe and Sokoto appear on shop signs."
+    "line_paint": "Long, straight roads across dry plains with few markings.",
+    "curb_style": "Wide dusty shoulders.",
+    "km_marker_style": "Segmented utility poles; state names such as Kano, Yobe and Sokoto appear on shop signs."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Peugeot", "Honda", "Mercedes-Benz"],
-    "plate_color": "As national.",
-    "plate_format": "As national, with a northern state name such as Kano or Kaduna along the top.",
+    "plate_color": "",
+    "plate_format": "A northern state name such as Kano or Kaduna along the top.",
     "distinctive_vehicles": "Motorcycles and keke-napep tricycles are ubiquitous; heavy trucks on long-haul routes; donkey and camel carts in some areas."
   },
 

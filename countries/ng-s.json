@@ -29,9 +29,9 @@
     "bollard_color": "Rare.",
     "bollard_shape": "Rare.",
     "guardrail_type": "Minimal.",
-    "line_paint": "As national; heavy congestion and pot-holes, with few markings.",
+    "line_paint": "Heavy congestion and pot-holes, with few markings.",
     "curb_style": "Open drainage channels, often clogged and overflowing in the rainy season.",
-    "km_marker_style": "As national; filling stations are extremely dense — Ibadan is famous for them — and segmented and broken utility poles are common."
+    "km_marker_style": "Filling stations are extremely dense — Ibadan is famous for them — and segmented and broken utility poles are common."
   },
 
   "architecture": {
@@ -50,8 +50,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Honda", "Peugeot", "Mercedes-Benz"],
-    "plate_color": "As national.",
-    "plate_format": "As national, with a state name such as Lagos along the top.",
+    "plate_color": "",
+    "plate_format": "A state name such as Lagos along the top.",
     "distinctive_vehicles": "Yellow-and-black danfo minibuses in Lagos, keke-napep tricycles and okada motorcycle taxis; heavy traffic congestion."
   },
 

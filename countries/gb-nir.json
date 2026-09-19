@@ -27,10 +27,10 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national UK.",
-    "bollard_shape": "As national UK.",
-    "guardrail_type": "As national UK.",
-    "line_paint": "As national UK; double yellow lines along kerbs.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "Double yellow lines along kerbs.",
     "curb_style": "In some estates kerbstones are painted in red, white and blue or green, white and orange to mark territory.",
     "km_marker_style": "UK-style mph speed limits, circular utility-pole attachments and 'GIVE WAY' text distinguish it from the Republic of Ireland, which uses km/h, rectangular attachments and 'YIELD'."
   },

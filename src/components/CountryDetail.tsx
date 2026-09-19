@@ -31,11 +31,24 @@ export interface FamilyEntry {
 export default function CountryDetail({
   country,
   family,
+  parent,
 }: {
   country: Country;
   family: FamilyEntry[];
+  parent?: Country;
 }) {
   const factState = useFactStateMap();
+
+  // A blank field on a region is shown with the national value, greyed, so it
+  // isn't mistaken for "unknown". These are display-only — never learnable facts.
+  const inheritedValues = useMemo(() => {
+    const map: Record<string, string> = {};
+    if (!parent) return map;
+    for (const f of enumerateFacts(parent)) {
+      if (!f.isBlank) map[`${f.category}.${f.field}`] = f.value;
+    }
+    return map;
+  }, [parent]);
 
   const factsByCategory = useMemo(() => {
     const groups = {} as Record<FactCategory, Fact[]>;
@@ -160,6 +173,11 @@ export default function CountryDetail({
                   fact={fact}
                   state={factState[fact.id] ?? "new"}
                   onCycle={() => cycleFactState(fact.id)}
+                  inherited={
+                    fact.isBlank
+                      ? inheritedValues[`${fact.category}.${fact.field}`]
+                      : undefined
+                  }
                 />
               ))}
             </dl>
@@ -237,10 +255,12 @@ function FactRow({
   fact,
   state,
   onCycle,
+  inherited,
 }: {
   fact: Fact;
   state: "new" | "familiar" | "mastered";
   onCycle: () => void;
+  inherited?: string;
 }) {
   const isSampleText =
     fact.category === "language" && fact.field === "sample_text";
@@ -272,7 +292,14 @@ function FactRow({
           {fact.label}
         </dt>
         <dd className="mt-1">
-          {fact.isBlank ? (
+          {fact.isBlank && inherited ? (
+            <span className="text-sm text-slate-500">
+              {inherited}{" "}
+              <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-slate-600">
+                · inherited from national
+              </span>
+            </span>
+          ) : fact.isBlank ? (
             <span className="text-sm italic text-slate-600">not documented</span>
           ) : isSampleText ? (
             <span className="inline-block rounded border border-slate-700 bg-slate-950/60 px-2 py-1 font-mono text-sm text-slate-200">

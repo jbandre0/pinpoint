@@ -22,7 +22,7 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Colombian Spanish as national. Street suffixes: Calle, Avenida, Carrera, Transversal, Diagonal, Autopista — the Carrera/Calle grid-numbering system used in Colombian cities is a distinctive national convention.",
+    "script_notes": "Street suffixes: Calle, Avenida, Carrera, Transversal, Diagonal, Autopista — the Carrera/Calle grid-numbering system used in Colombian cities is a distinctive national convention.",
     "false_friends": ["Venezuela", "Ecuador", "Panama"]
   },
 

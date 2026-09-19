@@ -22,17 +22,17 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Colombian Spanish as national; various Indigenous Amazonian languages spoken locally in the far south, rarely on formal signage.",
+    "script_notes": "Various Indigenous Amazonian languages spoken locally in the far south, rarely on formal signage.",
     "false_friends": ["Venezuelan Llanos (the savanna continues across the border)", "Brazilian/Peruvian Amazon"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national, where roads exist.",
-    "bollard_shape": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
     "guardrail_type": "Minimal; the road network thins dramatically east of the Andes.",
-    "line_paint": "As national where paved roads exist.",
+    "line_paint": "",
     "curb_style": "Largely absent outside Villavicencio and a handful of towns; much of the deep Amazon (Leticia) is accessible only by river or air.",
-    "km_marker_style": "As national on the limited road network."
+    "km_marker_style": ""
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Chevrolet", "Toyota", "Renault", "Mazda"],
-    "plate_color": "As national, where vehicles/roads exist.",
-    "plate_format": "As national.",
+    "plate_color": "",
+    "plate_format": "",
     "distinctive_vehicles": "4WD vehicles and horses common on Llanos cattle ranches; river boats are the primary transport in the deep Amazon around Leticia."
   },
 

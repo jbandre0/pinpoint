@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense formal infrastructure in the capital, with trams.",
-    "km_marker_style": "As national; long straight roads between fields in the east."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Dense formal infrastructure in the capital, with trams.",
+    "km_marker_style": "Long straight roads between fields in the east."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Volkswagen", "Škoda", "Opel", "Renault"],
-    "plate_color": "As national — 'ZG' for the capital, 'OS' for Osijek.",
-    "plate_format": "As national.",
+    "plate_color": "'ZG' for the capital, 'OS' for Osijek.",
+    "plate_format": "",
     "distinctive_vehicles": "Trams in the capital; farm machinery in the east; fewer tourist rental cars than on the coast."
   },
 

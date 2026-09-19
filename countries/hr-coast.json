@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; heavy use along the winding coastal highway.",
-    "line_paint": "As national.",
-    "curb_style": "As national; narrow stone-paved lanes in old towns.",
-    "km_marker_style": "As national; ferry terminal signs appear on the coast for the many islands."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Heavy use along the winding coastal highway.",
+    "line_paint": "",
+    "curb_style": "Narrow stone-paved lanes in old towns.",
+    "km_marker_style": "Ferry terminal signs appear on the coast for the many islands."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Volkswagen", "Škoda", "Renault", "Opel"],
-    "plate_color": "As national — coastal city codes such as ST (Split), ZD (Zadar), RI (Rijeka) and DU (Dubrovnik).",
-    "plate_format": "As national.",
+    "plate_color": "Coastal city codes such as ST (Split), ZD (Zadar), RI (Rijeka) and DU (Dubrovnik).",
+    "plate_format": "",
     "distinctive_vehicles": "A big seasonal presence of rental cars and foreign-plated tourist vehicles; scooters in coastal towns."
   },
 

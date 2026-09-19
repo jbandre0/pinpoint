@@ -22,17 +22,17 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Rioplatense Spanish as national — Buenos Aires is its cultural home.",
+    "script_notes": "",
     "false_friends": ["Uruguay (same Río de la Plata region and grassland)", "US Midwest (flat farmland, superficially)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
     "curb_style": "Dense formal European-style street layout and kerbs in central Buenos Aires; open, minimal shoulders on rural Pampas roads.",
-    "km_marker_style": "As national; long straight rural roads across flat farmland outside the city."
+    "km_marker_style": "Long straight rural roads across flat farmland outside the city."
   },
 
   "architecture": {
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Volkswagen", "Ford", "Chevrolet", "Fiat"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; heaviest concentration of the country's vehicle fleet given Buenos Aires' population."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": "Heaviest concentration of the country's vehicle fleet given Buenos Aires' population."
   },
 
   "google_coverage": {

@@ -22,12 +22,12 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "PRECAUCIÓN — ZONA DE TOPES",
-    "script_notes": "Mexican Spanish as national — ALTO stop signs, 'topes', -MEX company names. English is more visible here than elsewhere in Mexico because of the border and maquiladora industry.",
+    "script_notes": "ALTO stop signs, 'topes', -MEX company names. English is more visible here than elsewhere in Mexico because of the border and maquiladora industry.",
     "false_friends": ["United States", "Central Mexico"]
   },
 
   "road_furniture": {
-    "bollard_color": "White-and-orange highway bollards, as national.",
+    "bollard_color": "",
     "bollard_shape": "Slim post.",
     "guardrail_type": "Steel W-beam; concrete barrier on the wide toll roads that carry freight to the US.",
     "line_paint": "White edge and yellow centre lines; long straight well-marked desert highways.",
@@ -59,7 +59,7 @@
   "google_coverage": {
     "camera_generation": "Mostly Gen 3 and Gen 4.",
     "blur_style": "Standard Google blurring.",
-    "coverage_notes": "Bar-and-mirror-free camera car as national. Long empty desert-highway stretches between towns."
+    "coverage_notes": "Long empty desert-highway stretches between towns."
   },
 
   "confusion_set": [

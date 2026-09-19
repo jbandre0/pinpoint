@@ -27,16 +27,16 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national.",
-    "km_marker_style": "As national; long roads running the narrow peninsula's length are common."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Long roads running the narrow peninsula's length are common."
   },
 
   "architecture": {
-    "roof_style": "Buddhist temple roofs as national in the upper peninsula/Phuket; green-domed mosques with minarets in the deep south (Pattani, Yala, Narathiwat) — a strong departure from Buddhist Thailand's temple architecture.",
+    "roof_style": "Green-domed mosques with minarets in the deep south (Pattani, Yala, Narathiwat) — a strong departure from Buddhist Thailand's temple architecture.",
     "roof_material": "Corrugated metal and tile on houses; domed mosque roofing in the deep south.",
     "wall_construction": "Sino-Portuguese shophouses in Phuket Old Town and Trang; Islamic architecture with domes and minarets in the Malay-Muslim deep south, including Pattani's Central Mosque (nicknamed the 'Thai Taj Mahal', with a cream-and-orange facade and green domes).",
     "wall_color_palette": "Pastel-painted Sino-Portuguese shophouses in Phuket; cream, orange and green on Islamic architecture in the deep south.",
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Isuzu", "Honda", "Mitsubishi"],
-    "plate_color": "As national; province names such as Phuket (ภูเก็ต) or Songkhla (สงขลา) appear on the plate.",
-    "plate_format": "As national.",
+    "plate_color": "Province names such as Phuket (ภูเก็ต) or Songkhla (สงขลา) appear on the plate.",
+    "plate_format": "",
     "distinctive_vehicles": "Longtail boats along the coast; songthaews and tuk-tuks in tourist areas like Phuket; rubber-plantation trucks."
   },
 

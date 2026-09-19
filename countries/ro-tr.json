@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national, with more guardrails on winding mountain roads.",
-    "line_paint": "As national.",
-    "curb_style": "As national; cobbled town centers with Saxon and Habsburg buildings.",
-    "km_marker_style": "As national — holey poles with white-painted bases and thick black-backed warning triangles."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "More guardrails on winding mountain roads.",
+    "line_paint": "",
+    "curb_style": "Cobbled town centers with Saxon and Habsburg buildings.",
+    "km_marker_style": "Holey poles with white-painted bases and thick black-backed warning triangles."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Dacia", "Volkswagen", "Skoda", "Renault"],
-    "plate_color": "As national — county codes such as CJ (Cluj), SB (Sibiu), BV (Brașov).",
-    "plate_format": "As national.",
+    "plate_color": "County codes such as CJ (Cluj), SB (Sibiu), BV (Brașov).",
+    "plate_format": "",
     "distinctive_vehicles": "Dacia dominates; horse-drawn carts are still used in villages, and hay wagons in summer."
   },
 

@@ -27,11 +27,11 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
     "guardrail_type": "Yellow-and-black striped concrete guardrails in the Cordillera mountains of the north; white guardrails with three recurring black stripes are unique to the Bicol region in southern Luzon.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense formal infrastructure in Metro Manila with elevated expressways and rail.",
+    "line_paint": "",
+    "curb_style": "Dense formal infrastructure in Metro Manila with elevated expressways and rail.",
     "km_marker_style": "A pole-top made of two tall vertical L-shaped metal bars connected by thin wires, resembling a ladder, is unique to Manila and the surrounding area. Square concrete poles with an indent on both sides are mainly found north of Manila."
   },
 
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Mitsubishi", "Honda (motorbikes)", "Suzuki"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "Jeepneys and tricycles as national; Metro Manila also has heavy bus, UV Express van and motorbike traffic."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": "Metro Manila also has heavy bus, UV Express van and motorbike traffic."
   },
 
   "google_coverage": {

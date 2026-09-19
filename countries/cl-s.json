@@ -22,17 +22,17 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Chilean Spanish as national; German-immigrant heritage visible in place names and some architecture around the Lake District (Puerto Varas, Frutillar), similar to Argentina's Bariloche.",
+    "script_notes": "German-immigrant heritage visible in place names and some architecture around the Lake District (Puerto Varas, Frutillar), similar to Argentina's Bariloche.",
     "false_friends": ["Argentine Patagonia (same mountains/glaciers, opposite side of the Andes)", "Norway's fjords (visually, glacier-carved coastline)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; more common on winding mountain/coastal roads.",
-    "line_paint": "As national, though many roads are unpaved (ripio) in the remote far south.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "More common on winding mountain/coastal roads.",
+    "line_paint": "Many roads are unpaved (ripio) in the remote far south.",
     "curb_style": "Minimal outside towns; the Carretera Austral is a famous, partly unpaved long-distance route through the region.",
-    "km_marker_style": "As national; ferry terminal signage common given the fjord-broken coastline requires boat travel between road sections."
+    "km_marker_style": "Ferry terminal signage common given the fjord-broken coastline requires boat travel between road sections."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Chevrolet", "Hyundai", "Kia", "Toyota"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
+    "plate_color": "",
+    "plate_format": "",
     "distinctive_vehicles": "4WD vehicles more common given unpaved roads (ripio) and rugged terrain, especially along the Carretera Austral."
   },
 

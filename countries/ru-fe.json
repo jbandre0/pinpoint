@@ -22,17 +22,17 @@
     "official_languages": ["Russian"],
     "script": "Cyrillic",
     "sample_text": "ВНИМАНИЕ — РЕМОНТ ДОРОГИ",
-    "script_notes": "Russian Cyrillic as national. Chinese and Korean shop signage turns up in Vladivostok and near the border crossings.",
+    "script_notes": "Chinese and Korean shop signage turns up in Vladivostok and near the border crossings.",
     "false_friends": ["Northeast China", "Siberia", "Japan"]
   },
 
   "road_furniture": {
-    "bollard_color": "Regional colour schemes as national.",
+    "bollard_color": "",
     "bollard_shape": "Plain post.",
     "guardrail_type": "Steel W-beam on the main routes; hilly coastal roads with drops.",
     "line_paint": "Centre lines in the cities and on the Vladivostok–Khabarovsk highway; unmarked elsewhere.",
     "curb_style": "Painted kerbs in towns.",
-    "km_marker_style": "White sign poles with a black base band. Utility poles as national. Vladivostok has steep, cable-strung hillside streets."
+    "km_marker_style": "White sign poles with a black base band. Vladivostok has steep, cable-strung hillside streets."
   },
 
   "architecture": {

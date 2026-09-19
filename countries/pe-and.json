@@ -22,21 +22,21 @@
     "official_languages": ["Spanish", "Quechua"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Spanish as national; Quechua is widely spoken day-to-day and appears on cultural/tourism signage far more than on the coast — a strong regional tell alongside visible Indigenous dress and market culture.",
+    "script_notes": "Quechua is widely spoken day-to-day and appears on cultural/tourism signage far more than on the coast — a strong regional tell alongside visible Indigenous dress and market culture.",
     "false_friends": ["Bolivian altiplano (shares the same high-Andean landscape and Quechua/Aymara culture)", "highland Ecuador"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
     "guardrail_type": "Black-and-yellow striped guardrails especially prominent on winding mountain roads.",
-    "line_paint": "As national, though many roads are unpaved at higher/more remote altitudes.",
+    "line_paint": "Many roads are unpaved at higher/more remote altitudes.",
     "curb_style": "Cobbled streets in colonial Andean town centers (Cusco).",
-    "km_marker_style": "As national; dramatic switchback mountain roads common given the terrain."
+    "km_marker_style": "Dramatic switchback mountain roads common given the terrain."
   },
 
   "architecture": {
-    "roof_style": "Red clay tile pitched roofs are the standard in colonial highland towns; some flat-roofed unfinished concrete construction as national default in expanding areas.",
+    "roof_style": "Red clay tile pitched roofs are the standard in colonial highland towns.",
     "roof_material": "Red clay tile is a strong regional tell in colonial towns, contrasting with the coast's flat concrete roofs.",
     "wall_construction": "Spanish colonial buildings built directly atop precise Inca stone foundations (most famously in Cusco) — massive, perfectly fitted stone blocks are a unique and unmistakable Peru/Andes tell; adobe construction common in smaller highland villages.",
     "wall_color_palette": "Whitewashed colonial upper stories atop dark grey Inca stone lower walls in Cusco; earthy adobe tones in rural villages.",
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Hyundai", "Kia", "Nissan"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; 4WD vehicles more common given mountain roads; llamas/alpacas visible alongside rural roads."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": "4WD vehicles more common given mountain roads; llamas/alpacas visible alongside rural roads."
   },
 
   "google_coverage": {

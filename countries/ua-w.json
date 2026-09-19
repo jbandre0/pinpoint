@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; more common on winding Carpathian mountain roads.",
-    "line_paint": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "More common on winding Carpathian mountain roads.",
+    "line_paint": "",
     "curb_style": "Cobblestone streets and tram lines in Lviv's historic center.",
-    "km_marker_style": "As national, including white-painted pole bases and flag-coloured roadside objects."
+    "km_marker_style": "White-painted pole bases and flag-coloured roadside objects."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Volkswagen", "Skoda", "Opel", "Renault"],
-    "plate_color": "As national — region letters such as 'BC' for Lviv Oblast.",
-    "plate_format": "As national.",
+    "plate_color": "Region letters such as 'BC' for Lviv Oblast.",
+    "plate_format": "",
     "distinctive_vehicles": "Used Central and Western European imports (especially German and Czech brands) are more visible here than older Ladas; trams operate in Lviv."
   },
 

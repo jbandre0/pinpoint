@@ -22,17 +22,17 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Rioplatense Spanish as national; Welsh-descended place names appear in parts of Chubut Province (a 19th-century Welsh settlement legacy).",
+    "script_notes": "Welsh-descended place names appear in parts of Chubut Province (a 19th-century Welsh settlement legacy).",
     "false_friends": ["Chilean Patagonia (same mountains/steppe, opposite side of the Andes)", "Mongolia (visually, vast empty steppe)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
     "guardrail_type": "Minimal to absent on remote rural roads; present on mountain routes near the Andes.",
-    "line_paint": "As national, though many roads are unpaved gravel (ripio) in remote stretches.",
+    "line_paint": "Many roads are unpaved gravel (ripio) in remote stretches.",
     "curb_style": "Essentially absent outside small towns; wide open unpaved shoulders.",
-    "km_marker_style": "As national; long, straight, empty roads with sparse signage are the norm."
+    "km_marker_style": "Long, straight, empty roads with sparse signage are the norm."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Volkswagen", "Ford", "Chevrolet", "Toyota"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
+    "plate_color": "",
+    "plate_format": "",
     "distinctive_vehicles": "4WD pickups more common given rough/unpaved rural roads (ripio gravel roads widespread)."
   },
 

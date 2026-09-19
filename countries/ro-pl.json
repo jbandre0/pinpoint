@@ -26,12 +26,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national — rounded.",
-    "line_paint": "As national; long straight roads across flat farmland.",
-    "curb_style": "As national.",
-    "km_marker_style": "As national — holey poles, often with a yellow marking near the base."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Rounded.",
+    "line_paint": "Long straight roads across flat farmland.",
+    "curb_style": "",
+    "km_marker_style": "Holey poles, often with a yellow marking near the base."
   },
 
   "architecture": {
@@ -50,8 +50,8 @@
 
   "vehicles": {
     "common_brands": ["Dacia", "Volkswagen", "Renault", "Opel"],
-    "plate_color": "As national — 'B' for the capital and county codes such as IS (Iași) and CT (Constanța).",
-    "plate_format": "As national.",
+    "plate_color": "'B' for the capital and county codes such as IS (Iași) and CT (Constanța).",
+    "plate_format": "",
     "distinctive_vehicles": "Dacia and older Soviet-era cars, horse-drawn carts in villages and tractors in the fields."
   },
 

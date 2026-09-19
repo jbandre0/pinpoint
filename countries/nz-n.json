@@ -27,16 +27,16 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national — the red band wraps fully around the white post.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense motorway and suburban infrastructure around Auckland.",
-    "km_marker_style": "As national; telephone area codes 09 to 07 cover Auckland and points north, and 06 and 04 the southern half of the island."
+    "bollard_color": "The red band wraps fully around the white post.",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Dense motorway and suburban infrastructure around Auckland.",
+    "km_marker_style": "Telephone area codes 09 to 07 cover Auckland and points north, and 06 and 04 the southern half of the island."
   },
 
   "architecture": {
-    "roof_style": "Simple pitched corrugated-iron roofs as national; Art Deco buildings with flat roofs in Napier and Hastings.",
+    "roof_style": "Art Deco buildings with flat roofs in Napier and Hastings.",
     "roof_material": "Corrugated iron and profiled steel.",
     "wall_construction": "Timber villas and bungalows on suburban lots; Art Deco town centres rebuilt after the 1931 Hawke's Bay earthquake; Māori carved meeting houses (wharenui) with steep gabled fronts and elaborate carving.",
     "wall_color_palette": "White and pastel weatherboard, with the bright reds and blacks of Māori carving.",
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Ford", "Mazda", "Nissan"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
+    "plate_color": "",
+    "plate_format": "",
     "distinctive_vehicles": "Heavier city traffic in Auckland; ute pickups and farm vehicles in the countryside."
   },
 

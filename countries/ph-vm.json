@@ -28,20 +28,20 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; more open roadside drainage and less formal infrastructure than Metro Manila.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "More open roadside drainage and less formal infrastructure than Metro Manila.",
     "km_marker_style": "Square concrete poles with an indent on both sides appear in and around Bacolod on Negros; square metal mesh poles are found on Mindanao, mainly on the Zamboanga peninsula."
   },
 
   "architecture": {
-    "roof_style": "Corrugated metal dominant as national; Spanish colonial stone-and-timber ancestral houses and neo-Gothic churches in Visayan towns; traditional pagoda-style roofs on vernacular Mindanao mosques.",
+    "roof_style": "Spanish colonial stone-and-timber ancestral houses and neo-Gothic churches in Visayan towns; traditional pagoda-style roofs on vernacular Mindanao mosques.",
     "roof_material": "Corrugated metal; traditional nipa thatch in rural areas.",
-    "wall_construction": "Concrete hollow-block construction as national; Spanish colonial heritage (bahay na bato, Molo Church in Iloilo) is strong in the Visayas; Mindanao shows a fusion of indigenous and Islamic influence, including Maranao torogan houses with carved elevated floors and mosques such as the Golden Mosque in Cotabato City.",
-    "wall_color_palette": "Bright painted shopfronts and grey concrete as national; golden domes and green-and-white detailing on Mindanao mosques.",
-    "distinctive_building_types": "Spanish colonial churches and forts (Cebu's Basilica del Santo Niño, Fort San Pedro); Mindanao mosques with domes and minarets, including pagoda-style vernacular mosques; Maranao torogan houses; sari-sari stores and covered basketball courts as national."
+    "wall_construction": "Spanish colonial heritage (bahay na bato, Molo Church in Iloilo) is strong in the Visayas; Mindanao shows a fusion of indigenous and Islamic influence, including Maranao torogan houses with carved elevated floors and mosques such as the Golden Mosque in Cotabato City.",
+    "wall_color_palette": "Golden domes and green-and-white detailing on Mindanao mosques.",
+    "distinctive_building_types": "Spanish colonial churches and forts (Cebu's Basilica del Santo Niño, Fort San Pedro); Mindanao mosques with domes and minarets, including pagoda-style vernacular mosques; Maranao torogan houses."
   },
 
   "nature": {
@@ -52,9 +52,9 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Mitsubishi", "Honda (motorbikes)", "Suzuki"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "Jeepneys as national; motorcycles with sidecars (habal-habal and tricycles) are especially dominant in towns and rural areas."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": "Motorcycles with sidecars (habal-habal and tricycles) are especially dominant in towns and rural areas."
   },
 
   "google_coverage": {

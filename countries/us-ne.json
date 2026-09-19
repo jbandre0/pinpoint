@@ -22,22 +22,22 @@
     "official_languages": ["English"],
     "script": "Latin",
     "sample_text": "ROAD WORK AHEAD",
-    "script_notes": "English as national; place names carry heavy Native American and colonial-English roots (e.g. Massachusetts, Concord).",
+    "script_notes": "Place names carry heavy Native American and colonial-English roots (e.g. Massachusetts, Concord).",
     "false_friends": ["Midwest US (older brick towns)", "Canada (Maritimes)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national — mostly absent, delineator posts where used.",
-    "bollard_shape": "N/A as national.",
-    "guardrail_type": "Steel W-beam as national.",
-    "line_paint": "Yellow center line as national.",
+    "bollard_color": "Mostly absent, delineator posts where used.",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
     "curb_style": "Dense old-town cores with granite curbs (especially in Massachusetts); narrow, often winding roads that predate the automobile grid seen further west.",
-    "km_marker_style": "Wooden utility poles as national; dry-stacked fieldstone walls running along roadsides through wooded and pasture land are a very strong New England-specific tell (a legacy of colonial-era farm clearing)."
+    "km_marker_style": "Dry-stacked fieldstone walls running along roadsides through wooded and pasture land are a very strong New England-specific tell (a legacy of colonial-era farm clearing)."
   },
 
   "architecture": {
     "roof_style": "Steep-pitched gable roofs on colonial and Federal-style houses; gambrel (barn-style) roofs also common.",
-    "roof_material": "Asphalt shingle as national default; wood shingle/shake on older historic homes.",
+    "roof_material": "Wood shingle/shake on older historic homes.",
     "wall_construction": "White clapboard wood siding is the classic New England look; red brick rowhouses and townhouses common in older Mid-Atlantic cities (Philadelphia, Baltimore); dry-stacked stone walls lining fields and roads.",
     "wall_color_palette": "White/pale clapboard with black shutters is the iconic New England palette; red brick in Mid-Atlantic urban cores.",
     "distinctive_building_types": "White clapboard colonial houses with black shutters; New England town greens with a white church steeple; triple-decker houses in Massachusetts mill towns; brownstone rowhouses in New York/Philadelphia."
@@ -52,7 +52,7 @@
   "vehicles": {
     "common_brands": ["Ford", "Toyota", "Honda", "Subaru"],
     "plate_color": "Varies by state within the region — Massachusetts red-on-white, New York blue-and-gold, Pennsylvania blue-and-yellow, Vermont green-and-white.",
-    "plate_format": "Varies by state as national.",
+    "plate_format": "",
     "distinctive_vehicles": "Higher Subaru presence than the national average given hilly/snowy terrain; otherwise standard national fleet."
   },
 

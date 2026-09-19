@@ -28,11 +28,11 @@
 
   "road_furniture": {
     "bollard_color": "Red-and-white bollards on some routes, such as the north-south RN9.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; far less needed on flat roads.",
+    "bollard_shape": "",
+    "guardrail_type": "Far less needed on flat roads.",
     "line_paint": "Orange center lines on some north-south routes.",
     "curb_style": "Wide, planned ring roads in Santa Cruz; dirt roads in rural areas.",
-    "km_marker_style": "Thick lumber utility poles as national; the RN4 near Santa Cruz has distinctive paving through flat, green terrain."
+    "km_marker_style": "The RN4 near Santa Cruz has distinctive paving through flat, green terrain."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Suzuki", "Nissan", "Hyundai"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
+    "plate_color": "",
+    "plate_format": "",
     "distinctive_vehicles": "Mototaxis and motorcycles are far more common than in the highlands; pickups on farms and ranches."
   },
 

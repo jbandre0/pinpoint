@@ -22,17 +22,17 @@
     "official_languages": ["Spanish"],
     "script": "Latin",
     "sample_text": "ATENCIÓN — OBRAS EN LA VÍA",
-    "script_notes": "Colombian Spanish as national — coastal (costeño) accent and vocabulary distinct from the interior, though not usually reflected in formal signage.",
+    "script_notes": "Coastal (costeño) accent and vocabulary distinct from the interior, though not usually reflected in formal signage.",
     "false_friends": ["Panama's Caribbean coast", "Venezuela's Caribbean coast"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; less common given flatter coastal terrain.",
-    "line_paint": "As national.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "Less common given flatter coastal terrain.",
+    "line_paint": "",
     "curb_style": "Colonial-era cobblestone streets within Cartagena's walled old town.",
-    "km_marker_style": "As national."
+    "km_marker_style": ""
   },
 
   "architecture": {
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Chevrolet", "Renault", "Mazda", "Kia"],
-    "plate_color": "As national.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; heavy tourist/rental vehicle presence in Cartagena specifically."
+    "plate_color": "",
+    "plate_format": "",
+    "distinctive_vehicles": "Heavy tourist/rental vehicle presence in Cartagena specifically."
   },
 
   "google_coverage": {

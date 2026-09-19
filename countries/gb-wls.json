@@ -28,12 +28,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national, plus 'ARAF' and other Welsh text painted on the carriageway.",
-    "curb_style": "As national; narrow winding roads through steep valleys.",
-    "km_marker_style": "As national — mph signs and circular pole attachments; bilingual Welsh-first signs are the strongest tell."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "'ARAF' and other Welsh text painted on the carriageway.",
+    "curb_style": "Narrow winding roads through steep valleys.",
+    "km_marker_style": "Mph speed signs and circular pole attachments; bilingual Welsh-first signs are the strongest tell."
   },
 
   "architecture": {
@@ -52,8 +52,8 @@
 
   "vehicles": {
     "common_brands": ["Ford", "Vauxhall", "Volkswagen", "Land Rover"],
-    "plate_color": "As national — white front, yellow rear.",
-    "plate_format": "As national.",
+    "plate_color": "White front, yellow rear.",
+    "plate_format": "",
     "distinctive_vehicles": "Farm 4x4s and pickups; sheep frequently on the road."
   },
 

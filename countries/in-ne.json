@@ -27,12 +27,12 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; more essential given steep hill roads in the hill states.",
-    "line_paint": "As national.",
-    "curb_style": "As national; generally less dense/chaotic traffic than the Gangetic Plain's major cities.",
-    "km_marker_style": "As national."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "More essential given steep hill roads in the hill states.",
+    "line_paint": "",
+    "curb_style": "Generally less dense/chaotic traffic than the Gangetic Plain's major cities.",
+    "km_marker_style": ""
   },
 
   "architecture": {
@@ -51,9 +51,9 @@
 
   "vehicles": {
     "common_brands": ["Maruti Suzuki", "Tata", "Mahindra", "Hyundai"],
-    "plate_color": "As national — Assam ('AS'), Nagaland ('NL'), Meghalaya ('ML') and other state codes distinct from the rest of India.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; generally lighter, less congested traffic than the major Gangetic Plain or South Indian cities."
+    "plate_color": "Assam ('AS'), Nagaland ('NL'), Meghalaya ('ML') and other state codes distinct from the rest of India.",
+    "plate_format": "",
+    "distinctive_vehicles": "Generally lighter, less congested traffic than the major Gangetic Plain or South Indian cities."
   },
 
   "google_coverage": {

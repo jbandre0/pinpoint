@@ -22,17 +22,17 @@
     "official_languages": ["Indonesian", "Javanese"],
     "script": "Latin",
     "sample_text": "AWAS — ADA PERBAIKAN JALAN",
-    "script_notes": "Indonesian as national; Javanese is the dominant regional language, occasionally appearing decoratively in its own script on cultural signage though rarely on road signs.",
+    "script_notes": "Javanese is the dominant regional language, occasionally appearing decoratively in its own script on cultural signage though rarely on road signs.",
     "false_friends": ["Bali (shares some volcanic terrain and Javanese-origin temple architecture)", "Sumatra"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national; more substantial on the dense Java-wide highway network (the most developed in Indonesia).",
-    "line_paint": "As national.",
-    "curb_style": "As national; denser, more developed urban infrastructure than most of the rest of the archipelago given Java holds the majority of Indonesia's population.",
-    "km_marker_style": "As national. Toll road (tol) signage is far more extensive here than elsewhere in Indonesia."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "More substantial on the dense Java-wide highway network (the most developed in Indonesia).",
+    "line_paint": "",
+    "curb_style": "Denser, more developed urban infrastructure than most of the rest of the archipelago given Java holds the majority of Indonesia's population.",
+    "km_marker_style": "Toll road (tol) signage is far more extensive here than elsewhere in the archipelago."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Honda", "Daihatsu", "Mitsubishi"],
-    "plate_color": "As national — Jakarta uses the 'B' area code.",
-    "plate_format": "As national.",
+    "plate_color": "Jakarta uses the 'B' area code.",
+    "plate_format": "",
     "distinctive_vehicles": "Extremely heavy motorbike traffic, especially in Jakarta; the highest vehicle density in Indonesia given the population concentration."
   },
 

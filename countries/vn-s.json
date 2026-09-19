@@ -22,12 +22,12 @@
     "official_languages": ["Vietnamese"],
     "script": "Latin",
     "sample_text": "CHÚ Ý — NGUY HIỂM",
-    "script_notes": "Vietnamese Latin script with dense diacritics and đ, as national. Khmer script also turns up on temples and signs in the western Mekong Delta, near the Cambodian border.",
+    "script_notes": "Khmer script also turns up on temples and signs in the western Mekong Delta, near the Cambodian border.",
     "false_friends": ["North Vietnam", "Cambodia", "Thailand"]
   },
 
   "road_furniture": {
-    "bollard_color": "Red and white, as national.",
+    "bollard_color": "",
     "bollard_shape": "Concrete post; verify profile against photos.",
     "guardrail_type": "Steel W-beam on highways; long delta roads run on embankments beside canals with low kerbs instead.",
     "line_paint": "White and yellow centre lines where marked; red-and-white striped sign poles.",
@@ -51,7 +51,7 @@
 
   "vehicles": {
     "common_brands": ["Honda", "Toyota", "Hyundai"],
-    "plate_color": "White (private), yellow (commercial), blue (government), red (military) — as national.",
+    "plate_color": "",
     "plate_format": "DDLL-NNN.NN; province codes 50–59 are Ho Chi Minh City, 60s–90s cover the southern provinces.",
     "distinctive_vehicles": "Motorbike swarms, densest of all in Ho Chi Minh City; boats do much of the transport work in the delta."
   },

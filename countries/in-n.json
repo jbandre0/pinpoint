@@ -27,17 +27,17 @@
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; dense, chaotic mixed traffic especially pronounced in the Delhi-NCR region.",
-    "km_marker_style": "As national, including the distinctive unofficial low-quality camera coverage in many areas."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Dense, chaotic mixed traffic especially pronounced in the Delhi-NCR region.",
+    "km_marker_style": "Much of the coverage comes from a distinctive unofficial low-quality camera."
   },
 
   "architecture": {
-    "roof_style": "Flat concrete roofs as national default; Nagara-style Hindu temples feature a curved, beehive-shaped shikhara tower over the sanctum — the defining North Indian temple architectural signature.",
-    "roof_material": "Flat poured concrete as national default.",
+    "roof_style": "Nagara-style Hindu temples feature a curved, beehive-shaped shikhara tower over the sanctum — the defining North Indian temple architectural signature.",
+    "roof_material": "",
     "wall_construction": "Sandstone and marble palace/fort architecture historic in Rajasthan (Jaipur, Jodhpur, Udaipur); dense concrete urban construction in Delhi and the Gangetic cities; Sikh gurdwara architecture with white domes in Punjab.",
     "wall_color_palette": "Rajasthan's 'Pink City' (Jaipur) and 'Blue City' (Jodhpur) carry distinctive painted old-town palettes; otherwise mixed grey concrete and painted shopfronts nationwide.",
     "distinctive_building_types": "Nagara-style Hindu temples with curved shikhara towers; Mughal-era architecture (domes, minarets, red sandstone forts — Taj Mahal, Red Fort); Rajasthani palace and fort architecture; white-domed Sikh gurdwaras in Punjab."
@@ -51,13 +51,13 @@
 
   "vehicles": {
     "common_brands": ["Maruti Suzuki", "Tata", "Mahindra", "Hyundai"],
-    "plate_color": "As national — Delhi ('DL'), Punjab ('PB'), Rajasthan ('RJ'), Uttar Pradesh ('UP') state codes.",
-    "plate_format": "As national.",
-    "distinctive_vehicles": "As national; camel and bullock carts still visible on rural Rajasthani roads."
+    "plate_color": "Delhi ('DL'), Punjab ('PB'), Rajasthan ('RJ'), Uttar Pradesh ('UP') state codes.",
+    "plate_format": "",
+    "distinctive_vehicles": "Camel and bullock carts still visible on rural Rajasthani roads."
   },
 
   "google_coverage": {
-    "camera_generation": "Mix of official Google coverage in Delhi/major cities and the distinctive unofficial 'foggy' camera elsewhere, as national.",
+    "camera_generation": "",
     "blur_style": "Standard Google blurring where official.",
     "coverage_notes": "Dense around Delhi-NCR; more variable quality across rural Rajasthan/UP/Bihar."
   },

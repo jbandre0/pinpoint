@@ -22,22 +22,22 @@
     "official_languages": ["English"],
     "script": "Latin",
     "sample_text": "ROAD WORK AHEAD",
-    "script_notes": "English as national; Spanish appears more in Florida (especially south Florida) than elsewhere in the region; French/Cajun influence in Louisiana place names.",
+    "script_notes": "Spanish appears more in Florida (especially south Florida) than elsewhere in the region; French/Cajun influence in Louisiana place names.",
     "false_friends": ["Midwest US (farmland)", "Mexico/Central America (Gulf coast/Florida vegetation)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "N/A as national.",
-    "guardrail_type": "Steel W-beam as national.",
-    "line_paint": "Yellow center line as national; noticeably more unpaved/gravel rural roads than the Northeast.",
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "Noticeably more unpaved/gravel rural roads than the Northeast.",
     "curb_style": "Open roadside ditches common in rural areas rather than curbs; kudzu vine often smothers roadside trees, poles and embankments — a very strong regional tell.",
-    "km_marker_style": "Wooden utility poles as national."
+    "km_marker_style": ""
   },
 
   "architecture": {
     "roof_style": "Simple gable roofs on wood-frame houses; wide covered porches common on older Southern homes.",
-    "roof_material": "Asphalt shingle as national default; corrugated metal roofing common on rural/older buildings.",
+    "roof_material": "Corrugated metal roofing common on rural/older buildings.",
     "wall_construction": "Wood-frame siding and red brick construction; raised/elevated houses common in flood-prone Gulf coast areas; shotgun houses in older Southern towns.",
     "wall_color_palette": "Red clay/brick tones dominate built material (the region's distinctive red-brick buildings come directly from the local red clay soil); white-painted wood siding also common.",
     "distinctive_building_types": "Wide-porched Southern houses; shotgun houses; Spanish-moss-draped oak-lined avenues in the Deep South; Gulf coast beach houses on stilts; small-town courthouse squares."
@@ -52,7 +52,7 @@
   "vehicles": {
     "common_brands": ["Ford", "Chevrolet", "Ram", "Toyota"],
     "plate_color": "Varies by state — Georgia peach-themed plate, Florida orange-with-citrus-leaf, Louisiana fleur-de-lis motifs, Texas varies by design year.",
-    "plate_format": "Varies by state as national.",
+    "plate_format": "",
     "distinctive_vehicles": "Pickup trucks especially common; more visible rust/older vehicle stock in poorer rural counties."
   },
 

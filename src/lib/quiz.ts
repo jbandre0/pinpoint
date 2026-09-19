@@ -135,6 +135,72 @@ export function factPool(
   return out;
 }
 
+// --- answer-leak guard ---------------------------------------------------
+// Some fact values name their own country or region ("Cooler and wetter than the
+// rest of Ukraine..."), which gives the answer away when the value is shown as
+// a category-isolated prompt. Such facts stay on the detail page and stay
+// trackable; they just aren't used as question prompts.
+
+const GENERIC_TOKENS = new Set(
+  [
+    "islands", "island", "central", "north", "northern", "south", "southern",
+    "east", "eastern", "west", "western", "coast", "plains", "mountains",
+    "highlands", "lowlands", "valley", "valleys", "region", "regions", "national",
+  ].map((s) => s.toLowerCase()),
+);
+
+function baseName(name: string): string {
+  return name.replace(/\s*\(.*$/, "").trim();
+}
+
+function parentheticalTokens(name: string): string[] {
+  const m = name.match(/\(([^)]*)\)/);
+  if (!m) return [];
+  return m[1]
+    .split(/[·,/&]/)
+    .map((t) => t.trim())
+    .filter((t) => t.length >= 4 && !GENERIC_TOKENS.has(t.toLowerCase()));
+}
+
+const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const leakRegexCache = new WeakMap<Country, RegExp | null>();
+
+function leakRegex(country: Country, byId: Map<string, Country>): RegExp | null {
+  const cached = leakRegexCache.get(country);
+  if (cached !== undefined) return cached;
+  const terms = new Set<string>();
+  const add = (s: string) => {
+    const t = s.trim();
+    if (t.length >= 3 && !GENERIC_TOKENS.has(t.toLowerCase())) terms.add(t);
+  };
+  add(baseName(country.name));
+  country.aliases.forEach(add);
+  parentheticalTokens(country.name).forEach(add);
+  const parent = country.parent ? byId.get(country.parent) : undefined;
+  if (parent) {
+    add(baseName(parent.name));
+    parent.aliases.forEach(add);
+  }
+  const re = terms.size
+    ? new RegExp(
+        `(?<![\\p{L}\\p{N}])(?:${Array.from(terms).map(escapeRe).join("|")})(?![\\p{L}\\p{N}])`,
+        "iu",
+      )
+    : null;
+  leakRegexCache.set(country, re);
+  return re;
+}
+
+/** True when the fact's own text names its country, region or parent country. */
+export function leaksAnswer(
+  fact: Fact,
+  country: Country,
+  byId: Map<string, Country>,
+): boolean {
+  const re = leakRegex(country, byId);
+  return re ? re.test(fact.value) : false;
+}
+
 function distractorNames(country: Country, all: Country[]): string[] {
   const names = new Set<string>();
   for (const c of all) if (c.id !== country.id) names.add(c.name);
@@ -150,9 +216,12 @@ export function buildSession(
   length: number,
 ): Question[] {
   const byId = new Map(countries.map((c) => [c.id, c] as const));
-  const picks = shuffle(factPool(countries, states, filter)).slice(0, length);
 
   if (mode === "category-isolated") {
+    const promptable = factPool(countries, states, filter).filter(
+      (f) => !leaksAnswer(f, byId.get(f.countryId)!, byId),
+    );
+    const picks = shuffle(promptable).slice(0, length);
     return picks.map((fact): CategoryIsolatedQuestion => {
       const country = byId.get(fact.countryId)!;
       const distractors = shuffle(distractorNames(country, countries)).slice(

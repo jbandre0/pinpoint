@@ -22,17 +22,17 @@
     "official_languages": ["Indonesian", "Balinese"],
     "script": "Latin",
     "sample_text": "AWAS — ADA PERBAIKAN JALAN",
-    "script_notes": "Indonesian as national; Balinese script appears decoratively on temple gates and cultural signage in Bali specifically — a strong regional tell where visible.",
+    "script_notes": "Balinese script appears decoratively on temple gates and cultural signage in Bali specifically — a strong regional tell where visible.",
     "false_friends": ["Java (shares volcanic terrain and Javanese-descended Hindu temple architectural roots)"]
   },
 
   "road_furniture": {
-    "bollard_color": "As national.",
-    "bollard_shape": "As national.",
-    "guardrail_type": "As national.",
-    "line_paint": "As national.",
-    "curb_style": "As national; small stone/woven offering baskets (canang sari) placed on the ground outside doorways and shopfronts are a near-unique Bali-specific tell.",
-    "km_marker_style": "As national; small roadside Hindu shrines are common in Bali specifically."
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "Small stone/woven offering baskets (canang sari) placed on the ground outside doorways and shopfronts are a near-unique Bali-specific tell.",
+    "km_marker_style": "Small roadside Hindu shrines are common in Bali specifically."
   },
 
   "architecture": {
@@ -51,8 +51,8 @@
 
   "vehicles": {
     "common_brands": ["Toyota", "Honda", "Daihatsu", "Mitsubishi"],
-    "plate_color": "As national — Bali uses the 'DK' area code.",
-    "plate_format": "As national.",
+    "plate_color": "Bali uses the 'DK' area code.",
+    "plate_format": "",
     "distinctive_vehicles": "Very heavy scooter/motorbike traffic in Bali's tourist areas; simpler, sparser vehicle presence further east in rural Nusa Tenggara."
   },
 

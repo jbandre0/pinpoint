@@ -22,12 +22,12 @@
     "official_languages": ["Vietnamese"],
     "script": "Latin",
     "sample_text": "CHÚ Ý — NGUY HIỂM",
-    "script_notes": "Vietnamese Latin script with dense diacritics and đ, as national. Communist propaganda posters and red flags are, if anything, more prominent in the north.",
+    "script_notes": "Communist propaganda posters and red flags are, if anything, more prominent in the north.",
     "false_friends": ["South Vietnam", "China", "Laos"]
   },
 
   "road_furniture": {
-    "bollard_color": "Red and white, as national.",
+    "bollard_color": "",
     "bollard_shape": "Concrete post; verify profile against photos.",
     "guardrail_type": "Steel W-beam on the main highways; frequently absent on mountain roads.",
     "line_paint": "White and yellow centre lines where marked; red-and-white striped sign poles.",
@@ -51,7 +51,7 @@
 
   "vehicles": {
     "common_brands": ["Honda", "Toyota", "Hyundai"],
-    "plate_color": "White (private), yellow (commercial), blue (government), red (military) — as national.",
+    "plate_color": "",
     "plate_format": "DDLL-NNN.NN; province codes 29–33 are Hanoi, low-20s and 10s cover the northern provinces.",
     "distinctive_vehicles": "Motorbike swarms as everywhere in Vietnam; more of the older imagery here is moped- or trekker-shot."
   },

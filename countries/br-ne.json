@@ -23,7 +23,7 @@
     "official_languages": ["Portuguese"],
     "script": "Latin",
     "sample_text": "ATENÇÃO — OBRAS NA PISTA",
-    "script_notes": "Brazilian Portuguese as national — ã, õ, ç, BR-XXX shields, black-backed signs. Higher BR route numbers (200s–400s) run through the region.",
+    "script_notes": "Letters ã, õ, ç, BR-XXX shields, black-backed signs. Higher BR route numbers (200s–400s) run through the region.",
     "false_friends": ["Southeast Brazil", "North Brazil", "Mexico"]
   },
 
@@ -31,7 +31,7 @@
     "bollard_color": "No standard bollard, as elsewhere in Brazil.",
     "bollard_shape": "Not applicable.",
     "guardrail_type": "Steel W-beam where present; many interior roads have none.",
-    "line_paint": "Yellow centre line and white edge lines as national, but interior roads are frequently unmarked or unpaved.",
+    "line_paint": "Interior roads are frequently unmarked or unpaved.",
     "curb_style": "Painted kerbs in coastal cities; little kerbing inland.",
     "km_marker_style": "The national ladder-and-holes concrete pole. Infrastructure is visibly poorer than the Southeast — more dirt roads, more motorcycles, simpler buildings."
   },
