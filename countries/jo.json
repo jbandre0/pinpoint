@@ -1,0 +1,83 @@
+{
+  "id": "jo",
+  "name": "Jordan",
+  "aliases": ["Hashemite Kingdom of Jordan", "al-Urdun", "الأردن"],
+  "continent": "Asia",
+  "tier": 3,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/jordan/",
+    "https://geometas.com/metas/countries/jordan/",
+    "https://geodummy.com/jordan",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Jordan",
+    "https://en.wikipedia.org/wiki/Google_Street_View_in_Asia"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇯🇴",
+    "capital": "Amman"
+  },
+
+  "language": {
+    "official_languages": ["Arabic"],
+    "script": "Arabic",
+    "sample_text": "تنبيه — أعمال طريق",
+    "script_notes": "Arabic script, read right to left, with English alongside on many road signs, though English appears less than in the wealthier Gulf states. Street-name terms include شارع (street), طريق (road), ميدان (square), دوار (roundabout) and جسر (bridge). The internet domain is .jo.",
+    "false_friends": ["United Arab Emirates", "Oman", "Israel", "Saudi Arabia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White posts with reflective striping; some sources describe them as black-and-white striped.",
+    "bollard_shape": "Cylindrical.",
+    "guardrail_type": "",
+    "line_paint": "Yellow edge lines with white centre lines.",
+    "curb_style": "Divided highways have yellow-and-black painted curbs.",
+    "km_marker_style": "Blue direction signs with white lettering in Arabic, English or both; main highways are marked with a green rectangle carrying a yellow number. Total, Manaseer Oil & Gas and JoPetro are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "",
+    "roof_material": "",
+    "wall_construction": "",
+    "wall_color_palette": "",
+    "distinctive_building_types": "White water tanks sit on rooftops."
+  },
+
+  "nature": {
+    "vegetation": "Sparse desert scrub across the arid east and south.",
+    "terrain": "Hot, dry and mountainous, with red sandstone gorges and desert in the south.",
+    "climate_signature": "Arid, with hot summers."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "White with black text, usually wide and short but occasionally tall and narrow; commercial vehicles such as taxis and buses use green plates, diplomatic plates are yellow and government plates are red.",
+    "plate_format": "Latin letters and digits (a prefix number followed by up to five digits), in a font resembling British plates; special categories add Arabic text.",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "An encyclopedic source describes official coverage as Trekker imagery of about 43 heritage sites (launched 2015: including Petra, Jerash, Umm Qais, Mount Nebo, the Dead Sea and Aqaba), not regular road coverage. Some GeoGuessr guides instead describe a black Street View car with Gen 3 road imagery; the two sources conflict and this is unverified."
+  },
+
+  "confusion_set": [
+    {
+      "country": "United Arab Emirates",
+      "shared_traits": "Arabic and English signage, white plates, desert scenery, rooftop water tanks",
+      "tiebreaker": "Far less English on signs, a poorer and more rugged look with mountains, and the Street View car is reported as black rather than white."
+    },
+    {
+      "country": "Israel",
+      "shared_traits": "Neighbouring arid terrain, similar dry-hill vegetation",
+      "tiebreaker": "White plates with Latin letters and digits versus yellow plates of hyphenated numerals, and Arabic-only rather than Hebrew-Arabic-English signs."
+    },
+    {
+      "country": "Oman",
+      "shared_traits": "Arabic and English signage, arid mountains and desert",
+      "tiebreaker": "Main highways here are marked with a green rectangle carrying a yellow number, and the terrain is mountainous rather than desert plains; Omani guardrails carry red-only reflectors."
+    }
+  ]
+}

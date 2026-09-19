@@ -1,0 +1,85 @@
+{
+  "id": "rw",
+  "name": "Rwanda",
+  "aliases": ["Republic of Rwanda", "Repubulika y'u Rwanda"],
+  "continent": "Africa",
+  "tier": 3,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/africa/rwanda/",
+    "https://geometas.com/metas/countries/rwanda/",
+    "https://geomastr.com/country/rwanda/",
+    "https://geodummy.com/rwanda",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Rwanda",
+    "https://virtualstreets.org/index.php/2023/12/15/n/",
+    "https://virtualstreets.org/index.php/2024/02/05/first-major-google-street-view-update-of-2024/"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇷🇼",
+    "capital": "Kigali"
+  },
+
+  "language": {
+    "official_languages": ["Kinyarwanda", "English", "French", "Swahili"],
+    "script": "Latin",
+    "sample_text": "MURAKAZA NEZA",
+    "script_notes": "Latin script with no special characters; road signs are mostly English or Kinyarwanda, with some French. Kigali street addresses use codes such as KG or KN followed by a number. The internet domain is .rw.",
+    "false_friends": ["Uganda", "Kenya", "Tanzania", "Burundi"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "Yellow centre line with white edge lines on well-kept paved roads.",
+    "curb_style": "Black-and-white painted curbs are frequent. Roads are notably clean with well-trimmed verges, thanks to regular community-service days.",
+    "km_marker_style": "Square utility poles appear throughout. Mobile-money kiosks for MTN and Airtel are widespread. Engen, SP, KenolKobil, Hashi Energy and Mount Meru are common fuel-station brands."
+  },
+
+  "architecture": {
+    "roof_style": "",
+    "roof_material": "",
+    "wall_construction": "Many properties are enclosed by high walls.",
+    "wall_color_palette": "",
+    "distinctive_building_types": "In the south, one university town has cobbled streets and many universities."
+  },
+
+  "nature": {
+    "vegetation": "Densely farmed, green hillsides.",
+    "terrain": "Hilly to mountainous; volcanoes with black volcanic soil stand along the northern border and a large lake lies on the western edge.",
+    "climate_signature": "Mild highland tropical climate."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "White with black text on the front and yellow with black text on the rear.",
+    "plate_format": "Begins with the letter R, then two letters, three digits and a final letter ('RXX 123X').",
+    "distinctive_vehicles": "Motorbike taxis whose riders are required to wear helmets and vests."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Gen 4, on a pickup-truck vehicle whose colour is reported as white, black or grey-brown.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Official coverage began in the capital in October 2022 and has grown to include the western border area, the southern university town, an area north of the capital and, from January 2024, the Eastern Province along National Road 4. Still limited outside the capital."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Uganda",
+      "shared_traits": "Hilly green terrain, boda-style motorbike taxis, white front and yellow rear plates",
+      "tiebreaker": "Plates begin with R rather than U; roads are cleaner with black-and-white curbs and yellow centre lines, and many properties are walled."
+    },
+    {
+      "country": "Kenya",
+      "shared_traits": "East African setting, white front and yellow rear plates, motorbike taxis and shared minibuses",
+      "tiebreaker": "Plates begin with R rather than K; the terrain is far greener and hillier than most of the drier Kenyan interior."
+    },
+    {
+      "country": "Tanzania",
+      "shared_traits": "Neighbouring East African country with Swahili and English signage",
+      "tiebreaker": "Roads are noticeably cleaner and better kept, plates begin with R, and Kigali addresses use KG/KN codes."
+    }
+  ]
+}
