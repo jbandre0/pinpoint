@@ -1,0 +1,83 @@
+{
+  "id": "nl",
+  "name": "Netherlands",
+  "aliases": ["Holland", "Kingdom of the Netherlands", "Nederland"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/netherlands/",
+    "https://geometas.com/metas/countries/netherlands/",
+    "https://geopinning.space/en/rule/europe/netherlands/",
+    "https://geodummy.com/netherlands",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_the_Netherlands"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇳🇱",
+    "capital": "Amsterdam"
+  },
+
+  "language": {
+    "official_languages": ["Dutch"],
+    "script": "Latin",
+    "sample_text": "LET OP — WEGWERKZAAMHEDEN",
+    "script_notes": "Dutch shows a lot of double vowels (aa, ee, oo, uu), frequent z and w, and the 'ij' digraph. Street names end in -straat, -weg, -laan, -plein, -gracht, -dijk or -steeg.",
+    "false_friends": ["Belgium", "Germany", "Luxembourg", "Denmark"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "Roadside posts are typically white.",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "All-white markings: white centre lines and white edge lines.",
+    "curb_style": "Dedicated cycle paths run alongside almost every road, often surfaced in brownish or red asphalt or red brick.",
+    "km_marker_style": "Blue arrow-shaped direction signs with white lettering point to the nearest towns; small green boards give route numbers on larger roads; blue-and-white poles mark spots where cyclists cross the carriageway. Utility poles are scarce. PostNL branding is common."
+  },
+
+  "architecture": {
+    "roof_style": "Steeply pitched gables on traditional brick houses, often with a hoisting beam projecting near the roof peak; flat roofs on modern blocks and warehouses.",
+    "roof_material": "",
+    "wall_construction": "Brick facades dominate; flat aluminium-clad warehouses stand near waterways.",
+    "wall_color_palette": "Red-toned brick.",
+    "distinctive_building_types": "Narrow canal houses with hoisting beams, windmills, and warehouses along canals."
+  },
+
+  "nature": {
+    "vegetation": "Grassy pastures and farmland split by drainage ditches, with tree-lined canals.",
+    "terrain": "Extremely flat with no mountains; roughly a quarter of the land lies below sea level, cut by canals, dykes and drained polders. The highest ground is a low hill in the far south-east.",
+    "climate_signature": "Mild, damp and often overcast."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Toyota", "Kia"],
+    "plate_color": "Yellow with black text on both front and rear, with a blue EU strip on the left carrying 'NL'.",
+    "plate_format": "Letters and digits grouped by hyphens (e.g. 'AB-123-C'); the pattern encodes issue date, not region.",
+    "distinctive_vehicles": "Bicycles are everywhere, sharing cycle paths with mopeds."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Gen 2, 3 and 4, captured from white camera cars.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Dense coverage."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Belgium",
+      "shared_traits": "Flat northern half, the same language in the north, brick houses",
+      "tiebreaker": "Yellow plates here versus red-on-white plates; very few utility poles here while square, hole-studded concrete poles are common across the border."
+    },
+    {
+      "country": "Luxembourg",
+      "shared_traits": "Yellow plates with a blue EU strip",
+      "tiebreaker": "This country is extremely flat and speaks Dutch; the hilly, forested neighbour with French/German/Luxembourgish signs is not."
+    },
+    {
+      "country": "Denmark",
+      "shared_traits": "Flat farmland, brick houses, cycling infrastructure",
+      "tiebreaker": "Dutch has 'ij' and double vowels with streets ending -straat or -weg, and plates are yellow; Danish uses æ, ø, å with streets ending -vej or -gade, and plates are white."
+    }
+  ]
+}

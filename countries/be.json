@@ -1,0 +1,88 @@
+{
+  "id": "be",
+  "name": "Belgium",
+  "aliases": ["Kingdom of Belgium", "België", "Belgique", "Belgien"],
+  "continent": "Europe",
+  "tier": 1,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/belgium/",
+    "https://geometas.com/metas/countries/belgium/",
+    "https://geopinning.space/en/rule/europe/belgium/",
+    "https://geodummy.com/belgium",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Belgium"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇧🇪",
+    "capital": "Brussels"
+  },
+
+  "language": {
+    "official_languages": ["Dutch", "French", "German"],
+    "script": "Latin",
+    "sample_text": "WERKEN — TRAVAUX",
+    "script_notes": "Dutch in the north, French in the south, German along the eastern edge, and both Dutch and French in the capital. Street and town signs often carry a regional crest that shows which language area you are in, and dual-language signage is common.",
+    "false_friends": ["Netherlands", "France", "Luxembourg", "Germany"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White post with a yellow rectangular reflector; some carry white or black reflectors.",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "All-white markings: white centre lines and white edge lines.",
+    "curb_style": "",
+    "km_marker_style": "Utility poles are common: square concrete poles with small holes running up them, similar to poles across the southern border. Town names are often printed on street signs; small square traffic signs with rounded corners are typical, and supplementary panels are usually blue."
+  },
+
+  "architecture": {
+    "roof_style": "Dutch-style stepped gables in the north; darker roofs in the south.",
+    "roof_material": "",
+    "wall_construction": "Brick construction dominates houses and civic buildings.",
+    "wall_color_palette": "Brownish-red brick with black or dark roofs.",
+    "distinctive_building_types": "Rectangular brick houses; the north looks like its northern neighbour while the south resembles Luxembourg and western Germany."
+  },
+
+  "nature": {
+    "vegetation": "",
+    "terrain": "Generally very flat, especially in the north and along the coast; the south-east rises into forested hills.",
+    "climate_signature": "Mild and often overcast."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Peugeot", "Renault"],
+    "plate_color": "White with dark red characters and a blue EU strip carrying 'B'; the red text appears as a faint pink or red blur on Street View.",
+    "plate_format": "One digit, three letters, three digits (e.g. '1-ABC-123').",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "Gen 2, 3 and 4, captured from white camera cars.",
+    "blur_style": "Standard Google blurring; the red plate text turns into a pinkish smear.",
+    "coverage_notes": "Dense coverage."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Netherlands",
+      "shared_traits": "Same language in the north, flat land, brick houses",
+      "tiebreaker": "Plates are red-on-white here versus yellow; utility poles are common here but rare across the northern border; signs show municipal crests."
+    },
+    {
+      "country": "France",
+      "shared_traits": "French language in the south, similar-style utility poles",
+      "tiebreaker": "The white post with a yellow rectangle reflector, the red-lettered plate with the pinkish blur, and small square rounded-corner signs are unlike the thick round white posts with a red band and 'AB-123-CD' plates over the border."
+    },
+    {
+      "country": "Luxembourg",
+      "shared_traits": "Darker roofs, hilly forested south-east, French and German signage",
+      "tiebreaker": "Red-lettered plates and regional crests on town signs."
+    },
+    {
+      "country": "Germany",
+      "shared_traits": "German speakers along the eastern edge, similar brick and dark-roofed houses",
+      "tiebreaker": "Red-lettered plates versus black-on-white plates with a district code; municipal crests on street signs."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "dk",
+  "name": "Denmark",
+  "aliases": ["Kingdom of Denmark", "Danmark"],
+  "continent": "Europe",
+  "tier": 2,
+  "status": "draft",
+  "sources": [
+    "https://geomastr.com/country/denmark/",
+    "https://geometas.com/metas/countries/denmark/",
+    "https://geometas.com/metas/detail/9b9c7593-7f05-44ca-9797-27fb19d047e8/",
+    "https://geopinning.space/en/rule/europe/denmark/",
+    "https://geodummy.com/denmark",
+    "https://geotips.net/europe/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Denmark"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇩🇰",
+    "capital": "Copenhagen"
+  },
+
+  "language": {
+    "official_languages": ["Danish"],
+    "script": "Latin",
+    "sample_text": "OBS — VEJARBEJDE",
+    "script_notes": "Uses æ, ø and å; ø and æ are shared only with Norwegian. Street names typically end in -vej or -gade, and also -plads, -torv, -allé, -stræde or -bakke.",
+    "false_friends": ["Norway", "Sweden", "Germany", "Netherlands"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "White posts with a yellow section on the front face that is absent on the back; they are very abundant, standing along almost every road.",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "All-white markings; major roads often have short-dashed outer edge lines, which is distinctive among the northern neighbours.",
+    "curb_style": "",
+    "km_marker_style": "White direction signs with red lettering, often with a metal border; town signs are black on white with a small village illustration; warning triangles have a red border on white, and give-way signs have no outline outside the red border. Sign posts are often rounded tubes. Large utility poles dominate."
+  },
+
+  "architecture": {
+    "roof_style": "",
+    "roof_material": "",
+    "wall_construction": "",
+    "wall_color_palette": "",
+    "distinctive_building_types": "Narrow flagpoles in yards, and locally made Allux mailboxes with rounded lids found nationwide."
+  },
+
+  "nature": {
+    "vegetation": "Farmland and fields with small woods, along a long coast.",
+    "terrain": "Flat to gently rolling with no mountains; the whole country stays under about 200m.",
+    "climate_signature": "Mild, windy and often overcast."
+  },
+
+  "vehicles": {
+    "common_brands": ["Volkswagen", "Toyota", "Peugeot"],
+    "plate_color": "White with black text on private cars, with an optional blue EU strip carrying 'DK'; commercial vehicles use yellow plates.",
+    "plate_format": "Two letters followed by five digits (e.g. 'AB 12 345'); no regional meaning.",
+    "distinctive_vehicles": "Yellow-plated vans and taxis; some mixed-use vehicles carry yellow-and-white plates."
+  },
+
+  "google_coverage": {
+    "camera_generation": "Gen 2, 3 and 4, captured from white camera cars.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": ""
+  },
+
+  "confusion_set": [
+    {
+      "country": "Sweden",
+      "shared_traits": "Flat southern farmland, similar language family and plates with letters and digits",
+      "tiebreaker": "Uses æ and ø rather than ä and ö, streets end in -vej or -gade rather than -vägen or -gatan; plates are two letters plus five digits versus three letters plus three digits."
+    },
+    {
+      "country": "Norway",
+      "shared_traits": "Ø/ø and æ letters, similar language",
+      "tiebreaker": "All-white road lines with no yellow centre line and flat terrain versus mountains; streets end in -vej rather than -veien or -gata."
+    },
+    {
+      "country": "Netherlands",
+      "shared_traits": "Flat land, brick houses, extensive cycling",
+      "tiebreaker": "White plates (yellow only for commercial) versus yellow plates for everyone; æ, ø and å appear on signs, and bollards have a yellow front face."
+    }
+  ]
+}

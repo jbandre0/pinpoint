@@ -1,0 +1,77 @@
+{
+  "id": "md",
+  "name": "Moldova",
+  "aliases": ["Republic of Moldova", "Republica Moldova"],
+  "continent": "Europe",
+  "tier": 3,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/europe/moldova/",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Moldova",
+    "https://virtualstreets.org/index.php/2026/03/13/google-street-view-may-soon-cover-moldova-and-south-korea/",
+    "https://en.wikipedia.org/wiki/Geography_of_Moldova"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇲🇩",
+    "capital": "Chișinău"
+  },
+
+  "language": {
+    "official_languages": ["Romanian"],
+    "script": "Latin",
+    "sample_text": "ATENȚIE — LUCRĂRI RUTIERE",
+    "script_notes": "Romanian, with ă, â, î, ș and ț; these letters distinguish it from Cyrillic-script neighbours to the east and north. Russian is also widely spoken, and the breakaway strip on the eastern bank of the Dniester uses Cyrillic.",
+    "false_friends": ["Romania", "Ukraine", "Russia"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "",
+    "curb_style": "",
+    "km_marker_style": "Yield signs are red and white but thinner than the version used across the western border."
+  },
+
+  "architecture": {
+    "roof_style": "",
+    "roof_material": "Corrugated metal in muted colours.",
+    "wall_construction": "",
+    "wall_color_palette": "",
+    "distinctive_building_types": "House styles resemble those of north-eastern Romania."
+  },
+
+  "nature": {
+    "vegetation": "Vineyards, orchards and open farmland.",
+    "terrain": "Hilly plateau with gentle rolling land and river valleys; no ground above roughly 430m.",
+    "climate_signature": "Temperate continental, with hot summers and cold winters."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "White with black text and a wider-than-usual blue strip on the left carrying the national flag and 'MD'; it does not carry the EU stars.",
+    "plate_format": "Three letters followed by three digits (e.g. 'ABC 123') since 2015; earlier plates used two regional letters, two series letters and three digits.",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "",
+    "blur_style": "",
+    "coverage_notes": "No official Street View coverage was found as of September 2026; contractor job listings reported in March 2026 suggested a rollout was being prepared, but it is unconfirmed."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Romania",
+      "shared_traits": "Same language and Latin script with ș and ț, similar rural house styles and corrugated-metal roofs",
+      "tiebreaker": "Yield signs are thinner here, and plates carry a flag-and-'MD' strip rather than EU stars and a county code."
+    },
+    {
+      "country": "Ukraine",
+      "shared_traits": "Neighbouring farmland, Soviet-era buildings and steppe-like terrain",
+      "tiebreaker": "Romanian in Latin script with ă, ș, ț versus Cyrillic; plates carry a flag-and-'MD' strip rather than a flag and 'UA'."
+    }
+  ]
+}
