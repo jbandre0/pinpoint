@@ -1,0 +1,79 @@
+{
+  "id": "tn",
+  "name": "Tunisia",
+  "aliases": ["Republic of Tunisia", "Tunisie", "تونس"],
+  "continent": "Africa",
+  "tier": 3,
+  "status": "draft",
+  "sources": [
+    "https://geopinning.space/en/rule/africa/tunisia/",
+    "https://geometas.com/metas/countries/tunisia/",
+    "https://geomastr.com/country/tunisia/",
+    "https://geodummy.com/tunisia",
+    "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Tunisia",
+    "https://en.wikipedia.org/wiki/Google_Street_View_in_Africa"
+  ],
+
+  "quick_id": {
+    "driving_side": "right",
+    "flag_emoji": "🇹🇳",
+    "capital": "Tunis"
+  },
+
+  "language": {
+    "official_languages": ["Arabic"],
+    "script": "Arabic (with Latin-script French alongside)",
+    "sample_text": "تنبيه — أشغال",
+    "script_notes": "Arabic script, with French widely used beside it on signs and shopfronts. Street names commonly use French terms such as Rue, Avenue, Boulevard, Place and Impasse. The internet domain is .tn.",
+    "false_friends": ["Morocco", "Algeria", "Libya", "Jordan"]
+  },
+
+  "road_furniture": {
+    "bollard_color": "",
+    "bollard_shape": "",
+    "guardrail_type": "",
+    "line_paint": "All-white markings: white centre lines and white edge lines.",
+    "curb_style": "Curbs and chevron signs are often painted light blue and white.",
+    "km_marker_style": "Roundabouts are common, often ringed with direction signs. Utility poles are most often metal lattice or wire-style structures. Total, OiLibya, Staroil, Agil and VivoEnergy are common fuel-station brands. Light blue plastic bags and tape litter many roadsides."
+  },
+
+  "architecture": {
+    "roof_style": "",
+    "roof_material": "",
+    "wall_construction": "",
+    "wall_color_palette": "Bright white, dominated by light blue trim and details.",
+    "distinctive_building_types": "White buildings blending Mediterranean and Middle-Eastern elements."
+  },
+
+  "nature": {
+    "vegetation": "Palm trees are common along the coast.",
+    "terrain": "Mediterranean coast in the north, drier and more arid toward the south; the covered coastal strip is largely flat to gently hilly.",
+    "climate_signature": "Hot and sunny, usually under a bright blue sky."
+  },
+
+  "vehicles": {
+    "common_brands": [],
+    "plate_color": "Black with white characters, the only black plates on the map in Africa; the front plate is narrow and long. Rental vehicles use white numbers on blue.",
+    "plate_format": "Digits, then the Arabic word for the country (تونس) in the middle, then more digits (e.g. '123 تونس 4567'); Latin numerals.",
+    "distinctive_vehicles": ""
+  },
+
+  "google_coverage": {
+    "camera_generation": "Gen 3, on white camera cars; a follow car appears behind the Street View car: a light green Toyota north of Hammamet and a dark green Mazda in the centre and south.",
+    "blur_style": "Standard Google blurring.",
+    "coverage_notes": "Official coverage added in March 2017 and limited to the coastal main road and selected streets of cities along it (from Bizerte and the capital down to Sfax, Gabès and Djerba); no inland coverage."
+  },
+
+  "confusion_set": [
+    {
+      "country": "Jordan",
+      "shared_traits": "Arabic script, arid scenery, white-toned buildings",
+      "tiebreaker": "French alongside Arabic (rather than English), black plates versus white plates, and light-blue painted curbs; mostly coastal flats rather than mountains."
+    },
+    {
+      "country": "Morocco",
+      "shared_traits": "Arabic and French signage, white buildings, Mediterranean and desert scenery",
+      "tiebreaker": "Black plates here; signs across the western border may carry Tifinagh script alongside Arabic and French."
+    }
+  ]
+}
